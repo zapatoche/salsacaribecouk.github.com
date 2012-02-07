@@ -12,8 +12,11 @@
           </div>
         </header>
         <h2 class="description">{{ page.description }}</h2>
+        <figure>
+          <img src="{{ page.image.url }}" alt="{{ page.image.description }}">
+          <figcaption>{{ page.image.caption }}</figcaption>
+        </figure>
         {{ content }}
-        {% include partials/event_detail.html %}
         <footer><div class="footer"><a href="#nav">skip to navigation</a></div></footer>
       </div>
     </article>

@@ -1,0 +1,24 @@
+<aside>
+  <div class="aside map vcard column secondary">
+    <h3 class="visuallyhidden">Location</h3>
+    <div class="figure">
+      <figure>
+        <a href="{{ page.location.map_url }}"  title="View larger map of {{ page.location.name }}">
+          <img src="page.location.map_image" alt="{{ page.location.name }}, {{ page.location.street_address }}, {{ page.location.postal_code }}, {{ page.location.locality }}" />
+        </a>
+        <figcaption>
+          <dl>
+            <dt class="fn org"><a href="{{ page.location.url }}" class="url" >{{ page.location.name }}</a></dt>
+            <dd>
+              <span class="street-address">{{ page.location.street_address }} </span>
+              <span class="postal-code">{{ page.location.postal_code }}</span>
+              <span class="locality">{{ page.location.locality }}</span>
+            </dd>
+          </dl>
+          <small>{{ page.location.notes }}</small>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</aside>
+
