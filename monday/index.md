@@ -17,8 +17,8 @@ image:
 location:
   name: The Buffalo Bar
   url: http://www.buffalobar.co.uk
-  map_url: "http://g.co/maps/nw94u"
-  map_image: "http://maps.googleapis.com/maps/api/staticmap?center=51.54580,-0.103616&amp;zoom=15&amp;size=198x198&amp;markers=color:red%7Clabel:a%7C51.54580,-0.103616&amp;sensor=false"
+  map_url: 'http://g.co/maps/nw94u'
+  map_image: 'http://maps.googleapis.com/maps/api/staticmap?center=51.54580,-0.103616&amp;zoom=15&amp;size=198x198&amp;markers=color:red%7Clabel:a%7C51.54580,-0.103616&amp;sensor=false'
   street_address: 259 Upper street
   postal_code: N1 1RU
   locality: Islington
