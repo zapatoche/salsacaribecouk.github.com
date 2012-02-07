@@ -11,7 +11,9 @@
             </hgroup>
           </div>
         </header>
+        <h2 class="description">{{ page.description }}</h2>
         {{ content }}
+        {% include partials/event_detail.html %}
         <footer><div class="footer"><a href="#nav">skip to navigation</a></div></footer>
       </div>
     </article>
