@@ -1,33 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"><!--<![endif]-->
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-    <meta name="author" content="{{ site.author.name }}">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }} | salsa Caribe</title>
+    {% if page.description %}
+      <meta name="description" content="{{ page.description }}">
+    {% endif %}
+    <meta name="author" content="{{ site.vcard.name }}">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <!-- Le styles -->
     <link href="{{ ASSET_PATH }}/css/global.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/advanced.css" rel="stylesheet"  media="all and (min-width: 480px)">
     <!--[if (lt IE 9)&(!IEMobile)]>
       <link rel="stylesheet" href="{{ ASSET_PATH }}/css/advanced.css" media="all" />
     <![endif]-->
 
-    <!-- Le fav and touch icons -->
   <!-- Update these with your own images
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   -->
+    <script src="js/libs/modernizr-2.0.6.min.js"></script>
   </head>
 
-  <body>
+  <body class="{{  page.title | downcase }}">
     {% include partials/tool_bar.html %}
     {% include partials/site_header.html %}
 
@@ -37,15 +40,10 @@
         {{ content }}
       </div>
 
-      <footer>
-        <p>&copy; {{ site.author.name }} 2012 
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
-      </footer>
-
+    {% include partials/site_footer.html %}
     </div> <!-- /container -->
 
+    {% include partials/js_footer.html %}
     {% include JB/analytics %}
   </body>
 </html>

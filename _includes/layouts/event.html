@@ -1,0 +1,20 @@
+<section>
+  <div class="section calendar-item">
+    <h2 id="{{page.slug}}"><span class="flag">{{ page.slug | capitalize }}</span></h2>
+    <article>
+      <div class="article vevent">
+        <header>
+          <div class="header">
+            <hgroup class="summary">
+              <h1><span>{{ page.title }}</span></h1>
+              <h3 class="strapline">{{ page.tagline }}</h3>
+            </hgroup>
+          </div>
+        </header>
+        {{ content }}
+        <footer><div class="footer"><a href="#nav">skip to navigation</a></div></footer>
+      </div>
+    </article>
+  </div>
+</section>
+
