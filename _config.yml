@@ -11,12 +11,18 @@ pygments: true
 #
 title : Salsa Caribe
 tagline: Learn to dance with the Cuban salsa specialists
-author :
+vcard :
   name : Salsa Caribe productions
   email : salsacaribe@aol.com
+  phone : +4412345678 
   github : salsacaribecouk
   twitter : salsacaribecouk
   # feedburner : feedname
+events :
+  - Monday
+  - Thursday
+  - Saturday
+  - Sunday
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

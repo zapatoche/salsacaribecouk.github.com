@@ -1,0 +1,12 @@
+<ul>
+  {% for evt in site.events %}
+  {%assign ref = page.title %}
+    	{% if ref == evt %}
+    	<li class="active"><a href="{{ BASE_PATH }}{{evt}}" class="active">{{evt}}</a></li>
+    	{% else %}
+    	<li><a href="{{ BASE_PATH }}{{evt}}">{{evt}}</a></li>
+    	{% endif %}
+  <!-- <li><a href="/{{evt}}/">{{ evt | capitalize }}</a></li> -->
+  {% endfor %}
+</ul>
+
