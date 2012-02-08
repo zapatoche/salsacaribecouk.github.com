@@ -14,7 +14,6 @@
     {% endif %}
     <meta name="author" content="{{ site.vcard.name }}">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-
     <link href="{{ ASSET_PATH }}/css/global.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/advanced.css" rel="stylesheet"  media="all and (min-width: 480px)">
     <!--[if (lt IE 9)&(!IEMobile)]>
@@ -27,15 +26,13 @@
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   -->
-    <script src="js/libs/modernizr-2.0.6.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
   </head>
 
-  <body class="{{  page.title | downcase }}">
+  <body class="{{  page.slug | downcase }}">
     {% include partials/tool_bar.html %}
     {% include partials/site_header.html %}
-
     <div class="container">
-
       <div class="content">
         {{ content }}
       </div>
