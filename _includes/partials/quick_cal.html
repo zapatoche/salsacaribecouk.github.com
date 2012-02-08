@@ -1,6 +1,6 @@
 <ul>
   {% for evt in site.events %}
-  {%assign ref = page.slug %}
+  {%assign ref = page.group %}
     	{% if ref == evt %}
     	<li class="active"><a href="{{ BASE_PATH }}/{{evt}}" class="active">{{evt | capitalize}}</a></li>
     	{% else %}
