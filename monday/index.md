@@ -7,6 +7,7 @@ slug: *slug
 category: [class, club]
 
 acl:
+  group: monday
   title: The Afro-Cuban Lounge
   slug: afro-cuban-lounge
   tagline: The longest running Cuban Salsa Club in London
@@ -32,19 +33,19 @@ acl:
 
 <section>
   <div class="section calendar-item">
-    <h2 id="{{page.slug}}"><span class="flag">{{ page.slug | capitalize }}</span></h2>
+    <h2 id="{{page.acl.group}}"><span class="flag">{{ page.acl.group | capitalize }}</span></h2>
     <article>
       <div class="article vevent">
         <header>
           <div class="header">
             <hgroup class="summary">
-              <h1><a href="{{ site.url }}/{{ page.slug }}/{{ page.acl.slug }}"><span>{{ page.acl.title }} </span></a></h1>
+              <h1><a href="{{ site.url }}/{{ page.acl.group }}/{{ page.acl.slug }}"><span>{{ page.acl.title }} </span></a></h1>
               <h3 class="strapline">{{ page.acl.tagline }}</h3>
             </hgroup>
           </div>
         </header>
         <h2 class="description">{{ page.acl.description }}</h2>
-        <a href="{{ site.url }}/{{ page.slug }}/{{ page.acl.slug }}">
+        <a href="{{ site.url }}/{{ page.acl.group }}/{{ page.acl.slug }}">
           <figure>
             <img src="{{ page.acl.image.url }}" alt="{{ page.acl.image.description }}" class="paysage">
             <figcaption>{{ page.acl.image.caption }}</figcaption>
@@ -53,7 +54,7 @@ acl:
 
 If you want to up the feelgood factor Cuban style, then this Monday night at The Buffalo Bar is for you. Doors open at 7.30pm, with classes for all levels from around 7.45pm, followed by an evening of dancing, drinking and socialising to the sounds of the very best Cuban salsa, timba &amp; son, courtesy of DJ Dr Jim.
 
-        <a href="{{ site.url }}/{{ page.slug }}/{{ page.acl.slug }}">more info...</a>
+        <a href="{{ site.url }}/{{ page.acl.group }}/{{ page.acl.slug }}">more info...</a>
       </div>
     </article>
   </div>

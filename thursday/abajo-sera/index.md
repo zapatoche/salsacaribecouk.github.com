@@ -1,7 +1,8 @@
 ---
 
 layout: event
-id: thursday
+group: &id thursday
+id: *id
 slug: abajo-sera
 categories: [class, club]
 

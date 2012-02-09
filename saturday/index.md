@@ -7,6 +7,7 @@ slug: *slug
 category: [workshop]
 
 iagt:
+  group: saturday
   title: It's a Girl thing 
   slug: its-a-girl-thing 
   tagline: sassy salsa styling for girlz!!!

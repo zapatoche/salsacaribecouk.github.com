@@ -1,10 +1,8 @@
 ---
-
-layout: event
-group: &id monday
-id: *id
-slug: afro-cuban-lounge
-
+layout: post
+title: "The Afro Cuban Lounge"
+category: [monday, classes] 
+tags: []
 title: The Afro-Cuban Lounge
 tagline: The longest running Cuban Salsa Club in London
 description: An Evening of Essential Afro-Cuban Flavas, Salsa Timba & Latin Jazz
@@ -66,8 +64,4 @@ Club entrance
 : £4
 
 </div></section>
-
-{% include partials/location_template.html %}
-
-</div></aside>
 
