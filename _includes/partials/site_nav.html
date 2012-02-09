@@ -1,12 +1,13 @@
 <nav>
   <div class="nav site-nav">
-    <ul>
+  <h2 class="visuallyhidden">site navigation</h2>
+    <ul class="xoxo">
       {% for item in site.site-nav %}
       {% assign ref = page.id %}
       {% if ref == item %}
-      <li class="active"><a href="{{ BASE_PATH }}/{{ item }}" class="active">{{ item | capitalize}}</a></li>
+      <li class="active {{ item }}"><a href="{{ BASE_PATH }}/{{ item }}" class="active">{{ item | capitalize}}</a></li>
       {% else %}
-      <li><a href="{{ BASE_PATH }}/{{ item }}">{{ item | capitalize}}</a></li>
+      <li class="{{ item }}"><a href="{{ BASE_PATH }}/{{ item }}">{{ item | capitalize}}</a></li>
       {% endif %}
       {% endfor %}
     </ul>
