@@ -1,7 +1,8 @@
 ---
 
 layout: page
-group: &slug saturday
+group: cal
+id: &slug saturday
 slug: *slug
 category: [workshop]
 

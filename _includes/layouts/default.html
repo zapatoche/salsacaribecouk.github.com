@@ -8,7 +8,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{ page.title }} | salsa Caribe</title>
+    <title>{% if page.title %}{{ page.title }} |{% endif %} Salsa Caribe</title>
     {% if page.description %}
       <meta name="description" content="{{ page.description }}">
     {% endif %}
@@ -29,14 +29,14 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
   </head>
 
-  <body class="{{  page.slug | downcase }}">
+  <body class="{{  page.id | downcase }}">
     {% include partials/tool_bar.html %}
     {% include partials/site_header.html %}
     <div class="container">
       <div class="content">
         {{ content }}
       </div>
-
+    {% include partials/site_nav.html %}
     {% include partials/site_footer.html %}
     </div> <!-- /container -->
 

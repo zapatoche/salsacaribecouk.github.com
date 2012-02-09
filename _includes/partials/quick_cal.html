@@ -1,11 +1,10 @@
 <ul>
   {% for evt in site.events %}
-  {%assign ref = page.group %}
-    	{% if ref == evt %}
-    	<li class="active"><a href="{{ BASE_PATH }}/{{evt}}" class="active">{{evt | capitalize}}</a></li>
-    	{% else %}
-    	<li><a href="{{ BASE_PATH }}/{{evt}}">{{evt | capitalize}}</a></li>
-    	{% endif %}
+  {% assign ref = page.id %}
+  {% if ref == evt %}
+  <li class="active"><a href="{{ BASE_PATH }}/{{evt}}" class="active">{{evt | capitalize}}</a></li>
+  {% else %}
+  <li><a href="{{ BASE_PATH }}/{{evt}}">{{evt | capitalize}}</a></li>
+  {% endif %}
   {% endfor %}
 </ul>
-

@@ -1,11 +1,12 @@
 ---
 
 layout: page
-group: &slug thursday
+group: cal
+id: &slug thursday
 slug: *slug
 category: [class, club]
 
-acs:
+als:
   title: Abajo @ La Sera
   slug: abajo-sera
   tagline: tag line Abajo Sera
@@ -37,22 +38,22 @@ acs:
         <header>
           <div class="header">
             <hgroup class="summary">
-              <h1><a href="{{ site.url }}/{{ page.slug }}/{{ page.acs.slug }}"><span>{{ page.acs.title }} </span></a></h1>
-              <h3 class="strapline">{{ page.acs.tagline }}</h3>
+              <h1><a href="{{ site.url }}/{{ page.slug }}/{{ page.als.slug }}"><span>{{ page.als.title }} </span></a></h1>
+              <h3 class="strapline">{{ page.als.tagline }}</h3>
             </hgroup>
           </div>
         </header>
-        <h2 class="description">{{ page.acs.description }}</h2>
-        <a href="{{ site.url }}/{{ page.slug }}/{{ page.acs.slug }}">
+        <h2 class="description">{{ page.als.description }}</h2>
+        <a href="{{ site.url }}/{{ page.slug }}/{{ page.als.slug }}">
           <figure>
-            <img src="{{ page.acs.image.url }}" alt="{{ page.acs.image.description }}" class="paysage">
-            <figcaption>{{ page.acs.image.caption }}</figcaption>
+            <img src="{{ page.als.image.url }}" alt="{{ page.als.image.description }}" class="paysage">
+            <figcaption>{{ page.als.image.caption }}</figcaption>
           </figure>
         </a>
 
 Salsa Classes to suit everyone from complete beginner to advanced salsero, plus an hour devoted to diverse Cuban rhythms and movement.
 
-        <a href="{{ site.url }}/{{ page.slug }}/{{ page.acs.slug }}">more info...</a>
+        <a href="{{ site.url }}/{{ page.slug }}/{{ page.als.slug }}">more info...</a>
       </div>
     </article>
   </div>

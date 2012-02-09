@@ -2,7 +2,7 @@
 
 layout: page
 group: site-nav
-id: &slug home
+id: &slug contact
 slug: *slug
 title: Hello World!
 

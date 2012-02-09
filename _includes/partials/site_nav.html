@@ -1,0 +1,70 @@
+<nav>
+  <div class="nav site-nav">
+    <ul>
+      {% for item in site.site-nav %}
+      {% assign ref = page.id %}
+      {% if ref == item %}
+      <li class="active"><a href="{{ BASE_PATH }}/{{ item }}" class="active">{{ item | capitalize}}</a></li>
+      {% else %}
+      <li><a href="{{ BASE_PATH }}/{{ item }}">{{ item | capitalize}}</a></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
+
+
+<nav class="nav site-nav" id="nav">
+  <h2 class="visuallyhidden">site navigation</h2>
+  <ul class="xoxo">
+    <li class="featured">
+      <a class="first" href="learn/">learn</a>
+      <ul>
+        <li><a href="learn/weekly-classes">weekly classes</a></li>
+        <li><a href="learn/private-lessons">Private Lessons</a></li>
+        <li><a href="learn/worshops">workshops</a></li>
+      </ul>
+    </li>
+    <li class="featured">
+      <a href="dance/">Dance</a>
+      <ul>
+        <li><a href="dance/Club-nights">Club Nights</a></li>
+        <li><a href="dance/events">Events</a></li>
+        <li><a href="dance/holidays">holidays</a></li>
+        <li><a href="dance/choreography">choreography & shows</a></li>
+      </ul>
+    </li>
+    <li class="featured">
+      <a class="last" href="holiday">Holidays</a>
+      <ul>
+        <li><a href="holidays/havana">Havana &mdash; November 2012</a></li>
+        <li><a href="holidays/santiago">Santiago de Cuba</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="services">Services</a>
+      <ul>
+        <li><a href="services/djservices">DJ Services</a></li>
+        <li><a href="services/corporate">Corporate events</a></li>
+        <li><a href="services/choreography">Choreography</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="resources/">Resources</a>
+      <ul>
+        <li><a href="resources/medias">Media galleries</a></li>
+        <li><a href="resources/glossary">Glossary</a></li>
+        <li><a href="resources/links">links</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="about/">About us</a>
+      <ul>
+        <li><a href="about/jim">Jim</a></li>
+        <li><a href="about/susan">Susan</a></li>
+      </ul>
+    </li>
+    <li><a href="/contact">contact</a></li>
+  </ul>
+</nav>
+

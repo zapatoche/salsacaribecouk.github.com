@@ -1,7 +1,7 @@
 ---
 
 layout: event
-group: thursday
+id: thursday
 slug: abajo-sera
 categories: [class, club]
 

@@ -1,7 +1,7 @@
 ---
 
 layout: event
-group: monday
+id: monday
 slug: afro-cuban-lounge
 
 title: The Afro-Cuban Lounge
