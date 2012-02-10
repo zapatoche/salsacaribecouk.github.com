@@ -95,7 +95,7 @@ JB :
   # Some JB helpers refer to these paths; change theme here if needed.
   #
   # classes_path: /classes
-  events_path: /events
+  events_path: /
   categories_path : /categories.html
   tags_path : /find/tags.html
 

@@ -1,0 +1,186 @@
+//font-family
+$sans-family: "anisette-petite-sc", "helvetica Neue", Helevetica, Arial, sans-serif
+$details-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif
+$base-font-family:  Geneva, Tahoma, Verdana, sans-serif
+//------------------------------------------------------------
+//@= Headers
+//
+body
+  font-family: $base-font-family !important
+
+// #{headers(all)}
+//   position: relative
+//   text-transform: uppercase
+//   margin-bottom: 24px
+//   margin-bottom: 2.4rem
+//   letter-spacing: .05em
+//   font-weight: 400
+//   line-height: 1.2em
+//   & span
+//     border-bottom: 1px solid  #8a0000
+
+// h1
+//   +rem-convert(36)
+
+// h2
+//   +rem-convert(30)
+
+#{headers(1,2)}
+  font-family: "anisette-petite-sc", "helvetica Neue", Helevetica, Arial, sans-serif
+
+// #{headers(3,4)}
+//   +rem-convert(24)
+
+// #{headers(5,6)}
+//   font-size: 18px
+//   font-size: 1.8rem
+
+// .secondary-content
+//   #{headers(all)}
+//     font-size: 170%
+//   p
+    // font-size: 95%
+
+
+/* 36px - The quick brown fox jumps over the lazy dog
+
+.h1, h1
+  // font-size: 2.5714em
+  /* 36px
+  font-size: 36px
+  font-size: 3.6rem
+  /* 42px
+  line-height: 1.1667
+  margin: 0.5833em 0
+
+/* 30px - The quick brown fox jumps over the lazy dog
+
+.h2, h2
+  // font-size: 2.1429em
+  /* 30px
+  font-size: 30px
+  font-size: 3rem
+  /* 42px
+  line-height: 1.4
+  margin: 0.7em 0
+
+/* 24px - The quick brown fox jumps over the lazy dog
+
+.h3, .h4, h3, h4
+  /* 24px
+  // font-size: 1.7143em
+  font-size: 24px
+  font-size: 2.4rem
+  /* 42px
+  line-height: 1.75
+  margin: 0.875em 0
+
+/* 18px - The quick brown fox jumps over the lazy dog
+
+.h6, .h6, h5, h6
+  /* 18px
+  // font-size: 1.2857em
+  font-size: 10px
+  font-size: 1.8rem
+  /* 21px
+  line-height: 1.1667
+  margin: 1.1667em 0
+
+/* 14px - The quick brown fox jumps over the lazy dog
+p
+  /* 14px
+  font-size: 1em
+  /* 21px
+  line-height: 1.5
+  margin: 1.5em 0
+//@= end
+//------------------------------------------------------------
+//@= Phrase elements
+//
+p, pre, address
+  // margin-bottom: 1.5em
+  // font-size: 1em
+  // line-height: 1.5
+p + p
+  // text-indent: 2em
+
+
+small
+  font-size: 12px
+  font-size: 1.2rem
+  line-height: 1.75
+
+abbr, code, kbd, samp, small, var
+  line-height: 15px
+//@= end
+//------------------------------------------------------------
+//@= Lists elements
+//
+
+.item, .calendar-item
+  .header
+    dt
+      display: none !important
+    dd
+      background: #8a0000
+      padding: .15em .65em
+      margin: 0 1px 0 0
+      color: #fff
+      font-size: 120%
+      // +border-radius(5px)
+
+      // margin-left: 0
+dd
+  margin-left: 1em
+  color: hsla(0,0,0,1)
+  // &:before
+  //   content: "★"
+  //   display: inline-block
+  //   color: #8a0000
+  //   font-size: 80%
+dd, small
+  font-family: cambria, georgia, serif
+small
+  font-style: italic
+
+li
+  ul, ol
+    top: 0
+    margin-top: 0
+    margin-bottom: 0
+
+ul ul, ol ol
+  top: 0
+  margin-top: 0
+  margin-bottom: 0
+
+
+
+//@= end
+//------------------------------------------------------------
+//@= Forms
+//
+form, legend, label
+
+
+legend
+  position: relative
+  top: 5px
+//@= end
+//------------------------------------------------------------
+//@= Tables
+//
+table
+
+caption
+  position: relative
+//@= end
+//------------------------------------------------------------
+//@= Various
+//
+hr
+  position: relative
+  height: 4px
+  margin: 18px 0 14px 0
+
+
