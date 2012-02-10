@@ -8,6 +8,8 @@ tags: [classes, workshop]
 rel: me
 tagline: sassy salsa styling for girlz!!!
 description: The next ladies styling workshop will be on Sat 22nd October
+introduction: |
+  Calling all chicas who like their Cuban salsa with extra sabor: It&#8217;s a Girl Thing! this Saturday at The Place Dance Studios. Ladies, it&#8217;s time to get your whole body moving, connecting footwork to hip, torso, arm &amp; shoulder movement, so you look and feel great over the party season.
 
 image: 
   url: 'http://farm7.staticflickr.com/6194/6113187339_9f002a1d83_z.jpg'
@@ -27,9 +29,7 @@ location:
 ---
 {% include JB/setup %}
 
-Calling all chicas who like their Cuban salsa with extra sabor: It&#8217;s a Girl Thing! this Saturday at The Place Dance Studios. Ladies, it&#8217;s time to get your whole body moving, connecting footwork to hip, torso, arm &amp; shoulder movement, so you look and feel great over the party season.
-
- You&#8217;ll learn how to develop an effortless, coordinated style during turn patterns and when improvising. Along with meneo, templeque &amp; expressive afro-cuban body movement, there are salsa suelta steps &amp; other rhythms thrown into the mix, so you can really respond to the music, to your dance partner and have more fun.
+You&#8217;ll learn how to develop an effortless, coordinated style during turn patterns and when improvising. Along with meneo, templeque &amp; expressive afro-cuban body movement, there are salsa suelta steps &amp; other rhythms thrown into the mix, so you can really respond to the music, to your dance partner and have more fun.
 
 Whatever your level of salsa experience, this workshops will help you to gain confidence &amp; enjoy your dancing more.
 

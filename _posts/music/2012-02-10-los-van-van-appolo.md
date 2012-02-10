@@ -5,3 +5,5 @@ category: music
 tags: [concert]
 ---
 {% include JB/setup %}
+
+#woohoo Los Van Van are back

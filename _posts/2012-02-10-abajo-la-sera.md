@@ -8,6 +8,10 @@ tags: [classes, club]
 rel: me
 tagline: tag line Abajo Sera
 description: description Abajo Sera
+introduction: |
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+  
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
 
 image: 
   url: 'http://farm8.staticflickr.com/7143/6829435731_48ffc0bf84_z.jpg'
@@ -27,5 +31,6 @@ location:
 ---
 {% include JB/setup %}
 
-
-#Abajo @ La Sera page
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  

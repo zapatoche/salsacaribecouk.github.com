@@ -8,6 +8,8 @@ tags: [classes, club]
 rel: me
 tagline: Dive into Afro-Cuban rythm
 description: Learn Casino Salsa & The Roots of Cuban Salsa
+introduction: |
+  Salsa Classes to suit everyone from complete beginner to advanced salsero, plus an hour devoted to diverse Cuban rhythms and movement.
 
 image:
   url: 'http://placehold.it/550x300'
@@ -27,7 +29,7 @@ location:
 ---
 {% include JB/setup %}
 
-Salsa Classes to suit everyone from complete beginner to advanced salsero, plus an hour devoted to diverse Cuban rhythms and movement.
+
 
 On Sunday we've a selection of vibrant Cuban salsa, rueda & son classes at The Place Dance Studios from 2-6.30pm, so we look forward to seeing you  for a lively & sociable Sunday afternoon's dancing.
 

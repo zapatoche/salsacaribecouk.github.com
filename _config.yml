@@ -25,11 +25,12 @@ events :
   - saturday
   - sunday
 site-nav :
-  - events
-  - news
-  - resources
-  - about
-  - contact
+  - home: 
+  - events: events
+  - news: news
+  - resources: resources
+  - about: about
+  - contact: contact
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -41,6 +42,7 @@ site-nav :
 #
 production_url : http://salsacaribecouk.github.com
 
+textile: RedCloth
 markdown : kramdown 
 kramdown:
   auto_ids: false
@@ -48,6 +50,8 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   use_coderay: false
+
+plugins: ./_plugins
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
