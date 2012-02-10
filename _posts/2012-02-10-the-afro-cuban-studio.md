@@ -4,8 +4,27 @@ title: "The Afro Cuban Studio"
 category: Sunday
 date: 2012-01-07
 tags: []
+tagline: Dive into Afro-Cuban rythm
+description: Learn Casino Salsa & The Roots of Cuban Salsa
+
+image:
+  url: 'http://placehold.it/550x300'
+  description: &alt Salsa Caribe's at the afro-cuban studio
+  caption: *alt
+
+location:
+  name: The Place Dance Studio
+  url: http://www.theplace.org.uk/
+  map_url: 'http://g.co/maps/szkqv'
+  map_image: 'http://maps.googleapis.com/maps/api/staticmap?center=16,flaxman,terrace,wc1,London&amp;zoom=15&amp;size=198x198&amp;markers=color:red%7Clabel:a%7C51.527717,-0.128275&amp;sensor=false'
+  street_address: 16 Flaxman Terrace
+  postal_code: WC1
+  locality: London
+  country: United Kingdom
+
 ---
 {% include JB/setup %}
+
 Salsa Classes to suit everyone from complete beginner to advanced salsero, plus an hour devoted to diverse Cuban rhythms and movement.
 
 On Sunday we've a selection of vibrant Cuban salsa, rueda & son classes at The Place Dance Studios from 2-6.30pm, so we look forward to seeing you  for a lively & sociable Sunday afternoon's dancing.
@@ -58,6 +77,5 @@ Rumba, Son, Mambo, Cha Cha Cha, Afro-Cuban…
 {% include partials/location_template.html %}
 
 </div></aside>
-
 
 

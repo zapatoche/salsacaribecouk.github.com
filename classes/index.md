@@ -1,12 +1,9 @@
 ---
-
 layout: page
-group: site-nav
-id: &slug learn
-slug: *slug
-title: Hello World!
-
+title : Archive
+header : Post Archive
 ---
 {% include JB/setup %}
 
-#home
+{% assign posts_collate = site.posts %}
+{% include JB/events_finder %}

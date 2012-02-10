@@ -1,18 +1,14 @@
 ---
 layout: post
-title: "Abajo @ La Sera"
-category: thursday 
+title: "Abajo La Sera"
+category: thursday
 date: 2012-01-04
-tags: [classes, club]
-rel: me
-
-title: Abajo @ La Sera
-slug: abajo-sera
+tags: []
 tagline: tag line Abajo Sera
 description: description Abajo Sera
 
 image: 
-  > url: 'http://farm8.staticflickr.com/7143/6829435731_48ffc0bf84_z.jpg'
+  url: 'http://farm8.staticflickr.com/7143/6829435731_48ffc0bf84_z.jpg'
   description: &alt Cuban Salsa Every Thursday @ La Sera
   caption: Start the 8th of March 2012
 
@@ -29,6 +25,5 @@ location:
 ---
 {% include JB/setup %}
 
+
 #Abajo @ La Sera page
-
-
