@@ -1,9 +1,11 @@
 ---
-layout: post
+layout: events
 title: "Abajo La Sera"
 category: thursday
 date: 2012-01-04
-tags: []
+published: true
+tags: [classes, club]
+rel: me
 tagline: tag line Abajo Sera
 description: description Abajo Sera
 

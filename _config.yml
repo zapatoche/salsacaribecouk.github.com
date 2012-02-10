@@ -25,8 +25,7 @@ events :
   - saturday
   - sunday
 site-nav :
-  - classes
-  - clubs
+  - events
   - news
   - resources
   - about
@@ -91,7 +90,8 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change theme here if needed.
   #
-  classes_path: /classes
+  # classes_path: /classes
+  events_path: /events
   categories_path : /categories.html
   tags_path : /tags.html
 

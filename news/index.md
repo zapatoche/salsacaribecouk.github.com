@@ -4,20 +4,17 @@ title: Events
 ---
  
 <section class="content">
-  <h2>events</h2>
+  <h2>Latest News</h2>
  
-  <p>Check out my images below!</p>
 </section>
  
-<ul class="entries">
-  {% for post in site.posts %}
- 
-  <li>
-    <a href="{{ post.url }}">
-      <img src="{{ post.image }}" />
-      <h3>{{ post.title }}</h3>
-    </a>
-  </li>
- 
-  {% endfor %}
-</ul>
+<article>
+  <div class="article">
+    {% for post in site.posts  %}
+      {% if post.rel != "me" %}
+        <dt>{{ post.category }}</dt>
+        <dd> <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></dd>
+      {% endif %}
+    {% endfor %} 
+  </div>
+</article>

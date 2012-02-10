@@ -1,9 +1,11 @@
 ---
-layout: post
+layout: events
 title: "The Afro Cuban lounge"
 category: Monday
 date: 2012-01-01
-tags: []
+published: true
+tags: [classes, club]
+rel: me
 tagline: The longest running Cuban Salsa Club in London
 description: An Evening of Essential Afro-Cuban Flavas, Salsa Timba & Latin Jazz
 

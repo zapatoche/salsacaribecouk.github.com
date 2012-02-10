@@ -1,9 +1,11 @@
 ---
-layout: post
+layout: events
 title: "The Afro Cuban Studio"
 category: Sunday
 date: 2012-01-07
-tags: []
+published: true
+tags: [classes, club]
+rel: me
 tagline: Dive into Afro-Cuban rythm
 description: Learn Casino Salsa & The Roots of Cuban Salsa
 

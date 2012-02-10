@@ -1,9 +1,11 @@
 ---
-layout: post
+layout: events
 title: "It's a Girl Thing"
 category: Saturday
 date: 2012-01-06
-tags: []
+published: true
+tags: [classes, workshop]
+rel: me
 tagline: sassy salsa styling for girlz!!!
 description: The next ladies styling workshop will be on Sat 22nd October
 
