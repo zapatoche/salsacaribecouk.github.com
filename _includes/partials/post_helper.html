@@ -1,0 +1,9 @@
+test
+<dl>
+  {% for post in site.posts reversed  %}
+  {% if post.rel != "me" %}
+  <dt>{{ post.category }}</dt>
+  <dd> <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></dd>
+  {% endif %}
+  {% endfor %} 
+</dl>
