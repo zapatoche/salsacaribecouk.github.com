@@ -2,6 +2,7 @@
 layout: post
 title: "The Afro Cuban Lounge"
 category: monday 
+date: 2012-01-01
 tags: [classes, clubs]
 rel: me
 
@@ -66,5 +67,6 @@ Club entrance
 : £4
 
 </div></section>
+
 
 

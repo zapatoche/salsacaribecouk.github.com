@@ -2,7 +2,8 @@
 layout: post
 title: "Abajo @ La Sera"
 category: thursday 
-tllags: [classes, club]
+date: 2012-01-04
+tags: [classes, club]
 rel: me
 
 title: Abajo @ La Sera
@@ -29,4 +30,5 @@ location:
 {% include JB/setup %}
 
 #Abajo @ La Sera page
+
 
