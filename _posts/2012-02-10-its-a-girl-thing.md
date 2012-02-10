@@ -4,20 +4,22 @@ title: "It's a Girl Thing"
 category: Saturday
 date: 2012-01-06
 published: true
-tags: [classes, workshop]
+tags: [workshop, monthly]
 rel: me
+
 tagline: sassy salsa styling for girlz!!!
 description: The next ladies styling workshop will be on Sat 22nd October
 introduction: |
   Calling all chicas who like their Cuban salsa with extra sabor: It&#8217;s a Girl Thing! this Saturday at The Place Dance Studios. Ladies, it&#8217;s time to get your whole body moving, connecting footwork to hip, torso, arm &amp; shoulder movement, so you look and feel great over the party season.
 
 image: 
-  url: 'http://farm7.staticflickr.com/6194/6113187339_9f002a1d83_z.jpg'
+  url: http://farm7.staticflickr.com/6194/6113187339_9f002a1d83_z.jpg
+  thubmnail: http://farm7.staticflickr.com/6194/6113187339_9f002a1d83_m.jpg
   description: &alt Susan doing some sassy styling !replaceme
   caption: *alt
 
 location:
-  name: The Place
+  name: The Place Dance Studio
   url: http://www.theplace.org.uk/
   map_url: 'http://g.co/maps/szkqv'
   map_image: 'http://maps.googleapis.com/maps/api/staticmap?center=16,flaxman,terrace,wc1,London&amp;zoom=15&amp;size=198x198&amp;markers=color:red%7Clabel:a%7C51.527717,-0.128275&amp;sensor=false'
@@ -25,6 +27,9 @@ location:
   postal_code: WC1
   locality: London
   country: United Kingdom
+
+start_date: 2:30pm 
+end_date: 4:30pm
 
 ---
 {% include JB/setup %}

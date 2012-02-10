@@ -4,7 +4,7 @@ title: "Abajo La Sera"
 category: thursday
 date: 2012-01-04
 published: true
-tags: [classes, club]
+tags: [classes, club, weekly]
 rel: me
 tagline: tag line Abajo Sera
 description: description Abajo Sera
@@ -27,6 +27,9 @@ location:
   postal_code: N16 75L
   locality: London
   country: United Kingdom
+
+start_date: 7:30pm 
+end_date: 2am
 
 ---
 {% include JB/setup %}

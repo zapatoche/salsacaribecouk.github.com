@@ -10,4 +10,4 @@ title: Hello World!
 ---
 {% include JB/setup %}
 
-#home
+#contact

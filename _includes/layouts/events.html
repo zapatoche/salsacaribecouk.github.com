@@ -34,7 +34,7 @@
           <figcaption>{{ page.image.caption }}</figcaption>
         </figure>
         <div class="intro">
-          {{ page.introduction | textilize }}
+          {{ page.introduction | markdownify }}
         </div>
         {{ content }}
         <!-- <footer><div class="footer"><a href="#nav">skip to navigation</a></div></footer> -->

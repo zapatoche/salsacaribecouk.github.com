@@ -29,6 +29,9 @@ location:
   locality: Islington
   country: United Kingdom
 
+start_date: 7:30pm 
+end_date: 1am
+
 ---
 {% include JB/setup %}
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Afro Cuban Pati Fiesta"
 category: congress 
-tags: [cuban, salsa, weekend]
+tags: [congress]
 
 ---
 {% include JB/setup %}

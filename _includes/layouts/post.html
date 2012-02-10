@@ -6,18 +6,17 @@
         <header>
           <div class="header">
             <hgroup class="summary">
-              <h1><span>{{ page.title }}</span></h1>
               <h3 class="strapline">{{ page.tagline }}</h3>
+              <h2><span>{{ page.title }}</span></h2>
             </hgroup>
           </div>
         </header>
-        <h2 class="description">{{ page.description }}</h2>
+        <h1 class="description">{{ page.description }}</h1>
         <figure>
           <img src="{{ page.image.url }}" alt="{{ page.image.description }}">
           <figcaption>{{ page.image.caption }}</figcaption>
         </figure>
         {{ content }}
-        <footer><div class="footer"><a href="#nav">skip to navigation</a></div></footer>
       </div>
     </article>
   </div>

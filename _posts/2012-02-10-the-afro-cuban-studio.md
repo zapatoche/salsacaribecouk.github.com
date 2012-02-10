@@ -4,7 +4,7 @@ title: "The Afro Cuban Studio"
 category: Sunday
 date: 2012-01-07
 published: true
-tags: [classes, club]
+tags: [classes, weekly]
 rel: me
 tagline: Dive into Afro-Cuban rythm
 description: Learn Casino Salsa & The Roots of Cuban Salsa
@@ -25,6 +25,9 @@ location:
   postal_code: WC1
   locality: London
   country: United Kingdom
+
+start_date: 2pm 
+end_date: 6:30pm
 
 ---
 {% include JB/setup %}
