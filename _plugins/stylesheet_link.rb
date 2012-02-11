@@ -8,8 +8,8 @@ module Jekyll
 
       def render(context)
         params = @params.split("|")
-        css = params[0].to_s.strip!.gsub!(/^["']/, "").gsub!(/["']$/, "")
-        media = params[1].to_s.strip!.gsub!(/^["']/, "").gsub!(/["']$/, "")
+        css = params[0].to_s.strip!
+        media = params[1].to_s.strip!
         mtime = rand 1000000000
         # mtime = Time.now.to_i
         # mtime = sprintf("%.0f", mtime)

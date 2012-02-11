@@ -390,7 +390,7 @@ a:hover {
 /* line 257, ../sass/bootstrap.min.scss */
 p {
   margin: 0 0 9px;
-  font-family: Geneva, Tahoma, Verdana, sans-serif;
+  font-family: "brevia", Geneva, Tahoma, Verdana, sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
