@@ -270,19 +270,23 @@ p {
   line-height: 27px; }
 h1 {
 
-  font-family: "brevia",  "helvetica Neue", Helevetica, Arial, sans-serif;
+  font-family: "ronnia", "brevia",  "helvetica Neue", Helevetica, Arial, sans-serif;
   margin: 0;
   font-weight: bold;
   text-transform: uppercase;
 }
+
 h2, h3, h4, h5, h6 {
   margin: 0;
-  font-family: "nimbus-sans", "helvetica Neue", Helevetica, Arial, sans-serif;
+  font-family: "ronnia",  "nimbus-sans", "helvetica Neue", Helevetica, Arial, sans-serif;
   font-weight: normal;
   color: #333333;
   text-rendering: optimizelegibility;
   text-transform: uppercase; }
-
+h2 {
+  font-family:   "nimbus-sans", "helvetica Neue", Helevetica, Arial, sans-serif;
+ 
+}
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-weight: normal;
   color: #999999; }
