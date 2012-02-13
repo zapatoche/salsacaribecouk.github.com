@@ -1,26 +1,16 @@
 <nav>
   <div class="nav site-nav">
   <h2 class="visuallyhidden">site navigation</h2>
-    <!-- <ul class="xoxo"> -->
-    <!--   <li> -->
-    <!--   	<a href="/" rel="home">home</a> -->
-    <!--   </li> -->
-    <!--   {% for item in site.site-nav %} -->
-    <!--   {% assign ref = page.id %} -->
-    <!--   {% if ref == item %} -->
-    <!--   <li class="active {{ item }}"><a href="{{ BASE_PATH }}/{{ item }}" class="active">{{ item | capitalize}}</a></li> -->
-    <!--   {% else %} -->
-    <!--   <li class="{{ item }}"><a href="{{ BASE_PATH }}/{{ item }}">{{ item | capitalize}}</a></li> -->
-    <!--   {% endif %} -->
-    <!--   {% endfor %} -->
-    <!-- </ul> -->
   <ul>
     {% for link_hash in site.site-nav %}
-    {% for link in link_hash %}
-
-    <li class="{{ link[0] }}"><a href="{{ BASE_PATH }}/{{ link[1] }}">{{ link[0] }}</a></li>
-
-    {% endfor %}
+      {% for link in link_hash %}
+        {% assign id = page.id %}
+        {% if id == link[0] %}
+          <li class="{{ link[0] }} active"><a href="{{ BASE_PATH }}/{{ link[1] }}" class="active">{{ link[0] }}</a></li>
+        {% else %}
+          <li class="{{ link[0] }}"><a href="{{ BASE_PATH }}/{{ link[1] }}">{{ link[0] }}</a></li>
+        {% endif %}
+      {% endfor %}
     {% endfor %}
   </ul>
   </div>

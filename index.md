@@ -33,16 +33,17 @@ title: Learn to dance with the Cuban Salsa specialists
 <section>
   <div class="section featured">
   <h2>Our events</h2>
-  {% if forloop.first %}
-    <article>
-      <div class="article">
-  {% endif %}
     {% for post in site.posts reversed  %}
+      {% if forloop.first %}
+
+      {% endif %}
       {% if post.rel == "me" %}
+  <article>
+    <div class="article">
       <header>
         <div class="header">
           <hgroup>
-            <h3><b class="flag">{{ post.category }}</b></h3>
+            <h3 class="pills"><span>{{ post.category }}</span></h3>
             <h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
           </hgroup>
         </div>
@@ -56,11 +57,12 @@ title: Learn to dance with the Cuban Salsa specialists
       <div class="intro">
         {{ post.introduction | markdownify }}
       </div>
+    </div>
+  </article>
+      {% endif %}
+      {% if forloop.last %}
+
       {% endif %}
     {% endfor %}   
-  {% if forloop.last %}
-      </div>
-    </article>
-  {% endif %}
   </div>
 </section>

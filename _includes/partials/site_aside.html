@@ -1,10 +1,9 @@
-<aside>
-  <div class="aside secondary-content col">
+
     <h3>Our events and classes</h3>
     <dl>
       {% for post in site.posts reversed  %}
       {% if post.rel == "me" %}
-      <dt>{{ post.category }}</dt>
+      <dt class="pills"><span>{{ post.category }}</span></dt>
       <dd> <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></dd>
       {% endif %}
       {% endfor %} 
@@ -14,7 +13,7 @@
     <dl>
       {% for post in site.posts reversed limit: 5 %}
       {% if post.rel != "me" %}
-      <dt>{{ post.category }}</dt>
+      <dt class="pills">{{ post.category }}</dt>
       <dd> <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></dd>
       {% endif %}
       {% endfor %} 
@@ -22,5 +21,4 @@
     <p>
       <a href="{{ BASE_PATH }}/news/">more news…</a>
     </p>
-  </div>
-</aside>
+

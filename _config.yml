@@ -26,7 +26,7 @@ events :
   - sunday
 site-nav :
   - home: 
-  - events: events
+  - clubs & classes: events 
   - news: news
   - resources: resources
   - about: about

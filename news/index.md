@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Events
+title: Latest News
+id: news
 ---
  
 <section class="content">
-  <h2>Latest News</h2>
+  <h2>{{ page.title }}</h2>
  
 </section>
  
