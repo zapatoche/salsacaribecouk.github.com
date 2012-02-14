@@ -1,7 +1,7 @@
 ---
 layout: events
 title: "The Afro Cuban Studio"
-category: Sunday
+category: sunday
 date: 2012-01-07
 published: true
 tags: [classes, weekly]

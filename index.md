@@ -43,7 +43,7 @@ title: Learn to dance with the Cuban Salsa specialists
       <header>
         <div class="header">
           <hgroup>
-            <h3 class="pills"><span>{{ post.category }}</span></h3>
+            <h3 class="pill"><span>{{ post.category }}</span></h3>
             <h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
           </hgroup>
         </div>

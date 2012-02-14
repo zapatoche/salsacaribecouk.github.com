@@ -1,7 +1,7 @@
 ---
 layout: events
 title: "It's a Girl Thing"
-category: Saturday
+category: saturday
 date: 2012-01-06
 published: true
 tags: [workshop, monthly]

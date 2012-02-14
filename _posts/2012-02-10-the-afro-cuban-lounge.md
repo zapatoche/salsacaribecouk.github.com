@@ -1,7 +1,7 @@
 ---
 layout: events
 title: "The Afro Cuban lounge"
-category: Monday
+category: monday
 date: 2012-01-01
 published: true
 tags: [classes, club]
