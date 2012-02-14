@@ -34,9 +34,6 @@ title: Learn to dance with the Cuban Salsa specialists
   <div class="section featured">
   <h2>Our events</h2>
     {% for post in site.posts reversed  %}
-      {% if forloop.first %}
-
-      {% endif %}
       {% if post.rel == "me" %}
   <article>
     <div class="article">
@@ -59,9 +56,6 @@ title: Learn to dance with the Cuban Salsa specialists
       </div>
     </div>
   </article>
-      {% endif %}
-      {% if forloop.last %}
-
       {% endif %}
     {% endfor %}   
   </div>
