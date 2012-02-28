@@ -1,6 +1,6 @@
 ---
 
-layout: page
+layout: resources
 group: site-nav
 id: &slug resources
 slug: *slug

@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: news
 title: Latest News
-id: news
+
 ---
  
 <section class="content">

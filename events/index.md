@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: events
 title : Archive
 header : Post Archive
-id: events
 ---
 {% include JB/setup %}
 

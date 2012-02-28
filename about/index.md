@@ -1,6 +1,6 @@
 ---
 
-layout: page
+layout: about
 group: site-nav
 id: &slug about
 slug: *slug
