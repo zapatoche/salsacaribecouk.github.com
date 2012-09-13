@@ -1,0 +1,67 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 8, ../sass/global.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 13, ../sass/global.scss */
+body {
+  background: #fff;
+  padding: 0 10%;
+}
+
+/* line 17, ../sass/global.scss */
+.container {
+  width: auto;
+}
+
+/* line 20, ../sass/global.scss */
+.content {
+  position: relative;
+  top: 4em;
+}
+
+/* line 24, ../sass/global.scss */
+.site-nav {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  border: #ccc solid 1px;
+  border-width: 1px 0;
+  width: 100%;
+  text-align: center;
+}
+/* line 32, ../sass/global.scss */
+.site-nav li {
+  float: left;
+  display: inline;
+}
+/* line 35, ../sass/global.scss */
+.site-nav li a {
+  padding: 1em;
+  display: block;
+}
+
+/* line 41, ../sass/global.scss */
+.visuallyhidden {
+  position: absolute;
+  left: -12345em;
+}
+
+/* line 46, ../sass/global.scss */
+.pills span {
+  background: #000;
+  color: #fff;
+  padding: .5em;
+  border-radius: 5px;
+}
+
+/* line 54, ../sass/global.scss */
+footer, .site-footer {
+  clear: both;
+}

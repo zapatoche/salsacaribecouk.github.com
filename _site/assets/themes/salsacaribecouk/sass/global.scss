@@ -1,0 +1,56 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+// @import "compass/reset";
+// @import "partials/typography";
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background: #fff;
+  padding: 0 10%;
+}
+.container {
+  width: auto;
+}
+.content {
+  position: relative;
+  top: 4em;
+}
+.site-nav {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  border: #ccc solid 1px;
+  border-width: 1px 0;
+  width: 100%;
+  text-align: center;
+  li {
+    float: left;
+    display: inline;
+    a {
+      padding: 1em;
+      display: block;
+    }
+  }
+}
+.visuallyhidden {
+  position: absolute;
+  left: -12345em;
+}
+.pills {
+  span {
+    background: #000;
+    color: #fff;
+    padding: .5em;
+    border-radius: 5px;
+  }
+}
+
+footer, .site-footer {
+  clear: both;
+}
