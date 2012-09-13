@@ -4,7 +4,7 @@
  <title>Salsa Caribe</title>
  <link href="http://salsacaribecouk.github.com/atom.xml" rel="self"/>
  <link href="http://salsacaribecouk.github.com"/>
- <updated>2012-09-13T18:30:02+01:00</updated>
+ <updated>2012-09-13T19:14:40+01:00</updated>
  <id>http://salsacaribecouk.github.com</id>
  <author>
    <name></name>
@@ -191,6 +191,8 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  &
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
 nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  &lt;/p&gt;
+
+&lt;p&gt;test&lt;/p&gt;
 </content>
  </entry>
  
