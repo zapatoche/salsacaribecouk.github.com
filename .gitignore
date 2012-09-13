@@ -10,3 +10,6 @@ Thumbs.db
 
 .sass-cache
 public/
+
+_site/Gemfile
+_site/Procfile
