@@ -10,7 +10,7 @@ title: Learn to dance with the Cuban Salsa specialists
 
 <section>
   <div class="section news">
-    <h2>latest news</h2> 
+    <h2>latest news</h2>
    {% for post in site.posts limit: 1 %}
     {% if post.rel != "me" %}
     <h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
@@ -20,11 +20,11 @@ title: Learn to dance with the Cuban Salsa specialists
     </div>
     <footer>
       <div class="footer">
-      
+
       </div>
     </footer>
     {% endif %}
-  {% endfor %} 
+  {% endfor %}
   </div>
 </section>
 
@@ -55,6 +55,6 @@ title: Learn to dance with the Cuban Salsa specialists
     </div>
   </article>
       {% endif %}
-    {% endfor %}   
+    {% endfor %}
   </div>
 </section>
