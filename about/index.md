@@ -10,3 +10,4 @@ title: Hello World!
 {% include JB/setup %}
 
 #home
+{{page.title}}
