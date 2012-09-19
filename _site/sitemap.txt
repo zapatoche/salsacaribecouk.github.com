@@ -10,7 +10,6 @@ http://salsacaribecouk.github.com/events/index.html
 http://salsacaribecouk.github.com/find/tags.html
 http://salsacaribecouk.github.com/index.html
 http://salsacaribecouk.github.com/news/index.html
-http://salsacaribecouk.github.com/resources/index.html
 http://salsacaribecouk.github.com/sitemap.txt
 
 http://salsacaribecouk.github.com/music/los-van-van-appolo
