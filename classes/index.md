@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: classes
 title: "Index"
 description: ""
 ---
