@@ -32,6 +32,7 @@ start_date: 2:30pm
 end_date: 4:30pm
 
 ---
+
 {% include JB/setup %}
 
 You&#8217;ll learn how to develop an effortless, coordinated style during turn patterns and when improvising. Along with meneo, templeque &amp; expressive afro-cuban body movement, there are salsa suelta steps &amp; other rhythms thrown into the mix, so you can really respond to the music, to your dance partner and have more fun.
@@ -39,7 +40,7 @@ You&#8217;ll learn how to develop an effortless, coordinated style during turn p
 Whatever your level of salsa experience, this workshops will help you to gain confidence &amp; enjoy your dancing more.
 
 
-<aside><div markdown="1" class="aside details">
+<aside><div markdown="1" class="aside details test">
 
 ###what you'll learn
 
@@ -67,6 +68,3 @@ prices
 {% include partials/location_template.html %}
 
 </div></aside>
-
-
-
