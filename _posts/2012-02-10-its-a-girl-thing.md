@@ -4,7 +4,7 @@ title: "It's a Girl Thing"
 category: saturday
 date: 2012-01-06
 published: true
-tags: [workshop, monthly]
+tags: [monthly, workshop]
 rel: me
 
 tagline: sassy salsa styling for girlz!!!
