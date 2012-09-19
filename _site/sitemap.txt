@@ -4,7 +4,9 @@ http://salsacaribecouk.github.com/about/jim/jim.html
 http://salsacaribecouk.github.com/about/susan/susan.html
 http://salsacaribecouk.github.com/atom.xml
 http://salsacaribecouk.github.com/categories.html
-http://salsacaribecouk.github.com/clubs/index.html
+http://salsacaribecouk.github.com/classes/index.html
+http://salsacaribecouk.github.com/classes/index.html
+http://salsacaribecouk.github.com/club-nights/index.html
 http://salsacaribecouk.github.com/contact/index.html
 http://salsacaribecouk.github.com/events/index.html
 http://salsacaribecouk.github.com/find/tags.html
