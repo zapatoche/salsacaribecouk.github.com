@@ -4,8 +4,10 @@ http://salsacaribecouk.github.com/about/jim/jim.html
 http://salsacaribecouk.github.com/about/susan/susan.html
 http://salsacaribecouk.github.com/atom.xml
 http://salsacaribecouk.github.com/categories.html
+http://salsacaribecouk.github.com/classes/afro-cuban-lounge/index.html
+http://salsacaribecouk.github.com/classes/afro-cuban-studio/index.html
 http://salsacaribecouk.github.com/classes/index.html
-http://salsacaribecouk.github.com/classes/index.html
+http://salsacaribecouk.github.com/classes/its-a-girl-thing/index.html
 http://salsacaribecouk.github.com/club-nights/index.html
 http://salsacaribecouk.github.com/contact/index.html
 http://salsacaribecouk.github.com/events/index.html
@@ -14,8 +16,6 @@ http://salsacaribecouk.github.com/index.html
 http://salsacaribecouk.github.com/news/index.html
 http://salsacaribecouk.github.com/sitemap.txt
 
-http://salsacaribecouk.github.com/music/los-van-van-appolo
-http://salsacaribecouk.github.com/congress/afro-cuban-pati-fiesta
 http://salsacaribecouk.github.com/sunday/the-afro-cuban-studio
 http://salsacaribecouk.github.com/saturday/its-a-girl-thing
 http://salsacaribecouk.github.com/monday/the-afro-cuban-lounge

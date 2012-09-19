@@ -27,7 +27,7 @@ site-nav :
   - home:
   - news: news
   - classes: classes
-  - club nights: clubs
+  - club nights: club-nights
   - about: about
   - contact: contact
 

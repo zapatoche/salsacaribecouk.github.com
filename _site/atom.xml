@@ -4,36 +4,13 @@
  <title>Salsa Caribe</title>
  <link href="http://salsacaribecouk.github.com/atom.xml" rel="self"/>
  <link href="http://salsacaribecouk.github.com"/>
- <updated>2012-09-19T21:38:30+01:00</updated>
+ <updated>2012-09-19T23:50:06+01:00</updated>
  <id>http://salsacaribecouk.github.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
- 
- <entry>
-   <title>Los Van Van @ the Appolo</title>
-   <link href="http://salsacaribecouk.github.com/music/los-van-van-appolo"/>
-   <updated>2012-02-10T00:00:00+00:00</updated>
-   <id>http://salsacaribecouk.github.com/music/los-van-van-appolo</id>
-   <content type="html">
-&lt;h1&gt;Tickets to the Los Van Van gig in Brixton Thursday 1st March available from DJ Dr Jim at all our events - no booking fee&lt;/h1&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Afro Cuban Pati Fiesta</title>
-   <link href="http://salsacaribecouk.github.com/congress/afro-cuban-pati-fiesta"/>
-   <updated>2012-02-10T00:00:00+00:00</updated>
-   <id>http://salsacaribecouk.github.com/congress/afro-cuban-pati-fiesta</id>
-   <content type="html">
-</content>
- </entry>
  
  <entry>
    <title>The Afro Cuban Studio</title>
