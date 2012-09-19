@@ -40,7 +40,7 @@ You&#8217;ll learn how to develop an effortless, coordinated style during turn p
 Whatever your level of salsa experience, this workshops will help you to gain confidence &amp; enjoy your dancing more.
 
 
-<aside><div markdown="1" class="aside details test">
+<aside><div markdown="1" class="aside details">
 
 ###what you'll learn
 
