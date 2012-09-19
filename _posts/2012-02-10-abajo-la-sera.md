@@ -3,7 +3,7 @@ layout: events
 title: "Abajo La Sera"
 category: thursday
 date: 2012-01-04
-published: true
+published: false
 tags: [classes, club, weekly]
 rel: me
 tagline: tag line Abajo Sera
@@ -32,8 +32,9 @@ start_date: 7:30pm
 end_date: 2am
 
 ---
+
 {% include JB/setup %}
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
+nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
