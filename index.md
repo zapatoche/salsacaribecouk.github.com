@@ -2,8 +2,6 @@
 
 layout: home
 group: site-nav
-id: &slug home
-slug: *slug
 title: Learn to dance with the Cuban Salsa specialists
 
 

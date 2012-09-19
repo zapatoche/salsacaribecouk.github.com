@@ -2,8 +2,6 @@
 
 layout: about
 group: site-nav
-id: &slug about
-slug: *slug
 title: Hello World!
 
 ---

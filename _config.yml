@@ -21,13 +21,13 @@ vcard :
   # feedburner : feedname
 events :
   - monday
-  - thursday
   - saturday
   - sunday
 site-nav :
-  - home: 
-  - clubs & classes: events 
+  - home:
   - news: news
+  - classes: classes
+  - club nights: clubs
   - about: about
   - contact: contact
 

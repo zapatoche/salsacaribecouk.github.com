@@ -2,8 +2,6 @@
 
 layout: page
 group: site-nav
-id: &slug dance
-slug: *slug
 title: Hello World!
 
 ---

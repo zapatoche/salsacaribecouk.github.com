@@ -6,12 +6,13 @@
       {% for link in link_hash %}
         {% assign id = page.id %}
         {% if id == link[0] %}
-          <li class="{{ link[0] }} active"><a href="{{ BASE_PATH }}/{{ link[1] }}" class="active">{{ link[0] }}</a></li>
+          <li class="active"><a href="{{ base_path }}/{{ link[1] }}" class="active">{{ link[0] }}</a></li>
         {% else %}
-          <li class="{{ link[0] }}"><a href="{{ BASE_PATH }}/{{ link[1] }}">{{ link[0] }}</a></li>
+          <li><a href="{{ base_path }}/{{ link[1] }}">{{ link[0] }}</a></li>
         {% endif %}
       {% endfor %}
     {% endfor %}
   </ul>
   </div>
 </nav>
+<p>test</p>
