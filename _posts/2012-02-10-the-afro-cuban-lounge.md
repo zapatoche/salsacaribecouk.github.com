@@ -1,23 +1,24 @@
 ---
-layout: events
-title: "The Afro Cuban lounge"
-category: monday
+
+layout: classes
+title: "The Afro Cuban lounge classes"
+category: classes
 date: 2012-01-01
+day: Monday
+freq: weekly
 published: true
-tags: [classes, club]
 rel: me
+
 tagline: The longest running Cuban Salsa Club in London
+
 description: An Evening of Essential Afro-Cuban Flavas, Salsa Timba & Latin Jazz
 
 introduction: |
   If you want to up the feelgood factor Cuban style, then this Monday night at The Buffalo Bar is for you. Doors open at 7.30pm, with classes for all levels from around 7.45pm, followed by an evening of dancing, drinking and socialising to the sounds of the very best Cuban salsa, timba &amp; son, courtesy of DJ Dr Jim.
 
-
-
-image: 
+image:
   url: 'http://farm7.staticflickr.com/6182/6114145392_f3b0f12d90_z.jpg'
-  description: &alt Salsa Caribe's 10 years anniversary party
-  caption: *alt
+  description: &alt "Salsa Caribe's 10 years anniversary party"
 
 location:
   name: The Buffalo Bar
@@ -29,13 +30,13 @@ location:
   locality: Islington
   country: United Kingdom
 
-start_date: 7:30pm 
+start_date: 7:30pm
 end_date: 1am
 
 ---
 {% include JB/setup %}
 
-o&#8217;t forget DJ Doctor JIm new 36 track Cuban salsa/timba compilation (&#8216;Beginners Guide To Timba&#8217;), which has just been released on Nascente Records. And of course, we&#8217;ll have lots of lots of shiny new copies for sale on the night! This comprehensive collection tells the story of timba from the 1990s to date, featuring all the top names, from Los Van Van to Havana D&#8217; Primera + track-by-track sleevenotes. It&#8217;s available from HMV, Amazon etc, or better still, come and get your copy in person from DJ Dr Jim on Monday! 
+o&#8217;t forget DJ Doctor JIm new 36 track Cuban salsa/timba compilation (&#8216;Beginners Guide To Timba&#8217;), which has just been released on Nascente Records. And of course, we&#8217;ll have lots of lots of shiny new copies for sale on the night! This comprehensive collection tells the story of timba from the 1990s to date, featuring all the top names, from Los Van Van to Havana D&#8217; Primera + track-by-track sleevenotes. It&#8217;s available from HMV, Amazon etc, or better still, come and get your copy in person from DJ Dr Jim on Monday!
 
 <aside><div markdown="1" class="aside details">
 

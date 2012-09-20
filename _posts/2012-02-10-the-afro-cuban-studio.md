@@ -1,20 +1,24 @@
 ---
-layout: events
+
+layout: classes
 title: "The Afro Cuban Studio"
-category: sunday
+category: classes
 date: 2012-01-07
+day: Sunday
+freq: weekly
 published: true
-tags: [classes, weekly]
 rel: me
-tagline: Dive into Afro-Cuban rythm
+
+tagline: Dive into Afro-Cuban rhythm
+
 description: Learn Casino Salsa & The Roots of Cuban Salsa
+
 introduction: |
   Salsa Classes to suit everyone from complete beginner to advanced salsero, plus an hour devoted to diverse Cuban rhythms and movement.
 
 image:
   url: 'http://placehold.it/550x300'
-  description: &alt Salsa Caribe's at the afro-cuban studio
-  caption: *alt
+  description: &alt "Salsa Caribe at the afro-cuban studio"
 
 location:
   name: The Place Dance Studio
@@ -26,13 +30,11 @@ location:
   locality: London
   country: United Kingdom
 
-start_date: 2pm 
+start_date: 2pm
 end_date: 6:30pm
 
 ---
 {% include JB/setup %}
-
-
 
 On Sunday we've a selection of vibrant Cuban salsa, rueda & son classes at The Place Dance Studios from 2-6.30pm, so we look forward to seeing you  for a lively & sociable Sunday afternoon's dancing.
 
