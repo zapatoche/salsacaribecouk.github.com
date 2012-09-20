@@ -1,18 +1,27 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
 @import "vendors/normalize";
 @import "compass/utilities";
+@import "compass/css3";
+@import "compass/typography";
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+@font-face {
+    font-family: 'BrothersBoldAlternatesBold';
+    src: url('/assets/themes/salsacaribecouk/fonts/brothbolalt-071211005EmigreWebOnly.eot');
+    src: url('/assets/themes/salsacaribecouk/fonts/brothbolalt-071211005EmigreWebOnly.eot?#iefix') format('embedded-opentype'),
+         url('/assets/themes/salsacaribecouk/fonts/brothbolalt-071211005EmigreWebOnly.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
   background: #fff;
   padding: 0 10%;
+  font: normal 16px/1.5 "franklin-gothic-urw", Helvetica, Arial, sans-serif;
+}
+h1 {
+  font-family: 'BrothersBoldAlternatesBold', sans-serif;
 }
 .container {
   width: auto;
