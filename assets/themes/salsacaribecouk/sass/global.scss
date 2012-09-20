@@ -3,8 +3,8 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-// @import "compass/reset";
-// @import "partials/typography";
+@import "vendors/normalize";
+@import "compass/utilities";
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -22,9 +22,7 @@ body {
   top: 4em;
 }
 .site-nav {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
+  @include clearfix;
   border: #ccc solid 1px;
   border-width: 1px 0;
   width: 100%;

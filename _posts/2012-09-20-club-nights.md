@@ -1,18 +1,19 @@
 ---
 layout: page
-title: " Our classes and workshops"
+title: "club nights"
 description: ""
+category: 
+tags: []
 ---
 {% include JB/setup %}
 
-<section>
-  <div class="section featured">
-  <h2>Our events</h2>
+
+
+<section class="section clubs">
+  <h2>Our club nights</h2>
     {% for post in site.posts reversed  %}
-      {% if post.category == "classes" %}
+      {% if post.category == "club" %}
         {% include partials/events_helper.html %}
       {% endif %}
     {% endfor %}
-  </div>
 </section>
-
