@@ -1,14 +1,14 @@
 <header class="header" role="banner">
-  <h1 class="tagline">
-    {{ page.title }}
-  </h1>
   <dl class="vcard">
-    <dt class="logo">
+    <dt class="brand-logo">
       <a href="{{ site.production_url }}" class="url" rel="home">{{ site.vcard.name | remove: 'productions' }}</a>
     </dt>
     <dd class="tel">
       <span class="type" title="work">Phone:</span> <span class="value">{{ site.vcard.phone }}</span>
     </dd>
   </dl>
+  <h1 class="site-tagline">
+    {{ page.title }}
+  </h1>
 </header>
 
