@@ -11,12 +11,12 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Salsa Caribe
-tagline: Learn to dance with the Cuban salsa specialists
+tagline: Learn to dance Cuban Salsa!
 vcard :
   name : Salsa Caribe productions
   email : salsacaribe@aol.com
-  phone : +4412345678 
-  github : salsacaribecouk
+  phone : 07958 102188 
+  # github : salsacaribecouk
   twitter : salsacaribecouk
   # feedburner : feedname
 events :
@@ -39,7 +39,7 @@ site-nav :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://salsacaribecouk.github.com
+# production_url : http://salsacaribecouk.github.com
 
 textile: RedCloth
 markdown : kramdown 

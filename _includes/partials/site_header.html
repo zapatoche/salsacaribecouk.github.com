@@ -1,24 +1,17 @@
-<header>
-  <div class="header" role="banner">
-    <h1 class="column primary-content first">
-      {{ site.tagline }}
-    </h1>
-    <div class="column secondary-content">
-      <dl class="vcard">
-        <dt>
-          <a href="{{ site.production_url }}" class="url" rel="home">
-            <div class="figure">
-              <figure>
-                <img class="logo photo" src="http://placehold.it/235x147/" aria-labelledby="figcap_001" />
-                <figcaption class="fn org" id="figcap_001">{{ site.vcard.name }}</figcaption>
-              </figure>
-            </div>
-          </a>
-        </dt>
-        <dd class="tel"><span class="type" title="work">Phone:</span> <span class="value">{{ site.vcard.phone }}</span></dd>
-        <dd class="email"><span class="type" title="work">Email:</span> <a href="mailto:{{site.vcard.email}}" class="value">{{ site.vcard.email }}</a></dd>
-      </dl>
-    </div>
-  </div>
+<header class="header" role="banner">
+  <h1 class="tagline">
+    {{ site.tagline }}
+  </h1>
+  <dl class="vcard">
+    <dt class="fn org">
+      <a href="{{ site.production_url }}" class="url" rel="home">{{ site.vcard.name | remove: 'productions' }}</a>
+    </dt>
+    <dd class="tel">
+      <span class="type" title="work">Phone:</span> <span class="value">{{ site.vcard.phone }}</span>
+    </dd>
+    <dd class="email">
+      <span class="type" title="work">Email:</span> <a href="mailto:{{site.vcard.email}}" class="value">{{ site.vcard.email }}</a>
+    </dd>
+  </dl>
 </header>
 

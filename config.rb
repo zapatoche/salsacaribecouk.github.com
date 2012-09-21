@@ -6,6 +6,7 @@ css_dir = "assets/themes/salsacaribecouk/css"
 sass_dir = "assets/themes/salsacaribecouk/sass"
 images_dir = "assets/images"
 javascripts_dir = "assets/javascripts"
+fonts_dir = "assets/themes/salsacaribecouk/fonts"
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
