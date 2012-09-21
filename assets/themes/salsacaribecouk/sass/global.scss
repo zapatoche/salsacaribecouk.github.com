@@ -2,48 +2,24 @@
 @import "compass/utilities";
 @import "compass/css3";
 @import "compass/typography";
+
+@import "partials/variables";
+@import "partials/typography";
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-@font-face {
-    $font_dir: '/assets/themes/salsacaribecouk/fonts';
-    font-family: 'BrothersBoldAlternatesBold';
-    src: url("#{$font_dir}/brothbolalt-071211005EmigreWebOnly.eot");
-    src: url("#{$font_dir}/brothbolalt-071211005EmigreWebOnly.eot?#iefix") format('embedded-opentype'),
-         url("#{$font_dir}/brothbolalt-071211005EmigreWebOnly.woff") format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-// @include font-face("BrothersBoldAlternatesBold", font-files("/brothbolalt-071211005EmigreWebOnly.eot","/brothbolalt-071211005EmigreWebOnly.eot?#iefix", "brothbolalt-071211005EmigreWebOnly.woff"));
-// @include font-face("Blooming Grove", font-files("examples/bgrove.ttf", "examples/bgrove.otf"));
 
 body {
   background: #fff;
   padding: 0 10%;
-  font: normal 100%/1.5 "ronnia", "franklin-gothic-urw", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: normal 100%/1.5 $body_font;
 }
-[role="banner"] {
-  .logo,
-  .tagline {
-    font-family: 'BrothersBoldAlternatesBold', "ronnia", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    span {
-      white-space: nowrap;
-    }
-  }
-  .tagline {
-    font-size: 3.75em; //60px/16px
-    // font-size: 3.75rem;
-    text-align: center;
-    letter-spacing: 5px;
-  }
-}
-#{headers(all)} {
-  font-family: ronnia, sans-serif;
-  text-transform: uppercase;
-  text-rendering: optimizeLegibility;
-}
+
+@import "partials/site-header";
+
 ul {
   font-family: ronnia, sans-serif;
   font-weight: normal;

@@ -382,13 +382,6 @@ table {
   border-spacing: 0;
 }
 
-/* line 5, ../sass/global.scss */
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 @font-face {
   font-family: 'BrothersBoldAlternatesBold';
   src: url("/assets/themes/salsacaribecouk/fonts/brothbolalt-071211005EmigreWebOnly.eot");
@@ -397,54 +390,70 @@ table {
   font-style: normal;
 }
 
-/* line 22, ../sass/global.scss */
-body {
-  background: #fff;
-  padding: 0 10%;
-  font: normal 100%/1.5 "ronnia", "franklin-gothic-urw", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-/* line 29, ../sass/global.scss */
-[role="banner"] .logo,
-[role="banner"] .tagline {
-  font-family: 'BrothersBoldAlternatesBold', "ronnia", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-/* line 31, ../sass/global.scss */
-[role="banner"] .logo span,
-[role="banner"] .tagline span {
-  white-space: nowrap;
-}
-/* line 35, ../sass/global.scss */
-[role="banner"] .tagline {
-  font-size: 3.75em;
-  text-align: center;
-  letter-spacing: 5px;
-}
-
-/* line 42, ../sass/global.scss */
+/* line 12, ../sass/partials/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: ronnia, sans-serif;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
 }
 
-/* line 47, ../sass/global.scss */
+/* line 19, ../sass/partials/_typography.scss */
+body {
+  background: red;
+}
+
+/* line 9, ../sass/global.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 15, ../sass/global.scss */
+body {
+  background: #fff;
+  padding: 0 10%;
+  font: normal 100%/1.5 "ronnia", "franklin-gothic-urw", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 4, ../sass/partials/_site-header.scss */
+.brand-logo,
+.site-tagline {
+  font-family: 'BrothersBoldAlternatesBold', "ronnia", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline-block;
+  width: 100%;
+  line-height: 1;
+}
+/* line 9, ../sass/partials/_site-header.scss */
+.brand-logo span,
+.site-tagline span {
+  white-space: nowrap;
+}
+
+/* line 13, ../sass/partials/_site-header.scss */
+.site-tagline {
+  font-size: 3.75em;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+/* line 23, ../sass/global.scss */
 ul {
   font-family: ronnia, sans-serif;
   font-weight: normal;
 }
 
-/* line 51, ../sass/global.scss */
+/* line 27, ../sass/global.scss */
 .container {
   width: auto;
 }
 
-/* line 54, ../sass/global.scss */
+/* line 30, ../sass/global.scss */
 .content {
   position: relative;
 }
 
-/* line 57, ../sass/global.scss */
+/* line 33, ../sass/global.scss */
 .site-nav {
   overflow: hidden;
   *zoom: 1;
@@ -453,24 +462,24 @@ ul {
   width: 100%;
   text-align: center;
 }
-/* line 63, ../sass/global.scss */
+/* line 39, ../sass/global.scss */
 .site-nav li {
   float: left;
   display: inline;
 }
-/* line 66, ../sass/global.scss */
+/* line 42, ../sass/global.scss */
 .site-nav li a {
   padding: 1em;
   display: block;
 }
 
-/* line 72, ../sass/global.scss */
+/* line 48, ../sass/global.scss */
 .visuallyhidden {
   position: absolute;
   left: -12345em;
 }
 
-/* line 77, ../sass/global.scss */
+/* line 53, ../sass/global.scss */
 .pills span {
   background: #000;
   color: #fff;
@@ -478,7 +487,7 @@ ul {
   border-radius: 5px;
 }
 
-/* line 85, ../sass/global.scss */
+/* line 61, ../sass/global.scss */
 footer, .site-footer {
   clear: both;
 }
