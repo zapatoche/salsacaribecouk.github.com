@@ -397,11 +397,6 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 
-/* line 19, ../sass/partials/_typography.scss */
-body {
-  background: red;
-}
-
 /* line 9, ../sass/global.scss */
 * {
   -webkit-box-sizing: border-box;
