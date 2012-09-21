@@ -17,12 +17,4 @@ tags: []
 
 #{{ page.title }}
 
-
-
-
-
-
-
-
-
 {{ page.description | markodownify }}

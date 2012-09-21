@@ -392,7 +392,7 @@ table {
 
 /* line 12, ../sass/partials/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: ronnia, sans-serif;
+  font-family: "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
 }
@@ -408,7 +408,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
   background: #fff;
   padding: 0 10%;
-  font: normal 100%/1.5 "ronnia", "franklin-gothic-urw", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 100%/1.5 "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* line 4, ../sass/partials/_site-header.scss */
@@ -433,22 +433,16 @@ body {
 }
 
 /* line 23, ../sass/global.scss */
-ul {
-  font-family: ronnia, sans-serif;
-  font-weight: normal;
-}
-
-/* line 27, ../sass/global.scss */
 .container {
   width: auto;
 }
 
-/* line 30, ../sass/global.scss */
+/* line 26, ../sass/global.scss */
 .content {
   position: relative;
 }
 
-/* line 33, ../sass/global.scss */
+/* line 29, ../sass/global.scss */
 .site-nav {
   overflow: hidden;
   *zoom: 1;
@@ -457,24 +451,24 @@ ul {
   width: 100%;
   text-align: center;
 }
-/* line 39, ../sass/global.scss */
+/* line 35, ../sass/global.scss */
 .site-nav li {
   float: left;
   display: inline;
 }
-/* line 42, ../sass/global.scss */
+/* line 38, ../sass/global.scss */
 .site-nav li a {
   padding: 1em;
   display: block;
 }
 
-/* line 48, ../sass/global.scss */
+/* line 44, ../sass/global.scss */
 .visuallyhidden {
   position: absolute;
   left: -12345em;
 }
 
-/* line 53, ../sass/global.scss */
+/* line 49, ../sass/global.scss */
 .pills span {
   background: #000;
   color: #fff;
@@ -482,7 +476,7 @@ ul {
   border-radius: 5px;
 }
 
-/* line 61, ../sass/global.scss */
+/* line 57, ../sass/global.scss */
 footer, .site-footer {
   clear: both;
 }

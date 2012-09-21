@@ -27,10 +27,10 @@ title: Learn to dance <span>Cuban Salsa </span>
     {% endfor %}
 </section>
 
-<section class="section classes">
+<section class="section club-nights">
   <h2>Our club nights</h2>
     {% for post in site.posts reversed  %}
-      {% if post.category == "club" %}
+      {% if post.category == "club-nights" %}
         {% include partials/events_helper.html %}
       {% endif %}
     {% endfor %}

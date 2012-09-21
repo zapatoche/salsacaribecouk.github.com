@@ -1,21 +1,15 @@
-  <article>
-    <div class="article">
-      <header>
-        <div class="header">
-          <hgroup>
-            <h3 class="pill"><span>{{ post.day }}</span></h3>
-            <h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
-          </hgroup>
-        </div>
-      </header>
-      <footer>
-        <div class="footer">
-          <p>{{ post.start_date }} {% if post.end_date %}- {{ post.end_date }}{% endif %} <a href="{{ post.location.map_url }}" title="Locate {{ post.location.name}} on Google map"><b>{{post.location.name}}</b></a>, {{ post.location.street_address}}, {{ post.location.postal_code}}, {{ post.location.locality }}.</p>
-        </div>
-      </footer>
-      <h1>{{ post.description }}</h1>
-      <div class="intro">
-        {{ post.introduction | markdownify }}
-      </div>
+  <article clas="article">
+    <header class="header">
+      <hgroup>
+        <h3 class="pill"><span>{{ post.day }}</span></h3>
+        <h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
+      </hgroup>
+    </header>
+    <footer class="footer">
+        <p>{{ post.start_date }} {% if post.end_date %}- {{ post.end_date }}{% endif %} <a href="{{ post.location.map_url }}" title="Locate {{ post.location.name}} on Google map"><b>{{post.location.name}}</b></a>, {{ post.location.street_address}}, {{ post.location.postal_code}}, {{ post.location.locality }}.</p>
+    </footer>
+    <h1>{{ post.description }}</h1>
+    <div class="intro">
+      {{ post.introduction | markdownify }}
     </div>
   </article>

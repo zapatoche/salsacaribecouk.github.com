@@ -15,15 +15,11 @@
 body {
   background: #fff;
   padding: 0 10%;
-  font: normal 100%/1.5 $body_font;
+  font: 500 100%/1.5 $body_font;
 }
 
 @import "partials/site-header";
 
-ul {
-  font-family: ronnia, sans-serif;
-  font-weight: normal;
-}
 .container {
   width: auto;
 }

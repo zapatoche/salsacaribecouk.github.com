@@ -5,7 +5,6 @@
 /index.html
 /sitemap.txt
 
-/the-afro-cuban-lounge-club
 /news/test-news-001
 /about/susan
 /news
@@ -17,5 +16,5 @@
 /about
 /classes/the-afro-cuban-studio
 /classes/its-a-girl-thing
-/classes/the-afro-cuban-lounge-classes
+/club-nights/the-afro-cuban-lounge-club
 /classes/the-afro-cuban-lounge
