@@ -1,9 +1,7 @@
 ---
 layout: page
-title: "club nights"
+title: "club nights & events"
 description: ""
-category: 
-tags: []
 ---
 {% include JB/setup %}
 

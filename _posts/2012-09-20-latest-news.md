@@ -17,4 +17,12 @@ tags: []
 
 #{{ page.title }}
 
-{{ page.description }}
+
+
+
+
+
+
+
+
+{{ page.description | markodownify }}

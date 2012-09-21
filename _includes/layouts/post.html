@@ -1,36 +1,5 @@
-<section>
-  <div class="section calendar-item row">
-    <h2 id="{{page.group}}"><span class="flag">{{ page.group | capitalize }}</span></h2>
-    <article>
-      <div class="article vevent">
-        <header>
-          <div class="header">
-            <hgroup class="summary">
-              <h3 class="strapline">{{ page.tagline }}</h3>
-              <h2><span>{{ page.title }}</span></h2>
-            </hgroup>
-          </div>
-        </header>
-        <h1 class="description">{{ page.description }}</h1>
-        <figure>
-          <img src="{{ page.image.url }}" alt="{{ page.image.description }}">
-          <figcaption>{{ page.image.caption }}</figcaption>
-        </figure>
-        {{ content }}
-      </div>
-    </article>
-  </div>
-</section>
+{{ content }}
   
-  <div>
-    <h4>Published</h4>
-    <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
-
-  {% unless page.tags == empty %}
-    <h4>Tags</h4>
-    <ul class="tag_box">
-    {% assign tags_list = page.tags %}
-    {% include JB/tags_list %}
-    </ul>
-  {% endunless %}  
-  </div>
+  <footer>
+    <p><span>{{ page.date | date: "%a" }}</span> <time class="date" datetime="{{ page.date | date: "%Y-%m-%d" }}"><span>{{ page.date | date_to_string }}</span></time></p>
+  </footer>

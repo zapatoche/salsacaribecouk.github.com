@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 @font-face {
-    $font_dir: '/assets/themes/salsacaribecouk/css/fonts';
+    $font_dir: '/assets/themes/salsacaribecouk/fonts';
     font-family: 'BrothersBoldAlternatesBold';
     src: url("#{$font_dir}/brothbolalt-071211005EmigreWebOnly.eot");
     src: url("#{$font_dir}/brothbolalt-071211005EmigreWebOnly.eot?#iefix") format('embedded-opentype'),
@@ -28,6 +28,9 @@ body {
   .logo,
   .tagline {
     font-family: 'BrothersBoldAlternatesBold', "ronnia", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    span {
+      white-space: nowrap;
+    }
   }
   .tagline {
     font-size: 3.75em; //60px/16px

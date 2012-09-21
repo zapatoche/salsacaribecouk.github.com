@@ -1,16 +1,13 @@
 <header class="header" role="banner">
   <h1 class="tagline">
-    {{ site.tagline }}
+    {{ page.title }}
   </h1>
   <dl class="vcard">
-    <dt class="fn org">
+    <dt class="logo">
       <a href="{{ site.production_url }}" class="url" rel="home">{{ site.vcard.name | remove: 'productions' }}</a>
     </dt>
     <dd class="tel">
       <span class="type" title="work">Phone:</span> <span class="value">{{ site.vcard.phone }}</span>
-    </dd>
-    <dd class="email">
-      <span class="type" title="work">Email:</span> <a href="mailto:{{site.vcard.email}}" class="value">{{ site.vcard.email }}</a>
     </dd>
   </dl>
 </header>
