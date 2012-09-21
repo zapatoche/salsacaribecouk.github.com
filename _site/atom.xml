@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Salsa Caribe</title>
+ <link href="/atom.xml" rel="self"/>
+ <link href=""/>
+ <updated>2012-09-21T20:38:40+01:00</updated>
+ <id></id>
+ <author>
+   <name></name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>the afro cuban lounge club</title>
+   <link href="/the-afro-cuban-lounge-club"/>
+   <updated>2012-09-21T00:00:00+01:00</updated>
+   <id>/the-afro-cuban-lounge-club</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>test news 001</title>
+   <link href="/news/test-news-001"/>
+   <updated>2012-09-21T00:00:00+01:00</updated>
+   <id>/news/test-news-001</id>
+   <content type="html">
+&lt;h1&gt;test news 001&lt;/h1&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>susan</title>
+   <link href="/about/susan"/>
+   <updated>2012-09-20T00:00:00+01:00</updated>
+   <id>/about/susan</id>
+   <content type="html">
+&lt;h1&gt;susan&lt;/h1&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>latest news & Events</title>
+   <link href="/news"/>
+   <updated>2012-09-20T00:00:00+01:00</updated>
+   <id>/news</id>
+   <content type="html">
+&lt;h1&gt;latest news &amp;amp; Events&lt;/h1&gt;
+
+&lt;section&gt;
+  &lt;div class=&quot;section featured&quot;&gt;
+  &lt;h2&gt;latest news and events&lt;/h2&gt;
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        &lt;h2&gt;&lt;a href=&quot;/news/latest-news&quot;&gt;Afro-Cuban Salsa Rueda Festival&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;&lt;p&gt;Afro Cuban Salsa Rueda Festival 10th to 13th of May 2013
+Mundesley Holiday Village, Mundesley, Norfolk, UK&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;workshops on a wide variety of Rueda de Casino, Salsa and other Latin and African dance&lt;/li&gt;
+  &lt;li&gt;workshops on a wide variety of Rueda de Casino, Salsa and other Latin and African dance&lt;/li&gt;
+  &lt;li&gt;workshops on a wide variety of Rueda de Casino, Salsa and other Latin and African dance&lt;/li&gt;
+  &lt;li&gt;workshops on a wide variety of Rueda de Casino, Salsa and other Latin and African dance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+      
+    
+      
+    
+      
+    
+      
+        &lt;h2&gt;&lt;a href=&quot;/news/test-news-001&quot;&gt;test news 001&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;
+&lt;/p&gt;
+      
+    
+      
+    
+  &lt;/div&gt;
+&lt;/section&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Afro-Cuban Salsa Rueda Festival</title>
+   <link href="/news/latest-news"/>
+   <updated>2012-09-20T00:00:00+01:00</updated>
+   <id>/news/latest-news</id>
+   <content type="html">
+&lt;h1&gt;Afro-Cuban Salsa Rueda Festival&lt;/h1&gt;
+
+&lt;p&gt;Afro Cuban Salsa Rueda Festival 10th to 13th of May 2013
+Mundesley Holiday Village, Mundesley, Norfolk, UK&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;workshops on a wide variety of Rueda de Casino, Salsa and other Latin and African dance&lt;/li&gt;
+  &lt;li&gt;workshops on a wide variety of Rueda de Casino, Salsa and other Latin and African dance&lt;/li&gt;
+  &lt;li&gt;workshops on a wide variety of Rueda de Casino, Salsa and other Latin and African dance&lt;/li&gt;
+  &lt;li&gt;workshops on a wide variety of Rueda de Casino, Salsa and other Latin and African dance&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>jim</title>
+   <link href="/about/jim"/>
+   <updated>2012-09-20T00:00:00+01:00</updated>
+   <id>/about/jim</id>
+   <content type="html">
+&lt;h1&gt;jim&lt;/h1&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Any questions?</title>
+   <link href="/contact"/>
+   <updated>2012-09-20T00:00:00+01:00</updated>
+   <id>/contact</id>
+   <content type="html">
+&lt;h1&gt;contact&lt;/h1&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>club nights & events</title>
+   <link href="/club-nights"/>
+   <updated>2012-09-20T00:00:00+01:00</updated>
+   <id>/club-nights</id>
+   <content type="html">
+&lt;section class=&quot;section clubs&quot;&gt;
+  &lt;h2&gt;Our club nights&lt;/h2&gt;
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+&lt;/section&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title> Our classes and workshops</title>
+   <link href="/classes"/>
+   <updated>2012-09-20T00:00:00+01:00</updated>
+   <id>/classes</id>
+   <content type="html">
+&lt;h1&gt;Our classes and workshops&lt;/h1&gt;
+
+&lt;section&gt;
+  &lt;div class=&quot;section featured&quot;&gt;
+  &lt;h2&gt;Our events&lt;/h2&gt;
+    
+      
+          &lt;article&gt;
+    &lt;div class=&quot;article&quot;&gt;
+      &lt;header&gt;
+        &lt;div class=&quot;header&quot;&gt;
+          &lt;hgroup&gt;
+            &lt;h3 class=&quot;pill&quot;&gt;&lt;span&gt;Monday&lt;/span&gt;&lt;/h3&gt;
+            &lt;h2&gt;&lt;a href=&quot;/classes/the-afro-cuban-lounge&quot;&gt;The Afro Cuban lounge&lt;/a&gt;&lt;/h2&gt;
+          &lt;/hgroup&gt;
+        &lt;/div&gt;
+      &lt;/header&gt;
+      &lt;footer&gt;
+        &lt;div class=&quot;footer&quot;&gt;
+          &lt;p&gt;7:30pm - 1am &lt;a href=&quot;http://g.co/maps/nw94u&quot; title=&quot;Locate The Buffalo Bar on Google map&quot;&gt;&lt;b&gt;The Buffalo Bar&lt;/b&gt;&lt;/a&gt;, 259 Upper street, N1 1RU, Islington.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/footer&gt;
+      &lt;h1&gt;An Evening of Essential Afro-Cuban Flavas, Salsa Timba &amp;amp; Latin Jazz&lt;/h1&gt;
+      &lt;div class=&quot;intro&quot;&gt;
+        &lt;p&gt;If you want to up the feelgood factor Cuban style, then this Monday night at The Buffalo Bar is for you. Doors open at 7.30pm, with classes for all levels from around 7.45pm, followed by an evening of dancing, drinking and socialising to the sounds of the very best Cuban salsa, timba &amp;amp; son, courtesy of DJ Dr Jim.&lt;/p&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
+
+      
+    
+      
+          &lt;article&gt;
+    &lt;div class=&quot;article&quot;&gt;
+      &lt;header&gt;
+        &lt;div class=&quot;header&quot;&gt;
+          &lt;hgroup&gt;
+            &lt;h3 class=&quot;pill&quot;&gt;&lt;span&gt;Monday&lt;/span&gt;&lt;/h3&gt;
+            &lt;h2&gt;&lt;a href=&quot;/classes/the-afro-cuban-lounge-classes&quot;&gt;The Afro Cuban lounge classes&lt;/a&gt;&lt;/h2&gt;
+          &lt;/hgroup&gt;
+        &lt;/div&gt;
+      &lt;/header&gt;
+      &lt;footer&gt;
+        &lt;div class=&quot;footer&quot;&gt;
+          &lt;p&gt;7:30pm - 1am &lt;a href=&quot;http://g.co/maps/nw94u&quot; title=&quot;Locate The Buffalo Bar on Google map&quot;&gt;&lt;b&gt;The Buffalo Bar&lt;/b&gt;&lt;/a&gt;, 259 Upper street, N1 1RU, Islington.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/footer&gt;
+      &lt;h1&gt;An Evening of Essential Afro-Cuban Flavas, Salsa Timba &amp;amp; Latin Jazz&lt;/h1&gt;
+      &lt;div class=&quot;intro&quot;&gt;
+        &lt;p&gt;If you want to up the feelgood factor Cuban style, then this Monday night at The Buffalo Bar is for you. Doors open at 7.30pm, with classes for all levels from around 7.45pm, followed by an evening of dancing, drinking and socialising to the sounds of the very best Cuban salsa, timba &amp;amp; son, courtesy of DJ Dr Jim.&lt;/p&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
+
+      
+    
+      
+          &lt;article&gt;
+    &lt;div class=&quot;article&quot;&gt;
+      &lt;header&gt;
+        &lt;div class=&quot;header&quot;&gt;
+          &lt;hgroup&gt;
+            &lt;h3 class=&quot;pill&quot;&gt;&lt;span&gt;Saturday&lt;/span&gt;&lt;/h3&gt;
+            &lt;h2&gt;&lt;a href=&quot;/classes/its-a-girl-thing&quot;&gt;It's a Girl Thing&lt;/a&gt;&lt;/h2&gt;
+          &lt;/hgroup&gt;
+        &lt;/div&gt;
+      &lt;/header&gt;
+      &lt;footer&gt;
+        &lt;div class=&quot;footer&quot;&gt;
+          &lt;p&gt;2:30pm - 4:30pm &lt;a href=&quot;http://g.co/maps/szkqv&quot; title=&quot;Locate The Place Dance Studio on Google map&quot;&gt;&lt;b&gt;The Place Dance Studio&lt;/b&gt;&lt;/a&gt;, 16 Flaxman Terrace, WC1, London.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/footer&gt;
+      &lt;h1&gt;The next ladies styling workshop will be on Sat 22nd October&lt;/h1&gt;
+      &lt;div class=&quot;intro&quot;&gt;
+        &lt;p&gt;Calling all chicas who like their Cuban salsa with extra sabor: It’s a Girl Thing! this Saturday at The Place Dance Studios. Ladies, it’s time to get your whole body moving, connecting footwork to hip, torso, arm &amp;amp; shoulder movement, so you look and feel great over the party season.&lt;/p&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
+
+      
+    
+      
+          &lt;article&gt;
+    &lt;div class=&quot;article&quot;&gt;
+      &lt;header&gt;
+        &lt;div class=&quot;header&quot;&gt;
+          &lt;hgroup&gt;
+            &lt;h3 class=&quot;pill&quot;&gt;&lt;span&gt;Sunday&lt;/span&gt;&lt;/h3&gt;
+            &lt;h2&gt;&lt;a href=&quot;/classes/the-afro-cuban-studio&quot;&gt;The Afro Cuban Studio&lt;/a&gt;&lt;/h2&gt;
+          &lt;/hgroup&gt;
+        &lt;/div&gt;
+      &lt;/header&gt;
+      &lt;footer&gt;
+        &lt;div class=&quot;footer&quot;&gt;
+          &lt;p&gt;2pm - 6:30pm &lt;a href=&quot;http://g.co/maps/szkqv&quot; title=&quot;Locate The Place Dance Studio on Google map&quot;&gt;&lt;b&gt;The Place Dance Studio&lt;/b&gt;&lt;/a&gt;, 16 Flaxman Terrace, WC1, London.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/footer&gt;
+      &lt;h1&gt;Learn Casino Salsa &amp;amp; The Roots of Cuban Salsa&lt;/h1&gt;
+      &lt;div class=&quot;intro&quot;&gt;
+        &lt;p&gt;Salsa Classes to suit everyone from complete beginner to advanced salsero, plus an hour devoted to diverse Cuban rhythms and movement.&lt;/p&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
+
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  &lt;/div&gt;
+&lt;/section&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>About Jim & Susan</title>
+   <link href="/about"/>
+   <updated>2012-09-20T00:00:00+01:00</updated>
+   <id>/about</id>
+   <content type="html">
+&lt;ul&gt;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    &lt;li&gt;
+      &lt;a href=&quot;/about/jim&quot;&gt;jim&lt;/a&gt;
+    &lt;/li&gt;
+  
+  
+  
+  
+  
+  
+  
+    &lt;li&gt;
+      &lt;a href=&quot;/about/susan&quot;&gt;susan&lt;/a&gt;
+    &lt;/li&gt;
+  
+  
+  
+  
+  
+  
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Afro Cuban Studio</title>
+   <link href="/classes/the-afro-cuban-studio"/>
+   <updated>2012-01-07T00:00:00+00:00</updated>
+   <id>/classes/the-afro-cuban-studio</id>
+   <content type="html">
+&lt;p&gt;On Sunday we’ve a selection of vibrant Cuban salsa, rueda &amp;amp; son classes at The Place Dance Studios from 2-6.30pm, so we look forward to seeing you  for a lively &amp;amp; sociable Sunday afternoon’s dancing.&lt;/p&gt;
+
+&lt;p&gt;If you’re an improver and you’re looking to make the jump to the intermediate class, then don’t forget that elementary at 2pm is the level for you.&lt;/p&gt;
+
+&lt;aside&gt;&lt;div class=&quot;aside details&quot;&gt;
+
+    &lt;h3&gt;what you’ll learn&lt;/h3&gt;
+
+    &lt;section&gt;&lt;div class=&quot;section&quot;&gt;
+
+        &lt;h4&gt;Cuban salsa&lt;/h4&gt;
+
+        &lt;dl&gt;
+          &lt;dt&gt;Elementary – &lt;strong&gt;level 3&lt;/strong&gt;&lt;/dt&gt;
+          &lt;dd&gt;level description&lt;/dd&gt;
+          &lt;dd&gt;2pm - 3pm&lt;/dd&gt;
+          &lt;dt&gt;Intermediate &amp;amp; Advanced – &lt;strong&gt;level 4 &amp;amp; 5&lt;/strong&gt;&lt;/dt&gt;
+          &lt;dd&gt;Combining intricate turn patterns with advanced leading/following technique and more complex footwork&lt;/dd&gt;
+          &lt;dd&gt;3:15pm - 4:15pm&lt;/dd&gt;
+          &lt;dt&gt;Beginners &amp;amp; Improvers - &lt;strong&gt;levels 1 &amp;amp; 2&lt;/strong&gt;&lt;/dt&gt;
+          &lt;dd&gt;Getting the basics right: rhythm, footwork, movement&lt;/dd&gt;
+          &lt;dd&gt;4:15pm - 5:30pm&lt;/dd&gt;
+        &lt;/dl&gt;
+
+        &lt;h4&gt;Rueda de Casino&lt;/h4&gt;
+
+        &lt;dl&gt;
+          &lt;dt&gt;Rueda de Casino – &lt;strong&gt;level 3 &amp;amp; above&lt;/strong&gt;&lt;/dt&gt;
+          &lt;dd&gt;rueda class description&lt;/dd&gt;
+          &lt;dd&gt;4:30pm - 5:30pm&lt;/dd&gt;
+        &lt;/dl&gt;
+
+        &lt;h4&gt;The Roots of Cuban Salsa&lt;/h4&gt;
+        &lt;dl&gt;
+          &lt;dt&gt;Rumba, Son, Mambo, Cha Cha Cha, Afro-Cuban…&lt;/dt&gt;
+          &lt;dd&gt;afro-cuban class description&lt;/dd&gt;
+          &lt;dd&gt;5:30- 6:30pm&lt;/dd&gt;
+        &lt;/dl&gt;
+
+        &lt;h4&gt;price&lt;/h4&gt;
+        &lt;ul&gt;
+          &lt;li&gt;£7 per class&lt;/li&gt;
+          &lt;li&gt;2 for £12&lt;/li&gt;
+          &lt;li&gt;3 for £15&lt;/li&gt;
+        &lt;/ul&gt;
+
+        &lt;p&gt;&lt;small&gt;no need to book, just turn up on the day&lt;/small&gt;&lt;/p&gt;
+
+      &lt;/div&gt;&lt;/section&gt;
+
+    &lt;aside&gt;
+  &lt;div class=&quot;aside map vcard column secondary&quot;&gt;
+    &lt;h3 class=&quot;visuallyhidden&quot;&gt;Location&lt;/h3&gt;
+    &lt;div class=&quot;figure&quot;&gt;
+      &lt;figure&gt;
+        &lt;a href=&quot;http://g.co/maps/szkqv&quot; title=&quot;View larger map of The Place Dance Studio&quot;&gt;
+          &lt;img src=&quot;http://maps.googleapis.com/maps/api/staticmap?center=16,flaxman,terrace,wc1,London&amp;amp;zoom=15&amp;amp;size=198x198&amp;amp;markers=color:red%7Clabel:a%7C51.527717,-0.128275&amp;amp;sensor=false&quot; alt=&quot;The Place Dance Studio, 16 Flaxman Terrace, WC1, London&quot; /&gt;
+        &lt;/a&gt;
+        &lt;figcaption&gt;
+          &lt;dl&gt;
+            &lt;dt class=&quot;fn org&quot;&gt;&lt;a href=&quot;http://www.theplace.org.uk/&quot; class=&quot;url&quot;&gt;The Place Dance Studio&lt;/a&gt;&lt;/dt&gt;
+            &lt;dd&gt;
+              &lt;span class=&quot;street-address&quot;&gt;16 Flaxman Terrace &lt;/span&gt;
+              &lt;span class=&quot;postal-code&quot;&gt;WC1&lt;/span&gt;
+              &lt;span class=&quot;locality&quot;&gt;London&lt;/span&gt;
+            &lt;/dd&gt;
+          &lt;/dl&gt;
+          &lt;small /&gt;
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/aside&gt;
+
+  &lt;/div&gt;&lt;/aside&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>It's a Girl Thing</title>
+   <link href="/classes/its-a-girl-thing"/>
+   <updated>2012-01-06T00:00:00+00:00</updated>
+   <id>/classes/its-a-girl-thing</id>
+   <content type="html">
+&lt;p&gt;You’ll learn how to develop an effortless, coordinated style during turn patterns and when improvising. Along with meneo, templeque &amp;amp; expressive afro-cuban body movement, there are salsa suelta steps &amp;amp; other rhythms thrown into the mix, so you can really respond to the music, to your dance partner and have more fun.&lt;/p&gt;
+
+&lt;p&gt;Whatever your level of salsa experience, this workshops will help you to gain confidence &amp;amp; enjoy your dancing more.&lt;/p&gt;
+
+&lt;aside&gt;&lt;div class=&quot;aside details&quot;&gt;
+
+    &lt;h3&gt;what you’ll learn&lt;/h3&gt;
+
+    &lt;section&gt;&lt;div class=&quot;section&quot;&gt;
+
+        &lt;h4&gt;Ladies Styling &amp;amp; Afro-Cuban flavours&lt;/h4&gt;
+
+        &lt;dl&gt;
+          &lt;dt&gt;Despelote!&lt;/dt&gt;
+          &lt;dd&gt;Cuban body movement &amp;amp; isolation techniques&lt;/dd&gt;
+          &lt;dt&gt;Salsa Suelta!&lt;/dt&gt;
+          &lt;dd&gt;footwork that really shines!&lt;/dd&gt;
+          &lt;dt&gt;Havana Mix-Up!&lt;/dt&gt;
+          &lt;dd&gt;blending salsa with rumba, son, mambo, cha cha cha, reggaeton &amp;amp; Afro-Cuban steps&lt;/dd&gt;
+          &lt;dt&gt;prices&lt;/dt&gt;
+          &lt;dd&gt;£7 for one class, £10 for two–including club entrance&lt;/dd&gt;
+        &lt;/dl&gt;
+
+        &lt;p&gt;&lt;small&gt;no need to book, just turn up on the day&lt;/small&gt;&lt;/p&gt;
+
+      &lt;/div&gt;&lt;/section&gt;
+
+    &lt;aside&gt;
+  &lt;div class=&quot;aside map vcard column secondary&quot;&gt;
+    &lt;h3 class=&quot;visuallyhidden&quot;&gt;Location&lt;/h3&gt;
+    &lt;div class=&quot;figure&quot;&gt;
+      &lt;figure&gt;
+        &lt;a href=&quot;http://g.co/maps/szkqv&quot; title=&quot;View larger map of The Place Dance Studio&quot;&gt;
+          &lt;img src=&quot;http://maps.googleapis.com/maps/api/staticmap?center=16,flaxman,terrace,wc1,London&amp;amp;zoom=15&amp;amp;size=198x198&amp;amp;markers=color:red%7Clabel:a%7C51.527717,-0.128275&amp;amp;sensor=false&quot; alt=&quot;The Place Dance Studio, 16 Flaxman Terrace, WC1, London&quot; /&gt;
+        &lt;/a&gt;
+        &lt;figcaption&gt;
+          &lt;dl&gt;
+            &lt;dt class=&quot;fn org&quot;&gt;&lt;a href=&quot;http://www.theplace.org.uk/&quot; class=&quot;url&quot;&gt;The Place Dance Studio&lt;/a&gt;&lt;/dt&gt;
+            &lt;dd&gt;
+              &lt;span class=&quot;street-address&quot;&gt;16 Flaxman Terrace &lt;/span&gt;
+              &lt;span class=&quot;postal-code&quot;&gt;WC1&lt;/span&gt;
+              &lt;span class=&quot;locality&quot;&gt;London&lt;/span&gt;
+            &lt;/dd&gt;
+          &lt;/dl&gt;
+          &lt;small /&gt;
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/aside&gt;
+
+  &lt;/div&gt;&lt;/aside&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Afro Cuban lounge classes</title>
+   <link href="/classes/the-afro-cuban-lounge-classes"/>
+   <updated>2012-01-01T00:00:00+00:00</updated>
+   <id>/classes/the-afro-cuban-lounge-classes</id>
+   <content type="html">
+&lt;h1&gt;The Afro Cuban lounge classes&lt;/h1&gt;
+
+&lt;p&gt;o’t forget DJ Doctor JIm new 36 track Cuban salsa/timba compilation (‘Beginners Guide To Timba’), which has just been released on Nascente Records. And of course, we’ll have lots of lots of shiny new copies for sale on the night! This comprehensive collection tells the story of timba from the 1990s to date, featuring all the top names, from Los Van Van to Havana D’ Primera + track-by-track sleevenotes. It’s available from HMV, Amazon etc, or better still, come and get your copy in person from DJ Dr Jim on Monday!&lt;/p&gt;
+
+&lt;aside&gt;&lt;div class=&quot;aside details&quot;&gt;
+
+    &lt;h3&gt;what you’ll learn&lt;/h3&gt;
+
+    &lt;section&gt;&lt;div class=&quot;section&quot;&gt;
+
+        &lt;h4&gt;Cuban Salsa&lt;/h4&gt;
+
+        &lt;dl&gt;
+          &lt;dt&gt;beginners &amp;amp; intermediates&lt;/dt&gt;
+          &lt;dd&gt;beginners and intermediate description&lt;/dd&gt;
+          &lt;dd&gt;7:30 - 8:30pm&lt;/dd&gt;
+          &lt;dt&gt;improvers &amp;amp; advanced&lt;/dt&gt;
+          &lt;dd&gt;improvers and advanced description&lt;/dd&gt;
+          &lt;dd&gt;8:45 - 9:45pm&lt;/dd&gt;
+          &lt;dt&gt;prices&lt;/dt&gt;
+          &lt;dd&gt;£7 for one class, £10 for two–including club entrance&lt;/dd&gt;
+        &lt;/dl&gt;
+
+      &lt;/div&gt;&lt;/section&gt;
+
+    &lt;h3&gt;Dance to the sound of the very best Cuban Salsa&lt;/h3&gt;
+
+    &lt;section&gt;&lt;div class=&quot;section&quot;&gt;
+
+        &lt;dl&gt;
+          &lt;dt&gt;The Afro-Cuban lounge&lt;/dt&gt;
+          &lt;dd&gt;An Evening of Essential Afro-Cuban Flavas Salsa Timba &amp;amp; Latin Jazz&lt;/dd&gt;
+          &lt;dd&gt;9:30pm - 2am&lt;/dd&gt;
+          &lt;dt&gt;Club entrance&lt;/dt&gt;
+          &lt;dd&gt;£4&lt;/dd&gt;
+        &lt;/dl&gt;
+
+      &lt;/div&gt;&lt;/section&gt;
+
+  &lt;/div&gt;&lt;/aside&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Afro Cuban lounge</title>
+   <link href="/classes/the-afro-cuban-lounge"/>
+   <updated>2012-01-01T00:00:00+00:00</updated>
+   <id>/classes/the-afro-cuban-lounge</id>
+   <content type="html">
+&lt;h1&gt;The Afro Cuban lounge&lt;/h1&gt;
+
+&lt;p&gt;o’t forget DJ Doctor JIm new 36 track Cuban salsa/timba compilation (‘Beginners Guide To Timba’), which has just been released on Nascente Records. And of course, we’ll have lots of lots of shiny new copies for sale on the night! This comprehensive collection tells the story of timba from the 1990s to date, featuring all the top names, from Los Van Van to Havana D’ Primera + track-by-track sleevenotes. It’s available from HMV, Amazon etc, or better still, come and get your copy in person from DJ Dr Jim on Monday!&lt;/p&gt;
+
+&lt;aside&gt;&lt;div class=&quot;aside details&quot;&gt;
+
+    &lt;h3&gt;what you’ll learn&lt;/h3&gt;
+
+    &lt;section&gt;&lt;div class=&quot;section&quot;&gt;
+
+        &lt;h4&gt;Cuban Salsa&lt;/h4&gt;
+
+        &lt;dl&gt;
+          &lt;dt&gt;beginners &amp;amp; intermediates&lt;/dt&gt;
+          &lt;dd&gt;beginners and intermediate description&lt;/dd&gt;
+          &lt;dd&gt;7:30 - 8:30pm&lt;/dd&gt;
+          &lt;dt&gt;improvers &amp;amp; advanced&lt;/dt&gt;
+          &lt;dd&gt;improvers and advanced description&lt;/dd&gt;
+          &lt;dd&gt;8:45 - 9:45pm&lt;/dd&gt;
+          &lt;dt&gt;prices&lt;/dt&gt;
+          &lt;dd&gt;£7 for one class, £10 for two–including club entrance&lt;/dd&gt;
+        &lt;/dl&gt;
+
+      &lt;/div&gt;&lt;/section&gt;
+
+    &lt;h3&gt;Dance to the sound of the very best Cuban Salsa&lt;/h3&gt;
+
+    &lt;section&gt;&lt;div class=&quot;section&quot;&gt;
+
+        &lt;dl&gt;
+          &lt;dt&gt;The Afro-Cuban lounge&lt;/dt&gt;
+          &lt;dd&gt;An Evening of Essential Afro-Cuban Flavas Salsa Timba &amp;amp; Latin Jazz&lt;/dd&gt;
+          &lt;dd&gt;9:30pm - 2am&lt;/dd&gt;
+          &lt;dt&gt;Club entrance&lt;/dt&gt;
+          &lt;dd&gt;£4&lt;/dd&gt;
+        &lt;/dl&gt;
+
+      &lt;/div&gt;&lt;/section&gt;
+
+  &lt;/div&gt;&lt;/aside&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>
