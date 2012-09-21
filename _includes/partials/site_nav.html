@@ -1,17 +1,17 @@
 <nav>
   <div class="nav site-nav">
-  <h2 class="visuallyhidden">site navigation</h2>
-  <ul>
-    {% for link_hash in site.site-nav %}
-      {% for link in link_hash %}
-        {% assign id = page.id %}
-        {% if id == link[0] %}
-          <li class="active"><a href="{{ base_path }}/{{ link[1] }}" class="active">{{ link[0] }}</a></li>
-        {% else %}
-          <li><a href="{{ base_path }}/{{ link[1] }}">{{ link[0] }}</a></li>
-        {% endif %}
+    <h2 class="visuallyhidden">site navigation</h2>
+    <ul>
+      {% for link_hash in site.site-nav %}
+        {% for link in link_hash %}
+          {% assign id = page.id %}
+          {% if id == link[0] %}
+            <li class="active"><a href="{{ base_path }}/{{ link[1] }}" class="active">{{ link[0] }}</a></li>
+          {% else %}
+            <li><a href="{{ base_path }}/{{ link[1] }}">{{ link[0] }}</a></li>
+          {% endif %}
+        {% endfor %}
       {% endfor %}
-    {% endfor %}
-  </ul>
+    </ul>
   </div>
 </nav>
