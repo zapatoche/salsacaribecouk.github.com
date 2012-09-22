@@ -1,12 +1,12 @@
-<header class="header" role="banner">
-  <ul>
-    <li>
-      <a href="{{ site.production_url }}" class="site-logo" rel="home">{{ site.vcard.name | remove: 'productions' }}</a>
-    </li>
-    <li>
+<header class="site-header" role="banner">
+  <dl class="site-branding">
+    <dt class="site-logo">
+      <a href="{{ site.production_url }}" rel="home">{{ site.vcard.name | remove: 'productions' }}</a>
+    </dt>
+    <dd class="contact">
       contact: <span class="value">{{ site.vcard.phone }}</span>
-    </li>
-  </ul>
+    </dd>
+  </dl>
   <h1 class="site-tagline">
     {{ page.title }}
   </h1>

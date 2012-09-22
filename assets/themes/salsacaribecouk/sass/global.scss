@@ -14,8 +14,9 @@
 
 body {
   background: #fff;
-  padding: 0 10%;
-  font: 500 100%/1.5 $body_font;
+  margin: 0;
+  padding: 0;
+  font: 400 100%/1.5 $body_font;
 }
 
 @import "partials/site-header";
@@ -26,12 +27,38 @@ body {
 .content {
   position: relative;
 }
+.site-header {
+  background: #000;
+  width: auto;
+}
+.site-branding {
+  text-transform: uppercase;
+  width: 975px;
+  margin: 0 auto;
+  // background: #000;
+  @include clearfix;
+  &, & a {
+    color: #fff;
+  }
+  .contact {
+    @include float(right);
+  }
+}
+.site-logo {
+  font-family: $brand_font;
+  text-decoration: none;
+  @include float(left);
+}
 .site-nav {
   @include clearfix;
   border: #ccc solid 1px;
   border-width: 1px 0;
   width: 100%;
   text-align: center;
+  font-weight: 500;
+  ul {
+    margin: 0;
+  }
   li {
     float: left;
     display: inline;
@@ -40,6 +67,12 @@ body {
       display: block;
     }
   }
+}
+.site-tagline {
+  background: #5296B1;
+  color: #fff;
+  margin: 0;
+  padding: .2em;
 }
 .visuallyhidden {
   position: absolute;

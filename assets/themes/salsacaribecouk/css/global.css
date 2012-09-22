@@ -407,8 +407,9 @@ h1, h2, h3, h4, h5, h6 {
 /* line 15, ../sass/global.scss */
 body {
   background: #fff;
-  padding: 0 10%;
-  font: 500 100%/1.5 "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font: 400 100%/1.5 "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* line 4, ../sass/partials/_site-header.scss */
@@ -432,17 +433,49 @@ body {
   letter-spacing: 5px;
 }
 
-/* line 23, ../sass/global.scss */
+/* line 24, ../sass/global.scss */
 .container {
   width: auto;
 }
 
-/* line 26, ../sass/global.scss */
+/* line 27, ../sass/global.scss */
 .content {
   position: relative;
 }
 
-/* line 29, ../sass/global.scss */
+/* line 30, ../sass/global.scss */
+.site-header {
+  background: #000;
+  width: auto;
+}
+
+/* line 34, ../sass/global.scss */
+.site-branding {
+  text-transform: uppercase;
+  width: 975px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 40, ../sass/global.scss */
+.site-branding, .site-branding a {
+  color: #fff;
+}
+/* line 43, ../sass/global.scss */
+.site-branding .contact {
+  display: inline;
+  float: right;
+}
+
+/* line 47, ../sass/global.scss */
+.site-logo {
+  font-family: "BrothersBoldAlternatesBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  display: inline;
+  float: left;
+}
+
+/* line 52, ../sass/global.scss */
 .site-nav {
   overflow: hidden;
   *zoom: 1;
@@ -450,25 +483,38 @@ body {
   border-width: 1px 0;
   width: 100%;
   text-align: center;
+  font-weight: 500;
 }
-/* line 35, ../sass/global.scss */
+/* line 59, ../sass/global.scss */
+.site-nav ul {
+  margin: 0;
+}
+/* line 62, ../sass/global.scss */
 .site-nav li {
   float: left;
   display: inline;
 }
-/* line 38, ../sass/global.scss */
+/* line 65, ../sass/global.scss */
 .site-nav li a {
   padding: 1em;
   display: block;
 }
 
-/* line 44, ../sass/global.scss */
+/* line 71, ../sass/global.scss */
+.site-tagline {
+  background: #5296B1;
+  color: #fff;
+  margin: 0;
+  padding: .2em;
+}
+
+/* line 77, ../sass/global.scss */
 .visuallyhidden {
   position: absolute;
   left: -12345em;
 }
 
-/* line 49, ../sass/global.scss */
+/* line 82, ../sass/global.scss */
 .pills span {
   background: #000;
   color: #fff;
@@ -476,7 +522,7 @@ body {
   border-radius: 5px;
 }
 
-/* line 57, ../sass/global.scss */
+/* line 90, ../sass/global.scss */
 footer, .site-footer {
   clear: both;
 }
