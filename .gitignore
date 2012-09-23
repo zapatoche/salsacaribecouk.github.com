@@ -10,6 +10,7 @@ Thumbs.db
 
 .sass-cache
 public/
-/_site
 
 /.sass-cache
+
+/_site

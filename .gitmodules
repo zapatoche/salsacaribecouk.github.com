@@ -1,0 +1,3 @@
+[submodule "assets/themes/salsacaribecouk/sass/neat"]
+	path = assets/themes/salsacaribecouk/sass/neat
+	url = git://github.com/thoughtbot/neat.git

@@ -1,7 +1,9 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
 @import "vendors/normalize";
-@import "compass/utilities";
-@import "compass/css3";
-@import "compass/typography";
+// @import "compass/utilities";
+// @import "compass/css3";
+// @import "compass/typography";
 
 @import "partials/variables";
 @import "partials/typography";
@@ -18,11 +20,16 @@ body {
   padding: 0;
   font: 400 100%/1.5 $body_font;
 }
-
+.site-header,
+.site-nav,
+.container,
+.site-footer {
+  width: 975px;
+  margin: 0 auto;
+}
 @import "partials/site-header";
 
 .container {
-  width: auto;
 }
 .content {
   position: relative;
@@ -53,7 +60,6 @@ body {
   @include clearfix;
   border: #ccc solid 1px;
   border-width: 1px 0;
-  width: 100%;
   text-align: center;
   font-weight: 500;
   ul {
