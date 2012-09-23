@@ -31,14 +31,14 @@
   </head>
 
   <body class="{{ page.category | downcase }}">
+    {% include partials/site_header.html %}
+    {% include partials/site_nav.html %}
     <div class="container row">
-      {% include partials/site_header.html %}
-      {% include partials/site_nav.html %}
       <div class="content row">
         {{ content }}
       </div>
-    {% include partials/site_footer.html %}
     </div>
+    {% include partials/site_footer.html %}
     {% include partials/js_footer.html %}
     {% include JB/analytics %}
   </body>

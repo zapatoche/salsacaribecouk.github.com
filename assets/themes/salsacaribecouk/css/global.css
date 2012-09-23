@@ -1,3 +1,10 @@
+/* line 2, ../sass/neat/grid/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /* normalize.css v2.0.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -397,19 +404,28 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 
-/* line 9, ../sass/global.scss */
+/* line 11, ../sass/global.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 15, ../sass/global.scss */
+/* line 17, ../sass/global.scss */
 body {
   background: #fff;
   margin: 0;
   padding: 0;
   font: 400 100%/1.5 "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 26, ../sass/global.scss */
+.site-header,
+.site-nav,
+.container,
+.site-footer {
+  width: 975px;
+  margin: 0 auto;
 }
 
 /* line 4, ../sass/partials/_site-header.scss */
@@ -433,23 +449,18 @@ body {
   letter-spacing: 5px;
 }
 
-/* line 24, ../sass/global.scss */
-.container {
-  width: auto;
-}
-
-/* line 27, ../sass/global.scss */
+/* line 34, ../sass/global.scss */
 .content {
   position: relative;
 }
 
-/* line 30, ../sass/global.scss */
+/* line 37, ../sass/global.scss */
 .site-header {
   background: #000;
   width: auto;
 }
 
-/* line 34, ../sass/global.scss */
+/* line 41, ../sass/global.scss */
 .site-branding {
   text-transform: uppercase;
   width: 975px;
@@ -457,17 +468,17 @@ body {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 40, ../sass/global.scss */
+/* line 47, ../sass/global.scss */
 .site-branding, .site-branding a {
   color: #fff;
 }
-/* line 43, ../sass/global.scss */
+/* line 50, ../sass/global.scss */
 .site-branding .contact {
   display: inline;
   float: right;
 }
 
-/* line 47, ../sass/global.scss */
+/* line 54, ../sass/global.scss */
 .site-logo {
   font-family: "BrothersBoldAlternatesBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
@@ -475,32 +486,31 @@ body {
   float: left;
 }
 
-/* line 52, ../sass/global.scss */
+/* line 59, ../sass/global.scss */
 .site-nav {
   overflow: hidden;
   *zoom: 1;
   border: #ccc solid 1px;
   border-width: 1px 0;
-  width: 100%;
   text-align: center;
   font-weight: 500;
 }
-/* line 59, ../sass/global.scss */
+/* line 65, ../sass/global.scss */
 .site-nav ul {
   margin: 0;
 }
-/* line 62, ../sass/global.scss */
+/* line 68, ../sass/global.scss */
 .site-nav li {
   float: left;
   display: inline;
 }
-/* line 65, ../sass/global.scss */
+/* line 71, ../sass/global.scss */
 .site-nav li a {
   padding: 1em;
   display: block;
 }
 
-/* line 71, ../sass/global.scss */
+/* line 77, ../sass/global.scss */
 .site-tagline {
   background: #5296B1;
   color: #fff;
@@ -508,13 +518,13 @@ body {
   padding: .2em;
 }
 
-/* line 77, ../sass/global.scss */
+/* line 83, ../sass/global.scss */
 .visuallyhidden {
   position: absolute;
   left: -12345em;
 }
 
-/* line 82, ../sass/global.scss */
+/* line 88, ../sass/global.scss */
 .pills span {
   background: #000;
   color: #fff;
@@ -522,7 +532,7 @@ body {
   border-radius: 5px;
 }
 
-/* line 90, ../sass/global.scss */
+/* line 96, ../sass/global.scss */
 footer, .site-footer {
   clear: both;
 }
