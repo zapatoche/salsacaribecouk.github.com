@@ -2,7 +2,7 @@
 }
 .brand-logo,
 .site-tagline {
-  font-family: 'BrothersBoldAlternatesBold', "ronnia", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $brand_font;
   display: inline-block;
   width: 100%;
   line-height: 1;
@@ -13,5 +13,7 @@
 .site-tagline {
   font-size: 3.75em; //60px/16px
   text-align: center;
-  letter-spacing: 5px;
+  letter-spacing: .03225em;
+  margin: 0;
+  padding: 48px 0;
 }

@@ -1,3 +1,10 @@
 $font_dir: '/assets/themes/salsacaribecouk/fonts';
 $body_font: "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$brand_font: "BrothersBoldAlternatesBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$brand_font: "BrothersRegularMedium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+$total-columns  : 12;             // a 12-column grid
+$column-width   : 4em;            // each column is 4em wide
+$gutter-width   : 1em;            // 1em gutters between columns
+$grid-padding   : 0;  // grid-padding equal to gutters
+$container-style: magic;

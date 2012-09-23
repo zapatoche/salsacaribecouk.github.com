@@ -1,10 +1,3 @@
-/* line 2, ../sass/neat/grid/_grid.scss */
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 /* normalize.css v2.0.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -390,6 +383,14 @@ table {
 }
 
 @font-face {
+  font-family: 'BrothersRegularMedium';
+  src: url("/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.eot");
+  src: url("/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.eot?#iefix") format("embedded-opentype"), url("/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'BrothersBoldAlternatesBold';
   src: url("/assets/themes/salsacaribecouk/fonts/brothbolalt-071211005EmigreWebOnly.eot");
   src: url("/assets/themes/salsacaribecouk/fonts/brothbolalt-071211005EmigreWebOnly.eot?#iefix") format("embedded-opentype"), url("/assets/themes/salsacaribecouk/fonts/brothbolalt-071211005EmigreWebOnly.woff") format("woff");
@@ -397,21 +398,21 @@ table {
   font-style: normal;
 }
 
-/* line 12, ../sass/partials/_typography.scss */
+/* line 22, ../sass/partials/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
 }
 
-/* line 11, ../sass/global.scss */
+/* line 15, ../sass/global.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 17, ../sass/global.scss */
+/* line 21, ../sass/global.scss */
 body {
   background: #fff;
   margin: 0;
@@ -419,19 +420,27 @@ body {
   font: 400 100%/1.5 "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 26, ../sass/global.scss */
-.site-header,
-.site-nav,
-.container,
-.site-footer {
-  width: 975px;
-  margin: 0 auto;
+/* line 27, ../sass/global.scss */
+.content-wrapper {
+  *zoom: 1;
+  max-width: 59em;
+  _width: 59em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 38, ../../../../../../../../.rvm/gems/ruby-1.9.3-head@global/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.content-wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* line 4, ../sass/partials/_site-header.scss */
 .brand-logo,
 .site-tagline {
-  font-family: 'BrothersBoldAlternatesBold', "ronnia", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "BrothersRegularMedium", "Helvetica Neue", Helvetica, Arial, sans-serif;
   display: inline-block;
   width: 100%;
   line-height: 1;
@@ -446,85 +455,83 @@ body {
 .site-tagline {
   font-size: 3.75em;
   text-align: center;
-  letter-spacing: 5px;
+  letter-spacing: .03225em;
+  margin: 0;
+  padding: 48px 0;
 }
 
-/* line 34, ../sass/global.scss */
+/* line 35, ../sass/global.scss */
 .content {
   position: relative;
 }
 
-/* line 37, ../sass/global.scss */
+/* line 38, ../sass/global.scss */
 .site-header {
   background: #000;
   width: auto;
 }
 
-/* line 41, ../sass/global.scss */
+/* line 42, ../sass/global.scss */
 .site-branding {
   text-transform: uppercase;
-  width: 975px;
-  margin: 0 auto;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 47, ../sass/global.scss */
+/* line 45, ../sass/global.scss */
 .site-branding, .site-branding a {
   color: #fff;
 }
-/* line 50, ../sass/global.scss */
+/* line 48, ../sass/global.scss */
 .site-branding .contact {
   display: inline;
   float: right;
 }
 
-/* line 54, ../sass/global.scss */
+/* line 52, ../sass/global.scss */
 .site-logo {
-  font-family: "BrothersBoldAlternatesBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "BrothersRegularMedium", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
   display: inline;
   float: left;
 }
 
-/* line 59, ../sass/global.scss */
+/* line 57, ../sass/global.scss */
 .site-nav {
   overflow: hidden;
   *zoom: 1;
-  border: #ccc solid 1px;
-  border-width: 1px 0;
+  background: #852123;
   text-align: center;
   font-weight: 500;
 }
-/* line 65, ../sass/global.scss */
+/* line 62, ../sass/global.scss */
 .site-nav ul {
   margin: 0;
 }
-/* line 68, ../sass/global.scss */
+/* line 65, ../sass/global.scss */
 .site-nav li {
   float: left;
   display: inline;
 }
-/* line 71, ../sass/global.scss */
+/* line 68, ../sass/global.scss */
 .site-nav li a {
-  padding: 1em;
+  color: #fff;
   display: block;
+  padding: 1em;
 }
 
-/* line 77, ../sass/global.scss */
+/* line 75, ../sass/global.scss */
 .site-tagline {
   background: #5296B1;
   color: #fff;
-  margin: 0;
-  padding: .2em;
 }
 
-/* line 83, ../sass/global.scss */
+/* line 79, ../sass/global.scss */
 .visuallyhidden {
   position: absolute;
   left: -12345em;
 }
 
-/* line 88, ../sass/global.scss */
+/* line 84, ../sass/global.scss */
 .pills span {
   background: #000;
   color: #fff;
@@ -532,7 +539,7 @@ body {
   border-radius: 5px;
 }
 
-/* line 96, ../sass/global.scss */
+/* line 92, ../sass/global.scss */
 footer, .site-footer {
   clear: both;
 }
