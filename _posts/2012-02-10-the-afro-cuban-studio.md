@@ -2,7 +2,7 @@
 
 layout: classes
 title: "The Afro Cuban Studio"
-category: classes
+category: [classes]
 date: 2012-01-07
 day: Sunday
 freq: weekly

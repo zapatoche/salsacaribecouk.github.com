@@ -1,7 +1,7 @@
 ---
 layout: events
 title: "Abajo La Sera"
-category: thursday
+category: [classes]
 date: 2012-01-04
 published: false
 tags: [classes, club, weekly]

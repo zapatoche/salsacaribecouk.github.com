@@ -2,7 +2,7 @@
 
 layout: classes
 title: "The Afro Cuban lounge"
-category: classes
+category: [classes]
 date: 2012-01-01
 day: Monday
 freq: weekly

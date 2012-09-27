@@ -2,7 +2,7 @@
 
 layout: classes
 title: "It's a Girl Thing"
-category: classes
+category: [classes]
 date: 2012-01-06
 day: Saturday
 freq: monthly
