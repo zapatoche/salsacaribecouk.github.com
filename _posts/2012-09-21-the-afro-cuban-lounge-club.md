@@ -1,7 +1,7 @@
 ---
 layout: club-nights
 title: "The Afro Cuban lounge"
-category: [club]-nights
+category: [club-nights]
 date: 2012-01-01
 day: Monday
 freq: weekly
