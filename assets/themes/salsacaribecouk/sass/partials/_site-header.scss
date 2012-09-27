@@ -1,6 +1,5 @@
 [role="banner"] {
 }
-.brand-logo,
 .site-tagline {
   font-family: $brand_font;
   display: inline-block;
@@ -16,4 +15,24 @@
   letter-spacing: .03225em;
   margin: 0;
   padding: 48px 0;
+}
+.site-logo {
+  font-size: 30px;
+  font-family: $brand_font;
+  letter-spacing: .05em;
+  margin: 0;
+  @include float(left);
+  a{
+    text-decoration: none;
+  }
+}
+.site-branding {
+  .site-logo,
+  .contact {
+    margin: 0;
+  }
+  .contact {
+    font-size: 14px;
+    line-height: 3.5;
+  }
 }
