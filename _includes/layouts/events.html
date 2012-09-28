@@ -16,40 +16,26 @@
     </div>
 </div>
 <section>
-  <div class="section calendar-item row">
-    <h2 id="{{page.day}}"><span class="flag">{{ page.day | capitalize }}</span></h2>
-    <article>
-      <div class="article vevent">
-        <header>
-          <div class="header">
-            <hgroup class="summary">
-              <h1><span>{{ page.title }}</span></h1>
-              <h3 class="strapline">{{ page.tagline }}</h3>
-            </hgroup>
-          </div>
-        </header>
-        <h2 class="description">{{ page.description }}</h2>
-        <figure>
-          <img src="{{ page.image.url }}" alt="{{ page.image.description }}">
-          <figcaption>{{ page.image.caption }}</figcaption>
-        </figure>
-        <div class="intro">
-          {{ page.introduction | markdownify }}
+  <h2 id="{{page.day}}">{{ page.day | capitalize }}</h2>
+  <article>
+    <div class="article vevent">
+      <header>
+        <div class="header">
+          <hgroup class="summary">
+            <h2>{{ page.title }}</h2>
+            <h3 class="strapline">{{ page.tagline }}</h3>
+          </hgroup>
         </div>
-        {{ content }}
-        <!-- <footer><div class="footer"><a href="#nav">skip to navigation</a></div></footer> -->
+      </header>
+      <h2 class="description">{{ page.description }}</h2>
+      <figure class="figure hero">
+        <img src="{{ page.image.url }}" alt="{{ page.image.description }}">
+        <figcaption>{{ page.image.caption }}</figcaption>
+      </figure>
+      <div class="intro">
+        {{ page.introduction | markdownify }}
       </div>
-    </article>
-  </div>
+      {{ content }}
+    </div>
+  </article>
 </section>
-  
-  <div class="row">
-  {% unless page.tags == empty %}
-    <h4>Tags</h4>
-    <ul class="tag_box">
-    {% assign tags_list = page.tags %}
-    {% include JB/tags_list %}
-    </ul>
-  {% endunless %}  
-  </div>
-
