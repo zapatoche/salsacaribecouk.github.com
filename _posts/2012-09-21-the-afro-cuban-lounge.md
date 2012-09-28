@@ -1,11 +1,11 @@
 ---
 layout: club-nights
 title: "The Afro Cuban lounge"
-category: [club-nights]
+category: [events]
 date: 2012-10-01
 day: Monday
 freq: weekly
-published: true
+published: false
 rel: me
 
 tagline: The longest running Cuban Salsa Club in London

@@ -2,7 +2,7 @@
 
 layout: classes
 title: &tag  "The Afro Cuban lounge"
-category: [classes]
+category: [events]
 tag: *tag
 date: 2012-10-01
 day: Monday
