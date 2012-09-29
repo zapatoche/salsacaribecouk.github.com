@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Afro-Cuban Salsa Rueda Festival
+title: |
+  Afro-Cuban Salsa Rueda Festival
 description: |
   Afro Cuban Salsa Rueda Festival 10th to 13th of May 2013
 
@@ -12,7 +13,7 @@ description: |
   - workshops on a wide variety of Rueda de Casino, Salsa and other Latin and African dance
 
 category: [news]
-tags: []
+tags: [feature]
 ---
 {% include JB/setup %}
 
