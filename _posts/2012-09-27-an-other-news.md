@@ -3,6 +3,7 @@ layout: post
 title: "an other news"
 description:
 category: [news]
+tags: [news]
 ---
 {% include JB/setup %}
 

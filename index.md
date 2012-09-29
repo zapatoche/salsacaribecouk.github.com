@@ -14,15 +14,8 @@ title: Learn to dance <span>Cuban Salsa </span>
   {% endfor %}
 </section>
 <section class="section news-roll">
-  {% for post in site.posts %}
+  {% for post in site.tags.news limit:2  %}
     {% include partials/news_helper.html %}
-  {% endfor %}
-</section>
-<section class="section news-roll">
-  {% for post in site.posts limit:5  %}
-    {% if post.category[0] == "news"  %}
-      <h1>{{ post.title }}</h1>
-    {% endif %}
   {% endfor %}
 </section>
 <section class="section about">
