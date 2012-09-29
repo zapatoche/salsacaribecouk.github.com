@@ -24,9 +24,11 @@ events :
   - saturday
   - sunday
 site-nav :
-  - news:
-  - our events: events
-  - about us: about
+  - home:
+  - news: news
+  - classes: classes
+  - club nights: club-nights
+  - about: about
   - contact: contact
 
 # The production_url is only used when full-domain names are needed
