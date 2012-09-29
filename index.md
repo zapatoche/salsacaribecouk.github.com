@@ -9,29 +9,27 @@ title: Learn to dance <span>Cuban Salsa </span>
 {% include JB/setup %}
 
 <section class="section featured">
-  <h2>latest news and events</h2>
-    {% for post in site.posts  reversed  %}
-      {% if post.category[0] == "news" %}
-        <p>{{ post.title }}</p>
-        <p>{{ post.description | markdownify }}</p>
-      {% endif %}
-    {% endfor %}
+  {% for post in site.posts  %}
+    {% include partials/feature_news_helper.html %}
+  {% endfor %}
 </section>
-
-<section class="section classes">
-  <h2>Our classes</h2>
-    {% for post in site.posts reversed  %}
-      {% if post.category[0] == "classes" %}
-        {% include partials/events_helper.html %}
-      {% endif %}
-    {% endfor %}
+<section class="section news-roll">
+  {% for post in site.posts %}
+    {% include partials/news_helper.html %}
+  {% endfor %}
 </section>
-
-<section class="section club-nights">
-  <h2>Our club nights</h2>
-    {% for post in site.posts reversed  %}
-      {% if post.category[0] == "club-nights" %}
-        {% include partials/events_helper.html %}
-      {% endif %}
-    {% endfor %}
+<section class="section news-roll">
+  {% for post in site.posts limit:5  %}
+    {% if post.category[0] == "news"  %}
+      <h1>{{ post.title }}</h1>
+    {% endif %}
+  {% endfor %}
+</section>
+<section class="section about">
+  <h2>about Salsa Caribe</h2>
+  {% for post in site.posts  %}
+    {% if post.layout == 'about' %}
+      {{ post.description }}
+    {% endif %}
+  {% endfor %}
 </section>

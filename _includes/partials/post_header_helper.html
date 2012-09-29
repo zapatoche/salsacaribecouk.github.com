@@ -1,0 +1,12 @@
+<article class="article">
+  <footer><time datetime="{{ post.date | date: '%Y-%m-%d'}}">{{ post.date | date: '%a' }} {{ post.date | date: '%d %b %Y' }}</time></footer>
+
+  <h2><a href="{{ BASE_PATH}}{{ post.url }}">{{ post.title  | markdowinfy}}</a></h2>
+  {% if post.description %}
+    {% capture desc %}{{ post.description |  markdownify }}{% endcapture %}
+    <p>{{ desc | remove_first: '<p>' }}</p>
+    <p><a href="{{ post.url }}">read more</a> &hellip;</p>
+  {% else %}
+  <p><a href="{{ post.url }}">read more</a> &hellip;</p>
+  {% endif %}
+</article>

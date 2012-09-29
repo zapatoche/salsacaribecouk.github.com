@@ -1,9 +1,10 @@
 ---
 
 layout: classes
-title: "The Afro Cuban lounge"
+title: &tag  "The Afro Cuban lounge"
 category: [classes]
-date: 2012-01-01
+tag: *tag
+date: 2012-10-01
 day: Monday
 freq: weekly
 published: true
@@ -11,7 +12,7 @@ rel: me
 
 tagline: The longest running Cuban Salsa Club in London
 
-description: Afro-cuban lounge classes description.
+description: An Evening of Essential Afro-Cuban Flavas, Salsa Timba & Latin Jazz
 
 introduction: |
   If you want to up the feelgood factor Cuban style, then this Monday night at The Buffalo Bar is for you. Doors open at 7.30pm, with classes for all levels from around 7.45pm, followed by an evening of dancing, drinking and socialising to the sounds of the very best Cuban salsa, timba &amp; son, courtesy of DJ Dr Jim.
@@ -36,15 +37,13 @@ end_date: 1am
 ---
 {% include JB/setup %}
 
-#{{ page.title }}
-
 o&#8217;t forget DJ Doctor JIm new 36 track Cuban salsa/timba compilation (&#8216;Beginners Guide To Timba&#8217;), which has just been released on Nascente Records. And of course, we&#8217;ll have lots of lots of shiny new copies for sale on the night! This comprehensive collection tells the story of timba from the 1990s to date, featuring all the top names, from Los Van Van to Havana D&#8217; Primera + track-by-track sleevenotes. It&#8217;s available from HMV, Amazon etc, or better still, come and get your copy in person from DJ Dr Jim on Monday!
 
 <aside><div markdown="1" class="aside details">
 
 ###what you'll learn
 
-<section><div class="section" markdown="1">
+<section class="section" markdown="1">
 
 ####Cuban Salsa
 
@@ -58,20 +57,7 @@ improvers & advanced
 
 prices
 : £7 for one class, £10 for two--including club entrance
+</section>
 
-</div></section>
 
-
-###Dance to the sound of the very best Cuban Salsa
-
-<section><div class="section" markdown="1">
-
-The Afro-Cuban lounge
-: An Evening of Essential Afro-Cuban Flavas Salsa Timba & Latin Jazz
-: 9:30pm - 2am
-
-Club entrance
-: £4
-
-</div></section>
 
