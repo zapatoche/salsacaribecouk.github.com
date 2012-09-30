@@ -1,41 +1,73 @@
-<div class="row">
-  <div class="pagination">
-    <ul>
-      {% if page.previous and page.previous.rel =="me" %}
-      <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
-      {% else %}
-      <li class="prev disabled"><a>&larr; Previous</a></li>
-      {% endif %}
-      <li><a href="{{ BASE_PATH }}{{ site.JB.events_path }}">Events listing</a></li>
-      {% if page.next and page.next.rel == "me" %}
-      <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
-      {% else %}
-      <li class="next disabled"><a>Next &rarr;</a>
-        {% endif %}
-      </ul>
-    </div>
+<div class="row pagination">
 </div>
+  {% comment %}
+  <!-- <div class="pagination"> -->
+  <!--   <ul> -->
+  <!--     {% if page.previous and page.previous.rel == "me" %} -->
+  <!--     <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li> -->
+  <!--     {% else %} -->
+  <!--     <li class="prev disabled"><a>&larr; Previous</a></li> -->
+  <!--     {% endif %} -->
+  <!--     <li><a href="{{ BASE_PATH }}{{ site.JB.events_path }}">Events listing</a></li> -->
+  <!--     {% if page.next and page.next.rel == "me" %} -->
+  <!--     <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li> -->
+  <!--     {% else %} -->
+  <!--     <li class="next disabled"><a>Next &rarr;</a> -->
+  <!--       {% endif %} -->
+  <!--     </ul> -->
+  <!--   </div> -->
+  {% endcomment %}
 <section>
-  <h2 id="{{page.day}}">{{ page.day | capitalize }}</h2>
+  {%  capture day %}{{ page.date |date: '%A' | downcase }}{% endcapture %}
+  <h2 id="{{ day }}">{{ day | capitalize }}</h2>
   <article>
     <div class="article vevent">
       <header>
         <div class="header">
           <hgroup class="summary">
             <h2>{{ page.title }}</h2>
-            <h3 class="strapline">{{ page.tagline }}</h3>
+            {% if page.tagline %}
+              <h3 class="strapline">{{ page.tagline }}</h3>
+            {% endif %}
           </hgroup>
         </div>
       </header>
-      <h2 class="description">{{ page.description }}</h2>
+      {% if page.tags %}
+      <ul class="tags">
+        {% for tag in page.tags %}
+        <li>
+          <a href="{{ site.JB.tag_path }}">{{ tag }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% comment %}
+      <!-- <ul> -->
+      <!--   {% assign tags_list = page.tags %} -->
+      <!--   {% include JB/tags_list %} -->
+      <!-- </ul> -->
+      {% endcomment %}
+      {% endif %}
+      {% if page.descrition %}
+        <h2 class="description">{{ page.description }}</h2>
+      {% endif %}
+
+      {% if page.image %}
       <figure class="figure hero">
         <img src="{{ page.image.url }}" alt="{{ page.image.description }}">
         <figcaption>{{ page.image.caption }}</figcaption>
       </figure>
-      <div class="intro">
-        {{ page.introduction | markdownify }}
-      </div>
+      {% endif %}
+
+      {% if  page.introduction %}
+        <div class="intro">
+          {{ page.introduction | markdownify }}
+        </div>
+      {% endif%}
+
       {{ content }}
     </div>
   </article>
 </section>
+<aside class="aside">
+  <h2>test</h2>
+</aside>

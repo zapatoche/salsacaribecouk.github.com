@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "some more news stuff"
+title: "test the limit"
 description:
 category: 
   - news
-tags: 
+tags:
   - news
 ---
 {% include JB/setup %}

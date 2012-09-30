@@ -1,11 +1,14 @@
 ---
 
 layout: classes
-title: &tag  "The Afro Cuban lounge"
-category: [classes]
-tag: *tag
+title:  "The Afro Cuban lounge"
+category:
+  - classes
+  - monday
+tags:
+  - weekly
+  - classes
 date: 2012-10-01
-day: Monday
 freq: weekly
 published: true
 rel: me
@@ -37,7 +40,7 @@ end_date: 1am
 ---
 {% include JB/setup %}
 
-o&#8217;t forget DJ Doctor JIm new 36 track Cuban salsa/timba compilation (&#8216;Beginners Guide To Timba&#8217;), which has just been released on Nascente Records. And of course, we&#8217;ll have lots of lots of shiny new copies for sale on the night! This comprehensive collection tells the story of timba from the 1990s to date, featuring all the top names, from Los Van Van to Havana D&#8217; Primera + track-by-track sleevenotes. It&#8217;s available from HMV, Amazon etc, or better still, come and get your copy in person from DJ Dr Jim on Monday!
+Don't forget DJ Doctor JIm new 36 track Cuban salsa/timba compilation (&#8216;Beginners Guide To Timba&#8217;), which has just been released on Nascente Records. And of course, we&#8217;ll have lots of lots of shiny new copies for sale on the night! This comprehensive collection tells the story of timba from the 1990s to date, featuring all the top names, from Los Van Van to Havana D&#8217; Primera + track-by-track sleevenotes. It&#8217;s available from HMV, Amazon etc, or better still, come and get your copy in person from DJ Dr Jim on Monday!
 
 <aside><div markdown="1" class="aside details">
 

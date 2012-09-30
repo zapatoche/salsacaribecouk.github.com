@@ -2,7 +2,12 @@
 
 layout: classes
 title: "It's a Girl Thing"
-category: [classes]
+category:
+  - classes
+  - saturday
+tags:
+  - monthly
+  - workshop
 date: 2012-10-06
 day: Saturday
 freq: monthly
