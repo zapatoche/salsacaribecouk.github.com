@@ -16,14 +16,12 @@ title: Learn to dance <span>Cuban Salsa </span>
   </section>
 {% endif %}
 
-{% assign isnewsroll =  site.tags.feature.size  %}
+{% assign isnewsroll =  site.tags.news.size  %}
 {% if isnewsroll >= 0 %}
 <section class="section news-roll">
-{% endif %}
   {% for post in site.tags.news limit:5  %}
     {% include partials/news_helper.html %}
   {% endfor %}
-{% if isnewsroll >= 0 %}
 </section>
 {% endif %}
 
