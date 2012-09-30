@@ -19,7 +19,7 @@ title: Learn to dance <span>Cuban Salsa </span>
 {% assign isnewsroll =  site.tags.news.size  %}
 {% if isnewsroll >= 0 %}
 <section class="section news-roll">
-  {% for post in site.tags.news limit:5  %}
+  {% for post in site.tags.news limit:3  %}
     {% include partials/news_helper.html %}
   {% endfor %}
 </section>
