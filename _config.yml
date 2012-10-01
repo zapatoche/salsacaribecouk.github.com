@@ -46,7 +46,7 @@ site-nav :
 # production_url : http://salsacaribecouk.github.com
 
 textile: RedCloth
-markdown : maruku 
+markdown : kramdown 
 kramdown:
   auto_ids: false
   footnote_nr: 1
