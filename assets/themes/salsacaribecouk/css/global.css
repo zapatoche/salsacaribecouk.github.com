@@ -430,7 +430,7 @@ body {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 38, ../../../../../../../../.rvm/gems/ruby-1.9.3-head@global/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .content-wrapper:after {
   content: "";
   display: table;
@@ -621,7 +621,7 @@ footer, .site-footer {
   *zoom: 1;
   widht: 100%;
 }
-/* line 38, ../../../../../../../../.rvm/gems/ruby-1.9.3-head@global/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .location:after {
   content: "";
   display: table;

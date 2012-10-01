@@ -13,10 +13,10 @@
     {% endif %}
     <meta name="author" content="{{ site.vcard.name }}">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="{{ ASSET_PATH }}/css/global.css" rel="stylesheet">
-    <link href="{{ ASSET_PATH }}/css/advanced.css" rel="stylesheet"  media="all and (min-width: 480px)">
+    <link href="{{ ASSET_PATH }}/css/global.css?{{ site.time | date:'%Y%m%d%U%H%N%S' }}" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/css/advanced.css?{{ site.time | date:'%Y%m%d%U%H%N%S' }}" rel="stylesheet"  media="all and (min-width: 480px)">
     <!--[if (lt IE 9)&(!IEMobile)]>
-        <link rel="stylesheet" href="{{ ASSET_PATH }}/css/advanced.css" media="all" />
+        <link rel="stylesheet" href="{{ ASSET_PATH }}/css/advanced.css?{{ site.time | date:'%Y%m%d%U%H%N%S' }}" media="all" />
     <![endif]-->
 
   <!-- Update these with your own images
@@ -40,6 +40,5 @@
     </div>
     {% include partials/site_footer.html %}
     {% include partials/js_footer.html %}
-    {% include JB/analytics %}
   </body>
 </html>

@@ -1,20 +1,10 @@
 ---
 layout: post
-title: | 
-  testouille news 001
+title: "some more news stuff"
 description:
 category: 
   - news
 tags: 
   - news
-published: true
-date: 2012-12-02
 ---
-
 {% include JB/setup %}
-
-
-#{{ page.title }}
-
-
-

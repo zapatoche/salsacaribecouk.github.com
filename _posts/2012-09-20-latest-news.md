@@ -12,8 +12,12 @@ description: |
   - workshops on a wide variety of Rueda de Casino, Salsa and other Latin and African dance
   - workshops on a wide variety of Rueda de Casino, Salsa and other Latin and African dance
 
-category: [news]
-tags: [feature]
+category: 
+  - news
+rel: 
+  - feature
+tags:
+  - feature
 ---
 {% include JB/setup %}
 

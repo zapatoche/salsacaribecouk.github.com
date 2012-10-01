@@ -2,8 +2,12 @@
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 # permalink: /:categories/:year/:month/:day/:title 
 permalink: /:categories/:title 
+future: true
+safe: true
+lsi: false
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "sass"]
+include: [.htacces]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "sass", ".gitignore", "Gemfile", "Gemfile.lock", "changelog.md", "Procfile", "vendor"]
 auto: true
 pygments: true
 
