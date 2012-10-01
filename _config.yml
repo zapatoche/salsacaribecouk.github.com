@@ -7,7 +7,7 @@ safe: true
 lsi: false
 
 include: [.htacces]
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "sass"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "sass", ".gitignore", "Gemfile", "Gemfile.lock", "changelog.md", "Procfile", "vendor"]
 auto: true
 pygments: true
 
