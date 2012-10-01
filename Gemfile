@@ -1,6 +1,7 @@
 source :rubygems
 
-gem 'bourbon'
-gem 'neat'
-gem 'susy'
-gem 'rake'
+# gem 'rake'
+# gem 'compass'
+gem 'kramdown'
+gem 'RedCloth'
+gem 'jekyll'
