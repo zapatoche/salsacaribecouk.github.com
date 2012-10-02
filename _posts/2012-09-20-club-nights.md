@@ -5,8 +5,6 @@ description: ""
 ---
 {% include JB/setup %}
 
-
-
 <section class="section clubs">
   <h2>Our club nights</h2>
     {% for post in site.posts reversed  %}
