@@ -22,10 +22,16 @@ html {
   background: #fff url('/assets/images/skin/grunge_wall.png') repeat 0 0;
 }
 body {
-  @include rgba-background(hsla(60,50%,98%,.7));
   margin: 0;
   padding: 0;
   font: 400 100%/1.5 $body_font;
+}
+html, body, .body-inner {
+  height: 100%;
+}
+body > .body-inner {
+  height: auto;
+  min-height: 100%;
 }
 .content-wrapper {
   @include container;
@@ -34,6 +40,7 @@ body {
 @import "partials/site-header";
 
 .container {
+  padding-bottom: 168px;
 }
 .content {
   position: relative;
@@ -51,9 +58,7 @@ body {
   }
 }
 
-footer, .site-footer {
-  clear: both;
-}
+@import "partials/site-footer";
 
 // module pullquotes
 .pullquote-right:before,
@@ -149,6 +154,12 @@ a {
   text-decoration: none;
   }
 }
+[href^="tel"] {
+  text-decoration: none;
+  &:hover {
+  color: #5296B1;
+  }
+}
 // accessibility
 [aria-hidden] {
   @include squish-text;
@@ -157,3 +168,4 @@ a {
   position: absolute;
   left: -12345em;
 }
+

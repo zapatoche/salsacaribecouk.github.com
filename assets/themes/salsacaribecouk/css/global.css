@@ -441,6 +441,11 @@ h1, h2, h3, h4, h5, h6 {
   content: "\21";
 }
 
+/* line 62, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_typography.scss */
+address {
+  font-style: normal;
+}
+
 /* line 16, ../sass/global.scss */
 * {
   -webkit-box-sizing: border-box;
@@ -455,14 +460,23 @@ html {
 
 /* line 24, ../sass/global.scss */
 body {
-  background: url('/assets/images/rgbapng/fcfcf7b3.png?1350481834');
-  background: rgba(252, 252, 247, 0.7);
   margin: 0;
   padding: 0;
   font: 400 100%/1.5 "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 30, ../sass/global.scss */
+/* line 29, ../sass/global.scss */
+html, body, .body-inner {
+  height: 100%;
+}
+
+/* line 32, ../sass/global.scss */
+body > .body-inner {
+  height: auto;
+  min-height: 100%;
+}
+
+/* line 36, ../sass/global.scss */
 .content-wrapper {
   *zoom: 1;
   max-width: 59em;
@@ -591,12 +605,17 @@ body {
   float: left;
 }
 
-/* line 38, ../sass/global.scss */
+/* line 42, ../sass/global.scss */
+.container {
+  padding-bottom: 168px;
+}
+
+/* line 45, ../sass/global.scss */
 .content {
   position: relative;
 }
 
-/* line 41, ../sass/global.scss */
+/* line 48, ../sass/global.scss */
 .site-header {
   width: auto;
 }
@@ -625,7 +644,7 @@ body {
   padding: 1em;
 }
 
-/* line 46, ../sass/global.scss */
+/* line 53, ../sass/global.scss */
 .pills span {
   background: #000;
   color: #fff;
@@ -633,12 +652,21 @@ body {
   border-radius: 5px;
 }
 
-/* line 54, ../sass/global.scss */
+/* line 1, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-footer.scss */
 footer, .site-footer {
+  clear: both;
+  font-family: "freight-sans-pro", "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 5, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-footer.scss */
+.site-footer {
+  position: relative;
+  margin-top: -168px;
+  height: 168px;
   clear: both;
 }
 
-/* line 60, ../sass/global.scss */
+/* line 65, ../sass/global.scss */
 .pullquote-right:before,
 .pullquote-left:before {
   /* Reset metrics. */
@@ -658,14 +686,14 @@ footer, .site-footer {
   line-height: 30px;
 }
 
-/* line 81, ../sass/global.scss */
+/* line 86, ../sass/global.scss */
 .pullquote-left:before {
   float: left;
   margin: 12px 31px 24px -102px;
   width: 251px;
 }
 
-/* line 88, ../sass/global.scss */
+/* line 93, ../sass/global.scss */
 .embed-media-block {
   position: relative;
   padding-bottom: 56.25%;
@@ -676,7 +704,7 @@ footer, .site-footer {
   overflow: hidden;
 }
 
-/* line 99, ../sass/global.scss */
+/* line 104, ../sass/global.scss */
 .embed-media-block iframe,
 .embed-media-block object,
 .embed-media-block embed {
@@ -687,7 +715,7 @@ footer, .site-footer {
   height: 100%;
 }
 
-/* line 110, ../sass/global.scss */
+/* line 115, ../sass/global.scss */
 .location {
   *zoom: 1;
   widht: 100%;
@@ -698,7 +726,7 @@ footer, .site-footer {
   display: table;
   clear: both;
 }
-/* line 113, ../sass/global.scss */
+/* line 118, ../sass/global.scss */
 .location .vcard {
   width: 49.15254%;
   float: left;
@@ -706,16 +734,16 @@ footer, .site-footer {
   display: inline;
   padding-left: 6.77966%;
 }
-/* line 116, ../sass/global.scss */
+/* line 121, ../sass/global.scss */
 .location .vcard.last {
   margin-right: 0;
 }
-/* line 119, ../sass/global.scss */
+/* line 124, ../sass/global.scss */
 .location .vcard dd {
   margin: 0;
   position: relative;
 }
-/* line 123, ../sass/global.scss */
+/* line 128, ../sass/global.scss */
 .location .vcard dd span:first-child,
 .location .vcard dd .map-marker {
   color: #fff;
@@ -733,30 +761,39 @@ footer, .site-footer {
   -o-border-radius: 1em;
   border-radius: 1em;
 }
-/* line 137, ../sass/global.scss */
+/* line 142, ../sass/global.scss */
 .location .figure {
   clear: both;
 }
 
-/* line 143, ../sass/global.scss */
+/* line 148, ../sass/global.scss */
 a {
   color: black;
 }
 
-/* line 147, ../sass/global.scss */
+/* line 152, ../sass/global.scss */
 "h1, h2, h3, h4, h5, h6"  a {
   color: red;
   text-decoration: none;
 }
 
-/* line 153, ../sass/global.scss */
+/* line 157, ../sass/global.scss */
+[href^="tel"] {
+  text-decoration: none;
+}
+/* line 159, ../sass/global.scss */
+[href^="tel"]:hover {
+  color: #5296B1;
+}
+
+/* line 164, ../sass/global.scss */
 [aria-hidden] {
   font: 0/0 serif;
   text-shadow: none;
   color: transparent;
 }
 
-/* line 156, ../sass/global.scss */
+/* line 167, ../sass/global.scss */
 .visuallyhidden {
   position: absolute;
   left: -12345em;
