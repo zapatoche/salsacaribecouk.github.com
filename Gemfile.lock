@@ -4,12 +4,21 @@ GEM
     RedCloth (4.2.9)
     albino (1.3.3)
       posix-spawn (>= 0.3.6)
+    chunky_png (1.2.6)
     classifier (1.3.3)
       fast-stemmer (>= 1.0.0)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    compass-rgbapng (0.1.1)
+      chunky_png (>= 0.8.0)
+      compass (>= 0.10.0)
     directory_watcher (1.4.1)
     fast-stemmer (1.0.1)
     foreman (0.60.2)
       thor (>= 0.13.6)
+    fssm (0.2.9)
     jekyll (0.11.2)
       albino (~> 1.3)
       classifier (~> 1.3)
@@ -23,6 +32,7 @@ GEM
       syntax (>= 1.0.0)
     posix-spawn (0.3.6)
     rake (0.9.2.2)
+    sass (3.2.1)
     syntax (1.0.0)
     thor (0.16.0)
 
@@ -31,6 +41,7 @@ PLATFORMS
 
 DEPENDENCIES
   RedCloth
+  compass-rgbapng
   foreman
   jekyll (~> 0.11.2)
   kramdown

@@ -1,4 +1,8 @@
-[role="banner"] {
+[role="banner"],
+.site-footer {
+  background: #000 url('/assets/images/skin/grunge_wall_invert.png');
+  color: #fff;
+  color: hsla(60,50%,98%, .8)
 }
 .site-tagline {
   font-family: $brand_font;
@@ -10,11 +14,13 @@
   }
 }
 .site-tagline {
-  font-size: 3.75em; //60px/16px
-  text-align: center;
-  letter-spacing: .03225em;
   margin: 0;
   padding: 48px 0;
+  background: #457B91 url(/assets/images/skin/grunge_wall_blue.png) repeat 0 0;
+  color: #fff; //60px/16px
+  text-align: center;
+  letter-spacing: .03225em;
+  font-size: 3.75em;
 }
 .site-logo {
   font-size: 30px;
