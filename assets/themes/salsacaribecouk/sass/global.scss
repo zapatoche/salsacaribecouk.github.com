@@ -41,47 +41,7 @@ body {
 .site-header {
   width: auto;
 }
-.site-branding {
-  text-transform: uppercase;
-  @include clearfix;
-  &, & a {
-    color: #fff;
-  }
-  .contact {
-    @include float(right);
-  }
-}
-.site-logo {
-  font-family: $brand_font;
-  text-decoration: none;
-  @include float(left);
-}
-.site-nav {
-  @include clearfix;
-  background: #8B2A2C url('/assets/images/skin/grunge_wall_red.png') repeat 0 0;
-  text-align: center;
-  font-weight: 500;
-  ul {
-    margin: 0;
-  }
-  li {
-    float: left;
-    display: inline;
-    a {
-      color: #fff;
-      display: block;
-      padding: 1em;
-    }
-  }
-}
-.site-tagline {
-  background: hsla(197,38%,51%,.8);
-  color: #fff;
-}
-.visuallyhidden {
-  position: absolute;
-  left: -12345em;
-}
+@import "partials/site-nav";
 .pills {
   span {
     background: #000;
@@ -101,19 +61,19 @@ footer, .site-footer {
 	/* Reset metrics. */
 	padding: 0;
 	border: none;
-	
+
 	/* Content */
 	content: attr(data-pullquote);
-	
+
 	/* Pull out to the right, modular scale based margins. */
 	float: right;
 	width: 320px;
 	margin: 12px -140px 24px 36px;
-	
+
 	/* Baseline correction */
 	position: relative;
 	top: 5px;
-	
+
 	/* Typography (30px line-height equals 25% incremental leading) */
 	font-size: 23px;
 	line-height: 30px;
@@ -121,7 +81,7 @@ footer, .site-footer {
 .pullquote-left:before {
 	float: left;
 	margin: 12px 31px 24px -102px;
-	
+
 	width: 251px;
 }
 //module video embed
@@ -179,4 +139,21 @@ footer, .site-footer {
   }
 
 }
-
+// module links
+a {
+  @include link-colors(#000);
+}
+"#{headers(all)}" {
+  a {
+  color: red;
+  text-decoration: none;
+  }
+}
+// accessibility
+[aria-hidden] {
+  @include squish-text;
+}
+.visuallyhidden {
+  position: absolute;
+  left: -12345em;
+}

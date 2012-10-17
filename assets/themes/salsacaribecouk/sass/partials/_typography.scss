@@ -26,3 +26,36 @@
   // font-weight: 700;
 }
 
+//icomoon webicons font
+@font-face {
+	font-family: 'icomoon';
+	src:url('#{$font_dir}/icomoon.eot');
+	src:url('#{$font_dir}/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('#{$font_dir}/icomoon.svg#icomoon') format('svg'),
+		url('#{$font_dir}/icomoon.woff') format('woff'),
+		url('#{$font_dir}/icomoon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: 'icomoon';
+	font-style: normal;
+	speak: none;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-mobile:before {
+	content: "\21";
+}
+
+

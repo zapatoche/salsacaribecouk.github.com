@@ -3,12 +3,14 @@
     <p class="site-logo">
       <a href="{{ site.production_url }}" rel="home">{{ site.vcard.name | remove: 'productions' }}</a>
     </p>
-    <p class="contact">
-      contact: <span class="value">{{ site.vcard.phone }}</span>
+    <p class="contact" data-icon="&#x21;">
+    <span aria-hidden="true">contact:</span> <a href="tel:{{ site.vcard.phone.machine }}" class="value">{{ site.vcard.phone.human }}</a>
     </p>
   </div>
-  <h1 class="site-tagline">
-    {{ page.title }}
-  </h1>
+  <hgroup class="site-tagline">
+    <h1 class="h1">
+      {{ page.title }}
+    </h1>
+  </hgroup>
 </header>
 
