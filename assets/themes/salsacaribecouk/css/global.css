@@ -388,16 +388,16 @@ table {
 */
 @font-face {
   font-family: 'BrothersRegularMedium';
-  src: url("/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.eot");
-  src: url("/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.eot?#iefix") format("embedded-opentype"), url("/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.woff") format("woff");
+  src: url('/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.eot');
+  src: url('/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.eot?#iefix') format("embedded-opentype"), url('/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.woff') format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'BrothersBoldAlternatesBold';
-  src: url("/assets/themes/salsacaribecouk/fonts/brothbolalt-071211005EmigreWebOnly.eot");
-  src: url("/assets/themes/salsacaribecouk/fonts/brothbolalt-071211005EmigreWebOnly.eot?#iefix") format("embedded-opentype"), url("/assets/themes/salsacaribecouk/fonts/brothbolalt-071211005EmigreWebOnly.woff") format("woff");
+  src: font- url("brothbolalt-071211005EmigreWebOnly.eot");
+  src: url('/assets/themes/salsacaribecouk/fonts/brothbolalt-071211005EmigreWebOnly.eot?#iefix') format("embedded-opentype"), url('/assets/themes/salsacaribecouk/fonts/brothbolalt-071211005EmigreWebOnly.woff') format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -411,8 +411,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @font-face {
   font-family: 'icomoon';
-  src: url("/assets/themes/salsacaribecouk/fonts/icomoon.eot");
-  src: url("/assets/themes/salsacaribecouk/fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("/assets/themes/salsacaribecouk/fonts/icomoon.svg#icomoon") format("svg"), url("/assets/themes/salsacaribecouk/fonts/icomoon.woff") format("woff"), url("/assets/themes/salsacaribecouk/fonts/icomoon.ttf") format("truetype");
+  src: url('/assets/themes/salsacaribecouk/fonts/icomoon.eot');
+  src: url('/assets/themes/salsacaribecouk/fonts/icomoon.eot?#iefix') format("embedded-opentype"), url('/assets/themes/salsacaribecouk/fonts/icomoon.svg#icomoon') format("svg"), url('/assets/themes/salsacaribecouk/fonts/icomoon.woff') format("woff"), url('/assets/themes/salsacaribecouk/fonts/icomoon.ttf') format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -482,28 +482,28 @@ address {
 
 /* line 18, ../sass/global.scss */
 html {
-  background: white url("/assets/images/skin/grunge_wall.png") repeat 0 0;
+  background: white url('/assets/images/skin/grunge_wall.png?1350500300') repeat 0 0;
 }
 
-/* line 21, ../sass/global.scss */
+/* line 22, ../sass/global.scss */
 body {
   margin: 0;
   padding: 0;
   font: 400 100%/1.5 "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 26, ../sass/global.scss */
+/* line 27, ../sass/global.scss */
 html, body, .body-inner {
   height: 100%;
 }
 
-/* line 29, ../sass/global.scss */
+/* line 30, ../sass/global.scss */
 body > .body-inner {
   height: auto;
   min-height: 100%;
 }
 
-/* line 33, ../sass/global.scss */
+/* line 34, ../sass/global.scss */
 .content-wrapper {
   *zoom: 1;
   max-width: 59em;
@@ -550,7 +550,6 @@ body > .body-inner {
   font-size: 60px;
   font-size: 4.571428571rem;
   line-height: 1;
-  text-shadow: 1px 1px  0px white;
 }
 /* line 26, ../sass/partials/_site-header.scss */
 .site-tagline span {
@@ -632,17 +631,17 @@ body > .body-inner {
   float: left;
 }
 
-/* line 39, ../sass/global.scss */
+/* line 40, ../sass/global.scss */
 .container {
   padding-bottom: 168px;
 }
 
-/* line 42, ../sass/global.scss */
+/* line 43, ../sass/global.scss */
 .content {
   position: relative;
 }
 
-/* line 45, ../sass/global.scss */
+/* line 46, ../sass/global.scss */
 .site-header {
   width: auto;
 }
@@ -674,7 +673,7 @@ body > .body-inner {
   font-weight: 300;
 }
 
-/* line 50, ../sass/global.scss */
+/* line 51, ../sass/global.scss */
 .pills span {
   background: #000;
   color: #fff;
@@ -696,7 +695,7 @@ footer, .site-footer {
   clear: both;
 }
 
-/* line 60, ../sass/global.scss */
+/* line 61, ../sass/global.scss */
 .embed-media-block {
   position: relative;
   padding-bottom: 56.25%;
@@ -707,7 +706,7 @@ footer, .site-footer {
   overflow: hidden;
 }
 
-/* line 71, ../sass/global.scss */
+/* line 72, ../sass/global.scss */
 .embed-media-block iframe,
 .embed-media-block object,
 .embed-media-block embed {
@@ -718,35 +717,35 @@ footer, .site-footer {
   height: 100%;
 }
 
-/* line 81, ../sass/global.scss */
+/* line 82, ../sass/global.scss */
 a {
   color: black;
 }
 
-/* line 85, ../sass/global.scss */
+/* line 86, ../sass/global.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   text-decoration: none;
   color: #000;
   color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 91, ../sass/global.scss */
+/* line 92, ../sass/global.scss */
 [href^="tel"] {
   text-decoration: none;
 }
-/* line 93, ../sass/global.scss */
+/* line 94, ../sass/global.scss */
 [href^="tel"]:hover {
   color: #5296B1;
 }
 
-/* line 98, ../sass/global.scss */
+/* line 99, ../sass/global.scss */
 [aria-hidden] {
   font: 0/0 serif;
   text-shadow: none;
   color: transparent;
 }
 
-/* line 101, ../sass/global.scss */
+/* line 102, ../sass/global.scss */
 .visuallyhidden {
   position: absolute;
   left: -12345em;

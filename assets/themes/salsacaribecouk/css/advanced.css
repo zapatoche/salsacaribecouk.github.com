@@ -388,16 +388,16 @@ table {
 */
 @font-face {
   font-family: 'BrothersRegularMedium';
-  src: url("/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.eot");
-  src: url("/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.eot?#iefix") format("embedded-opentype"), url("/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.woff") format("woff");
+  src: url('/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.eot');
+  src: url('/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.eot?#iefix') format("embedded-opentype"), url('/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.woff') format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'BrothersBoldAlternatesBold';
-  src: url("/assets/themes/salsacaribecouk/fonts/brothbolalt-071211005EmigreWebOnly.eot");
-  src: url("/assets/themes/salsacaribecouk/fonts/brothbolalt-071211005EmigreWebOnly.eot?#iefix") format("embedded-opentype"), url("/assets/themes/salsacaribecouk/fonts/brothbolalt-071211005EmigreWebOnly.woff") format("woff");
+  src: font- url("brothbolalt-071211005EmigreWebOnly.eot");
+  src: url('/assets/themes/salsacaribecouk/fonts/brothbolalt-071211005EmigreWebOnly.eot?#iefix') format("embedded-opentype"), url('/assets/themes/salsacaribecouk/fonts/brothbolalt-071211005EmigreWebOnly.woff') format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -411,8 +411,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @font-face {
   font-family: 'icomoon';
-  src: url("/assets/themes/salsacaribecouk/fonts/icomoon.eot");
-  src: url("/assets/themes/salsacaribecouk/fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("/assets/themes/salsacaribecouk/fonts/icomoon.svg#icomoon") format("svg"), url("/assets/themes/salsacaribecouk/fonts/icomoon.woff") format("woff"), url("/assets/themes/salsacaribecouk/fonts/icomoon.ttf") format("truetype");
+  src: url('/assets/themes/salsacaribecouk/fonts/icomoon.eot');
+  src: url('/assets/themes/salsacaribecouk/fonts/icomoon.eot?#iefix') format("embedded-opentype"), url('/assets/themes/salsacaribecouk/fonts/icomoon.svg#icomoon') format("svg"), url('/assets/themes/salsacaribecouk/fonts/icomoon.woff') format("woff"), url('/assets/themes/salsacaribecouk/fonts/icomoon.ttf') format("truetype");
   font-weight: normal;
   font-style: normal;
 }
