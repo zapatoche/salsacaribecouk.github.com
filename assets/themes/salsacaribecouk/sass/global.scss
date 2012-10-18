@@ -18,6 +18,7 @@
 html {
   // background: #fff url('/assets/images/skin/grunge_wall.png') repeat 0 0;
   background: #fff image-url('skin/grunge_wall.png') repeat 0 0;
+  overflow-y: scroll;
 }
 body {
   margin: 0;
@@ -28,8 +29,8 @@ html, body, .body-inner {
   height: 100%;
 }
 body > .body-inner {
-  height: auto;
   min-height: 100%;
+  height: auto;
 }
 .content-wrapper {
   @include container;
@@ -47,23 +48,16 @@ body > .body-inner {
   width: auto;
 }
 @import "partials/site-nav";
-.pills {
-  span {
-    background: #000;
-    color: #fff;
-    padding: .5em;
-    border-radius: 5px;
-  }
-}
 
 @import "partials/site-footer";
 //module video embed
 .embed-media-block {
     position: relative;
-    padding-bottom: 56.25%; /* 16/9 ratio */
-    padding-top: 30px; /* IE6 workaround*/
+    overflow: hidden; /* 16/9 ratio */
+    padding-top: 30px;
+    padding-bottom: 56.25%; /* IE6 workaround*/
     height: 0;
-    overflow: hidden;
+    border: 1px solid #fff;
 }
 
 .embed-media-block {
@@ -92,7 +86,7 @@ a {
 [href^="tel"] {
   text-decoration: none;
   &:hover {
-  color: #5296B1;
+    color: #5296B1;
   }
 }
 // accessibility

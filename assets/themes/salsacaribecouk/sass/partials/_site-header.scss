@@ -1,27 +1,29 @@
 [role="banner"],
 .site-footer {
-  background: #000 url('/assets/images/skin/grunge_wall_invert.png');
+  background: #000 image-url('skin/grunge_wall_invert.png');
   &, & a {
     color: #fff;
-    color: hsla(60,50%,98%, .8)
+    color: hsla(60,50%,98%, .8);
+    text-decoration: none;
+    &:hover {
+      color: #fff;
+    }
   }
 }
 .site-tagline {
   display: inline-block;
   width: 100%;
-  background: #457B91 url(/assets/images/skin/grunge_wall_blue.png) repeat 0 0;
+  background: #457B91 image-url('skin/grunge_wall_blue.png') repeat 0 0;
   color: #fff;
   text-align: center;
   h1, .h1 {
     margin: 0;
     padding: 42px 0;
-    font-family: $brand_font;
     letter-spacing: .03225em;
     font-size: 60px;
     font-size: 4.571428571rem;
-    // font-size: 100%;
+    font-family: $brand_font;
     line-height: 1;
-    // text-shadow: 1px 1px  0px white;
   }
   span {
     display: inline-block;
@@ -30,21 +32,16 @@
 }
 .site-logo {
   margin: 0;
+  height: 60px;
   letter-spacing: .05em;
   font-size: 38px;
-  height: 60px;
-  line-height: 60px;
   font-family: $brand_font;
+  line-height: 60px;
   @include float(left);
-  a{
-    text-decoration: none;
-    // @include inline-block(middle);
-    // @include replace-text-with-dimensions('logo.png')
-  }
 }
 .site-logo,
 .site-tagline .h1 {
-    -webkit-mask-image: url(/assets/images/skin/mask.png);
+    -webkit-mask-image: image-url('skin/mask.png');
 }
 .site-branding {
   text-transform: uppercase;
@@ -54,12 +51,12 @@
     margin: 0;
   }
   .contact {
-    font-size: 150%;
-    line-height: 60px;
     height: 60px;
     letter-spacing: .1em;
-    font-family: "freight-sans-pro", $body_font;
     font-weight: 300;
+    font-size: 150%;
+    font-family: "freight-sans-pro", $body_font;
+    line-height: 60px;
     @include float(right);
     a {
       text-decoration: none;
@@ -69,14 +66,14 @@
     &:before {
       @include rotate(-10deg);
       @include inline-block(middle);
-      line-height: 1;
-      font-size: 100%;
       margin-right: -10px;
+      font-size: 100%;
+      line-height: 1;
     }
   }
 }
 .site-logo {
-  font-family: $brand_font;
   text-decoration: none;
+  font-family: $brand_font;
   @include float(left);
 }

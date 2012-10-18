@@ -3,9 +3,9 @@
     <p class="site-logo" role="img">
       <a href="{{ site.production_url }}" rel="home">{{ site.vcard.name | remove: 'productions' }}</a>
     </p>
-    <p class="contact" data-icon="&#x21;">
-    <span aria-hidden="true">contact:</span> <a href="tel:{{ site.vcard.phone.machine }}" class="value">{{ site.vcard.phone.human }}</a>
-    </p>
+    <a href="tel:{{ site.vcard.phone.machine }}" class="contact" data-icon="&#x21;">
+    <span aria-hidden="true">contact:</span> <span class="value">{{ site.vcard.phone.human }}</span>
+    </a>
   </div>
   <hgroup class="site-tagline">
     <h1 class="h1">

@@ -429,10 +429,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 50, ../sass/partials/_typography.scss */
 [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: 'icomoon';
-  font-style: normal;
-  speak: none;
   font-weight: normal;
+  font-style: normal;
+  font-family: 'icomoon';
+  speak: none;
   -webkit-font-smoothing: antialiased;
 }
 

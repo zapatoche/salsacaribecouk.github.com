@@ -1,4 +1,4 @@
-@import "compass/utilities";
+// @import "compass/utilities";
 
 @font-face {
     font-family: 'BrothersRegularMedium';
@@ -48,10 +48,10 @@
 }
 
 [class^="icon-"]:before, [class*=" icon-"]:before {
-	font-family: 'icomoon';
-	font-style: normal;
-	speak: none;
 	font-weight: normal;
+	font-style: normal;
+	font-family: 'icomoon';
+	speak: none;
 	-webkit-font-smoothing: antialiased;
 }
 .icon-mobile:before {
@@ -90,6 +90,5 @@ address {
 .pullquote-left:before {
 	float: left;
 	margin: 12px 31px 24px -102px;
-
 	width: 251px;
 }

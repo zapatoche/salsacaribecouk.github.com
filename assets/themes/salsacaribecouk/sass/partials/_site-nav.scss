@@ -5,7 +5,6 @@
   border-bottom: 4px solid hsl(197,36%,90%);
   &:hover {
   }
-  // font-weight: 500;
   ul {
     margin: 0;
     padding: 0;
@@ -47,7 +46,6 @@
     }
     a.active {
       @include rgba-background(hsla(0,0,0, .4));
-      // background: #8B2A2C image-url('skin/grunge_wall.png') repeat 0 0;
       border-color: hsl(197,36%,50%);
     }
   }
