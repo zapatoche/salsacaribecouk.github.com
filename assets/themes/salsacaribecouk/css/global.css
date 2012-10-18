@@ -648,29 +648,71 @@ body > .body-inner {
 
 /* line 1, ../sass/partials/_site-nav.scss */
 .site-nav {
-  overflow: hidden;
   *zoom: 1;
-  background: #8b2a2c url("/assets/images/skin/grunge_wall_red.png") repeat 0 0;
+  background: #8b2a2c url('/assets/images/skin/grunge_wall_red.png?1350497629') repeat 0 0;
   text-align: center;
-  font-weight: 500;
+  border-bottom: 4px solid #dce9ef;
 }
-/* line 6, ../sass/partials/_site-nav.scss */
-.site-nav ul {
-  margin: 0;
+/* line 38, ../../../../../../../../.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.site-nav:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 /* line 9, ../sass/partials/_site-nav.scss */
-.site-nav li {
-  float: left;
-  display: inline;
+.site-nav ul {
+  margin: 0;
+  padding: 0;
 }
-/* line 12, ../sass/partials/_site-nav.scss */
+/* line 13, ../sass/partials/_site-nav.scss */
+.site-nav li {
+  display: inline;
+  float: left;
+  position: relative;
+  position: relative;
+  top: 4px;
+  display: block;
+  margin-top: -4px;
+  padding: 1px 0 0;
+  border-bottom: 4px solid #cbdfe7;
+}
+/* line 24, ../sass/partials/_site-nav.scss */
 .site-nav li a {
-  text-decoration: none;
-  text-transform: uppercase;
   display: block;
   padding: 1em;
   color: #fff;
+  text-decoration: none;
+  text-shadow: 0 1px 1px #000;
+  letter-spacing: .1em;
   font-weight: 300;
+  font-family: "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-transition-property: background;
+  -moz-transition-property: background;
+  -o-transition-property: background;
+  transition-property: background;
+  -webkit-transition-duration: 1.5s;
+  -moz-transition-duration: 1.5s;
+  -o-transition-duration: 1.5s;
+  transition-duration: 1.5s;
+}
+/* line 37, ../sass/partials/_site-nav.scss */
+.site-nav li a:hover, .site-nav li a:focus, .site-nav li a.active {
+  background: url('/assets/images/rgbapng/00000099.png?1350588958');
+  background: rgba(0, 0, 0, 0.6);
+  position: relative;
+  top: 4px;
+  margin-top: -4px;
+  border-bottom: 4px solid #74a9be;
+}
+/* line 44, ../sass/partials/_site-nav.scss */
+.site-nav li a:active {
+  background: #000;
+}
+/* line 48, ../sass/partials/_site-nav.scss */
+.site-nav li a.active {
+  background: url('/assets/images/rgbapng/00000066.png?1350586402');
+  background: rgba(0, 0, 0, 0.4);
+  border-color: #5293ad;
 }
 
 /* line 51, ../sass/global.scss */

@@ -1,21 +1,54 @@
 .site-nav {
-  @include clearfix;
-  background: #8B2A2C url('/assets/images/skin/grunge_wall_red.png') repeat 0 0;
+  @include pie-clearfix;
+  background: #8B2A2C image-url('skin/grunge_wall_red.png') repeat 0 0;
   text-align: center;
-  font-weight: 500;
+  border-bottom: 4px solid hsl(197,36%,90%);
+  &:hover {
+  }
+  // font-weight: 500;
   ul {
     margin: 0;
+    padding: 0;
   }
   li {
-    float: left;
-    display: inline;
+    @include float(left);
+    position: relative;
+    position: relative;
+    top: 4px;
+    display: block;
+    margin-top: -4px;
+    padding: 1px 0 0;
+    border-bottom: 4px solid hsl(197,36%,85%);
+    &:hover {
+    }
     a {
-      text-decoration: none;
-      text-transform: uppercase;
       display: block;
       padding: 1em;
       color: #fff;
+      text-decoration: none;
+      text-shadow: 0 1px 1px #000;
+      letter-spacing:.1em;
       font-weight: 300;
+      font-family:  $body_font;
+      @include transition-property(background);
+      @include transition-duration(1.5s);
+      &:hover,
+      &:focus,
+      &.active {
+        @include rgba-background(hsla(0,0,0,.6));
+        position: relative;
+        top: 4px;
+        margin-top: -4px;
+        border-bottom: 4px solid hsl(197,36%,60%);
+      }
+      &:active {
+        background: #000;
+      }
+    }
+    a.active {
+      @include rgba-background(hsla(0,0,0, .4));
+      // background: #8B2A2C image-url('skin/grunge_wall.png') repeat 0 0;
+      border-color: hsl(197,36%,50%);
     }
   }
 }
