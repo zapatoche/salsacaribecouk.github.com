@@ -8,7 +8,7 @@
             {% assign current = 'active' %}
           {% endif %}
           <li {% if forloop.first %}class="first"{% endif %}{% if forloop.last %}class="last"{% endif %}>
-          <a class="{{ link.text | downcase | replace: ' ', '-' }}{% if current != nil %} active{% endif %}" href="{{ link.url }}">{{ link.text }}</a>
+          <a class="{{ link.text | downcase | replace: ' ', '-' }}{% if current != nil %} active{% endif %}" href="{% if link.url == '/index.html' %}/{% else %}{{ link.url }}{% endif %}">{{ link.text }}</a>
           </li>
         {% endfor %}
       </ul>
