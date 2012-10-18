@@ -14,7 +14,7 @@
     <meta name="author" content="{{ site.vcard.name }}">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="{{ ASSET_PATH }}/css/global.css?{{ site.time | date:'%Y%m%d%U%H%N%S' }}" rel="stylesheet">
-    <link href="{{ ASSET_PATH }}/css/advanced.css?{{ site.time | date:'%Y%m%d%U%H%N%S' }}" rel="stylesheet"  media="all and (min-width: 480px)">
+    <!-- <link href="{{ ASSET_PATH }}/css/advanced.css?{{ site.time | date:'%Y%m%d%U%H%N%S' }}" rel="stylesheet"  media="all and (min-width: 480px)"> -->
     <!--[if (lt IE 9)&(!IEMobile)]>
         <link rel="stylesheet" href="{{ ASSET_PATH }}/css/advanced.css?{{ site.time | date:'%Y%m%d%U%H%N%S' }}" media="all" />
     <![endif]-->
@@ -30,7 +30,7 @@
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   </head>
 
-  <body class="{{ page.category | downcase }}">
+  <body class="{{ page.id | remove_first: '/' | downcase }}">
     <div class="body-inner">
       {% include partials/site_header.html %}
       {% include partials/site_nav.html %}

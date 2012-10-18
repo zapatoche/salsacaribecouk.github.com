@@ -10,9 +10,12 @@
     float: left;
     display: inline;
     a {
-      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
       display: block;
       padding: 1em;
+      color: #fff;
+      font-weight: 300;
     }
   }
 }

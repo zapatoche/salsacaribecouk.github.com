@@ -1,1 +1,46 @@
+@import "partials/variables";
 
+@import "vendors/normalize";
+
+@import "susy";
+@import "compass/utilities";
+@import "compass/css3";
+@import "compass/typography";
+@import "rgbapng";
+
+@import "partials/typography";
+
+// module location
+
+.location {
+  @include pie-clearfix;
+  widht: 100%;
+  .vcard {
+    @include span-columns(6,12);
+    padding-left: columns(1,12);
+    &.last {
+      margin-right: 0;
+    }
+    dd {
+      margin: 0;
+      position: relative;
+      span:first-child,
+      .map-marker {
+        color: #fff;
+        background: #F53837;
+        display: inline-block;
+        width: 2em;
+        height: 2em;
+        line-height: 2em;
+        text-align: center;
+        position: absolute;
+        left: columns(2,12) * -1;
+        @include border-radius(1em);
+      }
+    }
+  }
+  .figure {
+    clear: both;
+  }
+
+}
