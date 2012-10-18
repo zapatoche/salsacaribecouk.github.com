@@ -29,13 +29,19 @@ events :
   - monday
   - saturday
   - sunday
-site-nav :
-  - home:
-  - news: news
-  - classes: classes
-  - club nights: club-nights
-  - about: about
-  - contact: contact
+navigation:
+  - text: Home
+    url: /
+  - text: News
+    url: /news
+  - text: Classes
+    url: /classes
+  - text: club nights
+    url: /club-nights
+  - text: About
+    url: /about
+  - text: Contact us
+    url: /contact
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
