@@ -680,7 +680,15 @@ body > .body-inner {
   padding: 1px 0 0;
   border-bottom: 4px solid #cbdfe7;
 }
+/* line 21, ../sass/partials/_site-nav.scss */
+.js .site-nav li {
+  float: right;
+}
 /* line 23, ../sass/partials/_site-nav.scss */
+.js .site-nav li.first {
+  float: left;
+}
+/* line 29, ../sass/partials/_site-nav.scss */
 .site-nav li a {
   display: block;
   padding: 1em;
@@ -699,7 +707,7 @@ body > .body-inner {
   -o-transition-duration: 1.5s;
   transition-duration: 1.5s;
 }
-/* line 36, ../sass/partials/_site-nav.scss */
+/* line 42, ../sass/partials/_site-nav.scss */
 .site-nav li a:hover, .site-nav li a:focus, .site-nav li a.active {
   background: url('/assets/images/rgbapng/00000099.png?1350588958');
   background: rgba(0, 0, 0, 0.6);
@@ -708,11 +716,11 @@ body > .body-inner {
   margin-top: -4px;
   border-bottom: 4px solid #74a9be;
 }
-/* line 43, ../sass/partials/_site-nav.scss */
+/* line 49, ../sass/partials/_site-nav.scss */
 .site-nav li a:active {
   background: #000;
 }
-/* line 47, ../sass/partials/_site-nav.scss */
+/* line 53, ../sass/partials/_site-nav.scss */
 .site-nav li a.active {
   background: url('/assets/images/rgbapng/00000066.png?1350586402');
   background: rgba(0, 0, 0, 0.4);
@@ -788,4 +796,20 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .visuallyhidden {
   position: absolute;
   left: -12345em;
+}
+
+/* line 100, ../sass/global.scss */
+.fixed {
+  position: fixed;
+}
+
+/* line 103, ../sass/global.scss */
+.site-nav.fixed {
+  width: 100%;
+  z-index: 1000;
+}
+/* line 106, ../sass/global.scss */
+.site-nav.fixed .home {
+  font-family: "BrothersRegularMedium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
 }

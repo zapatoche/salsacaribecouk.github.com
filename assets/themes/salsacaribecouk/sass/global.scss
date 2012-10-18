@@ -97,3 +97,14 @@ a {
   position: absolute;
   left: -12345em;
 }
+.fixed {
+  position: fixed;
+}
+.site-nav.fixed {
+  width: 100%;
+  z-index: 1000;
+  .home {
+    font-family: $brand_font;
+    text-transform: uppercase;
+  }
+}

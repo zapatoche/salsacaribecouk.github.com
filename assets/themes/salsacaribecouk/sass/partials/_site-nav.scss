@@ -18,6 +18,12 @@
     margin-top: -4px;
     padding: 1px 0 0;
     border-bottom: 4px solid hsl(197,36%,85%);
+    .js & {
+      float: right;
+      &.first {
+        float: left;
+      }
+    }
     &:hover {
     }
     a {
