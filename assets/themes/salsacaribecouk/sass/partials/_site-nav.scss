@@ -3,6 +3,9 @@
   background: #8B2A2C image-url('skin/grunge_wall_red.png') repeat 0 0;
   text-align: center;
   border-bottom: 4px solid hsl(197,36%,90%);
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    background-image: image-url('skin/grunge_wall_red_@2x.png');
+  }
   &:hover {
   }
   ul {
@@ -53,6 +56,7 @@
     a.active {
       @include rgba-background(hsla(0,0,0, .4));
       border-color: hsl(197,36%,50%);
+      cursor: default;
     }
   }
 }

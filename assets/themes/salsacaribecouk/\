@@ -13,7 +13,7 @@ $ ->
   links = navBar.find('a')
   homeLink = siteNav.find('.home')
   homeLinkText = homeLink.text()
-  trigger = 480 # iphone lanscape
+  trigger = 760
   showing = 'standard'
   timer = null
 
@@ -46,16 +46,19 @@ $ ->
     )
 
   toggleMobileNav = ->
-    $width = $window.width()
+    $width = $window.width
+    console.log $window.width()
+    console.log 'standard'
     if showing is  'standard' and $width <= trigger
       navBar.replaceWith(mobileNav)
       showing = 'mobileNav'
     else if showing is 'mobileNav' and $width >= trigger
+      console.log 'mobileNav'
       mobileNav.replaceWith(navBar)
       showing = 'standard'
 
-
   toggleMobileNav()
   $window.resize ->
+    console.log 'resize'
     clearTimeout timer if timer
     timer = setTimeout( toggleMobileNav, 100 )
