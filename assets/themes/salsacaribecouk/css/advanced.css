@@ -256,6 +256,11 @@ address {
   }
 
   /* line 61, ../sass/partials/_site-nav-advanced.scss */
+  .js .contact {
+    padding: 0;
+  }
+
+  /* line 64, ../sass/partials/_site-nav-advanced.scss */
   #menu-icon {
     display: none;
   }

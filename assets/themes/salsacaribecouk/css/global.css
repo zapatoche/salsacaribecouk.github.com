@@ -590,28 +590,29 @@ body > .body-inner {
   padding: .5em;
   text-decoration: none;
   letter-spacing: .05em;
-  font-size: 22px;
+  font-size: 38px;
   font-family: "BrothersRegularMedium", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1;
+  text-align: center;
 }
 
-/* line 55, ../sass/partials/_site-header.scss */
+/* line 56, ../sass/partials/_site-header.scss */
 .site-branding {
   text-transform: uppercase;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 59, ../sass/partials/_site-header.scss */
+/* line 60, ../sass/partials/_site-header.scss */
 .site-branding .site-logo,
 .site-branding .contact {
   margin: 0;
 }
-/* line 63, ../sass/partials/_site-header.scss */
+/* line 64, ../sass/partials/_site-header.scss */
 .site-branding .site-logo,
 .site-branding .contact a {
   display: block;
 }
-/* line 66, ../sass/partials/_site-header.scss */
+/* line 67, ../sass/partials/_site-header.scss */
 .site-branding .contact {
   background-image: url('/assets/images/skin/grunge_wall_red.png?1350603647');
   letter-spacing: .1em;
@@ -619,21 +620,21 @@ body > .body-inner {
   font-size: 120%;
   font-family: "freight-sans-pro", "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-/* line 72, ../sass/partials/_site-header.scss */
+/* line 73, ../sass/partials/_site-header.scss */
 .site-branding .contact a {
   text-decoration: none;
   padding: .2em .5em;
 }
-/* line 75, ../sass/partials/_site-header.scss */
+/* line 76, ../sass/partials/_site-header.scss */
 .js .site-branding .contact a {
   display: inline;
   float: left;
 }
-/* line 79, ../sass/partials/_site-header.scss */
+/* line 80, ../sass/partials/_site-header.scss */
 .js .site-branding .contact {
   overflow: hidden;
 }
-/* line 84, ../sass/partials/_site-header.scss */
+/* line 85, ../sass/partials/_site-header.scss */
 .site-branding [data-icon]:before {
   -webkit-transform: rotate(-10deg);
   -moz-transform: rotate(-10deg);
@@ -690,7 +691,6 @@ body > .body-inner {
 .site-nav li a {
   display: block;
   padding: 1em;
-  border-bottom: 1px solid #390f0f;
   border-bottom: 1px solid #5ba2be;
   color: #fff;
   text-decoration: none;
@@ -707,22 +707,22 @@ body > .body-inner {
   -o-transition-duration: 1.5s;
   transition-duration: 1.5s;
 }
-/* line 27, ../sass/partials/_site-nav.scss */
+/* line 26, ../sass/partials/_site-nav.scss */
 .site-nav li a:hover, .site-nav li a:focus, .site-nav li a.active {
   background: url('/assets/images/rgbapng/00000099.png?1350603647');
   background: rgba(0, 0, 0, 0.6);
   position: relative;
   border-bottom: 1px solid #7fb6cc;
 }
-/* line 33, ../sass/partials/_site-nav.scss */
+/* line 31, ../sass/partials/_site-nav.scss */
 .site-nav li a:active {
   background: #000;
 }
-/* line 36, ../sass/partials/_site-nav.scss */
+/* line 34, ../sass/partials/_site-nav.scss */
 .last .site-nav li a {
   border: 0;
 }
-/* line 40, ../sass/partials/_site-nav.scss */
+/* line 38, ../sass/partials/_site-nav.scss */
 .site-nav li a.active {
   background: url('/assets/images/rgbapng/00000066.png?1350603647');
   background: rgba(0, 0, 0, 0.4);
@@ -730,30 +730,41 @@ body > .body-inner {
   cursor: default;
 }
 
-/* line 47, ../sass/partials/_site-nav.scss */
+/* line 45, ../sass/partials/_site-nav.scss */
 .js [role="navigation"] {
   display: none;
 }
 
-/* line 50, ../sass/partials/_site-nav.scss */
+/* line 48, ../sass/partials/_site-nav.scss */
+.js .contact {
+  padding: .3em 0;
+}
+
+/* line 51, ../sass/partials/_site-nav.scss */
 #menu-icon {
   display: inline-block;
+  float: right;
+  margin-right: .5em;
+  padding: 0 1em;
+  height: 100%;
   vertical-align: middle;
   text-align: center;
   text-transform: lowercase;
   font-weight: 500;
-  height: 100%;
-  padding: 0 1em;
-  margin: .3em;
+  line-height: 2;
+  cursor: pointer;
+  background: url('/assets/images/rgbapng/0000007f.png?1350603647');
+  background: rgba(0, 0, 0, 0.5);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
-  line-height: 2;
-  background: #000;
-  cursor: pointer;
-  float: right;
+}
+/* line 65, ../sass/partials/_site-nav.scss */
+#menu-icon:hover, #menu-icon:focus, #menu-icon:active, #menu-icon.active {
+  background: url('/assets/images/rgbapng/000000b3.png?1351107128');
+  background: rgba(0, 0, 0, 0.7);
 }
 
 /* line 1, ../sass/partials/_site-footer.scss */

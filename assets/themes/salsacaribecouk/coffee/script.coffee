@@ -55,10 +55,8 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     $(window).scroll ->
       if $(window).scrollTop() > aboveHeight
         siteNav.addClass('fixed').css('top':'0').next().css('padding-top', menuBarheight + 'px')
-        # homeLink.text('Salsa Caribe Productions')
       else
         $('.site-nav').removeClass('fixed').next().css('padding-top','0')
-        # homeLink.text(homeLinkText)
 
     # disable .active link
     navBar.find('.active').click (event) ->
@@ -69,4 +67,3 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     $window.resize ->
       mobilizeNav()
       resetNav()
-      # console.log "resize"
