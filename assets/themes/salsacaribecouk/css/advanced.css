@@ -185,20 +185,21 @@ address {
   /* line 4, ../sass/partials/_site-nav-advanced.scss */
   .site-nav {
     border-bottom: 4px solid #dce9ef;
+    background: #8b2a2c url('/assets/images/skin/grunge_wall_red.png?1350603647') repeat 0 0;
     text-align: center;
   }
-  /* line 6, ../sass/partials/_site-nav-advanced.scss */
+  /* line 7, ../sass/partials/_site-nav-advanced.scss */
   .site-nav .access {
     position: absolute;
     left: -12345em;
   }
-  /* line 13, ../sass/partials/_site-nav-advanced.scss */
+  /* line 14, ../sass/partials/_site-nav-advanced.scss */
   .site-nav ul {
     margin: 0;
     padding: 0;
     display: block;
   }
-  /* line 18, ../sass/partials/_site-nav-advanced.scss */
+  /* line 19, ../sass/partials/_site-nav-advanced.scss */
   .site-nav li {
     display: inline;
     float: left;
@@ -208,7 +209,7 @@ address {
     padding: 1px 0 0;
     border-bottom: 4px solid #bad4de;
   }
-  /* line 25, ../sass/partials/_site-nav-advanced.scss */
+  /* line 26, ../sass/partials/_site-nav-advanced.scss */
   .site-nav li a {
     display: block;
     padding: 1em;
@@ -228,7 +229,7 @@ address {
     -o-transition-duration: 1.5s;
     transition-duration: 1.5s;
   }
-  /* line 39, ../sass/partials/_site-nav-advanced.scss */
+  /* line 40, ../sass/partials/_site-nav-advanced.scss */
   .site-nav li a:hover, .site-nav li a:focus, .site-nav li a.active {
     background: url('/assets/images/rgbapng/00000099.png?1350603647');
     background: rgba(0, 0, 0, 0.6);
@@ -237,16 +238,26 @@ address {
     margin-top: -4px;
     border-bottom: 4px solid #74a9be;
   }
-  /* line 46, ../sass/partials/_site-nav-advanced.scss */
+  /* line 47, ../sass/partials/_site-nav-advanced.scss */
   .site-nav li a:active {
     background: #000;
   }
-  /* line 50, ../sass/partials/_site-nav-advanced.scss */
+  /* line 51, ../sass/partials/_site-nav-advanced.scss */
   .site-nav li a.active {
     background: url('/assets/images/rgbapng/00000066.png?1350603647');
     background: rgba(0, 0, 0, 0.4);
     border-color: #5293ad;
     cursor: default;
+  }
+
+  /* line 58, ../sass/partials/_site-nav-advanced.scss */
+  .js [role="navigation"] {
+    display: block;
+  }
+
+  /* line 61, ../sass/partials/_site-nav-advanced.scss */
+  #menu-icon {
+    display: none;
   }
 
   /* line 53, ../sass/advanced.scss */

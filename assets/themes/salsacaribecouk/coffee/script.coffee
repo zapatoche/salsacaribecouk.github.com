@@ -14,24 +14,42 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     links = navBar.find('a')
     homeLink = siteNav.find('.home')
     homeLinkText = homeLink.text()
-    trigger = 800 # iphone lanscape
+    ipadLandscape = 768 # iphone lanscape
+    triggerMenu = 590
     showing = 'standard'
     timer = null
     reseted = false
+    $width = 0
 
     # reverse li order when navigation is floated right
+    getWindowWidth = ->
+      return $width  = $window.width()
     switchLi = ->
         navBar.children().each (i,li) ->
           navBar.prepend(li)
 
     resetNav = ->
-      $width  = $window.width()
-      if $width > 768  and reseted is false
+      getWindowWidth()
+      if $width > ipadLandscape  and reseted is false
         switchLi()
         reseted = true
-      else if $width <= 768 and reseted is true
+      else if $width <= ipadLandscape and reseted is true
         switchLi()
         reseted = false
+
+    # build mobile nav
+    $('.site-header .contact').append('<div id="menu-icon">Menu</div>')
+    $('#menu-icon').click( ->
+      navBar.slideToggle()
+      $(@).toggleClass('active')
+    )
+
+    mobilizeNav = ->
+      getWindowWidth()
+      if $width > triggerMenu
+        navBar.css('display','block')
+      else if $width <= triggerMenu
+        navBar.css('display','none')
 
     # ensure menu is always visible on top when the page is scrolled
     $(window).scroll ->
@@ -46,31 +64,9 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     navBar.find('.active').click (event) ->
       event.preventDefault()
 
-    # create the mobile nav element
-    if navBar.length and links.length
-      mobileNav = $('<select></select>')
-      mobileNavOption = $('<option>-- Navigation --</option>').appendTo(mobileNav)
-      links.each ->
-        link = $(@)
-        mobileNavOption.clone().attr('value', link.attr('href')).text(link.text()).appendTo(mobileNav)
-      mobileNav = mobileNav.wrap('<div class="mobile-nav" />').parent().delegate('select','change', ->
-        window.location = $(@).val()
-      )
-
-    # append correct navigation element
-    toggleMobileNav = ->
-      $width = $window.width()
-      if showing is  'standard' and $width <= trigger
-        navBar.replaceWith(mobileNav)
-        showing = 'mobileNav'
-      else if showing is 'mobileNav' and $width >= trigger
-        mobileNav.replaceWith(navBar)
-        showing = 'standard'
-
-
+    mobilizeNav()
     resetNav()
-    # toggleMobileNav()
     $window.resize ->
-      clearTimeout timer if timer
-      # timer = setTimeout( toggleMobileNav, 100 )
+      mobilizeNav()
       resetNav()
+      # console.log "resize"

@@ -624,7 +624,16 @@ body > .body-inner {
   text-decoration: none;
   padding: .2em .5em;
 }
-/* line 78, ../sass/partials/_site-header.scss */
+/* line 75, ../sass/partials/_site-header.scss */
+.js .site-branding .contact a {
+  display: inline;
+  float: left;
+}
+/* line 79, ../sass/partials/_site-header.scss */
+.js .site-branding .contact {
+  overflow: hidden;
+}
+/* line 84, ../sass/partials/_site-header.scss */
 .site-branding [data-icon]:before {
   -webkit-transform: rotate(-10deg);
   -moz-transform: rotate(-10deg);
@@ -660,7 +669,7 @@ body > .body-inner {
 /* line 1, ../sass/partials/_site-nav.scss */
 .site-nav {
   *zoom: 1;
-  background: #8b2a2c url('/assets/images/skin/grunge_wall_red.png?1350603647') repeat 0 0;
+  background: #8b2a2c url('/assets/images/skin/grunge_wall_blue.png?1350603647') repeat 0 0;
 }
 /* line 38, ../../../../../../../../.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .site-nav:after {
@@ -682,6 +691,7 @@ body > .body-inner {
   display: block;
   padding: 1em;
   border-bottom: 1px solid #390f0f;
+  border-bottom: 1px solid #5ba2be;
   color: #fff;
   text-decoration: none;
   text-shadow: 0 1px 1px #000;
@@ -697,27 +707,53 @@ body > .body-inner {
   -o-transition-duration: 1.5s;
   transition-duration: 1.5s;
 }
-/* line 26, ../sass/partials/_site-nav.scss */
+/* line 27, ../sass/partials/_site-nav.scss */
 .site-nav li a:hover, .site-nav li a:focus, .site-nav li a.active {
   background: url('/assets/images/rgbapng/00000099.png?1350603647');
   background: rgba(0, 0, 0, 0.6);
   position: relative;
-  border-bottom: 1px solid #d96d6d;
+  border-bottom: 1px solid #7fb6cc;
 }
-/* line 31, ../sass/partials/_site-nav.scss */
+/* line 33, ../sass/partials/_site-nav.scss */
 .site-nav li a:active {
   background: #000;
 }
-/* line 34, ../sass/partials/_site-nav.scss */
+/* line 36, ../sass/partials/_site-nav.scss */
 .last .site-nav li a {
   border: 0;
 }
-/* line 38, ../sass/partials/_site-nav.scss */
+/* line 40, ../sass/partials/_site-nav.scss */
 .site-nav li a.active {
   background: url('/assets/images/rgbapng/00000066.png?1350603647');
   background: rgba(0, 0, 0, 0.4);
-  border-color: #d96d6d;
+  border-color: #7fb6cc;
   cursor: default;
+}
+
+/* line 47, ../sass/partials/_site-nav.scss */
+.js [role="navigation"] {
+  display: none;
+}
+
+/* line 50, ../sass/partials/_site-nav.scss */
+#menu-icon {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  text-transform: lowercase;
+  font-weight: 500;
+  height: 100%;
+  padding: 0 1em;
+  margin: .3em;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  line-height: 2;
+  background: #000;
+  cursor: pointer;
+  float: right;
 }
 
 /* line 1, ../sass/partials/_site-footer.scss */

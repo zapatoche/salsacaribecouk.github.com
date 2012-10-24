@@ -3,6 +3,7 @@
 }
 .site-nav {
   border-bottom: 4px solid hsl(197,36%,90%);
+  background: #8B2A2C image-url('skin/grunge_wall_red.png') repeat 0 0;
   .access {
     position: absolute;
     left: -12345em;
@@ -53,4 +54,10 @@
       cursor: default;
     }
   }
+}
+.js [role="navigation"] {
+  display: block;
+}
+#menu-icon {
+  display: none;
 }

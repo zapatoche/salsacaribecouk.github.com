@@ -72,6 +72,12 @@
     a {
       text-decoration: none;
       padding: .2em .5em;
+      .js & {
+        @include float(left);
+      }
+    }
+    .js & {
+      overflow: hidden;
     }
   }
   [data-icon] {
