@@ -14,22 +14,33 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     links = navBar.find('a')
     homeLink = siteNav.find('.home')
     homeLinkText = homeLink.text()
-    trigger = 480 # iphone lanscape
+    trigger = 800 # iphone lanscape
     showing = 'standard'
     timer = null
+    reseted = false
 
     # reverse li order when navigation is floated right
-    navBar.children().each (i,li) ->
-      navBar.prepend(li)
+    switchLi = ->
+        navBar.children().each (i,li) ->
+          navBar.prepend(li)
+
+    resetNav = ->
+      $width  = $window.width()
+      if $width > 768  and reseted is false
+        switchLi()
+        reseted = true
+      else if $width <= 768 and reseted is true
+        switchLi()
+        reseted = false
 
     # ensure menu is always visible on top when the page is scrolled
     $(window).scroll ->
       if $(window).scrollTop() > aboveHeight
         siteNav.addClass('fixed').css('top':'0').next().css('padding-top', menuBarheight + 'px')
-        homeLink.text('Salsa Caribe Productions')
+        # homeLink.text('Salsa Caribe Productions')
       else
         $('.site-nav').removeClass('fixed').next().css('padding-top','0')
-        homeLink.text(homeLinkText)
+        # homeLink.text(homeLinkText)
 
     # disable .active link
     navBar.find('.active').click (event) ->
@@ -46,6 +57,7 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
         window.location = $(@).val()
       )
 
+    # append correct navigation element
     toggleMobileNav = ->
       $width = $window.width()
       if showing is  'standard' and $width <= trigger
@@ -56,7 +68,9 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
         showing = 'standard'
 
 
-    toggleMobileNav()
+    resetNav()
+    # toggleMobileNav()
     $window.resize ->
       clearTimeout timer if timer
-      timer = setTimeout( toggleMobileNav, 100 )
+      # timer = setTimeout( toggleMobileNav, 100 )
+      resetNav()

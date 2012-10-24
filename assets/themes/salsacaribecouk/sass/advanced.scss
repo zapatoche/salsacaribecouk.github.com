@@ -1,6 +1,5 @@
 @import "partials/variables";
-
-@import "vendors/normalize";
+@import "partials/mixins";
 
 @import "susy";
 @import "compass/utilities";
@@ -10,6 +9,8 @@
 
 @import "partials/typography";
 
+
+// site-nav
 // module location
 
 .location {
@@ -43,4 +44,35 @@
     clear: both;
   }
 
+}
+// menu start stacking at 590px  => 590/16 = 36em
+@media only screen and (min-width: 590px) {
+  @import "partials/site-header-advanced";
+  @import "partials/site-nav-advanced";
+  // header
+  .site-tagline {
+    border: 0;
+  }
+}
+// @media queries and min-width: 768px
+@media only screen and (min-width: 48em) {
+
+  .site-nav {
+    li {
+      .js & {
+        float: right;
+        &.first {
+          float: left;
+        }
+      }
+    }
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  html {
+    background-image: image-url('skin/grunge_wall_@2x.png');
+  }
+  .site-nav {
+    background-image: image-url('skin/grunge_wall_red_@2x.png');
+  }
 }

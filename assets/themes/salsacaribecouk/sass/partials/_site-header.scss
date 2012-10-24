@@ -1,3 +1,11 @@
+.site-header-wrapper {
+  display: table;
+  width: 100%;
+  caption-side: top;
+}
+.site-nav {
+  display:  table-caption;
+}
 [role="banner"],
 .site-footer {
   background: #000 image-url('skin/grunge_wall_invert.png');
@@ -12,6 +20,7 @@
 }
 .site-tagline {
   display: inline-block;
+  border-bottom: 4px solid hsl(197,36%,90%);
   width: 100%;
   background: #457B91 image-url('skin/grunge_wall_blue.png') repeat 0 0;
   color: #fff;
@@ -32,34 +41,37 @@
 }
 .site-logo {
   margin: 0;
-  height: 60px;
+  padding: .5em;
+  text-decoration: none;
   letter-spacing: .05em;
-  font-size: 38px;
+  font-size: 22px;
   font-family: $brand_font;
-  line-height: 60px;
-  @include float(left);
+  line-height: 1;
 }
 .site-logo,
 .site-tagline .h1 {
-    -webkit-mask-image: image-url('skin/mask.png');
+    // -webkit-mask-image: image-url('skin/mask.png');
 }
 .site-branding {
   text-transform: uppercase;
   @include clearfix;
   .site-logo,
-  .contact {
+  .contact  {
     margin: 0;
   }
+  .site-logo,
+  .contact a {
+    display: block;
+  }
   .contact {
-    height: 60px;
+    background-image: image-url('skin/grunge_wall_red.png');
     letter-spacing: .1em;
     font-weight: 300;
-    font-size: 150%;
+    font-size: 120%;
     font-family: "freight-sans-pro", $body_font;
-    line-height: 60px;
-    @include float(right);
     a {
       text-decoration: none;
+      padding: .2em .5em;
     }
   }
   [data-icon] {
@@ -71,9 +83,4 @@
       line-height: 1;
     }
   }
-}
-.site-logo {
-  text-decoration: none;
-  font-family: $brand_font;
-  @include float(left);
 }

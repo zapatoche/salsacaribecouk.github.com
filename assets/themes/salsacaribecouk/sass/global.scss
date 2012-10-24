@@ -1,4 +1,5 @@
 @import "partials/variables";
+@import "partials/mixins";
 
 @import "vendors/normalize";
 
@@ -16,12 +17,8 @@
   box-sizing: border-box;
 }
 html {
-  // background: #fff url('/assets/images/skin/grunge_wall.png') repeat 0 0;
   background: #fff image-url('skin/grunge_wall.png') repeat 0 0;
   overflow-y: scroll;
-  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-    background-image: image-url('skin/grunge_wall_@2x.png');
-  }
 }
 body {
   margin: 0;
@@ -97,8 +94,7 @@ a {
   @include squish-text;
 }
 .visuallyhidden {
-  position: absolute;
-  left: -12345em;
+  @extend %visuallyhidden;
 }
 .fixed {
   position: fixed;

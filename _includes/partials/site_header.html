@@ -3,14 +3,18 @@
     <p class="site-logo" role="img">
       <a href="{{ site.production_url }}" rel="home">{{ site.vcard.name | remove: 'productions' }}</a>
     </p>
-    <a href="tel:{{ site.vcard.phone.machine }}" class="contact" data-icon="&#x21;">
-    <span aria-hidden="true">contact:</span> <span class="value">{{ site.vcard.phone.human }}</span>
-    </a>
+    <p class="contact">
+      <a href="tel:{{ site.vcard.phone.machine }}"  data-icon="&#x21;">
+      <span aria-hidden="true">contact:</span> <span class="value">{{ site.vcard.phone.human }}</span>
+      </a>
+    </p>
   </div>
-  <hgroup class="site-tagline">
-    <h1 class="h1">
-      {{ page.title }}
-    </h1>
-  </hgroup>
+  <div class="site-header-wrapper">
+    <hgroup class="site-tagline">
+      <h1 class="h1">
+        {{ page.title }}
+      </h1>
+    </hgroup>
+    {% include partials/site_nav.html %}
+  </div>
 </header>
-
