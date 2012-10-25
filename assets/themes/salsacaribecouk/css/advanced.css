@@ -18,7 +18,7 @@
   font-style: normal;
 }
 
-/* line 22, ../sass/partials/_typography.scss */
+/* line 22, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
-/* line 42, ../sass/partials/_typography.scss */
+/* line 42, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_typography.scss */
 [data-icon]:before {
   font-family: 'icomoon';
   content: attr(data-icon);
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 50, ../sass/partials/_typography.scss */
+/* line 50, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_typography.scss */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-weight: normal;
   font-style: normal;
@@ -52,17 +52,17 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 57, ../sass/partials/_typography.scss */
+/* line 57, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_typography.scss */
 .icon-mobile:before {
   content: "\21";
 }
 
-/* line 62, ../sass/partials/_typography.scss */
+/* line 62, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_typography.scss */
 address {
   font-style: normal;
 }
 
-/* line 69, ../sass/partials/_typography.scss */
+/* line 69, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_typography.scss */
 .pullquote-right:before,
 .pullquote-left:before {
   /* Reset metrics. */
@@ -82,7 +82,7 @@ address {
   line-height: 30px;
 }
 
-/* line 90, ../sass/partials/_typography.scss */
+/* line 90, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_typography.scss */
 .pullquote-left:before {
   float: left;
   margin: 12px 31px 24px -102px;
@@ -94,7 +94,7 @@ address {
   *zoom: 1;
   widht: 100%;
 }
-/* line 38, ../../../../../../../../.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /Users/zapatoche/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .location:after {
   content: "";
   display: table;
@@ -141,7 +141,7 @@ address {
 }
 
 @media only screen and (min-width: 590px) {
-  /* line 1, ../sass/partials/_site-header-advanced.scss */
+  /* line 1, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header-advanced.scss */
   .site-logo {
     height: 60px;
     letter-spacing: .05em;
@@ -151,18 +151,18 @@ address {
     float: left;
   }
 
-  /* line 9, ../sass/partials/_site-header-advanced.scss */
+  /* line 9, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header-advanced.scss */
   .site-logo,
   .site-tagline .h1 {
     -webkit-mask-image: url('/assets/images/skin/mask.png?1350603647');
   }
 
-  /* line 14, ../sass/partials/_site-header-advanced.scss */
+  /* line 14, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header-advanced.scss */
   .site-branding .site-logo,
   .site-branding .contact a {
     padding: 0;
   }
-  /* line 17, ../sass/partials/_site-header-advanced.scss */
+  /* line 17, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header-advanced.scss */
   .site-branding .contact {
     height: 60px;
     background: transparent;
@@ -171,35 +171,35 @@ address {
     display: inline;
     float: right;
   }
-  /* line 23, ../sass/partials/_site-header-advanced.scss */
+  /* line 23, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header-advanced.scss */
   .site-branding .contact a {
     text-decoration: none;
     padding: 0;
   }
 
-  /* line 1, ../sass/partials/_site-nav-advanced.scss */
+  /* line 1, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
   .site-header-wrapper {
     caption-side: bottom;
   }
 
-  /* line 4, ../sass/partials/_site-nav-advanced.scss */
+  /* line 4, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
   .site-nav {
     border-bottom: 4px solid #dce9ef;
     background: #8b2a2c url('/assets/images/skin/grunge_wall_red.png?1350603647') repeat 0 0;
     text-align: center;
   }
-  /* line 7, ../sass/partials/_site-nav-advanced.scss */
+  /* line 7, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
   .site-nav .access {
     position: absolute;
     left: -12345em;
   }
-  /* line 14, ../sass/partials/_site-nav-advanced.scss */
+  /* line 14, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
   .site-nav ul {
     margin: 0;
     padding: 0;
     display: block;
   }
-  /* line 19, ../sass/partials/_site-nav-advanced.scss */
+  /* line 19, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
   .site-nav li {
     display: inline;
     float: left;
@@ -209,7 +209,7 @@ address {
     padding: 1px 0 0;
     border-bottom: 4px solid #bad4de;
   }
-  /* line 26, ../sass/partials/_site-nav-advanced.scss */
+  /* line 26, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
   .site-nav li a {
     display: block;
     padding: 1em;
@@ -229,7 +229,7 @@ address {
     -o-transition-duration: 1.5s;
     transition-duration: 1.5s;
   }
-  /* line 40, ../sass/partials/_site-nav-advanced.scss */
+  /* line 40, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
   .site-nav li a:hover, .site-nav li a:focus, .site-nav li a.active {
     background: url('/assets/images/rgbapng/00000099.png?1350603647');
     background: rgba(0, 0, 0, 0.6);
@@ -238,11 +238,11 @@ address {
     margin-top: -4px;
     border-bottom: 4px solid #74a9be;
   }
-  /* line 47, ../sass/partials/_site-nav-advanced.scss */
+  /* line 47, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
   .site-nav li a:active {
     background: #000;
   }
-  /* line 51, ../sass/partials/_site-nav-advanced.scss */
+  /* line 51, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
   .site-nav li a.active {
     background: url('/assets/images/rgbapng/00000066.png?1350603647');
     background: rgba(0, 0, 0, 0.4);
@@ -250,17 +250,17 @@ address {
     cursor: default;
   }
 
-  /* line 58, ../sass/partials/_site-nav-advanced.scss */
+  /* line 58, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
   .js [role="navigation"] {
     display: block;
   }
 
-  /* line 61, ../sass/partials/_site-nav-advanced.scss */
+  /* line 61, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
   .js .contact {
     padding: 0;
   }
 
-  /* line 64, ../sass/partials/_site-nav-advanced.scss */
+  /* line 64, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
   #menu-icon {
     display: none;
   }

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "club nights & events"
+title: "club nights & parties"
 description: ""
 ---
 {% include JB/setup %}
