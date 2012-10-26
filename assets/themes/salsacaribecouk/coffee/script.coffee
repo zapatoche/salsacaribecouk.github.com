@@ -62,8 +62,13 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     navBar.find('.active').click (event) ->
       event.preventDefault()
 
+    # move strapline in site-footer
+    $('.site-tagline').children('.visuallyhidden').prependTo(('.site-footer .content-wrapper')).removeClass('visuallyhidden')
+
     mobilizeNav()
     resetNav()
+    # resizeFooter()
     $window.resize ->
       mobilizeNav()
       resetNav()
+      # resizeFooter()

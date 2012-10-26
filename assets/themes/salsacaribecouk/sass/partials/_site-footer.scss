@@ -3,8 +3,12 @@ footer, .site-footer {
   font-family: "freight-sans-pro", $body_font;
 }
 .site-footer {
-  position: relative;
-  margin-top: -168px;
-  height: 168px;
-  clear: both;
+  height: auto;
+  .content-wrapper {
+    padding: 20px;
+  }
+  .strapline {
+    font-weight: 300;
+    font-size: 120%;
+  }
 }
