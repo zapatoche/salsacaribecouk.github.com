@@ -6,9 +6,11 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
       minFontSize: '32px',
       maxFontSize: '70px'
     });
+    console.log("test");
     $window = $(window);
-    aboveHeight = $('.site-header').outerHeight(true);
     siteNav = $('.site-nav');
+    aboveHeight = $('.site-header').outerHeight(true) - siteNav.outerHeight(true);
+    console.log(aboveHeight);
     menuBarheight = siteNav.outerHeight(true);
     navBar = siteNav.find('[role="navigation"]');
     links = navBar.find('a');
