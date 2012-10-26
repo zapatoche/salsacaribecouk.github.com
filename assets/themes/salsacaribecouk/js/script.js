@@ -3,7 +3,7 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
   $(function() {
     var $width, $window, aboveHeight, getWindowWidth, homeLink, homeLinkText, ipadLandscape, links, menuBarheight, mobilizeNav, navBar, resetNav, reseted, showing, siteNav, switchLi, timer, triggerMenu;
     $('.site-tagline .h1').fitText(1.2, {
-      minFontSize: '40px',
+      minFontSize: '32px',
       maxFontSize: '70px'
     });
     $window = $(window);
@@ -53,11 +53,11 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
     };
     $(window).scroll(function() {
       if ($(window).scrollTop() > aboveHeight) {
-        return siteNav.addClass('fixed').css({
+        return siteNav.addClass('site-nav-advanced').css({
           'top': '0'
         }).next().css('padding-top', menuBarheight + 'px');
       } else {
-        return $('.site-nav').removeClass('fixed').next().css('padding-top', '0');
+        return $('.site-nav').removeClass('site-nav-advanced').next().css('padding-top', '0');
       }
     });
     navBar.find('.active').click(function(event) {

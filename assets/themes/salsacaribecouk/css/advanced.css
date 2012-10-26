@@ -270,6 +270,13 @@ address {
     display: none;
   }
 
+  /* line 67, ../sass/partials/_site-nav-advanced.scss */
+  .site-nav-advanced {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+
   /* line 53, ../sass/advanced.scss */
   .site-tagline {
     border: 0;

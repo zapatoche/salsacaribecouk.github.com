@@ -2,7 +2,7 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
   $ ->
     # resize main headline
     $('.site-tagline .h1').fitText 1.2
-      minFontSize: '40px'
+      minFontSize: '32px'
       maxFontSize: '70px'
 
     # sticky navigation
@@ -54,9 +54,9 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     # ensure menu is always visible on top when the page is scrolled
     $(window).scroll ->
       if $(window).scrollTop() > aboveHeight
-        siteNav.addClass('fixed').css('top':'0').next().css('padding-top', menuBarheight + 'px')
+        siteNav.addClass('site-nav-advanced').css('top':'0').next().css('padding-top', menuBarheight + 'px')
       else
-        $('.site-nav').removeClass('fixed').next().css('padding-top','0')
+        $('.site-nav').removeClass('site-nav-advanced').next().css('padding-top','0')
 
     # disable .active link
     navBar.find('.active').click (event) ->
