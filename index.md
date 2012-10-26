@@ -2,7 +2,7 @@
 
 layout: home
 group: site-nav
-title: Learn to dance <span>Cuban Salsa </span>
+title: <span>Learn to dance</span> <span>Cuban Salsa </span>
 
 ---
 {% include JB/setup %}

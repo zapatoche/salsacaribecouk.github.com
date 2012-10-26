@@ -1,0 +1,310 @@
+/*
+  Mixins are slightly modified from Benjamin Doherty's first implementations: http://gist.github.com/377912
+  rgba-background mixin can now be passed an option $dir variable
+*/
+@font-face {
+  font-family: 'BrothersRegularMedium';
+  src: url('/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.eot');
+  src: url('/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.eot?#iefix') format("embedded-opentype"), url('/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.woff') format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BrothersBoldAlternatesBold';
+  src: font- url("brothbolalt-071211005EmigreWebOnly.eot");
+  src: url('/assets/themes/salsacaribecouk/fonts/brothbolalt-071211005EmigreWebOnly.eot?#iefix') format("embedded-opentype"), url('/assets/themes/salsacaribecouk/fonts/brothbolalt-071211005EmigreWebOnly.woff') format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 22, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('/assets/themes/salsacaribecouk/fonts/icomoon.eot');
+  src: url('/assets/themes/salsacaribecouk/fonts/icomoon.eot?#iefix') format("embedded-opentype"), url('/assets/themes/salsacaribecouk/fonts/icomoon.svg#icomoon') format("svg"), url('/assets/themes/salsacaribecouk/fonts/icomoon.woff') format("woff"), url('/assets/themes/salsacaribecouk/fonts/icomoon.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+/* line 42, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_typography.scss */
+[data-icon]:before {
+  font-family: 'icomoon';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 50, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_typography.scss */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'icomoon';
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 57, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_typography.scss */
+.icon-mobile:before {
+  content: "\21";
+}
+
+/* line 62, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_typography.scss */
+address {
+  font-style: normal;
+}
+
+/* line 69, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_typography.scss */
+.pullquote-right:before,
+.pullquote-left:before {
+  /* Reset metrics. */
+  padding: 0;
+  border: none;
+  /* Content */
+  content: attr(data-pullquote);
+  /* Pull out to the right, modular scale based margins. */
+  float: right;
+  width: 320px;
+  margin: 12px -140px 24px 36px;
+  /* Baseline correction */
+  position: relative;
+  top: 5px;
+  /* Typography (30px line-height equals 25% incremental leading) */
+  font-size: 23px;
+  line-height: 30px;
+}
+
+/* line 90, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_typography.scss */
+.pullquote-left:before {
+  float: left;
+  margin: 12px 31px 24px -102px;
+  width: 251px;
+}
+
+/* line 16, ../sass/advanced.scss */
+.location {
+  *zoom: 1;
+  widht: 100%;
+}
+/* line 38, /Users/zapatoche/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.location:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 19, ../sass/advanced.scss */
+.location .vcard {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  padding-left: 6.77966%;
+}
+/* line 22, ../sass/advanced.scss */
+.location .vcard.last {
+  margin-right: 0;
+}
+/* line 25, ../sass/advanced.scss */
+.location .vcard dd {
+  margin: 0;
+  position: relative;
+}
+/* line 29, ../sass/advanced.scss */
+.location .vcard dd span:first-child,
+.location .vcard dd .map-marker {
+  color: #fff;
+  background: #F53837;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  position: absolute;
+  left: -15.25424%;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+  border-radius: 1em;
+}
+/* line 43, ../sass/advanced.scss */
+.location .figure {
+  clear: both;
+}
+
+@media only screen and (min-width: 590px) {
+  /* line 1, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header-advanced.scss */
+  .site-logo {
+    height: 60px;
+    letter-spacing: .05em;
+    font-size: 38px;
+    line-height: 60px;
+    display: inline;
+    float: left;
+  }
+
+  /* line 9, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header-advanced.scss */
+  .site-logo,
+  .site-tagline .h1 {
+    -webkit-mask-image: url('/assets/images/skin/mask.png?1351265196');
+  }
+
+  /* line 14, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header-advanced.scss */
+  .site-branding .site-logo,
+  .site-branding .contact a {
+    padding: 0;
+  }
+  /* line 17, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header-advanced.scss */
+  .site-branding .contact {
+    height: 60px;
+    background: transparent;
+    font-size: 150%;
+    line-height: 60px;
+    display: inline;
+    float: right;
+  }
+  /* line 23, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header-advanced.scss */
+  .site-branding .contact a {
+    text-decoration: none;
+    padding: 0;
+  }
+
+  /* line 29, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header-advanced.scss */
+  .js [role="banner"] .contact {
+    padding: 0;
+  }
+
+  /* line 1, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
+  .site-header-wrapper {
+    caption-side: bottom;
+  }
+
+  /* line 4, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
+  .site-nav {
+    border-bottom: 4px solid #dce9ef;
+    background: #8b2a2c url('/assets/images/skin/grunge_wall_red.png?1351265196') repeat 0 0;
+    text-align: center;
+  }
+  /* line 7, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
+  .site-nav .access {
+    position: absolute;
+    left: -12345em;
+  }
+  /* line 14, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
+  .site-nav ul {
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+  /* line 19, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
+  .site-nav li {
+    display: inline;
+    float: left;
+    position: relative;
+    top: 4px;
+    margin-top: -4px;
+    padding: 1px 0 0;
+    border-bottom: 4px solid #bad4de;
+  }
+  /* line 26, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
+  .site-nav li a {
+    display: block;
+    padding: 1em;
+    border: 0;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #000;
+    letter-spacing: .1em;
+    font-weight: 300;
+    font-family: "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-transition-property: background;
+    -moz-transition-property: background;
+    -o-transition-property: background;
+    transition-property: background;
+    -webkit-transition-duration: 1.5s;
+    -moz-transition-duration: 1.5s;
+    -o-transition-duration: 1.5s;
+    transition-duration: 1.5s;
+  }
+  /* line 40, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
+  .site-nav li a:hover, .site-nav li a:focus, .site-nav li a.active {
+    background: url('/assets/images/rgbapng/00000099.png?1351265196');
+    background: rgba(0, 0, 0, 0.6);
+    position: relative;
+    top: 4px;
+    margin-top: -4px;
+    border-bottom: 4px solid #74a9be;
+  }
+  /* line 47, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
+  .site-nav li a:active {
+    background: #000;
+  }
+  /* line 51, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
+  .site-nav li a.active {
+    background: url('/assets/images/rgbapng/00000066.png?1351265196');
+    background: rgba(0, 0, 0, 0.4);
+    border-color: #5293ad;
+    cursor: default;
+  }
+
+  /* line 58, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
+  .js [role="navigation"] {
+    display: block;
+  }
+
+  /* line 61, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
+  .js .contact {
+    padding: 0;
+  }
+
+  /* line 64, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
+  #menu-icon {
+    display: none;
+  }
+
+  /* line 67, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav-advanced.scss */
+  .site-nav-advanced {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  /* line 53, ../sass/advanced.scss */
+  .site-tagline {
+    border: 0;
+  }
+
+  /* line 56, ../sass/advanced.scss */
+  .js [role="banner"] .contact {
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 48em) {
+  /* line 65, ../sass/advanced.scss */
+  .js .site-nav li {
+    float: right;
+  }
+  /* line 67, ../sass/advanced.scss */
+  .js .site-nav li.first {
+    float: left;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 75, ../sass/advanced.scss */
+  html {
+    background-image: url('/assets/images/skin/grunge_wall_@2x.png?1351265196');
+  }
+
+  /* line 78, ../sass/advanced.scss */
+  .site-nav {
+    background-image: url('/assets/images/skin/grunge_wall_red_@2x.png?1351265196');
+  }
+}

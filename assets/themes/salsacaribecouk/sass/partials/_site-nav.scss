@@ -1,0 +1,69 @@
+.site-nav {
+  @include pie-clearfix;
+  background: #8B2A2C image-url('skin/grunge_wall_blue.png') repeat 0 0;
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: block;
+    &:hover {
+    }
+    a {
+      display: block;
+      padding: 1em;
+      border-bottom: 1px solid hsl(197,43%,55%);
+      color: #fff;
+      text-decoration: none;
+      text-shadow: 0 1px 1px #000;
+      letter-spacing:.1em;
+      font-weight: 300;
+      font-family:  $body_font;
+      @include transition-property(background);
+      @include transition-duration(1.5s);
+      &:hover,
+      &:focus,
+      &.active {
+        @include rgba-background(hsla(0,0,0,.6));
+        position: relative;
+        border-bottom: 1px solid hsl(197,43%,65%);
+      }
+      &:active {
+        background: #000;
+      }
+      .last &  {
+        border: 0;
+      }
+    }
+    a.active {
+      @include rgba-background(hsla(0,0,0, .4));
+      border-color: hsl(197,43%,65%);
+      cursor: default;
+    }
+  }
+}
+.js [role="navigation"] {
+  display: none;
+}
+.js [role="banner"] .contact {
+  padding: .3em .5em;
+}
+#menu-icon {
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+  padding: 0 1em;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+  text-transform: lowercase;
+  font-weight: 300;
+  line-height: 2;
+  cursor: pointer;
+  @include rgba-background(rgba(0,0,0,.5));
+  @include border-radius(4px);
+  &:hover,&:focus, &:active, &.active {
+    @include rgba-background(rgba(0,0,0,.7));
+  }
+}
+

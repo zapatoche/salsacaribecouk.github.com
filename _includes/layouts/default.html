@@ -30,12 +30,13 @@
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   </head>
 
-  <body class="{{ page.category | downcase }}">
-    {% include partials/site_header.html %}
-    {% include partials/site_nav.html %}
-    <div class="container content-wrapper">
-      <div class="content row">
-        {{ content }}
+  <body class="{{ page.id | remove_first: '/' | downcase }}">
+    <div class="body-inner">
+      {% include partials/site_header.html %}
+      <div class="container content-wrapper">
+        <div class="content row">
+          {{ content }}
+        </div>
       </div>
     </div>
     {% include partials/site_footer.html %}

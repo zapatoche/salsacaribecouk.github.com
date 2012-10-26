@@ -1,0 +1,14 @@
+footer, .site-footer {
+  clear: both;
+  font-family: "freight-sans-pro", $body_font;
+}
+.site-footer {
+  height: auto;
+  .content-wrapper {
+    padding: 20px;
+  }
+  .strapline {
+    font-weight: 300;
+    font-size: 120%;
+  }
+}

@@ -1,38 +1,93 @@
-[role="banner"] {
+.site-header-wrapper {
+  display: table;
+  width: 100%;
+  caption-side: top;
+}
+.site-nav {
+  display:  table-caption;
+}
+[role="banner"],
+.site-footer {
+  background: #000 image-url('skin/grunge_wall_invert.png');
+  &, & a {
+    color: #fff;
+    color: hsla(60,50%,98%, .8);
+    text-decoration: none;
+    &:hover {
+      color: #fff;
+    }
+  }
 }
 .site-tagline {
-  font-family: $brand_font;
   display: inline-block;
+  border-bottom: 4px solid hsl(197,36%,90%);
   width: 100%;
-  line-height: 1;
+  background: #457B91 image-url('skin/grunge_wall_blue.png') repeat 0 0;
+  color: #fff;
+  text-align: center;
+  h1, .h1 {
+    margin: 0;
+    padding: 42px 0;
+    letter-spacing: .03225em;
+    font-size: 60px;
+    font-size: 4.571428571rem;
+    font-family: $brand_font;
+    line-height: 1;
+  }
   span {
+    display: inline-block;
     white-space: nowrap;
   }
 }
-.site-tagline {
-  font-size: 3.75em; //60px/16px
-  text-align: center;
-  letter-spacing: .03225em;
-  margin: 0;
-  padding: 48px 0;
-}
 .site-logo {
-  font-size: 30px;
-  font-family: $brand_font;
-  letter-spacing: .05em;
   margin: 0;
-  @include float(left);
-  a{
-    text-decoration: none;
-  }
+  padding: .5em;
+  text-decoration: none;
+  letter-spacing: .05em;
+  font-size: 38px;
+  font-family: $brand_font;
+  line-height: 1;
+  text-align: center;
+}
+.site-logo,
+.site-tagline .h1 {
+    // -webkit-mask-image: image-url('skin/mask.png');
 }
 .site-branding {
+  text-transform: uppercase;
+  @include clearfix;
   .site-logo,
-  .contact {
+  .contact  {
     margin: 0;
   }
+  .site-logo,
+  .contact a {
+    display: block;
+  }
   .contact {
-    font-size: 14px;
-    line-height: 3.5;
+    background-image: image-url('skin/grunge_wall_red.png');
+    letter-spacing: .1em;
+    font-weight: 300;
+    font-size: 120%;
+    font-family: "freight-sans-pro", $body_font;
+    a {
+      text-decoration: none;
+      padding: .2em .5em;
+      .js & {
+        @include float(left);
+      }
+    }
+    .js & {
+      overflow: hidden;
+    }
+  }
+  [data-icon] {
+    &:before {
+      @include rotate(-10deg);
+      @include inline-block(middle);
+      margin-right: -10px;
+      font-size: 100%;
+      line-height: 1;
+    }
   }
 }

@@ -1,14 +1,21 @@
 <header class="site-header" role="banner">
 <div class="site-branding content-wrapper">
-    <p class="site-logo">
+    <p class="site-logo" role="img">
       <a href="{{ site.production_url }}" rel="home">{{ site.vcard.name | remove: 'productions' }}</a>
     </p>
     <p class="contact">
-      contact: <span class="value">{{ site.vcard.phone }}</span>
+      <a href="tel:{{ site.vcard.phone.machine }}"  data-icon="&#x21;">
+      <span aria-hidden="true">contact:</span> <span class="value">{{ site.vcard.phone.human }}</span>
+      </a>
     </p>
   </div>
-  <h1 class="site-tagline">
-    {{ page.title }}
-  </h1>
+  <div class="site-header-wrapper">
+    <hgroup class="site-tagline">
+      <h1 class="h1">
+        {{ page.title }}
+      </h1>
+      <h2 class="visuallyhidden strapline">Explore the true essence of Cuban music and dance with {{ site.vcard.name }}</h2>
+    </hgroup>
+    {% include partials/site_nav.html %}
+  </div>
 </header>
-

@@ -1,11 +1,9 @@
 ---
 layout: page
-title: "club nights & events"
+title: "club nights & parties"
 description: ""
 ---
 {% include JB/setup %}
-
-
 
 <section class="section clubs">
   <h2>Our club nights</h2>

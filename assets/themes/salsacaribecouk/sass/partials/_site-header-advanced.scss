@@ -1,0 +1,31 @@
+.site-logo {
+  height: 60px;
+  letter-spacing: .05em;
+  font-size: 38px;
+  line-height: 60px;
+  @include float(left);
+}
+.site-logo,
+.site-tagline .h1 {
+    -webkit-mask-image: image-url('skin/mask.png');
+}
+.site-branding {
+  .site-logo,
+  .contact a {
+    padding: 0;
+  }
+  .contact {
+    height: 60px;
+    background: transparent;
+    font-size: 150%;
+    line-height: 60px;
+    @include float(right);
+    a {
+      text-decoration: none;
+      padding: 0;
+    }
+  }
+}
+.js [role="banner"] .contact {
+  padding:  0;
+}
