@@ -500,7 +500,7 @@ html, body, .body-inner {
 
 /* line 27, ../sass/global.scss */
 body {
-  background: white url('/assets/images/skin/grunge_wall_bg.png?1351258549') repeat 0 0;
+  background: #d8d8a6 url('/assets/images/skin/grunge_wall_bg.png?1351258549') repeat 0 0;
   margin: 0;
   padding: 0;
   font: 400 100%/1.5 "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -510,7 +510,7 @@ body {
 
 /* line 36, ../sass/global.scss */
 body > .body-inner {
-  background: white url('/assets/images/skin/grunge_wall.png?1350603647') repeat 0 0;
+  background: #f5f5ea url('/assets/images/skin/grunge_wall.png?1350603647') repeat 0 0;
   display: table-row;
 }
 
