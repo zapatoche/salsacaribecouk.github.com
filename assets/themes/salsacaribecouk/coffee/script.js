@@ -30,10 +30,10 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
     };
     resetNav = function() {
       getWindowWidth();
-      if ($width > ipadLandscape && reseted === false) {
+      if ($width >= ipadLandscape && reseted === false) {
         switchLi();
         return reseted = true;
-      } else if ($width <= ipadLandscape && reseted === true) {
+      } else if ($width < ipadLandscape && reseted === true) {
         switchLi();
         return reseted = false;
       }

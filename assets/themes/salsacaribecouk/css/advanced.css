@@ -177,6 +177,11 @@ address {
     padding: 0;
   }
 
+  /* line 29, ../sass/partials/_site-header-advanced.scss */
+  .js [role="banner"] .contact {
+    padding: 0;
+  }
+
   /* line 1, ../sass/partials/_site-nav-advanced.scss */
   .site-header-wrapper {
     caption-side: bottom;

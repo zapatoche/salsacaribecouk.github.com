@@ -30,10 +30,10 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
 
     resetNav = ->
       getWindowWidth()
-      if $width > ipadLandscape  and reseted is false
+      if $width >= ipadLandscape  and reseted is false
         switchLi()
         reseted = true
-      else if $width <= ipadLandscape and reseted is true
+      else if $width < ipadLandscape and reseted is true
         switchLi()
         reseted = false
 

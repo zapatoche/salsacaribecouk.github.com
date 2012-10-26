@@ -494,19 +494,28 @@ html {
 }
 
 /* line 24, ../sass/global.scss */
+html, body, .body-inner {
+  height: 100%;
+}
+
+/* line 27, ../sass/global.scss */
 body {
-  background: white url('/assets/images/skin/grunge_wall_bg.png?1351256471') repeat 0 0;
+  background: white url('/assets/images/skin/grunge_wall_bg.png?1351258549') repeat 0 0;
   margin: 0;
   padding: 0;
   font: 400 100%/1.5 "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: table;
+  width: 100%;
+  height: 100%;
 }
 
-/* line 30, ../sass/global.scss */
+/* line 37, ../sass/global.scss */
 body > .body-inner {
   background: white url('/assets/images/skin/grunge_wall.png?1350603647') repeat 0 0;
+  display: table-row;
 }
 
-/* line 33, ../sass/global.scss */
+/* line 42, ../sass/global.scss */
 .content-wrapper {
   *zoom: 1;
   max-width: 59em;
@@ -648,12 +657,12 @@ body > .body-inner {
   line-height: 1;
 }
 
-/* line 41, ../sass/global.scss */
+/* line 50, ../sass/global.scss */
 .content {
   position: relative;
 }
 
-/* line 44, ../sass/global.scss */
+/* line 53, ../sass/global.scss */
 .site-header {
   width: auto;
 }
@@ -778,7 +787,7 @@ footer, .site-footer {
   font-size: 120%;
 }
 
-/* line 51, ../sass/global.scss */
+/* line 60, ../sass/global.scss */
 .embed-media-block {
   position: relative;
   overflow: hidden;
@@ -790,7 +799,7 @@ footer, .site-footer {
   border: 1px solid #fff;
 }
 
-/* line 63, ../sass/global.scss */
+/* line 72, ../sass/global.scss */
 .embed-media-block iframe,
 .embed-media-block object,
 .embed-media-block embed {
@@ -801,45 +810,45 @@ footer, .site-footer {
   height: 100%;
 }
 
-/* line 73, ../sass/global.scss */
+/* line 82, ../sass/global.scss */
 a {
   color: black;
 }
 
-/* line 77, ../sass/global.scss */
+/* line 86, ../sass/global.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   text-decoration: none;
   color: #000;
   color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 83, ../sass/global.scss */
+/* line 92, ../sass/global.scss */
 [href^="tel"] {
   text-decoration: none;
 }
-/* line 85, ../sass/global.scss */
+/* line 94, ../sass/global.scss */
 [href^="tel"]:hover {
   color: #5296B1;
 }
 
-/* line 90, ../sass/global.scss */
+/* line 99, ../sass/global.scss */
 [aria-hidden] {
   font: 0/0 serif;
   text-shadow: none;
   color: transparent;
 }
 
-/* line 96, ../sass/global.scss */
+/* line 105, ../sass/global.scss */
 .fixed {
   position: fixed;
 }
 
-/* line 99, ../sass/global.scss */
+/* line 108, ../sass/global.scss */
 .site-nav.fixed {
   width: 100%;
   z-index: 1000;
 }
-/* line 102, ../sass/global.scss */
+/* line 111, ../sass/global.scss */
 .site-nav.fixed .home {
   font-family: "BrothersRegularMedium", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
