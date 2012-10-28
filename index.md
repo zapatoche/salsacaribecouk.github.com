@@ -6,7 +6,8 @@ title: <span>Learn to dance</span> <span>Cuban Salsa </span>
 
 ---
 {% include JB/setup %}
-  
+
+
 {% assign isfeature = site.tags.feature.size  %}
 {% if isfeature >= 0  %}
   <section class="section featured">

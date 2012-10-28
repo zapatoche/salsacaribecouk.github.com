@@ -1,4 +1,4 @@
-/* line 1, ../sass/partials/_mixins.scss */
+/* line 1, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_mixins.scss */
 .visuallyhidden {
   position: absolute;
   left: -12345em;
@@ -11,7 +11,7 @@
 /*
  * Corrects `block` display not defined in IE 8/9.
  */
-/* line 21, ../sass/vendors/_normalize.scss */
+/* line 21, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 article,
 aside,
 details,
@@ -29,7 +29,7 @@ summary {
 /*
  * Corrects `inline-block` display not defined in IE 8/9.
  */
-/* line 31, ../sass/vendors/_normalize.scss */
+/* line 31, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 audio,
 canvas,
 video {
@@ -40,7 +40,7 @@ video {
  * Prevents modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 40, ../sass/vendors/_normalize.scss */
+/* line 40, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -49,7 +49,7 @@ audio:not([controls]) {
 /*
  * Addresses styling for `hidden` attribute not present in IE 8/9.
  */
-/* line 49, ../sass/vendors/_normalize.scss */
+/* line 49, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 [hidden] {
   display: none;
 }
@@ -62,7 +62,7 @@ audio:not([controls]) {
  * 2. Prevents iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 63, ../sass/vendors/_normalize.scss */
+/* line 63, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -75,7 +75,7 @@ html {
 /*
  * Removes default margin.
  */
-/* line 73, ../sass/vendors/_normalize.scss */
+/* line 73, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 body {
   margin: 0;
 }
@@ -86,7 +86,7 @@ body {
 /*
  * Addresses `outline` inconsistency between Chrome and other browsers.
  */
-/* line 85, ../sass/vendors/_normalize.scss */
+/* line 85, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 a:focus {
   outline: thin dotted;
 }
@@ -94,7 +94,7 @@ a:focus {
 /*
  * Improves readability when focused and also mouse hovered in all browsers.
  */
-/* line 94, ../sass/vendors/_normalize.scss */
+/* line 94, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -107,7 +107,7 @@ a:hover {
  * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
  * Safari 5, and Chrome.
  */
-/* line 107, ../sass/vendors/_normalize.scss */
+/* line 107, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 h1 {
   font-size: 2em;
 }
@@ -115,7 +115,7 @@ h1 {
 /*
  * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
  */
-/* line 115, ../sass/vendors/_normalize.scss */
+/* line 115, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -123,7 +123,7 @@ abbr[title] {
 /*
  * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 124, ../sass/vendors/_normalize.scss */
+/* line 124, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -132,7 +132,7 @@ strong {
 /*
  * Addresses styling not present in Safari 5 and Chrome.
  */
-/* line 132, ../sass/vendors/_normalize.scss */
+/* line 132, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -140,7 +140,7 @@ dfn {
 /*
  * Addresses styling not present in IE 8/9.
  */
-/* line 140, ../sass/vendors/_normalize.scss */
+/* line 140, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -149,7 +149,7 @@ mark {
 /*
  * Corrects font family set oddly in Safari 5 and Chrome.
  */
-/* line 153, ../sass/vendors/_normalize.scss */
+/* line 153, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 code,
 kbd,
 pre,
@@ -161,7 +161,7 @@ samp {
 /*
  * Improves readability of pre-formatted text in all browsers.
  */
-/* line 162, ../sass/vendors/_normalize.scss */
+/* line 162, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
@@ -171,7 +171,7 @@ pre {
 /*
  * Sets consistent quote types.
  */
-/* line 172, ../sass/vendors/_normalize.scss */
+/* line 172, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
@@ -179,7 +179,7 @@ q {
 /*
  * Addresses inconsistent and variable font size in all browsers.
  */
-/* line 180, ../sass/vendors/_normalize.scss */
+/* line 180, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -187,7 +187,7 @@ small {
 /*
  * Prevents `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 189, ../sass/vendors/_normalize.scss */
+/* line 189, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -196,12 +196,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 196, ../sass/vendors/_normalize.scss */
+/* line 196, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 200, ../sass/vendors/_normalize.scss */
+/* line 200, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -212,7 +212,7 @@ sub {
 /*
  * Removes border when inside `a` element in IE 8/9.
  */
-/* line 212, ../sass/vendors/_normalize.scss */
+/* line 212, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 img {
   border: 0;
 }
@@ -220,7 +220,7 @@ img {
 /*
  * Corrects overflow displayed oddly in IE 9.
  */
-/* line 220, ../sass/vendors/_normalize.scss */
+/* line 220, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -231,7 +231,7 @@ svg:not(:root) {
 /*
  * Addresses margin not present in IE 8/9 and Safari 5.
  */
-/* line 232, ../sass/vendors/_normalize.scss */
+/* line 232, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 figure {
   margin: 0;
 }
@@ -242,7 +242,7 @@ figure {
 /*
  * Define consistent border, margin, and padding.
  */
-/* line 244, ../sass/vendors/_normalize.scss */
+/* line 244, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -253,7 +253,7 @@ fieldset {
  * 1. Corrects color not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 255, ../sass/vendors/_normalize.scss */
+/* line 255, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -266,7 +266,7 @@ legend {
  * 2. Corrects font size not being inherited in all browsers.
  * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
  */
-/* line 269, ../sass/vendors/_normalize.scss */
+/* line 269, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 button,
 input,
 select,
@@ -283,7 +283,7 @@ textarea {
  * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 281, ../sass/vendors/_normalize.scss */
+/* line 281, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 button,
 input {
   line-height: normal;
@@ -296,7 +296,7 @@ input {
  * 3. Improves usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 296, ../sass/vendors/_normalize.scss */
+/* line 296, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -310,7 +310,7 @@ input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements.
  */
-/* line 306, ../sass/vendors/_normalize.scss */
+/* line 306, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 button[disabled],
 input[disabled] {
   cursor: default;
@@ -320,7 +320,7 @@ input[disabled] {
  * 1. Addresses box sizing set to `content-box` in IE 8/9.
  * 2. Removes excess padding in IE 8/9.
  */
-/* line 316, ../sass/vendors/_normalize.scss */
+/* line 316, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -334,7 +334,7 @@ input[type="radio"] {
  * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 327, ../sass/vendors/_normalize.scss */
+/* line 327, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -348,7 +348,7 @@ input[type="search"] {
  * Removes inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 340, ../sass/vendors/_normalize.scss */
+/* line 340, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -357,7 +357,7 @@ input[type="search"]::-webkit-search-decoration {
 /*
  * Removes inner padding and border in Firefox 4+.
  */
-/* line 349, ../sass/vendors/_normalize.scss */
+/* line 349, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -368,7 +368,7 @@ input::-moz-focus-inner {
  * 1. Removes default vertical scrollbar in IE 8/9.
  * 2. Improves readability and alignment in all browsers.
  */
-/* line 359, ../sass/vendors/_normalize.scss */
+/* line 359, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -382,7 +382,7 @@ textarea {
 /*
  * Remove most spacing between table cells.
  */
-/* line 372, ../sass/vendors/_normalize.scss */
+/* line 372, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/vendors/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -408,7 +408,7 @@ table {
   font-style: normal;
 }
 
-/* line 22, ../sass/partials/_typography.scss */
+/* line 22, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -424,7 +424,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
-/* line 42, ../sass/partials/_typography.scss */
+/* line 42, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_typography.scss */
 [data-icon]:before {
   font-family: 'icomoon';
   content: attr(data-icon);
@@ -433,7 +433,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 50, ../sass/partials/_typography.scss */
+/* line 50, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_typography.scss */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-weight: normal;
   font-style: normal;
@@ -442,17 +442,17 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 57, ../sass/partials/_typography.scss */
+/* line 57, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_typography.scss */
 .icon-mobile:before {
   content: "\21";
 }
 
-/* line 62, ../sass/partials/_typography.scss */
+/* line 62, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_typography.scss */
 address {
   font-style: normal;
 }
 
-/* line 69, ../sass/partials/_typography.scss */
+/* line 69, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_typography.scss */
 .pullquote-right:before,
 .pullquote-left:before {
   /* Reset metrics. */
@@ -472,7 +472,7 @@ address {
   line-height: 30px;
 }
 
-/* line 90, ../sass/partials/_typography.scss */
+/* line 90, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_typography.scss */
 .pullquote-left:before {
   float: left;
   margin: 12px 31px 24px -102px;
@@ -500,7 +500,7 @@ html, body, .body-inner {
 
 /* line 27, ../sass/global.scss */
 body {
-  background: #d8d8a6 url('/assets/images/skin/grunge_wall_bg.png?1351258549') repeat 0 0;
+  background: #d8d8a6 url('/assets/images/skin/grunge_wall_bg.png?1351265196') repeat 0 0;
   margin: 0;
   padding: 0;
   font: 400 100%/1.5 "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -510,7 +510,7 @@ body {
 
 /* line 36, ../sass/global.scss */
 body > .body-inner {
-  background: #f5f5ea url('/assets/images/skin/grunge_wall.png?1350603647') repeat 0 0;
+  background: #f5f5ea url('/assets/images/skin/grunge_wall.png?1351265196') repeat 0 0;
   display: table-row;
 }
 
@@ -524,31 +524,31 @@ body > .body-inner {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 38, ../../../../../../../../.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /Users/zapatoche/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .content-wrapper:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 1, ../sass/partials/_site-header.scss */
+/* line 1, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header.scss */
 .site-header-wrapper {
   display: table;
   width: 100%;
   caption-side: top;
 }
 
-/* line 6, ../sass/partials/_site-header.scss */
+/* line 6, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header.scss */
 .site-nav {
   display: table-caption;
 }
 
-/* line 10, ../sass/partials/_site-header.scss */
+/* line 10, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header.scss */
 [role="banner"],
 .site-footer {
-  background: black url('/assets/images/skin/grunge_wall_invert.png?1350603647');
+  background: black url('/assets/images/skin/grunge_wall_invert.png?1351265196');
 }
-/* line 12, ../sass/partials/_site-header.scss */
+/* line 12, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header.scss */
 [role="banner"], [role="banner"] a,
 .site-footer,
 .site-footer a {
@@ -556,23 +556,23 @@ body > .body-inner {
   color: rgba(252, 252, 247, 0.8);
   text-decoration: none;
 }
-/* line 16, ../sass/partials/_site-header.scss */
+/* line 16, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header.scss */
 [role="banner"]:hover, [role="banner"] a:hover,
 .site-footer:hover,
 .site-footer a:hover {
   color: #fff;
 }
 
-/* line 21, ../sass/partials/_site-header.scss */
+/* line 21, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header.scss */
 .site-tagline {
   display: inline-block;
   border-bottom: 4px solid #dce9ef;
   width: 100%;
-  background: #457b91 url('/assets/images/skin/grunge_wall_blue.png?1350603647') repeat 0 0;
+  background: #457b91 url('/assets/images/skin/grunge_wall_blue.png?1351265196') repeat 0 0;
   color: #fff;
   text-align: center;
 }
-/* line 28, ../sass/partials/_site-header.scss */
+/* line 28, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header.scss */
 .site-tagline h1, .site-tagline .h1 {
   margin: 0;
   padding: 42px 0;
@@ -582,13 +582,13 @@ body > .body-inner {
   font-family: "BrothersRegularMedium", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1;
 }
-/* line 37, ../sass/partials/_site-header.scss */
+/* line 37, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header.scss */
 .site-tagline span {
   display: inline-block;
   white-space: nowrap;
 }
 
-/* line 42, ../sass/partials/_site-header.scss */
+/* line 42, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header.scss */
 .site-logo {
   margin: 0;
   padding: .5em;
@@ -600,45 +600,45 @@ body > .body-inner {
   text-align: center;
 }
 
-/* line 56, ../sass/partials/_site-header.scss */
+/* line 56, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header.scss */
 .site-branding {
   text-transform: uppercase;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 60, ../sass/partials/_site-header.scss */
+/* line 60, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header.scss */
 .site-branding .site-logo,
 .site-branding .contact {
   margin: 0;
 }
-/* line 64, ../sass/partials/_site-header.scss */
+/* line 64, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header.scss */
 .site-branding .site-logo,
 .site-branding .contact a {
   display: block;
 }
-/* line 67, ../sass/partials/_site-header.scss */
+/* line 67, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header.scss */
 .site-branding .contact {
-  background-image: url('/assets/images/skin/grunge_wall_red.png?1350603647');
+  background-image: url('/assets/images/skin/grunge_wall_red.png?1351265196');
   letter-spacing: .1em;
   font-weight: 300;
   font-size: 120%;
   font-family: "freight-sans-pro", "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-/* line 73, ../sass/partials/_site-header.scss */
+/* line 73, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header.scss */
 .site-branding .contact a {
   text-decoration: none;
   padding: .2em .5em;
 }
-/* line 76, ../sass/partials/_site-header.scss */
+/* line 76, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header.scss */
 .js .site-branding .contact a {
   display: inline;
   float: left;
 }
-/* line 80, ../sass/partials/_site-header.scss */
+/* line 80, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header.scss */
 .js .site-branding .contact {
   overflow: hidden;
 }
-/* line 85, ../sass/partials/_site-header.scss */
+/* line 85, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-header.scss */
 .site-branding [data-icon]:before {
   -webkit-transform: rotate(-10deg);
   -moz-transform: rotate(-10deg);
@@ -666,27 +666,27 @@ body > .body-inner {
   width: auto;
 }
 
-/* line 1, ../sass/partials/_site-nav.scss */
+/* line 1, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav.scss */
 .site-nav {
   *zoom: 1;
-  background: #8b2a2c url('/assets/images/skin/grunge_wall_blue.png?1350603647') repeat 0 0;
+  background: #8b2a2c url('/assets/images/skin/grunge_wall_blue.png?1351265196') repeat 0 0;
 }
-/* line 38, ../../../../../../../../.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /Users/zapatoche/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .site-nav:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 4, ../sass/partials/_site-nav.scss */
+/* line 4, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav.scss */
 .site-nav ul {
   margin: 0;
   padding: 0;
 }
-/* line 8, ../sass/partials/_site-nav.scss */
+/* line 8, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav.scss */
 .site-nav li {
   display: block;
 }
-/* line 12, ../sass/partials/_site-nav.scss */
+/* line 12, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav.scss */
 .site-nav li a {
   display: block;
   padding: 1em;
@@ -706,40 +706,40 @@ body > .body-inner {
   -o-transition-duration: 1.5s;
   transition-duration: 1.5s;
 }
-/* line 26, ../sass/partials/_site-nav.scss */
+/* line 26, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav.scss */
 .site-nav li a:hover, .site-nav li a:focus, .site-nav li a.active {
-  background: url('/assets/images/rgbapng/00000099.png?1350603647');
+  background: url('/assets/images/rgbapng/00000099.png?1351265196');
   background: rgba(0, 0, 0, 0.6);
   position: relative;
   border-bottom: 1px solid #7fb6cc;
 }
-/* line 31, ../sass/partials/_site-nav.scss */
+/* line 31, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav.scss */
 .site-nav li a:active {
   background: #000;
 }
-/* line 34, ../sass/partials/_site-nav.scss */
+/* line 34, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav.scss */
 .last .site-nav li a {
   border: 0;
 }
-/* line 38, ../sass/partials/_site-nav.scss */
+/* line 38, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav.scss */
 .site-nav li a.active {
-  background: url('/assets/images/rgbapng/00000066.png?1350603647');
+  background: url('/assets/images/rgbapng/00000066.png?1351265196');
   background: rgba(0, 0, 0, 0.4);
   border-color: #7fb6cc;
   cursor: default;
 }
 
-/* line 45, ../sass/partials/_site-nav.scss */
+/* line 45, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav.scss */
 .js [role="navigation"] {
   display: none;
 }
 
-/* line 48, ../sass/partials/_site-nav.scss */
+/* line 48, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav.scss */
 .js [role="banner"] .contact {
   padding: .3em .5em;
 }
 
-/* line 51, ../sass/partials/_site-nav.scss */
+/* line 51, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav.scss */
 #menu-icon {
   display: inline-block;
   float: right;
@@ -752,7 +752,7 @@ body > .body-inner {
   font-weight: 300;
   line-height: 2;
   cursor: pointer;
-  background: url('/assets/images/rgbapng/0000007f.png?1350603647');
+  background: url('/assets/images/rgbapng/0000007f.png?1351265196');
   background: rgba(0, 0, 0, 0.5);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -760,27 +760,27 @@ body > .body-inner {
   -o-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 65, ../sass/partials/_site-nav.scss */
+/* line 65, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-nav.scss */
 #menu-icon:hover, #menu-icon:focus, #menu-icon:active, #menu-icon.active {
-  background: url('/assets/images/rgbapng/000000b3.png?1351107128');
+  background: url('/assets/images/rgbapng/000000b3.png?1351265196');
   background: rgba(0, 0, 0, 0.7);
 }
 
-/* line 1, ../sass/partials/_site-footer.scss */
+/* line 1, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-footer.scss */
 footer, .site-footer {
   clear: both;
   font-family: "freight-sans-pro", "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 5, ../sass/partials/_site-footer.scss */
+/* line 5, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-footer.scss */
 .site-footer {
   height: auto;
 }
-/* line 7, ../sass/partials/_site-footer.scss */
+/* line 7, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-footer.scss */
 .site-footer .content-wrapper {
   padding: 20px;
 }
-/* line 10, ../sass/partials/_site-footer.scss */
+/* line 10, /Users/zapatoche/Dropbox/projects/salsacaribe/salsacaribecouk.github.com/assets/themes/salsacaribecouk/sass/partials/_site-footer.scss */
 .site-footer .strapline {
   font-weight: 300;
   font-size: 120%;

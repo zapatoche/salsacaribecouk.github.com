@@ -1,19 +1,25 @@
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!-->
+<!--[if (IE 7)&!(IEMobile)]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if (IE 8)&!(IEMobile)]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt (IE 8)&!(IEMobile)]><!-->
 <html class="no-js" lang="en"><!--<![endif]-->
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{% if page.title %}{{ page.title | strip_html}} |{% endif %} Salsa Caribe</title>
+    <meta charset="utf-8">
     {% if page.description %}
       <meta name="description" content="{{ page.description }}">
     {% endif %}
     <meta name="author" content="{{ site.vcard.name }}">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="cleartype" content="on">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link href="{{ ASSET_PATH }}/css/global.css?{{ site.time | date:'%Y%m%d%U%H%N%S' }}" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/fonts/ss-social.css?{{ site.time | date:'%Y%m%d%U%H%N%S' }}" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/fonts/ss-standard.css?{{ site.time | date:'%Y%m%d%U%H%N%S' }}" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/advanced.css?{{ site.time | date:'%Y%m%d%U%H%N%S' }}" rel="stylesheet"  media="all and (min-width: 480px)">
     <!--[if (lt IE 9)&(!IEMobile)]>
         <link rel="stylesheet" href="{{ ASSET_PATH }}/css/advanced.css?{{ site.time | date:'%Y%m%d%U%H%N%S' }}" media="all" />
