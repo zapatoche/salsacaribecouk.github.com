@@ -182,6 +182,11 @@ address {
     padding: 0;
   }
 
+  /* line 33, ../sass/partials/_site-header-advanced.scss */
+  .site-tagline h1, .site-tagline .h1 {
+    font-size: 60px;
+  }
+
   /* line 1, ../sass/partials/_site-nav-advanced.scss */
   .site-header-wrapper {
     caption-side: bottom;
