@@ -33,5 +33,4 @@ title: <span>Learn to dance</span> <span>Cuban Salsa </span>
       {{ post.descriptioa | markdownify }}
     {% endif %}
   {% endfor %}
-
 </section>

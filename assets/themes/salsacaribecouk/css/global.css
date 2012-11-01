@@ -836,3 +836,19 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   text-shadow: none;
   color: transparent;
 }
+
+/* line 105, ../sass/global.scss */
+.static-map {
+  width: 60%;
+  outline: red solid 1px;
+}
+/* line 108, ../sass/global.scss */
+.static-map img {
+  max-width: 100%;
+  opacity: 0;
+}
+/* line 112, ../sass/global.scss */
+.static-map a {
+  display: block;
+  background: url("http://maps.google.com/maps/api/staticmap?center=51.525193,-0.110893&zoom=12&markers=51.538977,-0.104964|51.507335,-0.127683&size=640x640&sensor=false") no-repeat 50% 50%;
+}

@@ -101,3 +101,16 @@ a {
 .visuallyhidden {
   @extend %visuallyhidden;
 }
+// map
+.static-map {
+  width: 60%;
+  outline: red solid 1px;
+  img {
+    max-width: 100%;
+    opacity: 0;
+  }
+  a {
+    display: block;
+    background: url('http://maps.google.com/maps/api/staticmap?center=51.525193,-0.110893&zoom=12&markers=51.538977,-0.104964|51.507335,-0.127683&size=640x640&sensor=false') no-repeat 50% 50%;;
+  }
+}
