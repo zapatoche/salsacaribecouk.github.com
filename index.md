@@ -20,7 +20,7 @@ title: <span>Learn to dance</span> <span>Cuban Salsa </span>
 {% assign isnewsroll =  site.tags.news.size  %}
 {% if isnewsroll >= 0 %}
 <section class="section news-roll">
-  {% for post in site.tags.news limit:3  %}
+  {% for post in site.tags.news limit:1  %}
     {% include partials/news_helper.html %}
   {% endfor %}
 </section>
@@ -30,7 +30,7 @@ title: <span>Learn to dance</span> <span>Cuban Salsa </span>
   <h2>about Salsa Caribe</h2>
   {% for post in site.posts  %}
     {% if post.layout == 'about' %}
-      {{ post.descriptioa | markdownify }}
+      {{ post.description | markdownify }}
     {% endif %}
   {% endfor %}
 </section>

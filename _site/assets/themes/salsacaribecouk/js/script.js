@@ -1,7 +1,7 @@
 
 if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
   $(function() {
-    var $width, $window, aboveHeight, getWindowWidth, homeLink, homeLinkText, ipadLandscape, links, menuBarheight, mobilizeNav, navBar, resetNav, reseted, showing, siteNav, switchLi, timer, triggerMenu;
+    var $backButton, $width, $window, aboveHeight, getWindowWidth, homeLink, homeLinkText, ipadLandscape, links, menuBarheight, mobilizeNav, navBar, resetNav, reseted, showing, siteNav, switchLi, timer, triggerMenu;
     $('.site-tagline .h1').fitText(1.2, {
       minFontSize: '32px',
       maxFontSize: '70px'
@@ -64,6 +64,11 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
     });
     navBar.find('.active').click(function(event) {
       return event.preventDefault();
+    });
+    $backButton = $('.history-back');
+    $backButton.click(function(event) {
+      event.preventDefault();
+      return history.back(1);
     });
     $('.site-tagline').children('.visuallyhidden').prependTo('.site-footer .content-wrapper').removeClass('visuallyhidden');
     mobilizeNav();

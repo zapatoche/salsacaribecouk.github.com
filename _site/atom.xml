@@ -4,7 +4,7 @@
  <title>Salsa Caribe</title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2012-11-01T13:58:03+00:00</updated>
+ <updated>2012-11-05T17:11:58+00:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -20,6 +20,8 @@
    <id>/news/test-news-001</id>
    <content type="html">
 &lt;h1&gt;testouille news 001&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 
 </content>
  </entry>
@@ -281,8 +283,8 @@
   &lt;li&gt;workshops on a wide variety of Rueda de Casino, Salsa and other Latin and African dance&lt;/li&gt;
 &lt;/ul&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/news/latest-news&quot;&gt;read more&lt;/a&gt; &amp;hellip;&lt;/p&gt;
   
+  &lt;p&gt;&lt;a href=&quot;/news/latest-news&quot;&gt;read more&lt;/a&gt; &amp;hellip;&lt;/p&gt;
 &lt;/article&gt;
 
 
@@ -299,8 +301,11 @@
   &lt;h2&gt;&lt;a href=&quot;/news/test-news-001&quot;&gt;testouille news 001
 &lt;/a&gt;&lt;/h2&gt;
   
-  &lt;p&gt;&lt;a href=&quot;/news/test-news-001&quot;&gt;read more&lt;/a&gt; &amp;hellip;&lt;/p&gt;
+    
+    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+
   
+  &lt;p&gt;&lt;a href=&quot;/news/test-news-001&quot;&gt;read more&lt;/a&gt; &amp;hellip;&lt;/p&gt;
 &lt;/article&gt;
 
 
@@ -313,7 +318,6 @@
   &lt;h2&gt;&lt;a href=&quot;/news/test-the-limit&quot;&gt;test the limit&lt;/a&gt;&lt;/h2&gt;
   
   &lt;p&gt;&lt;a href=&quot;/news/test-the-limit&quot;&gt;read more&lt;/a&gt; &amp;hellip;&lt;/p&gt;
-  
 &lt;/article&gt;
 
 
@@ -326,7 +330,6 @@
   &lt;h2&gt;&lt;a href=&quot;/news/some-more-news-stuff&quot;&gt;some more news stuff&lt;/a&gt;&lt;/h2&gt;
   
   &lt;p&gt;&lt;a href=&quot;/news/some-more-news-stuff&quot;&gt;read more&lt;/a&gt; &amp;hellip;&lt;/p&gt;
-  
 &lt;/article&gt;
 
 
@@ -339,7 +342,6 @@
   &lt;h2&gt;&lt;a href=&quot;/news/an-other-news&quot;&gt;an other news&lt;/a&gt;&lt;/h2&gt;
   
   &lt;p&gt;&lt;a href=&quot;/news/an-other-news&quot;&gt;read more&lt;/a&gt; &amp;hellip;&lt;/p&gt;
-  
 &lt;/article&gt;
 
 

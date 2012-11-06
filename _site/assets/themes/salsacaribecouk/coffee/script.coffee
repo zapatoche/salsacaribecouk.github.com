@@ -64,6 +64,12 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     navBar.find('.active').click (event) ->
       event.preventDefault()
 
+    # handle previous page history state
+    $backButton = $('.history-back')
+    $backButton.click (event) ->
+      event.preventDefault()
+      history.back(1)
+
     # move strapline in site-footer
     $('.site-tagline').children('.visuallyhidden').prependTo(('.site-footer .content-wrapper')).removeClass('visuallyhidden')
 

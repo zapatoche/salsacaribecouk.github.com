@@ -5,8 +5,6 @@
   {% if post.description %}
     {% capture desc %}{{ post.description |  markdownify }}{% endcapture %}
     <p>{{ desc | remove_first: '<p>' }}</p>
-    <p><a href="{{ post.url }}">read more</a> &hellip;</p>
-  {% else %}
-  <p><a href="{{ post.url }}">read more</a> &hellip;</p>
   {% endif %}
+  <p><a href="{{ post.url }}">read more</a> &hellip;</p>
 </article>
