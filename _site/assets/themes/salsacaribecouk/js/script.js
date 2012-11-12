@@ -70,7 +70,6 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
       event.preventDefault();
       return history.back(1);
     });
-    $('.site-tagline').children('.visuallyhidden').prependTo('.site-footer .content-wrapper').removeClass('visuallyhidden');
     mobilizeNav();
     resetNav();
     return $window.resize(function() {

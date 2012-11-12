@@ -1,7 +1,8 @@
 <ul>
     {% for post in site.posts reversed  %}
       {% if post.category[0] == 'classes' %}
-      <li><a href="{{ post.url }}">{{ post.category[1]| capitalize }}</a></li>
+      {%capture freq %}{{  post.freq | date: '%m %b'  }}{% endcapture%}
+      <li><a href="{{ post.url }}">{{ freq }} {{ post.date | date: '%a' }} {{ post.title }}</a></li>
       {% endif %}
     {% endfor %}
 </ul>

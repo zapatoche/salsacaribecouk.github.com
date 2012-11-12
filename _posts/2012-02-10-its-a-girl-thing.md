@@ -10,7 +10,7 @@ tags:
   - workshop
 date: 2012-10-06
 day: Saturday
-freq: monthly
+freq: 2012-12-01
 published: true
 rel: me
 
