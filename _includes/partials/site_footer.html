@@ -1,25 +1,25 @@
-<footer class="footer site-footer" role="contentinfo">
-  <div class="content-wrapper">
-    <h2 class="strapline">Explore the true essence of Cuban music and dance with {{ site.vcard.name }}</h2>
-    <!-- AddThis Follow BEGIN -->
-    <aside class="social">
-      <h5>Follow Us</h5>
-      <ul>
-        <li><a href="http://www.facebook.com/groups/56250638899"  class="ss-icon ss-social-circle">Facebook</a></li>
-        <li><a href="http://www.twitter.com/salsacaribecouk" class="ss-icon ss-social-circle">Twitter</a></li>
-        <li><a href="http:/www.flickr.com/photos/salsacaribecouk" class="ss-icon ss-social-circle">Flickr</a></li>
-        <li><a href="http://www.youtube.com/users/salsacaribecouk" class="ss-icon ss-social-circle">YouTube</a></li>
-        <li><a href="http://www.vimeo.com/groups/110788" class="ss-icon ss-social-circle">Vimeo</a></li>
-      </ul>
-    </aside>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-50a1479e6fdaf001"></script>
-<!-- AddThis Follow END -->
-    <nav role="navigation">
-      {% include partials/quick_cal.html %}
-    </nav> 
-    <address>
-      For more information, contact <a href="mailto:info@salsacaribe.co.uk">info@salsacaribe.co.uk</a> or give us a call <a href="tel:{{ site.vcard.phone.machine }}">{{ site.vcard.phone.human }}</a>
-    </address>
-    <p>&copy; {{ site.vcard.name }} 2012</p>
-  </div>
-</footer>
+  <aside class="social-footer">
+    <h5 class="visuallyhidden">Follow Us</h5>
+    <ul class="icon-list">
+      <li class="ss-icon"><a href="http://www.facebook.com/groups/56250638899"  class="ss-icon ss-social-circle">Facebook</a></li>
+      <li class="ss-icon"><a href="http://www.twitter.com/salsacaribecouk" class="ss-icon ss-social-circle">Twitter</a></li>
+      <li class="ss-icon"><a href="http:/www.flickr.com/photos/salsacaribecouk" class="ss-icon ss-social-circle">Flickr</a></li>
+      <li class="ss-icon"><a href="http://www.youtube.com/users/salsacaribecouk" class="ss-icon ss-social-circle">YouTube</a></li>
+      <li class="ss-icon"><a href="http://www.vimeo.com/groups/110788" class="ss-icon ss-social-circle">Vimeo</a></li>
+      <li class="ss-icon"><a href="/atom.xml" class="ss-icon ss-social-circle">RSS</a></li>
+    </ul>
+  </aside>
+<div class="site-footer">
+    <div class="content-wrapper">
+      <h2 class="strapline">Explore the true essence of Cuban music and dance with {{ site.vcard.name }}</h2>
+      <nav role="navigation">
+        {% include partials/quick_cal.html %}
+      </nav> 
+      <footer role="contentinfo">
+        <address>
+          For more information, contact <a href="mailto:info@salsacaribe.co.uk">info@salsacaribe.co.uk</a> or give us a call <a href="tel:{{ site.vcard.phone.machine }}">{{ site.vcard.phone.human }}</a>
+        </address>
+        <p>&copy; {{ site.vcard.name }} 2012</p>
+      </footer>
+    </div>
+</div>

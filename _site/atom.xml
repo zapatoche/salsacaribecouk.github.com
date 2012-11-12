@@ -4,7 +4,7 @@
  <title>Salsa Caribe</title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2012-11-12T19:41:50+00:00</updated>
+ <updated>2012-11-12T22:54:08+00:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -468,7 +468,7 @@
         
         &lt;h5 id=&quot;monday&quot;&gt;monday&lt;/h5&gt;
           
-          &lt;h4 id=&quot;/club-nights/monday/the-afro-cuban-lounge&quot;&gt;&lt;a href=&quot;/club-nights/monday/the-afro-cuban-lounge&quot;&gt;The Afro Cuban lounge&lt;/a&gt;&lt;/h4&gt;
+          &lt;h4&gt;&lt;a href=&quot;/club-nights/monday/the-afro-cuban-lounge&quot;&gt;The Afro Cuban lounge&lt;/a&gt;&lt;/h4&gt;
         &lt;/hgroup&gt;
       &lt;/header&gt;
       &lt;footer class=&quot;footer&quot;&gt;
@@ -529,7 +529,7 @@
 
   &lt;h2&gt;When to learn&lt;/h2&gt;
 
-  &lt;div class=&quot;section featured&quot;&gt;
+  &lt;div class=&quot;section featured&quot; id=&quot;classes&quot;&gt;
     
       
     
@@ -563,7 +563,7 @@
         
         &lt;h5 id=&quot;monday&quot;&gt;monday&lt;/h5&gt;
           
-          &lt;h4 id=&quot;/classes/monday/the-afro-cuban-lounge&quot;&gt;&lt;a href=&quot;/classes/monday/the-afro-cuban-lounge&quot;&gt;The Afro Cuban lounge&lt;/a&gt;&lt;/h4&gt;
+          &lt;h4&gt;&lt;a href=&quot;/classes/monday/the-afro-cuban-lounge&quot;&gt;The Afro Cuban lounge&lt;/a&gt;&lt;/h4&gt;
         &lt;/hgroup&gt;
       &lt;/header&gt;
       &lt;footer class=&quot;footer&quot;&gt;
@@ -583,7 +583,7 @@
         
         &lt;h5 id=&quot;saturday&quot;&gt;saturday&lt;/h5&gt;
           
-          &lt;h4 id=&quot;/classes/saturday/its-a-girl-thing&quot;&gt;&lt;a href=&quot;/classes/saturday/its-a-girl-thing&quot;&gt;It's a Girl Thing&lt;/a&gt;&lt;/h4&gt;
+          &lt;h4&gt;&lt;a href=&quot;/classes/saturday/its-a-girl-thing&quot;&gt;It's a Girl Thing&lt;/a&gt;&lt;/h4&gt;
         &lt;/hgroup&gt;
       &lt;/header&gt;
       &lt;footer class=&quot;footer&quot;&gt;
@@ -603,7 +603,7 @@
         
         &lt;h5 id=&quot;sunday&quot;&gt;sunday&lt;/h5&gt;
           
-          &lt;h4 id=&quot;/classes/sunday/the-afro-cuban-studio&quot;&gt;&lt;a href=&quot;/classes/sunday/the-afro-cuban-studio&quot;&gt;The Afro Cuban Studio&lt;/a&gt;&lt;/h4&gt;
+          &lt;h4&gt;&lt;a href=&quot;/classes/sunday/the-afro-cuban-studio&quot;&gt;The Afro Cuban Studio&lt;/a&gt;&lt;/h4&gt;
         &lt;/hgroup&gt;
       &lt;/header&gt;
       &lt;footer class=&quot;footer&quot;&gt;

@@ -689,8 +689,7 @@ body > .body-inner {
 /* line 12, ../sass/partials/_site-nav.scss */
 .site-nav li a {
   display: block;
-  padding: 1em;
-  border-bottom: 1px solid #5ba2be;
+  padding: .75em 1em;
   color: #fff;
   text-decoration: none;
   text-shadow: 0 1px 1px #000;
@@ -767,10 +766,10 @@ body > .body-inner {
 }
 
 /* line 1, ../sass/partials/_site-footer.scss */
-footer, .site-footer {
+.site-footer {
   clear: both;
-  font-family: "freight-sans-pro", "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-top: 1px;
+  font-family: "freight-sans-pro", "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* line 8, ../sass/partials/_site-footer.scss */
@@ -783,8 +782,50 @@ footer, .site-footer {
 }
 /* line 13, ../sass/partials/_site-footer.scss */
 .site-footer .strapline {
+  margin: 0;
   font-weight: 300;
-  font-size: 120%;
+  font-size: 80%;
+  padding: .5em 1.25em;
+}
+
+/* line 20, ../sass/partials/_site-footer.scss */
+.social-footer {
+  background: #952e2e url('/assets/images/skin/grunge_wall_red.png?1351265196') repeat 0 0;
+  color: #fff;
+  font-size: 100%;
+  text-align: center;
+}
+/* line 25, ../sass/partials/_site-footer.scss */
+.social-footer .icon-list {
+  margin: 0;
+  padding: .2em  0;
+  list-style: none;
+}
+/* line 30, ../sass/partials/_site-footer.scss */
+.social-footer .ss-icon {
+  display: inline;
+}
+/* line 32, ../sass/partials/_site-footer.scss */
+.social-footer .ss-icon a {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  padding: 0 .09375em;
+  font-size: 35px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+  margin: 0;
+  margin-bottom: -8px;
+  vertical-align: bottom;
+  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
+}
+/* line 42, ../sass/partials/_site-footer.scss */
+.social-footer .ss-icon a:hover {
+  color: #fff;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
 }
 
 /* line 59, ../sass/global.scss */

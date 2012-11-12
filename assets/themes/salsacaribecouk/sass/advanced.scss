@@ -71,11 +71,26 @@
     }
   }
 }
+
+
+// @media queries and min-width: 960px
+@media only screen and (min-width: 60em) {
+
+  .social-footer {
+  }
+  .social {
+    background: transparent;
+  }
+}
+
+
+
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   html {
     background-image: image-url('skin/grunge_wall_@2x.png');
   }
-  .site-nav {
+  .site-nav,
+  .social-footer {
     background-image: image-url('skin/grunge_wall_red_@2x.png');
   }
 }

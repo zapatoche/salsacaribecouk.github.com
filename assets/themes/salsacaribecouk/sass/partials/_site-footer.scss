@@ -1,8 +1,8 @@
-footer, .site-footer {
+.site-footer {
   clear: both;
-  font-family: "freight-sans-pro", $body_font;
   // collapse margin
-  padding-top: 1px; 
+  padding-top: 1px;
+  font-family: "freight-sans-pro", $body_font;
 }
 
 .site-footer {
@@ -11,7 +11,38 @@ footer, .site-footer {
     padding: 0 20px;
   }
   .strapline {
+    margin: 0;
     font-weight: 300;
-    font-size: 120%;
+    font-size: 80%;
+    padding: .5em 1.25em;
+  }
+}
+.social-footer {
+  background:#952E2E image-url('skin/grunge_wall_red.png') repeat 0 0;
+  color: #fff;
+  font-size: 100%;
+  text-align: center;
+  .icon-list {
+    margin: 0;
+    padding: .2em  0;
+    list-style: none;
+  }
+  .ss-icon {
+    display: inline;
+    a {
+      @include inline-block;
+      padding: 0 .09375em; // padding 0 3px/32px
+      font-size: 35px;
+      text-shadow: 0 1px 1px hsla(0,0,0,0.7);
+      margin: 0; 
+      margin-bottom: -8px;
+      vertical-align: bottom;
+      color: #fff;
+      color: hsla(0,0,100%, .8);
+      &:hover {
+        color: #fff;
+        text-shadow: 0 0 5px hsla(0,0,100%,.7);
+      }
+    }
   }
 }

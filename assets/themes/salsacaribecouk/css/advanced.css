@@ -222,7 +222,6 @@ address {
   /* line 26, ../sass/partials/_site-nav-advanced.scss */
   .site-nav li a {
     display: block;
-    padding: 1em;
     border: 0;
     color: #fff;
     text-decoration: none;
@@ -239,7 +238,7 @@ address {
     -o-transition-duration: 1.5s;
     transition-duration: 1.5s;
   }
-  /* line 40, ../sass/partials/_site-nav-advanced.scss */
+  /* line 39, ../sass/partials/_site-nav-advanced.scss */
   .site-nav li a:hover, .site-nav li a:focus, .site-nav li a.active {
     background: url('/assets/images/rgbapng/00000099.png?1351265196');
     background: rgba(0, 0, 0, 0.6);
@@ -248,11 +247,11 @@ address {
     margin-top: -4px;
     border-bottom: 4px solid #74a9be;
   }
-  /* line 47, ../sass/partials/_site-nav-advanced.scss */
+  /* line 46, ../sass/partials/_site-nav-advanced.scss */
   .site-nav li a:active {
     background: #000;
   }
-  /* line 51, ../sass/partials/_site-nav-advanced.scss */
+  /* line 50, ../sass/partials/_site-nav-advanced.scss */
   .site-nav li a.active {
     background: url('/assets/images/rgbapng/00000066.png?1351265196');
     background: rgba(0, 0, 0, 0.4);
@@ -260,22 +259,22 @@ address {
     cursor: default;
   }
 
-  /* line 58, ../sass/partials/_site-nav-advanced.scss */
+  /* line 57, ../sass/partials/_site-nav-advanced.scss */
   .js [role="navigation"] {
     display: block;
   }
 
-  /* line 61, ../sass/partials/_site-nav-advanced.scss */
+  /* line 60, ../sass/partials/_site-nav-advanced.scss */
   .js .contact {
     padding: 0;
   }
 
-  /* line 64, ../sass/partials/_site-nav-advanced.scss */
+  /* line 63, ../sass/partials/_site-nav-advanced.scss */
   #menu-icon {
     display: none;
   }
 
-  /* line 67, ../sass/partials/_site-nav-advanced.scss */
+  /* line 66, ../sass/partials/_site-nav-advanced.scss */
   .site-nav-advanced {
     position: fixed;
     width: 100%;
@@ -302,14 +301,21 @@ address {
     float: left;
   }
 }
+@media only screen and (min-width: 60em) {
+  /* line 81, ../sass/advanced.scss */
+  .social {
+    background: transparent;
+  }
+}
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 75, ../sass/advanced.scss */
+  /* line 89, ../sass/advanced.scss */
   html {
     background-image: url('/assets/images/skin/grunge_wall_@2x.png?1351265196');
   }
 
-  /* line 78, ../sass/advanced.scss */
-  .site-nav {
+  /* line 93, ../sass/advanced.scss */
+  .site-nav,
+  .social-footer {
     background-image: url('/assets/images/skin/grunge_wall_red_@2x.png?1351265196');
   }
 }
