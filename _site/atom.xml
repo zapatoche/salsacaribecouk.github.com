@@ -4,7 +4,7 @@
  <title>Salsa Caribe</title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2012-11-12T18:54:01+00:00</updated>
+ <updated>2012-11-12T19:41:50+00:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -523,11 +523,6 @@
   &lt;div class=&quot;static-map&quot;&gt;
     &lt;a href=&quot;https://maps.google.com/maps/ms?msid=204512405293599754812.0004cd6e64e8e7a252869&amp;amp;msa=0&amp;amp;ll=51.535018,-0.128059&amp;amp;spn=0.062359,0.050983&quot;&gt;&lt;img src=&quot;http://maps.google.com/maps/api/staticmap?center=51.525193,-0.110893&amp;amp;zoom=12&amp;amp;markers=51.538977,-0.104964|51.507335,-0.127683&amp;amp;size=650x366&amp;amp;sensor=false&quot; /&gt;&lt;/a&gt;
   &lt;/div&gt;
-  &lt;p&gt;&lt;!-- &lt;figure class=&quot;figure embed-media-block&quot;&gt; --&gt;
-  &lt;!--     &lt;!-- &lt;iframe width='100%' height='100%' frameBorder='0' src='http://a.tiles.mapbox.com/v3/bishbashbosh.map-hs0p13ed.html#14/51.53790219193829/-0.11344671249390922'&gt;&lt;/iframe&gt; --&gt; &amp;#8211;&amp;gt;
-  &lt;!--     &lt;iframe width=&quot;100%&quot; height=&quot;100%&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; src=&quot;https://maps.google.com/maps/ms?msid=204512405293599754812.0004cd6e64e8e7a252869&amp;amp;msa=0&amp;amp;ie=UTF8&amp;amp;ll=51.529572,-0.116901&amp;amp;spn=0.126015,0.154324&amp;amp;t=m&amp;amp;output=embed&quot;&gt;&lt;/iframe&gt; --&gt;
-  &lt;!--   &lt;/figcaption&gt; --&gt;
-  &lt;!-- &lt;/figure&gt; --&gt;&lt;/p&gt;
 &lt;/section&gt;
 
 &lt;section&gt;

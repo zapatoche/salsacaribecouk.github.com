@@ -1,11 +1,14 @@
 footer, .site-footer {
   clear: both;
   font-family: "freight-sans-pro", $body_font;
+  // collapse margin
+  padding-top: 1px; 
 }
+
 .site-footer {
   height: auto;
   .content-wrapper {
-    padding: 20px;
+    padding: 0 20px;
   }
   .strapline {
     font-weight: 300;

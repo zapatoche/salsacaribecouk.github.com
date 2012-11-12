@@ -770,17 +770,18 @@ body > .body-inner {
 footer, .site-footer {
   clear: both;
   font-family: "freight-sans-pro", "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-top: 1px;
 }
 
-/* line 5, ../sass/partials/_site-footer.scss */
+/* line 8, ../sass/partials/_site-footer.scss */
 .site-footer {
   height: auto;
 }
-/* line 7, ../sass/partials/_site-footer.scss */
-.site-footer .content-wrapper {
-  padding: 20px;
-}
 /* line 10, ../sass/partials/_site-footer.scss */
+.site-footer .content-wrapper {
+  padding: 0 20px;
+}
+/* line 13, ../sass/partials/_site-footer.scss */
 .site-footer .strapline {
   font-weight: 300;
   font-size: 120%;
