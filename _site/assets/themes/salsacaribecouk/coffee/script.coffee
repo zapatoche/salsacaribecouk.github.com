@@ -1,13 +1,9 @@
 if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
   $ ->
-    # resize main headline
-    $('.site-tagline .h1').fitText 1.2
-      minFontSize: '32px'
-      maxFontSize: '70px'
 
-    console.log "test"
     # sticky navigation
     $window = $(window)
+    $screenWidth = screen.width
     siteNav = $('.site-nav')
     aboveHeight = $('.site-header').outerHeight(true) - siteNav.outerHeight(true)
     console.log aboveHeight
@@ -22,6 +18,11 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     timer = null
     reseted = false
     $width = 0
+
+    # resize main headline
+    $('.site-tagline .h1').fitText 1.2
+      minFontSize: '32px'
+      maxFontSize: '70px'
 
     # reverse li order when navigation is floated right
     getWindowWidth = ->
@@ -73,7 +74,7 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     # responsive images: noscript tag
     # http://www.monoliitti.com/images/
     $('noscript[data-large][data-small]').each ->
-      src = if screen.width >= 500 then $(@).data('large') else $(@).data('small')
+      src = if $screenWidth >= 500 then $(@).data('large') else $(@).data('small')
       $("<img src='#{src}' alt='#{$(@).data('alt')}' />").insertAfter($(@))
 
     mobilizeNav()

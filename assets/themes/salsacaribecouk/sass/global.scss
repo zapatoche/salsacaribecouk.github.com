@@ -121,25 +121,111 @@ a {
 
 .pills {
   @include inline-list;
+}
+.pill {
+  @include inline-block;
+  @include border-radius(1em);
+  margin:0 0 0 2px;
+  padding: 0 1em;
+  height: 25px;
+  
+  @include rgba-background(hsla(0,0,0,.8));
+  color: hsla(0,0,100%,.9);
+  vertical-align: text-bottom;
   text-transform: uppercase;
   font-weight: 300;
   font-size: 70%;
-  .pill {
-    @include inline-block;
-    @include border-radius(1em);
-    margin-left: 2px;
-    padding: 0 1em;
-    background: #000;
-    background: hsla(0,0,0,.8);
-    color: #fff;
-    vertical-align: text-bottom;
-    height: 20px;
-    line-height: 21px;
-  }
+  line-height: 25px;
+  box-shadow: 0 0 5px #8A2424;
+  letter-spacing: 1px;
   a {
-    padding: .2em 0;
+    padding: 0;
     text-decoration: none;
     display: block;
     color: #fff;
   }
+}
+
+// module images
+
+img {
+  max-width: 100%;
+  .figure & {
+    display: block
+  }
+}
+
+.figure.hero {
+  @include border-radius(8px);
+  padding: 1.25em;
+  background: image-url('skin/grunge_wall_invert.png');
+  overflow: hidden;
+  box-shadow: 0 0 10px lighten(#8A2424, 40%);
+  img {
+    border: 1px solid #000;
+    @include border-radius(2px);
+    box-shadow: 0 8px 8px #000;
+  }
+}
+// module typography
+
+.event-header {
+  a {
+    text-decoration: none;
+    color: darken(#8A2424, 40%);
+    -webkit-transition: all .5s linear;
+    &:hover {
+      span {
+      }
+      color: #8A2424;
+      h4 {
+        border-color: lighten(#5293AD, 5%);
+      }
+    }
+  }
+  .figure {
+    position: relative;
+    border: 1px solid #fff;
+    border-bottom-width: .3125em;
+    display: inline-block;
+    box-shadow: 0 0 5px hsla(0,0,0,.3);
+  }
+  .figcaption {
+    margin-bottom: 0;
+    display: inline-block;
+    color: #fff;
+    border-bottom: .3125em solid darken(#5293AD, 3%);
+    -webkit-transition: all .2s linear;
+    position: absolute;
+    bottom: 0;
+    font-weight: 500;
+    @include rgba-background(hsla(0,0,0,.6));
+    font-family: "freight-sans-pro", $body_font;
+    text-transform: uppercase;
+    span {
+      border-bottom: 4px solid #fff;
+      display: block;
+      padding: .5em 1em;
+    }
+  }
+  h3 {
+    margin-top: .2em;
+    line-height: 1.2;
+    text-shadow: 0 0 5px #fff;
+  }
+}
+
+.article {
+  border-top: 5px solid hsl(200, 100%, 99%);
+  padding: 50px 0;
+//   &:after {
+//     content: '* * *' ;
+//     display: block;
+//     // text-align: center;
+//     font-size: 150%;
+//     font-family: $brand_font;
+//     color: adjust-hue(#8A2424, 60%);
+//     opacity: .3;
+//     padding: 20px 0;
+//   }
 }

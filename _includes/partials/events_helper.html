@@ -1,16 +1,22 @@
   <div id="classes">
     <article class="article">
-      <header class="header">
-        <hgroup>
+      <header class="header event-header">
+        <figure class="figure">
+          <img src="{{ post.image.mobile }}" alt="{{ post.image.alt }}" />
+          <figcaption class="figcaption">
+            <span>{{ post.title }}</span>
+          </figcaption>
+        </figure>
+        <hgroup class="hgroup">
         {%  capture day %}{{post.date |date: '%A' | downcase }}{% endcapture %}
-        <h5 class="day pill">{{ day }}</h5>
-          {% capture string %}/{{ post.category }}/{% endcapture %}
-          <h4><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h4>
+          <a href="{{ BASE_PATH }}{{ post.url }}">
+            <h3>{{ post.description }}</h3>
+          </a>
         </hgroup>
       </header>
       <footer class="footer">
-          <p>{{ post.start_date }} {% if post.end_date %}- {{ post.end_date }}{% endif %} <a href="{{ post.location.map_url }}" title="Locate {{ post.location.name}} on Google map"><b>{{post.location.name}}</b></a>, {{ post.location.street_address}}, {{ post.location.postal_code}}, {{ post.location.locality }}.</p>
+        <p class="pill">{{ day }}</p> 
+        <p>{{ post.start_date }} {% if post.end_date %}- {{ post.end_date }}{% endif %} <a href="{{ post.location.map_url }}" title="Locate {{ post.location.name}} on Google map"><b>{{post.location.name}}</b></a>, {{ post.location.street_address}}, {{ post.location.postal_code}}, {{ post.location.locality }}.</p>
       </footer>
-      <h3>{{ post.description }}</h3>
     </article>
   </div>

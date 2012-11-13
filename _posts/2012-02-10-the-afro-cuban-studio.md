@@ -22,8 +22,10 @@ introduction: |
   Salsa Classes to suit everyone from complete beginner to advanced salsero, plus an hour devoted to diverse Cuban rhythms and movement.
 
 image:
-  url: 'http://placehold.it/550x300'
-  description: &alt "Salsa Caribe at the afro-cuban studio"
+  mobile: 'http://farm7.staticflickr.com/6182/6114145392_f3b0f12d90_n.jpg'
+  small: 'http://farm7.staticflickr.com/6182/6114145392_f3b0f12d90_z.jpg'
+  large: 'http://farm7.staticflickr.com/6182/6114145392_f3b0f12d90_b.jpg'
+  alt:  "Salsa Caribe's 10 years anniversary party"
 
 location:
   name: The Place Dance Studio

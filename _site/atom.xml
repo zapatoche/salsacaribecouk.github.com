@@ -4,7 +4,7 @@
  <title>Salsa Caribe</title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2012-11-13T17:13:52+00:00</updated>
+ <updated>2012-11-13T21:20:51+00:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -463,18 +463,24 @@
       
           &lt;div id=&quot;classes&quot;&gt;
     &lt;article class=&quot;article&quot;&gt;
-      &lt;header class=&quot;header&quot;&gt;
-        &lt;hgroup&gt;
+      &lt;header class=&quot;header event-header&quot;&gt;
+        &lt;figure class=&quot;figure&quot;&gt;
+          &lt;img src=&quot;&quot; alt=&quot;&quot; /&gt;
+          &lt;figcaption class=&quot;figcaption&quot;&gt;
+            &lt;span&gt;The Afro Cuban lounge&lt;/span&gt;
+          &lt;/figcaption&gt;
+        &lt;/figure&gt;
+        &lt;hgroup class=&quot;hgroup&quot;&gt;
         
-        &lt;h5 class=&quot;day pill&quot;&gt;monday&lt;/h5&gt;
-          
-          &lt;h4&gt;&lt;a href=&quot;/club-nights/monday/the-afro-cuban-lounge&quot;&gt;The Afro Cuban lounge&lt;/a&gt;&lt;/h4&gt;
+          &lt;a href=&quot;/club-nights/monday/the-afro-cuban-lounge&quot;&gt;
+            &lt;h3&gt;An Evening of Essential Afro-Cuban Flavas, Salsa Timba &amp;amp; Latin Jazz&lt;/h3&gt;
+          &lt;/a&gt;
         &lt;/hgroup&gt;
       &lt;/header&gt;
       &lt;footer class=&quot;footer&quot;&gt;
-          &lt;p&gt;7:30pm - 1am &lt;a href=&quot;http://g.co/maps/nw94u&quot; title=&quot;Locate The Buffalo Bar on Google map&quot;&gt;&lt;b&gt;The Buffalo Bar&lt;/b&gt;&lt;/a&gt;, 259 Upper street, N1 1RU, Islington.&lt;/p&gt;
+        &lt;p class=&quot;pill&quot;&gt;monday&lt;/p&gt; 
+        &lt;p&gt;7:30pm - 1am &lt;a href=&quot;http://g.co/maps/nw94u&quot; title=&quot;Locate The Buffalo Bar on Google map&quot;&gt;&lt;b&gt;The Buffalo Bar&lt;/b&gt;&lt;/a&gt;, 259 Upper street, N1 1RU, Islington.&lt;/p&gt;
       &lt;/footer&gt;
-      &lt;h3&gt;An Evening of Essential Afro-Cuban Flavas, Salsa Timba &amp;amp; Latin Jazz&lt;/h3&gt;
     &lt;/article&gt;
   &lt;/div&gt;
 
@@ -558,18 +564,24 @@
       
           &lt;div id=&quot;classes&quot;&gt;
     &lt;article class=&quot;article&quot;&gt;
-      &lt;header class=&quot;header&quot;&gt;
-        &lt;hgroup&gt;
+      &lt;header class=&quot;header event-header&quot;&gt;
+        &lt;figure class=&quot;figure&quot;&gt;
+          &lt;img src=&quot;http://farm7.staticflickr.com/6187/6113590927_0700f7bdcf_n.jpg&quot; alt=&quot;Salsa Caribe's 10 years anniversary party&quot; /&gt;
+          &lt;figcaption class=&quot;figcaption&quot;&gt;
+            &lt;span&gt;The Afro Cuban lounge&lt;/span&gt;
+          &lt;/figcaption&gt;
+        &lt;/figure&gt;
+        &lt;hgroup class=&quot;hgroup&quot;&gt;
         
-        &lt;h5 class=&quot;day pill&quot;&gt;monday&lt;/h5&gt;
-          
-          &lt;h4&gt;&lt;a href=&quot;/classes/monday/the-afro-cuban-lounge&quot;&gt;The Afro Cuban lounge&lt;/a&gt;&lt;/h4&gt;
+          &lt;a href=&quot;/classes/monday/the-afro-cuban-lounge&quot;&gt;
+            &lt;h3&gt;An Evening of Essential Afro-Cuban Flavas, Salsa Timba &amp;amp; Latin Jazz&lt;/h3&gt;
+          &lt;/a&gt;
         &lt;/hgroup&gt;
       &lt;/header&gt;
       &lt;footer class=&quot;footer&quot;&gt;
-          &lt;p&gt;7:30pm - 1am &lt;a href=&quot;http://g.co/maps/nw94u&quot; title=&quot;Locate The Buffalo Bar on Google map&quot;&gt;&lt;b&gt;The Buffalo Bar&lt;/b&gt;&lt;/a&gt;, 259 Upper street, N1 1RU, Islington.&lt;/p&gt;
+        &lt;p class=&quot;pill&quot;&gt;monday&lt;/p&gt; 
+        &lt;p&gt;7:30pm - 1am &lt;a href=&quot;http://g.co/maps/nw94u&quot; title=&quot;Locate The Buffalo Bar on Google map&quot;&gt;&lt;b&gt;The Buffalo Bar&lt;/b&gt;&lt;/a&gt;, 259 Upper street, N1 1RU, Islington.&lt;/p&gt;
       &lt;/footer&gt;
-      &lt;h3&gt;An Evening of Essential Afro-Cuban Flavas, Salsa Timba &amp;amp; Latin Jazz&lt;/h3&gt;
     &lt;/article&gt;
   &lt;/div&gt;
 
@@ -578,18 +590,24 @@
       
           &lt;div id=&quot;classes&quot;&gt;
     &lt;article class=&quot;article&quot;&gt;
-      &lt;header class=&quot;header&quot;&gt;
-        &lt;hgroup&gt;
+      &lt;header class=&quot;header event-header&quot;&gt;
+        &lt;figure class=&quot;figure&quot;&gt;
+          &lt;img src=&quot;http://farm7.staticflickr.com/6204/6113735004_28a2c89bf3_n.jpg&quot; alt=&quot;Salsa Caribe's 10 years anniversary party&quot; /&gt;
+          &lt;figcaption class=&quot;figcaption&quot;&gt;
+            &lt;span&gt;It's a Girl Thing&lt;/span&gt;
+          &lt;/figcaption&gt;
+        &lt;/figure&gt;
+        &lt;hgroup class=&quot;hgroup&quot;&gt;
         
-        &lt;h5 class=&quot;day pill&quot;&gt;saturday&lt;/h5&gt;
-          
-          &lt;h4&gt;&lt;a href=&quot;/classes/saturday/its-a-girl-thing&quot;&gt;It's a Girl Thing&lt;/a&gt;&lt;/h4&gt;
+          &lt;a href=&quot;/classes/saturday/its-a-girl-thing&quot;&gt;
+            &lt;h3&gt;The next ladies styling workshop will be on Sat 22nd October&lt;/h3&gt;
+          &lt;/a&gt;
         &lt;/hgroup&gt;
       &lt;/header&gt;
       &lt;footer class=&quot;footer&quot;&gt;
-          &lt;p&gt;2:30pm - 4:30pm &lt;a href=&quot;http://g.co/maps/szkqv&quot; title=&quot;Locate The Place Dance Studio on Google map&quot;&gt;&lt;b&gt;The Place Dance Studio&lt;/b&gt;&lt;/a&gt;, 16 Flaxman Terrace, WC1, London.&lt;/p&gt;
+        &lt;p class=&quot;pill&quot;&gt;saturday&lt;/p&gt; 
+        &lt;p&gt;2:30pm - 4:30pm &lt;a href=&quot;http://g.co/maps/szkqv&quot; title=&quot;Locate The Place Dance Studio on Google map&quot;&gt;&lt;b&gt;The Place Dance Studio&lt;/b&gt;&lt;/a&gt;, 16 Flaxman Terrace, WC1, London.&lt;/p&gt;
       &lt;/footer&gt;
-      &lt;h3&gt;The next ladies styling workshop will be on Sat 22nd October&lt;/h3&gt;
     &lt;/article&gt;
   &lt;/div&gt;
 
@@ -598,18 +616,24 @@
       
           &lt;div id=&quot;classes&quot;&gt;
     &lt;article class=&quot;article&quot;&gt;
-      &lt;header class=&quot;header&quot;&gt;
-        &lt;hgroup&gt;
+      &lt;header class=&quot;header event-header&quot;&gt;
+        &lt;figure class=&quot;figure&quot;&gt;
+          &lt;img src=&quot;http://farm7.staticflickr.com/6182/6114145392_f3b0f12d90_n.jpg&quot; alt=&quot;Salsa Caribe's 10 years anniversary party&quot; /&gt;
+          &lt;figcaption class=&quot;figcaption&quot;&gt;
+            &lt;span&gt;The Afro Cuban Studio&lt;/span&gt;
+          &lt;/figcaption&gt;
+        &lt;/figure&gt;
+        &lt;hgroup class=&quot;hgroup&quot;&gt;
         
-        &lt;h5 class=&quot;day pill&quot;&gt;sunday&lt;/h5&gt;
-          
-          &lt;h4&gt;&lt;a href=&quot;/classes/sunday/the-afro-cuban-studio&quot;&gt;The Afro Cuban Studio&lt;/a&gt;&lt;/h4&gt;
+          &lt;a href=&quot;/classes/sunday/the-afro-cuban-studio&quot;&gt;
+            &lt;h3&gt;Learn Casino Salsa &amp;amp; The Roots of Cuban Salsa&lt;/h3&gt;
+          &lt;/a&gt;
         &lt;/hgroup&gt;
       &lt;/header&gt;
       &lt;footer class=&quot;footer&quot;&gt;
-          &lt;p&gt;2pm - 6:30pm &lt;a href=&quot;http://g.co/maps/szkqv&quot; title=&quot;Locate The Place Dance Studio on Google map&quot;&gt;&lt;b&gt;The Place Dance Studio&lt;/b&gt;&lt;/a&gt;, 16 Flaxman Terrace, WC1, London.&lt;/p&gt;
+        &lt;p class=&quot;pill&quot;&gt;sunday&lt;/p&gt; 
+        &lt;p&gt;2pm - 6:30pm &lt;a href=&quot;http://g.co/maps/szkqv&quot; title=&quot;Locate The Place Dance Studio on Google map&quot;&gt;&lt;b&gt;The Place Dance Studio&lt;/b&gt;&lt;/a&gt;, 16 Flaxman Terrace, WC1, London.&lt;/p&gt;
       &lt;/footer&gt;
-      &lt;h3&gt;Learn Casino Salsa &amp;amp; The Roots of Cuban Salsa&lt;/h3&gt;
     &lt;/article&gt;
   &lt;/div&gt;
 

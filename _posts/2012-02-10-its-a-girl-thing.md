@@ -22,10 +22,10 @@ introduction: |
   Calling all chicas who like their Cuban salsa with extra sabor: It&#8217;s a Girl Thing! this Saturday at The Place Dance Studios. Ladies, it&#8217;s time to get your whole body moving, connecting footwork to hip, torso, arm &amp; shoulder movement, so you look and feel great over the party season.
 
 image:
-  url: http://farm7.staticflickr.com/6194/6113187339_9f002a1d83_z.jpg
-  thubmnail: http://farm7.staticflickr.com/6194/6113187339_9f002a1d83_m.jpg
-  description: &alt Susan doing some sassy styling !replaceme
-  caption: *alt
+  mobile: 'http://farm7.staticflickr.com/6204/6113735004_28a2c89bf3_n.jpg'
+  small: 'http://farm7.staticflickr.com/6204/6113735004_28a2c89bf3_z.jpg'
+  large: 'http://farm7.staticflickr.com/6204/6113735004_28a2c89bf3_b.jpg'
+  alt:  "Salsa Caribe's 10 years anniversary party"
 
 location:
   name: The Place Dance Studio

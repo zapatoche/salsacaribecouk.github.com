@@ -1,13 +1,9 @@
 
 if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
   $(function() {
-    var $backButton, $width, $window, aboveHeight, getWindowWidth, homeLink, homeLinkText, ipadLandscape, links, menuBarheight, mobilizeNav, navBar, resetNav, reseted, showing, siteNav, switchLi, timer, triggerMenu;
-    $('.site-tagline .h1').fitText(1.2, {
-      minFontSize: '32px',
-      maxFontSize: '70px'
-    });
-    console.log("test");
+    var $backButton, $screenWidth, $width, $window, aboveHeight, getWindowWidth, homeLink, homeLinkText, ipadLandscape, links, menuBarheight, mobilizeNav, navBar, resetNav, reseted, showing, siteNav, switchLi, timer, triggerMenu;
     $window = $(window);
+    $screenWidth = screen.width;
     siteNav = $('.site-nav');
     aboveHeight = $('.site-header').outerHeight(true) - siteNav.outerHeight(true);
     console.log(aboveHeight);
@@ -22,6 +18,10 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
     timer = null;
     reseted = false;
     $width = 0;
+    $('.site-tagline .h1').fitText(1.2, {
+      minFontSize: '32px',
+      maxFontSize: '70px'
+    });
     getWindowWidth = function() {
       return $width = $window.width();
     };
@@ -72,7 +72,7 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
     });
     $('noscript[data-large][data-small]').each(function() {
       var src;
-      src = screen.width >= 500 ? $(this).data('large') : $(this).data('small');
+      src = $screenWidth >= 500 ? $(this).data('large') : $(this).data('small');
       return $("<img src='" + src + "' alt='" + ($(this).data('alt')) + "' />").insertAfter($(this));
     });
     mobilizeNav();

@@ -21,9 +21,9 @@ introduction: |
   If you want to up the feelgood factor Cuban style, then this Monday night at The Buffalo Bar is for you. Doors open at 7.30pm, with classes for all levels from around 7.45pm, followed by an evening of dancing, drinking and socialising to the sounds of the very best Cuban salsa, timba &amp; son, courtesy of DJ Dr Jim.
 
 image:
-  mobile: 'http://farm7.staticflickr.com/6182/6114145392_f3b0f12d90_n.jpg'
-  small: 'http://farm7.staticflickr.com/6182/6114145392_f3b0f12d90_z.jpg'
-  large: 'http://farm7.staticflickr.com/6182/6114145392_f3b0f12d90_b.jpg'
+  mobile: 'http://farm7.staticflickr.com/6187/6113590927_0700f7bdcf_n.jpg'
+  small: 'http://farm7.staticflickr.com/6187/6113590927_0700f7bdcf_z.jpg'
+  large: 'http://farm7.staticflickr.com/6187/6113590927_0700f7bdcf_b.jpg'
   alt:  "Salsa Caribe's 10 years anniversary party"
 
 location:
