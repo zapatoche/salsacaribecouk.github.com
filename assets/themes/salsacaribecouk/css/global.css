@@ -1035,3 +1035,17 @@ img {
   border-top: 5px solid #fafdff;
   padding: 50px 0;
 }
+
+/* line 233, ../sass/global.scss */
+.vevent .description {
+  color: #305769;
+  margin-bottom: 100px;
+}
+/* line 235, ../sass/global.scss */
+.vevent .description span {
+  border-bottom: 4px solid #fff !important;
+}
+/* line 239, ../sass/global.scss */
+.vevent .description b {
+  color: #b22f2f;
+}

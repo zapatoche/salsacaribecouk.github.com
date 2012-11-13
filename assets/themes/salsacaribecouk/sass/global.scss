@@ -229,3 +229,15 @@ img {
 //     padding: 20px 0;
 //   }
 }
+.vevent {
+  .description {
+    color: darken(#DCE9EF, 60%);
+    span {
+    border-bottom: 4px solid #fff !important;
+    }
+    margin-bottom: 100px;
+    b {
+      color: lighten(#8A2424, 10%);
+    }
+  }
+}

@@ -15,7 +15,7 @@ rel: me
 
 tagline: The longest running Cuban Salsa Club in London
 
-description: An Evening of Essential Afro-Cuban Flavas, Salsa Timba & Latin Jazz
+description: An Evening of Essential <b>Afro-Cuban Flavas</b>, <b>Salsa Timba</b> & <b>Latin Jazz</b>
 
 introduction: |
   If you want to up the feelgood factor Cuban style, then this Monday night at The Buffalo Bar is for you. Doors open at 7.30pm, with classes for all levels from around 7.45pm, followed by an evening of dancing, drinking and socialising to the sounds of the very best Cuban salsa, timba &amp; son, courtesy of DJ Dr Jim.
