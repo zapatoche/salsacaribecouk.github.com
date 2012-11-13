@@ -713,14 +713,18 @@ body > .body-inner {
   border-bottom: 1px solid #7fb6cc;
 }
 /* line 31, ../sass/partials/_site-nav.scss */
+.site-nav li a:hover {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
+/* line 34, ../sass/partials/_site-nav.scss */
 .site-nav li a:active {
   background: #000;
 }
-/* line 34, ../sass/partials/_site-nav.scss */
+/* line 37, ../sass/partials/_site-nav.scss */
 .last .site-nav li a {
   border: 0;
 }
-/* line 38, ../sass/partials/_site-nav.scss */
+/* line 41, ../sass/partials/_site-nav.scss */
 .site-nav li a.active {
   background: url('/assets/images/rgbapng/00000066.png?1351265196');
   background: rgba(0, 0, 0, 0.4);
@@ -728,17 +732,17 @@ body > .body-inner {
   cursor: default;
 }
 
-/* line 45, ../sass/partials/_site-nav.scss */
+/* line 48, ../sass/partials/_site-nav.scss */
 .js [role="navigation"] {
   display: none;
 }
 
-/* line 48, ../sass/partials/_site-nav.scss */
+/* line 51, ../sass/partials/_site-nav.scss */
 .js [role="banner"] .contact {
   padding: .3em .5em;
 }
 
-/* line 51, ../sass/partials/_site-nav.scss */
+/* line 54, ../sass/partials/_site-nav.scss */
 #menu-icon {
   display: inline-block;
   float: right;
@@ -759,7 +763,7 @@ body > .body-inner {
   -o-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 65, ../sass/partials/_site-nav.scss */
+/* line 68, ../sass/partials/_site-nav.scss */
 #menu-icon:hover, #menu-icon:focus, #menu-icon:active, #menu-icon.active {
   background: url('/assets/images/rgbapng/000000b3.png?1351265196');
   background: rgba(0, 0, 0, 0.7);
@@ -827,7 +831,7 @@ body > .body-inner {
 /* line 45, ../sass/partials/_site-footer.scss */
 .social-footer .ss-icon:hover {
   color: #fff;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
 }
 
 /* line 59, ../sass/global.scss */
@@ -858,40 +862,41 @@ a {
   color: black;
 }
 
-/* line 85, ../sass/global.scss */
+/* line 87, ../sass/global.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   text-decoration: none;
   color: #000;
   color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 91, ../sass/global.scss */
+/* line 93, ../sass/global.scss */
 [href^="tel"] {
   text-decoration: none;
 }
-/* line 93, ../sass/global.scss */
+/* line 95, ../sass/global.scss */
 [href^="tel"]:hover {
   color: #5296B1;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
 }
 
-/* line 98, ../sass/global.scss */
+/* line 101, ../sass/global.scss */
 [aria-hidden] {
   font: 0/0 serif;
   text-shadow: none;
   color: transparent;
 }
 
-/* line 105, ../sass/global.scss */
+/* line 108, ../sass/global.scss */
 .static-map {
   width: 60%;
   outline: red solid 1px;
 }
-/* line 108, ../sass/global.scss */
+/* line 111, ../sass/global.scss */
 .static-map img {
   max-width: 100%;
   opacity: 0;
 }
-/* line 112, ../sass/global.scss */
+/* line 115, ../sass/global.scss */
 .static-map a {
   display: block;
   background: url("http://maps.google.com/maps/api/staticmap?center=51.525193,-0.110893&zoom=12&markers=51.538977,-0.104964|51.507335,-0.127683&size=640x640&sensor=false") no-repeat 50% 50%;

@@ -28,6 +28,9 @@
         position: relative;
         border-bottom: 1px solid hsl(197,43%,65%);
       }
+      &:hover {
+        text-shadow: 0 0 5px hsla(0,0,100%,.7);
+      }
       &:active {
         background: #000;
       }

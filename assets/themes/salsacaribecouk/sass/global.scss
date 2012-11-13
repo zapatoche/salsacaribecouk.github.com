@@ -80,6 +80,8 @@ body > .body-inner {
 // module links
 a {
   @include link-colors(#000);
+  &:hover {
+  }
 }
 #{headers(all)} {
   a {
@@ -92,6 +94,7 @@ a {
   text-decoration: none;
   &:hover {
     color: #5296B1;
+    text-shadow: 0 0 8px hsla(0,0,100%,.7);
   }
 }
 // accessibility
