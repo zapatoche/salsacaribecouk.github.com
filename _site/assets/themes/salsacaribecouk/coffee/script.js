@@ -70,6 +70,11 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
       event.preventDefault();
       return history.back(1);
     });
+    $('noscript[data-large][data-small]').each(function() {
+      var src;
+      src = screen.width >= 500 ? $(this).data('large') : $(this).data('small');
+      return $("<img src='" + src + "' alt='" + ($(this).data('alt')) + "' />").insertAfter($(this));
+    });
     mobilizeNav();
     resetNav();
     return $window.resize(function() {

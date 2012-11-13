@@ -21,8 +21,10 @@ introduction: |
   If you want to up the feelgood factor Cuban style, then this Monday night at The Buffalo Bar is for you. Doors open at 7.30pm, with classes for all levels from around 7.45pm, followed by an evening of dancing, drinking and socialising to the sounds of the very best Cuban salsa, timba &amp; son, courtesy of DJ Dr Jim.
 
 image:
-  url: 'http://farm7.staticflickr.com/6182/6114145392_f3b0f12d90_z.jpg'
-  description: &alt "Salsa Caribe's 10 years anniversary party"
+  mobile: 'http://farm7.staticflickr.com/6182/6114145392_f3b0f12d90_n.jpg'
+  small: 'http://farm7.staticflickr.com/6182/6114145392_f3b0f12d90_z.jpg'
+  large: 'http://farm7.staticflickr.com/6182/6114145392_f3b0f12d90_b.jpg'
+  alt:  "Salsa Caribe's 10 years anniversary party"
 
 location:
   name: The Buffalo Bar
@@ -50,15 +52,15 @@ Don't forget DJ Doctor JIm new 36 track Cuban salsa/timba compilation (&#8216;Be
 
 ####Cuban Salsa
 
-beginners & intermediates
+**beginners & intermediates**
 : beginners and intermediate description
 : 7:30 - 8:30pm
 
-improvers & advanced
+**improvers & advanced**
 : improvers and advanced description
 : 8:45 - 9:45pm
 
-prices
+**prices**
 : £7 for one class, £10 for two--including club entrance
 </section>
 

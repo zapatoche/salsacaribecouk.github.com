@@ -117,3 +117,29 @@ a {
     background: url('http://maps.google.com/maps/api/staticmap?center=51.525193,-0.110893&zoom=12&markers=51.538977,-0.104964|51.507335,-0.127683&size=640x640&sensor=false') no-repeat 50% 50%;;
   }
 }
+// module tags list
+
+.pills {
+  @include inline-list;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 70%;
+  .pill {
+    @include inline-block;
+    @include border-radius(1em);
+    margin-left: 2px;
+    padding: 0 1em;
+    background: #000;
+    background: hsla(0,0,0,.8);
+    color: #fff;
+    vertical-align: text-bottom;
+    height: 20px;
+    line-height: 21px;
+  }
+  a {
+    padding: .2em 0;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+  }
+}

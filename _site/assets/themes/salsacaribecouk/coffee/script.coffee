@@ -70,6 +70,12 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
       event.preventDefault()
       history.back(1)
 
+    # responsive images: noscript tag
+    # http://www.monoliitti.com/images/
+    $('noscript[data-large][data-small]').each ->
+      src = if screen.width >= 500 then $(@).data('large') else $(@).data('small')
+      $("<img src='#{src}' alt='#{$(@).data('alt')}' />").insertAfter($(@))
+
     mobilizeNav()
     resetNav()
     # resizeFooter()

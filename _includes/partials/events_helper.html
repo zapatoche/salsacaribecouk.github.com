@@ -3,7 +3,7 @@
       <header class="header">
         <hgroup>
         {%  capture day %}{{post.date |date: '%A' | downcase }}{% endcapture %}
-        <h5 id="{{ day }}">{{ day }}</h5>
+        <h5 class="day pill">{{ day }}</h5>
           {% capture string %}/{{ post.category }}/{% endcapture %}
           <h4><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h4>
         </hgroup>
