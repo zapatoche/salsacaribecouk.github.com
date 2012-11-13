@@ -11,6 +11,7 @@
           <a class="{{ link.text | downcase | replace: ' ', '-' }}{% if current != nil %} active{% endif %}" href="{% if link.url == '/index.html' %}/{% else %}{{ link.url }}{% endif %}">{{ link.text }}</a>
           </li>
         {% endfor %}
+
       </ul>
     </div>
 </nav>
