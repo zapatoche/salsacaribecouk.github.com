@@ -1,12 +1,14 @@
   <div id="classes">
     <article class="article">
       <header class="header event-header">
-        <figure class="figure">
-          <img src="{{ post.image.mobile }}" alt="{{ post.image.alt }}" />
-          <figcaption class="figcaption">
+        <a href="{{ BASE_PATH }}{{ post.url }}">
+          <figure class="figure">
+            <noscript data-large="{{  post.image.small }}" data-small="{{ post.image.small }}" data-alt="{{ post.image.alt }}"><img src="{{ post.image.mobile }}" alt="{{ post.image.alt }}" /></noscript>
+            <figcaption class="figcaption">
             <span>{{ post.title }}</span>
-          </figcaption>
-        </figure>
+            </figcaption>
+          </figure>
+      </a>
         <hgroup class="hgroup">
         {%  capture day %}{{post.date |date: '%A' | downcase }}{% endcapture %}
           <a href="{{ BASE_PATH }}{{ post.url }}">
