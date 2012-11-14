@@ -159,7 +159,7 @@ img {
 .figure.hero {
   @include border-radius(8px);
   padding: 1.25em;
-  background: image-url('skin/grunge_wall_invert.png');
+  background: #1D1D1D image-url('skin/grunge_wall_invert.png');
   overflow: hidden;
   box-shadow: 0 0 10px lighten(#8A2424, 40%);
   img {
@@ -233,12 +233,28 @@ img {
 .vevent {
   .summary {
     color: darken(#DCE9EF, 65%);
-    span {
+    @include rgba-background(hsla(0,0,100%,.6));
+    box-shadow: 0 5px 0 #fff,inset 0 5px 0 #fff;
+    border-bottom: 5px solid darken(#DCE9EF, 5%);
+    padding: 0 1em 0 250px;
+    text-align: right;
+    &:first-line {
       border-bottom: 4px solid #fff !important;
+      font-weight: 500;
+    }
+    span {
+      // border-bottom: 4px solid #fff !important;
+      border-bottom: 5px solid darken(#DCE9EF, 25%);
+      position: relative;
+      top: 4px;
     }
     margin-bottom: 100px;
     b {
       color: lighten(#8A2424, 10%);
+      font-weight: 500;
     }
   }
+}
+
+p:first-line {
 }

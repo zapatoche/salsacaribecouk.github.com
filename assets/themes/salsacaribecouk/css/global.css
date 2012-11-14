@@ -972,7 +972,7 @@ img {
   -o-border-radius: 8px;
   border-radius: 8px;
   padding: 1.25em;
-  background: url('/assets/images/skin/grunge_wall_invert.png?1351265196');
+  background: #1d1d1d url('/assets/images/skin/grunge_wall_invert.png?1351265196');
   overflow: hidden;
   box-shadow: 0 0 10px #e49696;
 }
@@ -1046,13 +1046,27 @@ img {
 /* line 234, ../sass/global.scss */
 .vevent .summary {
   color: #284857;
+  background: url('/assets/images/rgbapng/ffffff99.png?1352898236');
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 5px 0 #fff,inset 0 5px 0 #fff;
+  border-bottom: 5px solid #cbdee7;
+  padding: 0 1em 0 250px;
+  text-align: right;
   margin-bottom: 100px;
 }
-/* line 236, ../sass/global.scss */
-.vevent .summary span {
+/* line 241, ../sass/global.scss */
+.vevent .summary:first-line {
   border-bottom: 4px solid #fff !important;
+  font-weight: 500;
 }
-/* line 240, ../sass/global.scss */
+/* line 245, ../sass/global.scss */
+.vevent .summary span {
+  border-bottom: 5px solid #84b2c7;
+  position: relative;
+  top: 4px;
+}
+/* line 252, ../sass/global.scss */
 .vevent .summary b {
   color: #b22f2f;
+  font-weight: 500;
 }

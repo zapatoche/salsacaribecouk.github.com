@@ -16,7 +16,7 @@ rel: me
 
 tagline: sassy salsa styling for girlz!!!
 
-summary: The next ladies styling workshop will be on Sat 22nd October
+summary: The next ladies styling workshop will be on <b>Sat 22nd October</b>
 
 description: |
   Calling all chicas who like their Cuban salsa with extra sabor: It&#8217;s a Girl Thing! this Saturday at The Place Dance Studios. Ladies, it&#8217;s time to get your whole body moving, connecting footwork to hip, torso, arm &amp; shoulder movement, so you look and feel great over the party season.
