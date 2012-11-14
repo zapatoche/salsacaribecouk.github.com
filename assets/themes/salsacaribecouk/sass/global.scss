@@ -121,7 +121,11 @@ a {
 // module tags list
 
 .pills {
-  @include inline-list;
+  // @include inline-list;
+  text-align: center;
+  li {
+    display: inline;
+  }
 }
 .pill {
   @include inline-block;
@@ -186,23 +190,23 @@ img {
   }
   .figure {
     position: relative;
+    display: inline-block;
     border: 1px solid #fff;
     border-bottom-width: .3125em;
-    display: inline-block;
     box-shadow: 0 0 5px hsla(0,0,0,.3);
   }
   .figcaption {
-    margin-bottom: 0;
-    display: inline-block;
-    color: #fff;
-    border-bottom: .3125em solid darken(#5293AD, 3%);
-    -webkit-transition: all .2s linear;
+    @include rgba-background(hsla(0,0,0,.6));
     position: absolute;
     bottom: 0;
-    font-weight: 500;
-    @include rgba-background(hsla(0,0,0,.6));
-    font-family: "freight-sans-pro", $body_font;
+    display: inline-block;
+    margin-bottom: 0;
+    border-bottom: .3125em solid darken(#5293AD, 3%);
+    color: #fff;
     text-transform: uppercase;
+    font-weight: 500;
+    font-family: "freight-sans-pro", $body_font;
+    -webkit-transition: all .2s linear;
     span {
       border-bottom: 4px solid #fff;
       display: block;
@@ -211,13 +215,13 @@ img {
   }
   h3 {
     margin-top: .2em;
-    line-height: 1.2;
     text-shadow: 0 0 5px #fff;
+    line-height: 1.2;
   }
 }
 
 .article {
-  border-top: 5px solid hsl(200, 100%, 99%);
+  // border-top: 5px solid hsl(200, 100%, 99%);
   padding: 50px 0;
 //   &:after {
 //     content: '* * *' ;
@@ -232,21 +236,17 @@ img {
 }
 .vevent {
   .summary {
-    color: darken(#DCE9EF, 65%);
     @include rgba-background(hsla(0,0,100%,.6));
-    box-shadow: 0 5px 0 #fff,inset 0 5px 0 #fff;
-    border-bottom: 5px solid darken(#DCE9EF, 5%);
     padding: 0 1em 0 250px;
+    // border-bottom: 5px solid darken(#DCE9EF, 5%);
+    box-shadow: 0 5px 0 #fff,inset 0 5px 0 #fff;
+    color: darken(#DCE9EF, 65%);
     text-align: right;
-    &:first-line {
-      border-bottom: 4px solid #fff !important;
-      font-weight: 500;
-    }
     span {
-      // border-bottom: 4px solid #fff !important;
-      border-bottom: 5px solid darken(#DCE9EF, 25%);
       position: relative;
       top: 4px;
+      // border-bottom: 4px solid #fff !important;
+      border-bottom: 5px solid darken(#DCE9EF, 25%);
     }
     margin-bottom: 100px;
     b {
