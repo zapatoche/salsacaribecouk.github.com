@@ -4,7 +4,7 @@
  <title>Salsa Caribe</title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2012-11-14T14:32:53+00:00</updated>
+ <updated>2012-11-14T17:05:30+00:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -473,7 +473,7 @@
         &lt;hgroup class=&quot;hgroup&quot;&gt;
         
           &lt;a href=&quot;/club-nights/monday/the-afro-cuban-lounge&quot;&gt;
-            &lt;h3 /&gt;
+            &lt;h3 class=&quot;title&quot; /&gt;
           &lt;/a&gt;
         &lt;/hgroup&gt;
       &lt;/header&gt;
@@ -574,7 +574,7 @@
         &lt;hgroup class=&quot;hgroup&quot;&gt;
         
           &lt;a href=&quot;/classes/monday/the-afro-cuban-lounge&quot;&gt;
-            &lt;h3&gt;An Evening of Essential &lt;b&gt;Afro-Cuban Flavas&lt;/b&gt;, &lt;b&gt;Salsa Timba&lt;/b&gt; &amp;amp; &lt;b&gt;Latin Jazz&lt;/b&gt;
+            &lt;h3 class=&quot;title&quot;&gt;An Evening of Essential &lt;b&gt;Afro-Cuban Flavas&lt;/b&gt;, &lt;b&gt;Salsa Timba&lt;/b&gt; &amp;amp; &lt;b&gt;Latin Jazz&lt;/b&gt;
 &lt;/h3&gt;
           &lt;/a&gt;
         &lt;/hgroup&gt;
@@ -601,7 +601,7 @@
         &lt;hgroup class=&quot;hgroup&quot;&gt;
         
           &lt;a href=&quot;/classes/saturday/its-a-girl-thing&quot;&gt;
-            &lt;h3&gt;The next ladies styling workshop will be on &lt;b&gt;Sat 22nd October&lt;/b&gt;&lt;/h3&gt;
+            &lt;h3 class=&quot;title&quot;&gt;The next ladies styling workshop will be on &lt;b&gt;Sat 22nd October&lt;/b&gt;&lt;/h3&gt;
           &lt;/a&gt;
         &lt;/hgroup&gt;
       &lt;/header&gt;
@@ -627,7 +627,7 @@
         &lt;hgroup class=&quot;hgroup&quot;&gt;
         
           &lt;a href=&quot;/classes/sunday/the-afro-cuban-studio&quot;&gt;
-            &lt;h3&gt;Learn &lt;b&gt;Casino Salsa&lt;/b&gt; &amp;amp; &lt;b&gt;The Roots of Cuban Salsa&lt;/b&gt;&lt;/h3&gt;
+            &lt;h3 class=&quot;title&quot;&gt;Learn &lt;b&gt;Casino Salsa&lt;/b&gt; &amp;amp; &lt;b&gt;The Roots of Cuban Salsa&lt;/b&gt;&lt;/h3&gt;
           &lt;/a&gt;
         &lt;/hgroup&gt;
       &lt;/header&gt;

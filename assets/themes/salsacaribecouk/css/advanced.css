@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   color: #284857;
+  font-weight: 500;
 }
 
 @font-face {
@@ -35,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
-/* line 44, ../sass/partials/_typography.scss */
+/* line 43, ../sass/partials/_typography.scss */
 [data-icon]:before {
   font-family: 'icomoon';
   content: attr(data-icon);
@@ -44,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 52, ../sass/partials/_typography.scss */
+/* line 51, ../sass/partials/_typography.scss */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-weight: normal;
   font-style: normal;
@@ -53,17 +54,17 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 59, ../sass/partials/_typography.scss */
+/* line 58, ../sass/partials/_typography.scss */
 .icon-mobile:before {
   content: "\21";
 }
 
-/* line 64, ../sass/partials/_typography.scss */
+/* line 63, ../sass/partials/_typography.scss */
 address {
   font-style: normal;
 }
 
-/* line 71, ../sass/partials/_typography.scss */
+/* line 70, ../sass/partials/_typography.scss */
 .pullquote-right:before,
 .pullquote-left:before {
   /* Reset metrics. */
@@ -83,11 +84,36 @@ address {
   line-height: 30px;
 }
 
-/* line 92, ../sass/partials/_typography.scss */
+/* line 91, ../sass/partials/_typography.scss */
 .pullquote-left:before {
   float: left;
   margin: 12px 31px 24px -102px;
   width: 251px;
+}
+
+/* line 98, ../sass/partials/_typography.scss */
+.article-title {
+  background: url('/assets/images/rgbapng/ffffff99.png?1352898236');
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 5px 0 #fff,inset 0 5px 0 #fff;
+  padding: 0 1em;
+  text-align: right;
+}
+/* line 103, ../sass/partials/_typography.scss */
+.article-title span {
+  position: relative;
+  top: 4px;
+  border-bottom: 5px solid #84b2c7;
+}
+
+/* line 109, ../sass/partials/_typography.scss */
+.title {
+  font-weight: 500;
+}
+/* line 112, ../sass/partials/_typography.scss */
+.title b {
+  color: #b22f2f;
+  font-weight: 500;
 }
 
 /* line 16, ../sass/advanced.scss */

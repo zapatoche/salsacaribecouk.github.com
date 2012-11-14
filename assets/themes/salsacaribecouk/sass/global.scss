@@ -2,6 +2,7 @@
 @import "partials/mixins";
 
 @import "vendors/normalize";
+@import "vendors/gridset";
 
 @import "susy";
 @import "compass/utilities";
@@ -12,9 +13,9 @@
 @import "partials/typography";
 
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  // -webkit-box-sizing: border-box;
+  // -moz-box-sizing: border-box;
+  // box-sizing: border-box;
 }
 html {
   overflow-y: scroll;
@@ -221,39 +222,7 @@ img {
 }
 
 .article {
-  // border-top: 5px solid hsl(200, 100%, 99%);
-  padding: 50px 0;
-//   &:after {
-//     content: '* * *' ;
-//     display: block;
-//     // text-align: center;
-//     font-size: 150%;
-//     font-family: $brand_font;
-//     color: adjust-hue(#8A2424, 60%);
-//     opacity: .3;
-//     padding: 20px 0;
-//   }
-}
-.vevent {
-  .summary {
-    @include rgba-background(hsla(0,0,100%,.6));
-    padding: 0 1em 0 250px;
-    // border-bottom: 5px solid darken(#DCE9EF, 5%);
-    box-shadow: 0 5px 0 #fff,inset 0 5px 0 #fff;
-    color: darken(#DCE9EF, 65%);
-    text-align: right;
-    span {
-      position: relative;
-      top: 4px;
-      // border-bottom: 4px solid #fff !important;
-      border-bottom: 5px solid darken(#DCE9EF, 25%);
-    }
-    margin-bottom: 100px;
-    b {
-      color: lighten(#8A2424, 10%);
-      font-weight: 500;
-    }
-  }
+  padding: 5% 0;
 }
 
 p:first-line {

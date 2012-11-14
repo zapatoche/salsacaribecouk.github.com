@@ -10,7 +10,7 @@
         <hgroup class="hgroup">
         {%  capture day %}{{post.date |date: '%A' | downcase }}{% endcapture %}
           <a href="{{ BASE_PATH }}{{ post.url }}">
-            <h3>{{ post.summary }}</h3>
+            <h3 class="title">{{ post.summary }}</h3>
           </a>
         </hgroup>
       </header>
