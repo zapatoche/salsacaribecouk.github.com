@@ -1,24 +1,22 @@
-  <div id="classes">
+    {%  capture day %}{{post.date |date: '%A' | downcase }}{% endcapture %}
     <article class="article">
+      <p class="pill">{{ day }}</p> 
       <header class="header event-header">
         <a href="{{ BASE_PATH }}{{ post.url }}">
           <figure class="figure">
-            <noscript data-large="{{  post.image.small }}" data-small="{{ post.image.small }}" data-alt="{{ post.image.alt }}"><img src="{{ post.image.mobile }}" alt="{{ post.image.alt }}" /></noscript>
+            <img src="{{ post.image.mobile }}" alt="{{ post.image.alt }}" />
             <figcaption class="figcaption">
             <span>{{ post.title }}</span>
             </figcaption>
           </figure>
       </a>
         <hgroup class="hgroup">
-        {%  capture day %}{{post.date |date: '%A' | downcase }}{% endcapture %}
           <a href="{{ BASE_PATH }}{{ post.url }}">
             <h3 class="title">{{ post.summary }}</h3>
           </a>
         </hgroup>
       </header>
       <footer class="footer">
-        <p class="pill">{{ day }}</p> 
         <p><span>{{ post.start_date }}</span> {% if post.end_date %}- {{ post.end_date }}{% endif %} <a href="{{ post.location.map_url }}" title="Locate {{ post.location.name}} on Google map"><b>{{post.location.name}}</b></a>, <span>{{ post.location.street_address}}</span>, <span>{{ post.location.postal_code}}</span>, <span>{{ post.location.locality }}</span>.</p>
       </footer>
     </article>
-  </div>

@@ -53,13 +53,33 @@
   .site-tagline {
     border: 0;
   }
-  .js [role="banner"] .contact {
-    padding:  0;
+  // paragraphs
+  p, .p {
+    padding: 0 8.542%;
+    margin: 2em 0;
   }
+  body {
+    font-size: 16px;
+  }
+    .hero.figure {
+      .js & {
+        @include border-radius(2%);
+        margin: 0;
+      }
+    }
+    [role="banner"] .contact {
+      .js & {
+        padding:  0;
+      }
+    }
 }
+
 // @media queries and min-width: 768px
 @media only screen and (min-width: 48em) {
-
+@import "partials/site-footer-advanced";
+.content-wrapper {
+  padding: 0 10%;
+}
   .site-nav {
     li {
       .js & {
@@ -70,12 +90,58 @@
       }
     }
   }
+
+  //headers
+  .article-title {
+    padding-left: 20.98%;  
+    line-height: 1.1;
+    font-size: 32px;
+  }
+  // classes previews
+  .class-list{
+    .pill,
+    .figure {
+      margin-bottom: 15px;
+    }
+    .article {
+      @include float(left);
+      width: 31.88%;
+      margin-left: 2.083%;
+      &:first-child {
+        margin: 0;
+      }
+    }
+  }
+  .location {
+    .figure.hero,
+    .static-map {
+      @include float(left); 
+      width: 61.6%;
+      margin-right: 2.083%;
+    }
+    .vcard {
+      overflow: hidden;
+      width: auto;
+      float: none;
+      .map-marker {
+        position: static !important; 
+      }
+    }
+  }
 }
 
+@media only screen and (min-width: 48em) and (orientation: landscape) {
+  .content-wrapper {
+    padding: 0 15%;
+  }
+}
 
 // @media queries and min-width: 960px
 @media only screen and (min-width: 60em) {
 
+.content-wrapper {
+  // padding: 0;
+}
   .social-footer {
   }
   .social {

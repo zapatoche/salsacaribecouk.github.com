@@ -100,10 +100,14 @@ address {
   box-shadow: 0 5px 0 #fff,inset 0 5px 0 #fff;
   padding: 0 1em;
   text-align: right;
+  line-height: 1.2;
+  margin-bottom: 2em;
   span {
     position: relative;
-    top: 4px;
-    border-bottom: 5px solid darken(#DCE9EF, 25%);
+    top: 5px;
+    display: inline-block;
+    padding: .8em  0;
+    border-bottom: 5px solid darken(#DCE9EF, 40%);
   }
 }
 .title {
