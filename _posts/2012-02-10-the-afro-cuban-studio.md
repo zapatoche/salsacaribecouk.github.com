@@ -16,9 +16,9 @@ rel: me
 
 tagline: Dive into Afro-Cuban rhythm
 
-description: Learn Casino Salsa & The Roots of Cuban Salsa
+summary: Learn <b>Casino Salsa</b> & <b>The Roots of Cuban Salsa</b>
 
-introduction: |
+description: |
   Salsa Classes to suit everyone from complete beginner to advanced salsero, plus an hour devoted to diverse Cuban rhythms and movement.
 
 image:

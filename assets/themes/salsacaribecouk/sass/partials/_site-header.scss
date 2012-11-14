@@ -53,6 +53,9 @@
 .site-tagline .h1 {
     // -webkit-mask-image: image-url('skin/mask.png');
 }
+.site-tagline .h1 {
+  color: hsl(199, 37%, 90%) !important;
+}
 .site-branding {
   text-transform: uppercase;
   @include clearfix;

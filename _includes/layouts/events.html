@@ -1,8 +1,8 @@
 <section>
   {%  capture day %}{{ page.date |date: '%A' | downcase }}{% endcapture %}
   <article class="article vevent">
-    {% if page.description %}
-    <h2 class="description"><span>{{ page.description }}</span></h2>
+    {% if page.summary %}
+    <h2 class="summary"><span>{{ page.summary }}</span></h2>
     {% endif %}
     {% if page.tags %}
     <dl class="pills">
@@ -17,13 +17,10 @@
       </dd>
     </dl>
     {% endif %}
-    {% if page.descrition %}
-    <h2 class="summary">{{ page.description }}</h2>
-    {% endif %}
 
-    {% if  page.introduction %}
+    {% if  page.description %}
     <div class="description">
-      {{ page.introduction | markdownify }}
+      {{ page.description | markdownify }}
     </div>
     {% endif%}
     {% if page.image %}

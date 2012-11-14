@@ -2,6 +2,8 @@
   clear: both;
   // collapse margin
   padding-top: 1px;
+  
+  color: lighten(#DCE9EF, 65%);
   font-family: "freight-sans-pro", $body_font;
 }
 
@@ -19,7 +21,7 @@
 }
 .social-footer {
   background:#952E2E image-url('skin/grunge_wall_red.png') repeat 0 0;
-  color: #fff;
+  // color: #fff;
   font-size: 100%;
   text-align: center;
   height: 50px;

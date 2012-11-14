@@ -31,6 +31,7 @@ body {
   font: 400 100%/1.5 $body_font;
   display: table;
   width: 100%;
+  color: darken(#DCE9EF, 60%);
 }
 
 body > .body-inner {
@@ -230,10 +231,10 @@ img {
 //   }
 }
 .vevent {
-  .description {
-    color: darken(#DCE9EF, 60%);
+  .summary {
+    color: darken(#DCE9EF, 65%);
     span {
-    border-bottom: 4px solid #fff !important;
+      border-bottom: 4px solid #fff !important;
     }
     margin-bottom: 100px;
     b {

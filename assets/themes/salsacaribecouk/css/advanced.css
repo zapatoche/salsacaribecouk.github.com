@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
+  color: #284857;
 }
 
 @font-face {
@@ -34,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
-/* line 42, ../sass/partials/_typography.scss */
+/* line 44, ../sass/partials/_typography.scss */
 [data-icon]:before {
   font-family: 'icomoon';
   content: attr(data-icon);
@@ -43,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 50, ../sass/partials/_typography.scss */
+/* line 52, ../sass/partials/_typography.scss */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-weight: normal;
   font-style: normal;
@@ -52,17 +53,17 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 57, ../sass/partials/_typography.scss */
+/* line 59, ../sass/partials/_typography.scss */
 .icon-mobile:before {
   content: "\21";
 }
 
-/* line 62, ../sass/partials/_typography.scss */
+/* line 64, ../sass/partials/_typography.scss */
 address {
   font-style: normal;
 }
 
-/* line 69, ../sass/partials/_typography.scss */
+/* line 71, ../sass/partials/_typography.scss */
 .pullquote-right:before,
 .pullquote-left:before {
   /* Reset metrics. */
@@ -82,7 +83,7 @@ address {
   line-height: 30px;
 }
 
-/* line 90, ../sass/partials/_typography.scss */
+/* line 92, ../sass/partials/_typography.scss */
 .pullquote-left:before {
   float: left;
   margin: 12px 31px 24px -102px;
