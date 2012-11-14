@@ -4,7 +4,7 @@
  <title>Salsa Caribe</title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2012-11-14T17:21:46+00:00</updated>
+ <updated>2012-11-14T17:47:22+00:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -481,7 +481,7 @@
       &lt;/header&gt;
       &lt;footer class=&quot;footer&quot;&gt;
         &lt;p class=&quot;pill&quot;&gt;monday&lt;/p&gt; 
-        &lt;p&gt;7:30pm - 1am &lt;a href=&quot;http://g.co/maps/nw94u&quot; title=&quot;Locate The Buffalo Bar on Google map&quot;&gt;&lt;b&gt;The Buffalo Bar&lt;/b&gt;&lt;/a&gt;, 259 Upper street, N1 1RU, Islington.&lt;/p&gt;
+        &lt;p&gt;&lt;span&gt;7:30pm&lt;/span&gt; - 1am &lt;a href=&quot;http://g.co/maps/nw94u&quot; title=&quot;Locate The Buffalo Bar on Google map&quot;&gt;&lt;b&gt;The Buffalo Bar&lt;/b&gt;&lt;/a&gt;, &lt;span&gt;259 Upper street&lt;/span&gt;, &lt;span&gt;N1 1RU&lt;/span&gt;, &lt;span&gt;Islington&lt;/span&gt;.&lt;/p&gt;
       &lt;/footer&gt;
     &lt;/article&gt;
   &lt;/div&gt;
@@ -585,7 +585,7 @@
       &lt;/header&gt;
       &lt;footer class=&quot;footer&quot;&gt;
         &lt;p class=&quot;pill&quot;&gt;monday&lt;/p&gt; 
-        &lt;p&gt;7:30pm - 1am &lt;a href=&quot;http://g.co/maps/nw94u&quot; title=&quot;Locate The Buffalo Bar on Google map&quot;&gt;&lt;b&gt;The Buffalo Bar&lt;/b&gt;&lt;/a&gt;, 259 Upper street, N1 1RU, Islington.&lt;/p&gt;
+        &lt;p&gt;&lt;span&gt;7:30pm&lt;/span&gt; - 1am &lt;a href=&quot;http://g.co/maps/nw94u&quot; title=&quot;Locate The Buffalo Bar on Google map&quot;&gt;&lt;b&gt;The Buffalo Bar&lt;/b&gt;&lt;/a&gt;, &lt;span&gt;259 Upper street&lt;/span&gt;, &lt;span&gt;N1 1RU&lt;/span&gt;, &lt;span&gt;Islington&lt;/span&gt;.&lt;/p&gt;
       &lt;/footer&gt;
     &lt;/article&gt;
   &lt;/div&gt;
@@ -613,7 +613,7 @@
       &lt;/header&gt;
       &lt;footer class=&quot;footer&quot;&gt;
         &lt;p class=&quot;pill&quot;&gt;saturday&lt;/p&gt; 
-        &lt;p&gt;2:30pm - 4:30pm &lt;a href=&quot;http://g.co/maps/szkqv&quot; title=&quot;Locate The Place Dance Studio on Google map&quot;&gt;&lt;b&gt;The Place Dance Studio&lt;/b&gt;&lt;/a&gt;, 16 Flaxman Terrace, WC1, London.&lt;/p&gt;
+        &lt;p&gt;&lt;span&gt;2:30pm&lt;/span&gt; - 4:30pm &lt;a href=&quot;http://g.co/maps/szkqv&quot; title=&quot;Locate The Place Dance Studio on Google map&quot;&gt;&lt;b&gt;The Place Dance Studio&lt;/b&gt;&lt;/a&gt;, &lt;span&gt;16 Flaxman Terrace&lt;/span&gt;, &lt;span&gt;WC1&lt;/span&gt;, &lt;span&gt;London&lt;/span&gt;.&lt;/p&gt;
       &lt;/footer&gt;
     &lt;/article&gt;
   &lt;/div&gt;
@@ -641,7 +641,7 @@
       &lt;/header&gt;
       &lt;footer class=&quot;footer&quot;&gt;
         &lt;p class=&quot;pill&quot;&gt;sunday&lt;/p&gt; 
-        &lt;p&gt;2pm - 6:30pm &lt;a href=&quot;http://g.co/maps/szkqv&quot; title=&quot;Locate The Place Dance Studio on Google map&quot;&gt;&lt;b&gt;The Place Dance Studio&lt;/b&gt;&lt;/a&gt;, 16 Flaxman Terrace, WC1, London.&lt;/p&gt;
+        &lt;p&gt;&lt;span&gt;2pm&lt;/span&gt; - 6:30pm &lt;a href=&quot;http://g.co/maps/szkqv&quot; title=&quot;Locate The Place Dance Studio on Google map&quot;&gt;&lt;b&gt;The Place Dance Studio&lt;/b&gt;&lt;/a&gt;, &lt;span&gt;16 Flaxman Terrace&lt;/span&gt;, &lt;span&gt;WC1&lt;/span&gt;, &lt;span&gt;London&lt;/span&gt;.&lt;/p&gt;
       &lt;/footer&gt;
     &lt;/article&gt;
   &lt;/div&gt;

@@ -106,14 +106,9 @@ address {
   border-bottom: 5px solid #84b2c7;
 }
 
-/* line 109, ../sass/partials/_typography.scss */
-.title {
-  font-weight: 500;
-}
-/* line 112, ../sass/partials/_typography.scss */
+/* line 110, ../sass/partials/_typography.scss */
 .title b {
   color: #b22f2f;
-  font-weight: 500;
 }
 
 /* line 16, ../sass/advanced.scss */

@@ -42,7 +42,12 @@ body > .body-inner {
 }
 .content-wrapper {
   @include container;
+  padding: 0 5%;
+  .site-header & {
+    padding: 0;
+  }
 }
+
 
 @import "partials/site-header";
 
@@ -173,7 +178,6 @@ img {
     box-shadow: 0 8px 8px #000;
   }
 }
-// module typography
 
 .event-header {
   a {

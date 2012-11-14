@@ -544,14 +544,9 @@ address {
   border-bottom: 5px solid #84b2c7;
 }
 
-/* line 109, ../sass/partials/_typography.scss */
-.title {
-  font-weight: 500;
-}
-/* line 112, ../sass/partials/_typography.scss */
+/* line 110, ../sass/partials/_typography.scss */
 .title b {
   color: #b22f2f;
-  font-weight: 500;
 }
 
 /* line 20, ../sass/global.scss */
@@ -592,12 +587,17 @@ body > .body-inner {
   margin-right: auto;
   padding-left: 0;
   padding-right: 0;
+  padding: 0 5%;
 }
 /* line 38, ../../../../../../../../.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .content-wrapper:after {
   content: "";
   display: table;
   clear: both;
+}
+/* line 46, ../sass/global.scss */
+.site-header .content-wrapper {
+  padding: 0;
 }
 
 /* line 1, ../sass/partials/_site-header.scss */
@@ -730,12 +730,12 @@ body > .body-inner {
   line-height: 1;
 }
 
-/* line 51, ../sass/global.scss */
+/* line 56, ../sass/global.scss */
 .content {
   position: relative;
 }
 
-/* line 54, ../sass/global.scss */
+/* line 59, ../sass/global.scss */
 .site-header {
   width: auto;
 }
@@ -893,22 +893,22 @@ body > .body-inner {
   *vertical-align: auto;
   zoom: 1;
   *display: inline;
-  padding: 0 .09375em;
-  font-size: 32px;
+  padding: 0 .9375%;
+  font-size: 28px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
   margin: 0;
-  margin-bottom: -4px;
+  line-height: 2.1;
   vertical-align: bottom;
   color: #fff;
   color: rgba(255, 255, 255, 0.8);
 }
-/* line 47, ../sass/partials/_site-footer.scss */
+/* line 48, ../sass/partials/_site-footer.scss */
 .social-footer .ss-icon:hover {
   color: #fff;
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
 }
 
-/* line 61, ../sass/global.scss */
+/* line 66, ../sass/global.scss */
 .embed-media-block {
   position: relative;
   overflow: hidden;
@@ -920,7 +920,7 @@ body > .body-inner {
   border: 1px solid #fff;
 }
 
-/* line 73, ../sass/global.scss */
+/* line 78, ../sass/global.scss */
 .embed-media-block iframe,
 .embed-media-block object,
 .embed-media-block embed {
@@ -931,61 +931,61 @@ body > .body-inner {
   height: 100%;
 }
 
-/* line 83, ../sass/global.scss */
+/* line 88, ../sass/global.scss */
 a {
   color: black;
 }
 
-/* line 89, ../sass/global.scss */
+/* line 94, ../sass/global.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   text-decoration: none;
   color: #000;
   color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 95, ../sass/global.scss */
+/* line 100, ../sass/global.scss */
 [href^="tel"] {
   text-decoration: none;
 }
-/* line 97, ../sass/global.scss */
+/* line 102, ../sass/global.scss */
 [href^="tel"]:hover {
   color: #5296B1;
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
 }
 
-/* line 103, ../sass/global.scss */
+/* line 108, ../sass/global.scss */
 [aria-hidden] {
   font: 0/0 serif;
   text-shadow: none;
   color: transparent;
 }
 
-/* line 110, ../sass/global.scss */
+/* line 115, ../sass/global.scss */
 .static-map {
   width: 60%;
   outline: red solid 1px;
 }
-/* line 113, ../sass/global.scss */
+/* line 118, ../sass/global.scss */
 .static-map img {
   max-width: 100%;
   opacity: 0;
 }
-/* line 117, ../sass/global.scss */
+/* line 122, ../sass/global.scss */
 .static-map a {
   display: block;
   background: url("http://maps.google.com/maps/api/staticmap?center=51.525193,-0.110893&zoom=12&markers=51.538977,-0.104964|51.507335,-0.127683&size=640x640&sensor=false") no-repeat 50% 50%;
 }
 
-/* line 124, ../sass/global.scss */
+/* line 129, ../sass/global.scss */
 .pills {
   text-align: center;
 }
-/* line 127, ../sass/global.scss */
+/* line 132, ../sass/global.scss */
 .pills li {
   display: inline;
 }
 
-/* line 131, ../sass/global.scss */
+/* line 136, ../sass/global.scss */
 .pill {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1012,7 +1012,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   box-shadow: 0 0 5px #8A2424;
   letter-spacing: 1px;
 }
-/* line 147, ../sass/global.scss */
+/* line 152, ../sass/global.scss */
 .pill a {
   padding: 0;
   text-decoration: none;
@@ -1020,16 +1020,16 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: #fff;
 }
 
-/* line 157, ../sass/global.scss */
+/* line 162, ../sass/global.scss */
 img {
   max-width: 100%;
 }
-/* line 159, ../sass/global.scss */
+/* line 164, ../sass/global.scss */
 .figure img {
   display: block;
 }
 
-/* line 164, ../sass/global.scss */
+/* line 169, ../sass/global.scss */
 .figure.hero {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -1041,7 +1041,7 @@ img {
   overflow: hidden;
   box-shadow: 0 0 10px #e49696;
 }
-/* line 170, ../sass/global.scss */
+/* line 175, ../sass/global.scss */
 .figure.hero img {
   border: 1px solid #000;
   -webkit-border-radius: 2px;
@@ -1052,21 +1052,21 @@ img {
   box-shadow: 0 8px 8px #000;
 }
 
-/* line 179, ../sass/global.scss */
+/* line 183, ../sass/global.scss */
 .event-header a {
   text-decoration: none;
   color: black;
   -webkit-transition: all .5s linear;
 }
-/* line 183, ../sass/global.scss */
+/* line 187, ../sass/global.scss */
 .event-header a:hover {
   color: #8A2424;
 }
-/* line 187, ../sass/global.scss */
+/* line 191, ../sass/global.scss */
 .event-header a:hover h4 {
   border-color: #639eb5;
 }
-/* line 192, ../sass/global.scss */
+/* line 196, ../sass/global.scss */
 .event-header .figure {
   position: relative;
   display: inline-block;
@@ -1074,7 +1074,7 @@ img {
   border-bottom-width: .3125em;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
-/* line 199, ../sass/global.scss */
+/* line 203, ../sass/global.scss */
 .event-header .figcaption {
   background: url('/assets/images/rgbapng/00000099.png?1351265196');
   background: rgba(0, 0, 0, 0.6);
@@ -1089,20 +1089,20 @@ img {
   font-family: "freight-sans-pro", "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-transition: all .2s linear;
 }
-/* line 211, ../sass/global.scss */
+/* line 215, ../sass/global.scss */
 .event-header .figcaption span {
   border-bottom: 4px solid #fff;
   display: block;
   padding: .5em 1em;
 }
-/* line 217, ../sass/global.scss */
+/* line 221, ../sass/global.scss */
 .event-header h3 {
   margin-top: .2em;
   text-shadow: 0 0 5px #fff;
   line-height: 1.2;
 }
 
-/* line 224, ../sass/global.scss */
+/* line 228, ../sass/global.scss */
 .article {
   padding: 5% 0;
 }
