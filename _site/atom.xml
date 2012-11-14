@@ -4,7 +4,7 @@
  <title>Salsa Caribe</title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2012-11-14T20:11:05+00:00</updated>
+ <updated>2012-11-14T20:51:53+00:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -514,8 +514,8 @@
 &lt;h2&gt;Where to learn&lt;/h2&gt;
 
 &lt;section class=&quot;location&quot;&gt;
-  &lt;div class=&quot;static-map figure hero&quot;&gt;
-    &lt;a href=&quot;https://maps.google.com/maps/ms?msid=204512405293599754812.0004cd6e64e8e7a252869&amp;amp;msa=0&amp;amp;ll=51.535018,-0.128059&amp;amp;spn=0.062359,0.050983&quot;&gt;&lt;img src=&quot;http://maps.google.com/maps/api/staticmap?center=51.525193,-0.110893&amp;amp;zoom=12&amp;amp;markers=51.538977,-0.104964|51.507335,-0.127683&amp;amp;size=650x366&amp;amp;sensor=false&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;static-map&quot;&gt;
+    &lt;a href=&quot;https://maps.google.com/maps/ms?msid=204512405293599754812.0004cd6e64e8e7a252869&amp;amp;msa=0&amp;amp;ll=51.535018,-0.128059&amp;amp;spn=0.062359,0.050983&quot;&gt;&lt;img src=&quot;/assets/images/map-large.jpg&quot; /&gt;&lt;/a&gt;
   &lt;/div&gt;
   &lt;dl class=&quot;vcard&quot;&gt;
     &lt;dd class=&quot;buffalo&quot;&gt;&lt;span class=&quot;map-marker&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;fn org&quot;&gt;&lt;a href=&quot;#classes&quot;&gt;The Buffalo bar&lt;/a&gt;&lt;/span&gt;&lt;/dd&gt;

@@ -965,27 +965,32 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: transparent;
 }
 
-/* line 117, ../sass/global.scss */
+/* line 116, ../sass/global.scss */
+.static-map {
+  width: 100%;
+}
+/* line 118, ../sass/global.scss */
 .static-map img {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 120, ../sass/global.scss */
+/* line 121, ../sass/global.scss */
 .static-map a {
   display: block;
-  background: url("http://maps.google.com/maps/api/staticmap?center=51.525193,-0.110893&zoom=12&markers=51.538977,-0.104964|51.507335,-0.127683&size=640x640&sensor=false") no-repeat 50% 50%;
+  background: url('/assets/images/map-large.jpg?1352925961') no-repeat 50% 50%;
+  background-size: 140%;
 }
 
-/* line 127, ../sass/global.scss */
+/* line 129, ../sass/global.scss */
 .pills {
   text-align: center;
 }
-/* line 130, ../sass/global.scss */
+/* line 132, ../sass/global.scss */
 .pills li {
   display: inline;
 }
 
-/* line 134, ../sass/global.scss */
+/* line 136, ../sass/global.scss */
 .pill {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1012,7 +1017,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   box-shadow: 0 0 5px #8A2424;
   letter-spacing: 1px;
 }
-/* line 150, ../sass/global.scss */
+/* line 152, ../sass/global.scss */
 .pill a {
   padding: 0;
   text-decoration: none;
@@ -1021,37 +1026,36 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 /* line 160, ../sass/global.scss */
+.pill,
+.figure {
+  margin-bottom: 15px;
+}
+
+/* line 166, ../sass/global.scss */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 166, ../sass/global.scss */
+/* line 172, ../sass/global.scss */
 figure > img,
 .figure > img {
   display: block;
 }
 
-/* line 170, ../sass/global.scss */
+/* line 177, ../sass/global.scss */
+.static-map,
 .figure.hero {
   display: block;
   overflow: hidden;
   margin: 0 auto;
-  width: 320px;
   padding: 1.25em;
+  width: auto;
   background: #1d1d1d url('/assets/images/skin/grunge_wall_invert.png?1351265196');
   box-shadow: 0 0 10px #e49696;
 }
-/* line 178, ../sass/global.scss */
-.js .figure.hero {
-  display: -moz-inline-stack;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  zoom: 1;
-  *display: inline;
-}
-/* line 181, ../sass/global.scss */
+/* line 185, ../sass/global.scss */
+.static-map img,
 .figure.hero img {
   border: 1px solid #000;
   -webkit-border-radius: 2px;
@@ -1061,26 +1065,38 @@ figure > img,
   border-radius: 2px;
   box-shadow: 0 8px 8px #000;
 }
-/* line 186, ../sass/global.scss */
+
+/* line 191, ../sass/global.scss */
+.figure.hero {
+  width: 320px;
+}
+/* line 193, ../sass/global.scss */
 .js .figure.hero {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: auto;
   margin: 0 -5%;
 }
 
-/* line 193, ../sass/global.scss */
+/* line 202, ../sass/global.scss */
 .event-header a {
   text-decoration: none;
   color: black;
   -webkit-transition: all .5s linear;
 }
-/* line 197, ../sass/global.scss */
+/* line 206, ../sass/global.scss */
 .event-header a:hover {
   color: #8A2424;
 }
-/* line 201, ../sass/global.scss */
+/* line 210, ../sass/global.scss */
 .event-header a:hover h4 {
   border-color: #639eb5;
 }
-/* line 206, ../sass/global.scss */
+/* line 215, ../sass/global.scss */
 .event-header .figure {
   position: relative;
   display: inline-block;
@@ -1088,7 +1104,7 @@ figure > img,
   border-bottom-width: .3125em;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
-/* line 213, ../sass/global.scss */
+/* line 222, ../sass/global.scss */
 .event-header .figcaption {
   background: url('/assets/images/rgbapng/00000099.png?1351265196');
   background: rgba(0, 0, 0, 0.6);
@@ -1103,29 +1119,29 @@ figure > img,
   font-weight: 500;
   font-family: "freight-sans-pro", "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-/* line 225, ../sass/global.scss */
+/* line 234, ../sass/global.scss */
 .event-header .figcaption span {
   border-bottom: 4px solid #fff;
   display: block;
   padding: .5em 1em;
 }
-/* line 231, ../sass/global.scss */
+/* line 240, ../sass/global.scss */
 .event-header h3 {
   margin-top: .2em;
   text-shadow: 0 0 5px #fff;
   line-height: 1.2;
 }
 
-/* line 238, ../sass/global.scss */
+/* line 247, ../sass/global.scss */
 .article {
   padding: 5% 0;
 }
 
-/* line 245, ../sass/global.scss */
+/* line 254, ../sass/global.scss */
 .class-list .title {
   font-size: 100%;
 }
-/* line 248, ../sass/global.scss */
+/* line 257, ../sass/global.scss */
 .class-list .figcaption {
   font-size: 90%;
 }

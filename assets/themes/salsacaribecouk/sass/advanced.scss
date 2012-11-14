@@ -27,6 +27,8 @@
       position: relative;
       span:first-child,
       .map-marker {
+        @include border-radius(1em);
+        position: static;
         color: #fff;
         background: #F53837;
         display: inline-block;
@@ -34,9 +36,6 @@
         height: 2em;
         line-height: 2em;
         text-align: center;
-        position: absolute;
-        left: columns(2,12) * -1;
-        @include border-radius(1em);
       }
     }
   }
@@ -61,17 +60,18 @@
   body {
     font-size: 16px;
   }
-    .hero.figure {
-      .js & {
-        @include border-radius(2%);
-        margin: 0;
-      }
+  .static-map,
+  .hero.figure {
+    .js & {
+      @include border-radius(2%);
+      margin: 0;
     }
-    [role="banner"] .contact {
-      .js & {
-        padding:  0;
-      }
+  }
+  [role="banner"] .contact {
+    .js & {
+      padding:  0;
     }
+  }
 }
 
 // @media queries and min-width: 768px
@@ -97,12 +97,26 @@
     line-height: 1.1;
     font-size: 32px;
   }
+  // classes page
+  .location {
+    .static-map {
+      @include float(left); 
+      width: 61.6%;
+      margin-right: 2.083%;
+      a {
+        background-size: auto;
+      }
+    }
+    .vcard {
+      overflow: hidden;
+      width: auto;
+      float: none;
+      .map-marker {
+      }
+    }
+  }
   // classes previews
   .class-list{
-    .pill,
-    .figure {
-      margin-bottom: 15px;
-    }
     .article {
       @include float(left);
       width: 31.88%;
@@ -112,22 +126,7 @@
       }
     }
   }
-  .location {
-    .figure.hero,
-    .static-map {
-      @include float(left); 
-      width: 61.6%;
-      margin-right: 2.083%;
-    }
-    .vcard {
-      overflow: hidden;
-      width: auto;
-      float: none;
-      .map-marker {
-        position: static !important; 
-      }
-    }
-  }
+  //end classes
 }
 
 @media only screen and (min-width: 48em) and (orientation: landscape) {

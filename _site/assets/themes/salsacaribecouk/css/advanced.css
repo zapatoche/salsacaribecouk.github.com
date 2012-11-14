@@ -146,6 +146,12 @@ address {
 /* line 29, ../sass/advanced.scss */
 .location .vcard dd span:first-child,
 .location .vcard dd .map-marker {
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+  border-radius: 1em;
+  position: static;
   color: #fff;
   background: #F53837;
   display: inline-block;
@@ -153,15 +159,8 @@ address {
   height: 2em;
   line-height: 2em;
   text-align: center;
-  position: absolute;
-  left: -15.25424%;
-  -webkit-border-radius: 1em;
-  -moz-border-radius: 1em;
-  -ms-border-radius: 1em;
-  -o-border-radius: 1em;
-  border-radius: 1em;
 }
-/* line 43, ../sass/advanced.scss */
+/* line 42, ../sass/advanced.scss */
 .location .figure {
   clear: both;
 }
@@ -307,24 +306,25 @@ address {
     z-index: 1000;
   }
 
-  /* line 53, ../sass/advanced.scss */
+  /* line 52, ../sass/advanced.scss */
   .site-tagline {
     border: 0;
   }
 
-  /* line 57, ../sass/advanced.scss */
+  /* line 56, ../sass/advanced.scss */
   p, .p {
     padding: 0 8.542%;
     margin: 2em 0;
   }
 
-  /* line 61, ../sass/advanced.scss */
+  /* line 60, ../sass/advanced.scss */
   body {
     font-size: 16px;
   }
 
   /* line 65, ../sass/advanced.scss */
-  .js .hero.figure {
+  .js .static-map, .js
+  .hero.figure {
     -webkit-border-radius: 2%;
     -moz-border-radius: 2%;
     -ms-border-radius: 2%;
@@ -367,61 +367,55 @@ address {
     font-size: 32px;
   }
 
-  /* line 103, ../sass/advanced.scss */
-  .class-list .pill,
-  .class-list .figure {
-    margin-bottom: 15px;
-  }
-  /* line 106, ../sass/advanced.scss */
-  .class-list .article {
-    display: inline;
-    float: left;
-    width: 31.88%;
-    margin-left: 2.083%;
-  }
-  /* line 110, ../sass/advanced.scss */
-  .class-list .article:first-child {
-    margin: 0;
-  }
-
-  /* line 117, ../sass/advanced.scss */
-  .location .figure.hero,
+  /* line 102, ../sass/advanced.scss */
   .location .static-map {
     display: inline;
     float: left;
     width: 61.6%;
     margin-right: 2.083%;
   }
-  /* line 122, ../sass/advanced.scss */
+  /* line 106, ../sass/advanced.scss */
+  .location .static-map a {
+    background-size: auto;
+  }
+  /* line 110, ../sass/advanced.scss */
   .location .vcard {
     overflow: hidden;
     width: auto;
     float: none;
   }
-  /* line 126, ../sass/advanced.scss */
-  .location .vcard .map-marker {
-    position: static !important;
+
+  /* line 120, ../sass/advanced.scss */
+  .class-list .article {
+    display: inline;
+    float: left;
+    width: 31.88%;
+    margin-left: 2.083%;
+  }
+  /* line 124, ../sass/advanced.scss */
+  .class-list .article:first-child {
+    margin: 0;
   }
 }
 @media only screen and (min-width: 48em) and (orientation: landscape) {
-  /* line 134, ../sass/advanced.scss */
+  /* line 133, ../sass/advanced.scss */
   .content-wrapper {
     padding: 0 15%;
   }
 }
 @media only screen and (min-width: 60em) {
-  /* line 147, ../sass/advanced.scss */
+  /* line 146, ../sass/advanced.scss */
   .social {
     background: transparent;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 155, ../sass/advanced.scss */
+  /* line 154, ../sass/advanced.scss */
   html {
     background-image: url('/assets/images/skin/grunge_wall_@2x.png?1351265196');
   }
 
-  /* line 159, ../sass/advanced.scss */
+  /* line 158, ../sass/advanced.scss */
   .site-nav,
   .social-footer {
     background-image: url('/assets/images/skin/grunge_wall_red_@2x.png?1351265196');

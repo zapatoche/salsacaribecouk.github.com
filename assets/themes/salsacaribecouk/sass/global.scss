@@ -114,12 +114,14 @@ a {
 }
 // map
 .static-map {
+  width: 100%;
   img {
     @include opacity(0);
   }
   a {
     display: block;
-    background: url('http://maps.google.com/maps/api/staticmap?center=51.525193,-0.110893&zoom=12&markers=51.538977,-0.104964|51.507335,-0.127683&size=640x640&sensor=false') no-repeat 50% 50%;;
+    background: image-url('map-large.jpg') no-repeat 50% 50%;;
+    background-size: 140%;
   }
 }
 // module tags list
@@ -154,6 +156,10 @@ a {
     color: #fff;
   }
 }
+.pill,
+.figure {
+  margin-bottom: 15px;
+}
 
 // module images
 
@@ -167,23 +173,26 @@ figure,
     display: block;
   }
 }
+.static-map,
 .figure.hero {
   display: block;
   overflow: hidden;
   margin: 0 auto;
-  width: 320px;
   padding: 1.25em;
+  width: auto;
   background: #1D1D1D image-url('skin/grunge_wall_invert.png');
   box-shadow: 0 0 10px lighten(#8A2424, 40%);
-  .js & {
-    @include inline-block;
-  }
   img {
     border: 1px solid #000;
     @include border-radius(2px);
     box-shadow: 0 8px 8px #000;
   }
+}
+.figure.hero {
+  width: 320px;
   .js & {
+    @include inline-block;
+    width: auto;
     margin: 0 -5%;
   }
 }
