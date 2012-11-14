@@ -27,6 +27,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
+/* line 30, ../sass/partials/_typography.scss */
+p {
+  margin: 1em 0;
+}
+
 @font-face {
   font-family: 'icomoon';
   src: url('/assets/themes/salsacaribecouk/fonts/icomoon.eot');
@@ -36,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
-/* line 43, ../sass/partials/_typography.scss */
+/* line 48, ../sass/partials/_typography.scss */
 [data-icon]:before {
   font-family: 'icomoon';
   content: attr(data-icon);
@@ -45,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 51, ../sass/partials/_typography.scss */
+/* line 56, ../sass/partials/_typography.scss */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-weight: normal;
   font-style: normal;
@@ -54,17 +59,17 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 58, ../sass/partials/_typography.scss */
+/* line 63, ../sass/partials/_typography.scss */
 .icon-mobile:before {
   content: "\21";
 }
 
-/* line 63, ../sass/partials/_typography.scss */
+/* line 68, ../sass/partials/_typography.scss */
 address {
   font-style: normal;
 }
 
-/* line 70, ../sass/partials/_typography.scss */
+/* line 75, ../sass/partials/_typography.scss */
 .pullquote-right:before,
 .pullquote-left:before {
   /* Reset metrics. */
@@ -84,14 +89,14 @@ address {
   line-height: 30px;
 }
 
-/* line 91, ../sass/partials/_typography.scss */
+/* line 96, ../sass/partials/_typography.scss */
 .pullquote-left:before {
   float: left;
   margin: 12px 31px 24px -102px;
   width: 251px;
 }
 
-/* line 98, ../sass/partials/_typography.scss */
+/* line 103, ../sass/partials/_typography.scss */
 .article-title {
   background: url('/assets/images/rgbapng/ffffff99.png?1352898236');
   background: rgba(255, 255, 255, 0.6);
@@ -101,7 +106,7 @@ address {
   line-height: 1.2;
   margin-bottom: 2em;
 }
-/* line 105, ../sass/partials/_typography.scss */
+/* line 110, ../sass/partials/_typography.scss */
 .article-title span {
   position: relative;
   top: 5px;
@@ -110,7 +115,7 @@ address {
   border-bottom: 5px solid #5091af;
 }
 
-/* line 114, ../sass/partials/_typography.scss */
+/* line 119, ../sass/partials/_typography.scss */
 .title b {
   color: #b22f2f;
 }
@@ -314,15 +319,19 @@ address {
   /* line 56, ../sass/advanced.scss */
   p, .p {
     padding: 0 8.542%;
-    margin: 2em 0;
+  }
+  /* line 58, ../sass/advanced.scss */
+  footer p, footer .p {
+    padding: 0;
+    margin-top: 0;
   }
 
-  /* line 60, ../sass/advanced.scss */
+  /* line 63, ../sass/advanced.scss */
   body {
     font-size: 16px;
   }
 
-  /* line 65, ../sass/advanced.scss */
+  /* line 68, ../sass/advanced.scss */
   .js .static-map, .js
   .hero.figure {
     -webkit-border-radius: 2%;
@@ -333,7 +342,7 @@ address {
     margin: 0;
   }
 
-  /* line 71, ../sass/advanced.scss */
+  /* line 74, ../sass/advanced.scss */
   .js [role="banner"] .contact {
     padding: 0;
   }
@@ -346,76 +355,76 @@ address {
     padding: 0 0.5494505495%;
   }
 
-  /* line 80, ../sass/advanced.scss */
+  /* line 83, ../sass/advanced.scss */
   .content-wrapper {
     padding: 0 10%;
   }
 
-  /* line 85, ../sass/advanced.scss */
+  /* line 88, ../sass/advanced.scss */
   .js .site-nav li {
     float: right;
   }
-  /* line 87, ../sass/advanced.scss */
+  /* line 90, ../sass/advanced.scss */
   .js .site-nav li.first {
     float: left;
   }
 
-  /* line 95, ../sass/advanced.scss */
+  /* line 98, ../sass/advanced.scss */
   .article-title {
     padding-left: 20.98%;
     line-height: 1.1;
     font-size: 32px;
   }
 
-  /* line 102, ../sass/advanced.scss */
+  /* line 105, ../sass/advanced.scss */
   .location .static-map {
     display: inline;
     float: left;
     width: 61.6%;
     margin-right: 2.083%;
   }
-  /* line 106, ../sass/advanced.scss */
+  /* line 109, ../sass/advanced.scss */
   .location .static-map a {
     background-size: auto;
   }
-  /* line 110, ../sass/advanced.scss */
+  /* line 113, ../sass/advanced.scss */
   .location .vcard {
     overflow: hidden;
     width: auto;
     float: none;
   }
 
-  /* line 120, ../sass/advanced.scss */
+  /* line 123, ../sass/advanced.scss */
   .class-list .article {
     display: inline;
     float: left;
     width: 31.88%;
     margin-left: 2.083%;
   }
-  /* line 124, ../sass/advanced.scss */
+  /* line 127, ../sass/advanced.scss */
   .class-list .article:first-child {
     margin: 0;
   }
 }
 @media only screen and (min-width: 48em) and (orientation: landscape) {
-  /* line 133, ../sass/advanced.scss */
+  /* line 136, ../sass/advanced.scss */
   .content-wrapper {
     padding: 0 15%;
   }
 }
 @media only screen and (min-width: 60em) {
-  /* line 146, ../sass/advanced.scss */
+  /* line 149, ../sass/advanced.scss */
   .social {
     background: transparent;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 154, ../sass/advanced.scss */
+  /* line 157, ../sass/advanced.scss */
   html {
     background-image: url('/assets/images/skin/grunge_wall_@2x.png?1351265196');
   }
 
-  /* line 158, ../sass/advanced.scss */
+  /* line 161, ../sass/advanced.scss */
   .site-nav,
   .social-footer {
     background-image: url('/assets/images/skin/grunge_wall_red_@2x.png?1351265196');

@@ -204,11 +204,18 @@ figure,
     color: darken(#8A2424, 40%);
     -webkit-transition: all .5s linear;
     &:hover {
+      color: darken(#952E2E, 10%);
+      b {
+        color: #5293AD;
+      } 
       span {
       }
       color: #8A2424;
       h4 {
         border-color: lighten(#5293AD, 5%);
+      }
+      .figcaption {
+        border-color: #952E2E;
       }
     }
   }
@@ -231,6 +238,9 @@ figure,
     text-transform: uppercase;
     font-weight: 500;
     font-family: "freight-sans-pro", $body_font;
+    -webkit-transition: all .3s linear;
+    &:hover {
+    }
     span {
       border-bottom: 4px solid #fff;
       display: block;
@@ -246,6 +256,9 @@ figure,
 
 .article {
   padding: 5% 0;
+  .class-list & {
+    padding: 0;
+  }
 }
 .class-list {
   .article {
@@ -259,4 +272,36 @@ figure,
   }
 }
 p:first-line {
+}
+// module tooltip
+a[data-tooltip]:link, a[data-tooltip]:visited {  
+  position: relative;  
+  text-decoration: none;  
+}
+a[data-tooltip]:before {
+  content: "";
+  position: absolute;
+  visibility: hidden;
+  top: -18px;
+  left: -26px;
+}
+
+a[data-tooltip]:after {
+  content: attr(data-tooltip);
+  position: absolute;
+  color: white;
+  top: -35px;
+  left: -26px;
+  background: #1D1D1D image-url('skin/grunge_wall_invert.png');
+  @include border-radius(5px);
+  font-size: 16px;
+  padding: 5px 15px;
+  white-space: nowrap;
+  visibility: hidden;
+}
+
+a[data-tooltip]:hover:before, a[data-tooltip]:hover:after {
+  visibility: visible;
+  -webkit-transition: visibility 0s linear .3s;
+  -moz-transition: visibility 0s linear .3s;
 }

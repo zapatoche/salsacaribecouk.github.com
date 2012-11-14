@@ -465,6 +465,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
+/* line 30, ../sass/partials/_typography.scss */
+p {
+  margin: 1em 0;
+}
+
 @font-face {
   font-family: 'icomoon';
   src: url('/assets/themes/salsacaribecouk/fonts/icomoon.eot');
@@ -474,7 +479,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
-/* line 43, ../sass/partials/_typography.scss */
+/* line 48, ../sass/partials/_typography.scss */
 [data-icon]:before {
   font-family: 'icomoon';
   content: attr(data-icon);
@@ -483,7 +488,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 51, ../sass/partials/_typography.scss */
+/* line 56, ../sass/partials/_typography.scss */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-weight: normal;
   font-style: normal;
@@ -492,17 +497,17 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 58, ../sass/partials/_typography.scss */
+/* line 63, ../sass/partials/_typography.scss */
 .icon-mobile:before {
   content: "\21";
 }
 
-/* line 63, ../sass/partials/_typography.scss */
+/* line 68, ../sass/partials/_typography.scss */
 address {
   font-style: normal;
 }
 
-/* line 70, ../sass/partials/_typography.scss */
+/* line 75, ../sass/partials/_typography.scss */
 .pullquote-right:before,
 .pullquote-left:before {
   /* Reset metrics. */
@@ -522,14 +527,14 @@ address {
   line-height: 30px;
 }
 
-/* line 91, ../sass/partials/_typography.scss */
+/* line 96, ../sass/partials/_typography.scss */
 .pullquote-left:before {
   float: left;
   margin: 12px 31px 24px -102px;
   width: 251px;
 }
 
-/* line 98, ../sass/partials/_typography.scss */
+/* line 103, ../sass/partials/_typography.scss */
 .article-title {
   background: url('/assets/images/rgbapng/ffffff99.png?1352898236');
   background: rgba(255, 255, 255, 0.6);
@@ -539,7 +544,7 @@ address {
   line-height: 1.2;
   margin-bottom: 2em;
 }
-/* line 105, ../sass/partials/_typography.scss */
+/* line 110, ../sass/partials/_typography.scss */
 .article-title span {
   position: relative;
   top: 5px;
@@ -548,7 +553,7 @@ address {
   border-bottom: 5px solid #5091af;
 }
 
-/* line 114, ../sass/partials/_typography.scss */
+/* line 119, ../sass/partials/_typography.scss */
 .title b {
   color: #b22f2f;
 }
@@ -649,7 +654,7 @@ body > .body-inner {
 /* line 28, ../sass/partials/_site-header.scss */
 .site-tagline h1, .site-tagline .h1 {
   margin: 0;
-  padding: 42px 0;
+  padding: .55em 0;
   letter-spacing: .03225em;
   font-size: 32px;
   font-size: 2rem;
@@ -1090,13 +1095,22 @@ figure > img,
 }
 /* line 206, ../sass/global.scss */
 .event-header a:hover {
+  color: #6e2222;
   color: #8A2424;
 }
-/* line 210, ../sass/global.scss */
+/* line 208, ../sass/global.scss */
+.event-header a:hover b {
+  color: #5293AD;
+}
+/* line 214, ../sass/global.scss */
 .event-header a:hover h4 {
   border-color: #639eb5;
 }
-/* line 215, ../sass/global.scss */
+/* line 217, ../sass/global.scss */
+.event-header a:hover .figcaption {
+  border-color: #952E2E;
+}
+/* line 222, ../sass/global.scss */
 .event-header .figure {
   position: relative;
   display: inline-block;
@@ -1104,7 +1118,7 @@ figure > img,
   border-bottom-width: .3125em;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
-/* line 222, ../sass/global.scss */
+/* line 229, ../sass/global.scss */
 .event-header .figcaption {
   background: url('/assets/images/rgbapng/00000099.png?1351265196');
   background: rgba(0, 0, 0, 0.6);
@@ -1118,30 +1132,76 @@ figure > img,
   text-transform: uppercase;
   font-weight: 500;
   font-family: "freight-sans-pro", "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-transition: all .3s linear;
 }
-/* line 234, ../sass/global.scss */
+/* line 244, ../sass/global.scss */
 .event-header .figcaption span {
   border-bottom: 4px solid #fff;
   display: block;
   padding: .5em 1em;
 }
-/* line 240, ../sass/global.scss */
+/* line 250, ../sass/global.scss */
 .event-header h3 {
   margin-top: .2em;
   text-shadow: 0 0 5px #fff;
   line-height: 1.2;
 }
 
-/* line 247, ../sass/global.scss */
+/* line 257, ../sass/global.scss */
 .article {
   padding: 5% 0;
 }
+/* line 259, ../sass/global.scss */
+.class-list .article {
+  padding: 0;
+}
 
-/* line 254, ../sass/global.scss */
+/* line 267, ../sass/global.scss */
 .class-list .title {
   font-size: 100%;
 }
-/* line 257, ../sass/global.scss */
+/* line 270, ../sass/global.scss */
 .class-list .figcaption {
   font-size: 90%;
+}
+
+/* line 277, ../sass/global.scss */
+a[data-tooltip]:link, a[data-tooltip]:visited {
+  position: relative;
+  text-decoration: none;
+}
+
+/* line 281, ../sass/global.scss */
+a[data-tooltip]:before {
+  content: "";
+  position: absolute;
+  visibility: hidden;
+  top: -18px;
+  left: -26px;
+}
+
+/* line 289, ../sass/global.scss */
+a[data-tooltip]:after {
+  content: attr(data-tooltip);
+  position: absolute;
+  color: white;
+  top: -35px;
+  left: -26px;
+  background: #1d1d1d url('/assets/images/skin/grunge_wall_invert.png?1351265196');
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px 15px;
+  white-space: nowrap;
+  visibility: hidden;
+}
+
+/* line 303, ../sass/global.scss */
+a[data-tooltip]:hover:before, a[data-tooltip]:hover:after {
+  visibility: visible;
+  -webkit-transition: visibility 0s linear .3s;
+  -moz-transition: visibility 0s linear .3s;
 }
