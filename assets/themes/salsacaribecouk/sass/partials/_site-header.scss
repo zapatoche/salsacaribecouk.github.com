@@ -33,6 +33,10 @@
     font-size: 2rem;
     font-family: $brand_font;
     line-height: 1;
+    span {
+      color: lighten(#DAE8EE, 5%);
+      display: inline;
+    }
   }
   span {
     display: inline-block;

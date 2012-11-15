@@ -1,7 +1,7 @@
 ---
 
 layout: classes
-title:  "The Afro Cuban lounge"
+title:  T<span>he</span> Af<span>r</span>o Cub<span>an</span> lou<span>n</span>ge
 category:
   - classes
   - monday
