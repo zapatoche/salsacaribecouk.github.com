@@ -11,13 +11,13 @@
       </dd>
       {% endfor %}
       <dd class="pill">
-      {{ day | capitaddze }}
+      {{ day | capitalize }}
       </dd>
     </dl>
     {% endif %}
 
     {% if page.summary %}
-    <h2 class="summary title article-title"><span>{{ page.summary }}</span></h2>
+      {% include partials/post_summary_helper.html %}
     {% endif %}
 
     {% if  page.description %}

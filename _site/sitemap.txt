@@ -6,16 +6,16 @@
 /sitemap.txt
 
 /news/test-news-001
+/news/oscar-dleon-live-at-the-roundhouse
 /classes/sunday/the-afro-cuban-studio
 /classes/saturday/its-a-girl-thing
-/classes/monday/the-afro-cuban-lounge
 /club-nights/monday/the-afro-cuban-lounge
+/classes/monday/the-afro-cuban-lounge
 /news/test-the-limit
 /news/some-more-news-stuff
 /news/an-other-news
 /about/susan
 /news
-/news/latest-news
 /about/jim
 /contact
 /club-nights

@@ -4,7 +4,7 @@
  <title>Salsa Caribe</title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2012-11-15T00:14:19+00:00</updated>
+ <updated>2012-11-15T22:15:28+00:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -23,6 +23,20 @@
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Oscar D’Leon live at the Roundhouse</title>
+   <link href="/news/oscar-dleon-live-at-the-roundhouse"/>
+   <updated>2012-11-03T00:00:00+00:00</updated>
+   <id>/news/oscar-dleon-live-at-the-roundhouse</id>
+   <content type="html">
+&lt;p&gt;&lt;img src=&quot;http://www.comono.co.uk/wp-content/uploads/old/47c4394bae9f3.jpg&quot; alt=&quot;Oscar d'Leon&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Legendary salsa superstar Oscar D’Leon will be playing live at the Roundhouse, London NW1 on Saturday 3rd November, backed by his full Venezuelan big band + a roster of top DJs, including Salsa Caribe’s Dr Jim. Tickets cost £25 and you can get them directly from us this Sunday afternoon at the Place or on Monday evening at the Buffalo Bar and save yourself a few quid on booking fees!&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 </content>
  </entry>
  
@@ -174,6 +188,15 @@
  
  <entry>
    <title>The Afro Cuban lounge</title>
+   <link href="/club-nights/monday/the-afro-cuban-lounge"/>
+   <updated>2012-10-01T00:00:00+01:00</updated>
+   <id>/club-nights/monday/the-afro-cuban-lounge</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Afro Cuban lounge</title>
    <link href="/classes/monday/the-afro-cuban-lounge"/>
    <updated>2012-10-01T00:00:00+01:00</updated>
    <id>/classes/monday/the-afro-cuban-lounge</id>
@@ -203,15 +226,6 @@
     &lt;/section&gt;
 
   &lt;/div&gt;&lt;/aside&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>The Afro Cuban lounge</title>
-   <link href="/club-nights/monday/the-afro-cuban-lounge"/>
-   <updated>2012-10-01T00:00:00+01:00</updated>
-   <id>/club-nights/monday/the-afro-cuban-lounge</id>
-   <content type="html">
 </content>
  </entry>
  
@@ -264,36 +278,6 @@
    <updated>2012-09-20T00:00:00+01:00</updated>
    <id>/news</id>
    <content type="html">
-&lt;section class=&quot;section featured&quot;&gt;
-    
-      
-    &lt;article class=&quot;article&quot;&gt;
-  &lt;footer&gt;&lt;time datetime=&quot;2012-09-20&quot;&gt;Thu 20 Sep 2012&lt;/time&gt;&lt;/footer&gt;
-
-  &lt;h2&gt;&lt;a href=&quot;/news/latest-news&quot;&gt;Afro-Cuban Salsa Rueda Festival
-&lt;/a&gt;&lt;/h2&gt;
-  
-    
-    &lt;p&gt;Afro Cuban Salsa Rueda Festival 10th to 13th of May 2013&lt;/p&gt;
-
-&lt;p&gt;Mundesley Holiday Village, Mundesley, Norfolk, UK&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;workshops on a wide variety of Rueda de Casino, Salsa and other Latin and African dance&lt;/li&gt;
-  &lt;li&gt;workshops on a wide variety of Rueda de Casino, Salsa and other Latin and African dance&lt;/li&gt;
-  &lt;li&gt;workshops on a wide variety of Rueda de Casino, Salsa and other Latin and African dance&lt;/li&gt;
-  &lt;li&gt;workshops on a wide variety of Rueda de Casino, Salsa and other Latin and African dance&lt;/li&gt;
-&lt;/ul&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;/news/latest-news&quot;&gt;read more&lt;/a&gt; &amp;hellip;&lt;/p&gt;
-&lt;/article&gt;
-
-
-
-    
-  &lt;/section&gt;
-
 &lt;section class=&quot;section news-roll&quot;&gt;
   
     
@@ -308,6 +292,22 @@
 
   
   &lt;p&gt;&lt;a href=&quot;/news/test-news-001&quot;&gt;read more&lt;/a&gt; &amp;hellip;&lt;/p&gt;
+&lt;/article&gt;
+
+
+
+  
+    
+  &lt;article class=&quot;article&quot;&gt;
+  &lt;footer&gt;&lt;time datetime=&quot;2012-11-03&quot;&gt;Sat 03 Nov 2012&lt;/time&gt;&lt;/footer&gt;
+
+  &lt;h2&gt;&lt;a href=&quot;/news/oscar-dleon-live-at-the-roundhouse&quot;&gt;Oscar D’Leon live at the Roundhouse&lt;/a&gt;&lt;/h2&gt;
+  
+    
+    &lt;p&gt;Legendary salsa superstar Oscar D’Leon will be playing live at the Roundhouse, London NW1 on Saturday 3rd November, backed by his full Venezuelan big band + a roster of top DJs, including Salsa Caribe’s Dr Jim. Tickets cost £25 and you can get them directly from us this Sunday afternoon at the Place or on Monday evening at the Buffalo Bar and save yourself a few quid on booking fees!&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;/news/oscar-dleon-live-at-the-roundhouse&quot;&gt;read more&lt;/a&gt; &amp;hellip;&lt;/p&gt;
 &lt;/article&gt;
 
 
@@ -350,29 +350,6 @@
 
   
 &lt;/section&gt;
-
-</content>
- </entry>
- 
- <entry>
-   <title>Afro-Cuban Salsa Rueda Festival
-</title>
-   <link href="/news/latest-news"/>
-   <updated>2012-09-20T00:00:00+01:00</updated>
-   <id>/news/latest-news</id>
-   <content type="html">
-&lt;h1&gt;Afro-Cuban Salsa Rueda Festival&lt;/h1&gt;
-
-&lt;p&gt;Afro Cuban Salsa Rueda Festival 10th to 13th of May 2013&lt;/p&gt;
-
-&lt;p&gt;Mundesley Holiday Village, Mundesley, Norfolk, UK&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;workshops on a wide variety of Rueda de Casino, Salsa and other Latin and African dance&lt;/li&gt;
-  &lt;li&gt;workshops on a wide variety of Rueda de Casino, Salsa and other Latin and African dance&lt;/li&gt;
-  &lt;li&gt;workshops on a wide variety of Rueda de Casino, Salsa and other Latin and African dance&lt;/li&gt;
-  &lt;li&gt;workshops on a wide variety of Rueda de Casino, Salsa and other Latin and African dance&lt;/li&gt;
-&lt;/ul&gt;
 
 </content>
  </entry>
@@ -513,35 +490,35 @@
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. &lt;/p&gt;
 
-&lt;h2&gt;Where to learn&lt;/h2&gt;
+&lt;section class=&quot;section location&quot;&gt;
 
-&lt;section class=&quot;location&quot;&gt;
-  &lt;div class=&quot;static-map&quot;&gt;
+  &lt;h2&gt;Where to learn&lt;/h2&gt;
+
+  &lt;section class=&quot;location&quot;&gt;
+    &lt;div class=&quot;static-map&quot;&gt;
     &lt;a href=&quot;https://maps.google.com/maps/ms?msid=204512405293599754812.0004cd6e64e8e7a252869&amp;amp;msa=0&amp;amp;ll=51.535018,-0.128059&amp;amp;spn=0.062359,0.050983&quot;&gt;&lt;img src=&quot;/assets/images/map-large.jpg&quot; /&gt;&lt;/a&gt;
   &lt;/div&gt;
-  &lt;dl class=&quot;vcard&quot;&gt;
+    &lt;dl class=&quot;vcard&quot;&gt;
     &lt;dd class=&quot;buffalo&quot;&gt;&lt;span class=&quot;map-marker&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;fn org&quot;&gt;&lt;a href=&quot;#classes&quot;&gt;The Buffalo bar&lt;/a&gt;&lt;/span&gt;&lt;/dd&gt;
     &lt;dt&gt;
       &lt;span class=&quot;street-address&quot;&gt;259 Upper street&lt;/span&gt;, &lt;span class=&quot;postal-code&quot;&gt;N1 1RU&lt;/span&gt; &lt;span class=&quot;locality&quot;&gt;London&lt;/span&gt;
     &lt;/dt&gt;
   &lt;/dl&gt;
-  &lt;dl class=&quot;vcard last&quot;&gt;
+    &lt;dl class=&quot;vcard last&quot;&gt;
     &lt;dd class=&quot;place&quot;&gt;&lt;span class=&quot;map-marker&quot;&gt;B&lt;/span&gt; &lt;span class=&quot;fn org&quot;&gt;&lt;a href=&quot;#classes&quot;&gt;The Place dance studio&lt;/a&gt;&lt;/span&gt;&lt;/dd&gt;
     &lt;dt&gt;
       &lt;span class=&quot;street-address&quot;&gt;259 Upper street&lt;/span&gt; &lt;span class=&quot;postal-code&quot;&gt;WC1&lt;/span&gt; &lt;span class=&quot;locality&quot;&gt;London&lt;/span&gt;
     &lt;/dt&gt;
   &lt;/dl&gt;
+  &lt;/section&gt;
+
 &lt;/section&gt;
 
-&lt;section&gt;
+&lt;section class=&quot;section group-classes&quot;&gt;
 
   &lt;h2&gt;When to learn&lt;/h2&gt;
 
   &lt;div class=&quot;class-list&quot;&gt;
-    
-      
-    
-      
     
       
     
@@ -588,6 +565,8 @@
       &lt;/footer&gt;
     &lt;/article&gt;
 
+      
+    
       
     
       
@@ -644,9 +623,30 @@
     
       
     
+      
+    
   &lt;/div&gt;
 &lt;/section&gt;
 
+&lt;section class=&quot;section private-classes&quot;&gt;
+
+  &lt;h2&gt;Would you appreciate a bit of individual attention?&lt;/h2&gt;
+
+  &lt;div class=&quot;col&quot;&gt;
+    &lt;p&gt;One to one dance classes will greatly accelerate your learning process &amp;amp; enhance your style. You may wish to improve your partner dancing technique (working on your leading &amp;amp; following skills), enrich your body movement, or increase your repertoire of dance rhythms, steps &amp;amp; moves. Or you may just want help in making that move up to the next level.&lt;/p&gt;
+
+    &lt;p&gt;Whatever your needs, your one to one session will be tailored to meet your specific requirements, so you’ll be learning at your own pace - helping you to develop a real Cuban flavour to your dancing. And you’ll be working with either Susan or Jim of Salsa Caribe Productions - two of the UK’s most highly regarded teachers of authentic Cuban salsa.&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;footer class=&quot;footer&quot;&gt;
+
+    &lt;p&gt;Tuition starts at £60 (including studio hire) for a one to one session.&lt;/p&gt;
+
+    &lt;p&gt;For further info or to book &lt;span class=&quot;ss-icon ss-standard-circle&quot;&gt;call&lt;/span&gt; Susan &lt;a href=&quot;tel:+447956563841&quot;&gt;07956 563 841&lt;/a&gt; or Jim  &lt;a href=&quot;tel:+447958102188&quot;&gt;07958 102 188&lt;/a&gt;&lt;/p&gt;
+
+  &lt;/footer&gt;
+
+&lt;/section&gt;
 </content>
  </entry>
  
@@ -689,11 +689,11 @@
   
   
   
-  
-  
     &lt;li&gt;
       &lt;a href=&quot;/about/susan&quot;&gt;susan&lt;/a&gt;
     &lt;/li&gt;
+  
+  
   
   
   

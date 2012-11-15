@@ -1,0 +1,40 @@
+.icon-list {
+  position: relative;
+}
+a[data-tooltip]:link, a[data-tooltip]:visited {  
+  position: relative;  
+  text-decoration: none;  
+}
+a[data-tooltip]:before {
+  content: "";
+  position: absolute;
+  visibility: hidden;
+  top: -26px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-top: 6px solid #1D1D1D;
+  border-right: 6px solid transparent;
+}
+
+a[data-tooltip]:after {
+  content: attr(data-tooltip);
+  position: absolute;
+  color: white;
+  top: -50px;
+  left: 50%;
+  background: #1D1D1D image-url('skin/grunge_wall_invert.png');
+  // @include border-radius(5px);
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: .357142857em 1.071428571em;
+  white-space: nowrap;
+  visibility: hidden;
+}
+
+a[data-tooltip]:hover:before, a[data-tooltip]:hover:after {
+  visibility: visible;
+  -webkit-transition: visibility 0s linear .3s;
+  -moz-transition: visibility 0s linear .3s;
+}

@@ -31,7 +31,7 @@ events :
   - sunday
 navigation:
   - text: Home
-    url: /index.html
+    url: /
   - text: News
     url: /news
   - text: Classes

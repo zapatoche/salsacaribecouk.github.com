@@ -464,8 +464,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #284857;
   font-weight: 500;
 }
+/* line 28, ../sass/partials/_typography.scss */
+h1 b, h1 strong, h2 b, h2 strong, h3 b, h3 strong, h4 b, h4 strong, h5 b, h5 strong, h6 b, h6 strong {
+  font-weight: inherit;
+  color: #952E2E;
+}
 
-/* line 30, ../sass/partials/_typography.scss */
+/* line 34, ../sass/partials/_typography.scss */
 p {
   margin: 1em 0;
 }
@@ -479,7 +484,7 @@ p {
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
-/* line 48, ../sass/partials/_typography.scss */
+/* line 52, ../sass/partials/_typography.scss */
 [data-icon]:before {
   font-family: 'icomoon';
   content: attr(data-icon);
@@ -488,7 +493,7 @@ p {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 56, ../sass/partials/_typography.scss */
+/* line 60, ../sass/partials/_typography.scss */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-weight: normal;
   font-style: normal;
@@ -497,17 +502,17 @@ p {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 63, ../sass/partials/_typography.scss */
+/* line 67, ../sass/partials/_typography.scss */
 .icon-mobile:before {
   content: "\21";
 }
 
-/* line 68, ../sass/partials/_typography.scss */
+/* line 72, ../sass/partials/_typography.scss */
 address {
   font-style: normal;
 }
 
-/* line 75, ../sass/partials/_typography.scss */
+/* line 79, ../sass/partials/_typography.scss */
 .pullquote-right:before,
 .pullquote-left:before {
   /* Reset metrics. */
@@ -527,14 +532,14 @@ address {
   line-height: 30px;
 }
 
-/* line 96, ../sass/partials/_typography.scss */
+/* line 100, ../sass/partials/_typography.scss */
 .pullquote-left:before {
   float: left;
   margin: 12px 31px 24px -102px;
   width: 251px;
 }
 
-/* line 103, ../sass/partials/_typography.scss */
+/* line 107, ../sass/partials/_typography.scss */
 .article-title {
   background: url('/assets/images/rgbapng/ffffff66.png?1352938458');
   background: rgba(255, 255, 255, 0.4);
@@ -544,7 +549,7 @@ address {
   line-height: 1.2;
   margin-bottom: 2em;
 }
-/* line 110, ../sass/partials/_typography.scss */
+/* line 114, ../sass/partials/_typography.scss */
 .article-title span {
   position: relative;
   top: 5px;
@@ -553,9 +558,29 @@ address {
   border-bottom: 5px solid #5091af;
 }
 
-/* line 119, ../sass/partials/_typography.scss */
-.title b {
+/* line 124, ../sass/partials/_typography.scss */
+.title b,
+.title strong {
   color: #b22f2f;
+  font-weight: 500;
+}
+
+/* line 132, ../sass/partials/_typography.scss */
+b,
+strong {
+  font-weight: 300;
+}
+
+/* line 137, ../sass/partials/_typography.scss */
+[href^="tel"] {
+  font-family: "freight-sans-pro", "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 125%;
+}
+/* line 141, ../sass/partials/_typography.scss */
+.site-header [href^="tel"] {
+  font-size: 100%;
+  font-weight: 300;
 }
 
 /* line 20, ../sass/global.scss */
@@ -608,6 +633,12 @@ body > .body-inner {
 /* line 47, ../sass/global.scss */
 .site-header .content-wrapper {
   padding: 0;
+}
+
+/* line 53, ../sass/global.scss */
+section,
+.section {
+  clear: both;
 }
 
 /* line 1, ../sass/partials/_site-header.scss */
@@ -740,12 +771,12 @@ body > .body-inner {
   line-height: 1;
 }
 
-/* line 57, ../sass/global.scss */
+/* line 62, ../sass/global.scss */
 .content {
   position: relative;
 }
 
-/* line 60, ../sass/global.scss */
+/* line 65, ../sass/global.scss */
 .site-header {
   width: auto;
 }
@@ -918,7 +949,7 @@ body > .body-inner {
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
 }
 
-/* line 67, ../sass/global.scss */
+/* line 72, ../sass/global.scss */
 .embed-media-block {
   position: relative;
   overflow: hidden;
@@ -930,7 +961,7 @@ body > .body-inner {
   border: 1px solid #fff;
 }
 
-/* line 79, ../sass/global.scss */
+/* line 84, ../sass/global.scss */
 .embed-media-block iframe,
 .embed-media-block object,
 .embed-media-block embed {
@@ -941,61 +972,61 @@ body > .body-inner {
   height: 100%;
 }
 
-/* line 89, ../sass/global.scss */
+/* line 94, ../sass/global.scss */
 a {
   color: black;
 }
 
-/* line 95, ../sass/global.scss */
+/* line 100, ../sass/global.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   text-decoration: none;
   color: #000;
   color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 101, ../sass/global.scss */
+/* line 106, ../sass/global.scss */
 [href^="tel"] {
   text-decoration: none;
 }
-/* line 103, ../sass/global.scss */
+/* line 108, ../sass/global.scss */
 [href^="tel"]:hover {
   color: #5296B1;
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
 }
 
-/* line 109, ../sass/global.scss */
+/* line 114, ../sass/global.scss */
 [aria-hidden] {
   font: 0/0 serif;
   text-shadow: none;
   color: transparent;
 }
 
-/* line 116, ../sass/global.scss */
+/* line 121, ../sass/global.scss */
 .static-map {
   width: 100%;
 }
-/* line 118, ../sass/global.scss */
+/* line 123, ../sass/global.scss */
 .static-map img {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 121, ../sass/global.scss */
+/* line 126, ../sass/global.scss */
 .static-map a {
   display: block;
   background: url('/assets/images/map-large.jpg?1352925961') no-repeat 50% 50%;
   background-size: 140%;
 }
 
-/* line 129, ../sass/global.scss */
+/* line 134, ../sass/global.scss */
 .pills {
   text-align: center;
 }
-/* line 132, ../sass/global.scss */
+/* line 137, ../sass/global.scss */
 .pills li {
   display: inline;
 }
 
-/* line 136, ../sass/global.scss */
+/* line 141, ../sass/global.scss */
 .pill {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1022,7 +1053,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   box-shadow: 0 0 5px #8A2424;
   letter-spacing: 1px;
 }
-/* line 152, ../sass/global.scss */
+/* line 157, ../sass/global.scss */
 .pill a {
   padding: 0;
   text-decoration: none;
@@ -1030,25 +1061,25 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: #fff;
 }
 
-/* line 160, ../sass/global.scss */
+/* line 165, ../sass/global.scss */
 .pill,
 .figure {
   margin-bottom: 15px;
 }
 
-/* line 166, ../sass/global.scss */
+/* line 171, ../sass/global.scss */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 172, ../sass/global.scss */
+/* line 177, ../sass/global.scss */
 figure > img,
 .figure > img {
   display: block;
 }
 
-/* line 177, ../sass/global.scss */
+/* line 182, ../sass/global.scss */
 .static-map,
 .figure.hero {
   display: block;
@@ -1059,7 +1090,7 @@ figure > img,
   background: #1d1d1d url('/assets/images/skin/grunge_wall_invert.png?1351265196');
   box-shadow: 0 0 10px #e49696;
 }
-/* line 185, ../sass/global.scss */
+/* line 190, ../sass/global.scss */
 .static-map img,
 .figure.hero img {
   border: 1px solid #000;
@@ -1071,11 +1102,11 @@ figure > img,
   box-shadow: 0 8px 8px #000;
 }
 
-/* line 191, ../sass/global.scss */
+/* line 196, ../sass/global.scss */
 .figure.hero {
   width: 320px;
 }
-/* line 193, ../sass/global.scss */
+/* line 198, ../sass/global.scss */
 .js .figure.hero {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1087,30 +1118,30 @@ figure > img,
   margin: 0 -5%;
 }
 
-/* line 202, ../sass/global.scss */
+/* line 207, ../sass/global.scss */
 .event-header a {
   text-decoration: none;
   color: black;
   -webkit-transition: all .5s linear;
 }
-/* line 206, ../sass/global.scss */
+/* line 211, ../sass/global.scss */
 .event-header a:hover {
   color: #6e2222;
   color: #8A2424;
 }
-/* line 208, ../sass/global.scss */
+/* line 213, ../sass/global.scss */
 .event-header a:hover b {
   color: #5293AD;
 }
-/* line 214, ../sass/global.scss */
+/* line 219, ../sass/global.scss */
 .event-header a:hover h4 {
   border-color: #639eb5;
 }
-/* line 217, ../sass/global.scss */
+/* line 222, ../sass/global.scss */
 .event-header a:hover .figcaption {
   border-color: #952E2E;
 }
-/* line 222, ../sass/global.scss */
+/* line 227, ../sass/global.scss */
 .event-header .figure {
   position: relative;
   display: inline-block;
@@ -1118,7 +1149,7 @@ figure > img,
   border-bottom-width: .3125em;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
-/* line 229, ../sass/global.scss */
+/* line 234, ../sass/global.scss */
 .event-header .figcaption {
   background: url('/assets/images/rgbapng/00000099.png?1351265196');
   background: rgba(0, 0, 0, 0.6);
@@ -1134,72 +1165,78 @@ figure > img,
   font-family: "freight-sans-pro", "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-transition: all .3s linear;
 }
-/* line 244, ../sass/global.scss */
+/* line 249, ../sass/global.scss */
 .event-header .figcaption span {
   border-bottom: 4px solid #fff;
   display: block;
   padding: .5em 1em;
 }
-/* line 250, ../sass/global.scss */
+/* line 255, ../sass/global.scss */
 .event-header h3 {
   margin-top: .2em;
   text-shadow: 0 0 5px #fff;
   line-height: 1.2;
 }
 
-/* line 257, ../sass/global.scss */
+/* line 262, ../sass/global.scss */
 .article {
   padding: 5% 0;
 }
-/* line 259, ../sass/global.scss */
+/* line 264, ../sass/global.scss */
 .class-list .article {
   padding: 0;
 }
 
-/* line 267, ../sass/global.scss */
+/* line 272, ../sass/global.scss */
 .class-list .title {
   font-size: 100%;
 }
-/* line 270, ../sass/global.scss */
+/* line 275, ../sass/global.scss */
 .class-list .figcaption {
   font-size: 90%;
 }
 
-/* line 277, ../sass/global.scss */
+/* line 1, ../sass/modules/_tooltip.scss */
+.icon-list {
+  position: relative;
+}
+
+/* line 4, ../sass/modules/_tooltip.scss */
 a[data-tooltip]:link, a[data-tooltip]:visited {
   position: relative;
   text-decoration: none;
 }
 
-/* line 281, ../sass/global.scss */
+/* line 8, ../sass/modules/_tooltip.scss */
 a[data-tooltip]:before {
   content: "";
   position: absolute;
   visibility: hidden;
-  top: -18px;
-  left: -26px;
+  top: -26px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-top: 6px solid #1D1D1D;
+  border-right: 6px solid transparent;
 }
 
-/* line 289, ../sass/global.scss */
+/* line 20, ../sass/modules/_tooltip.scss */
 a[data-tooltip]:after {
   content: attr(data-tooltip);
   position: absolute;
   color: white;
-  top: -35px;
-  left: -26px;
+  top: -50px;
+  left: 50%;
   background: #1d1d1d url('/assets/images/skin/grunge_wall_invert.png?1351265196');
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  font-size: 16px;
-  padding: 5px 15px;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: .357142857em 1.071428571em;
   white-space: nowrap;
   visibility: hidden;
 }
 
-/* line 303, ../sass/global.scss */
+/* line 36, ../sass/modules/_tooltip.scss */
 a[data-tooltip]:hover:before, a[data-tooltip]:hover:after {
   visibility: visible;
   -webkit-transition: visibility 0s linear .3s;

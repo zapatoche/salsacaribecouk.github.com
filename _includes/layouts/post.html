@@ -1,5 +1,9 @@
 {% include partials/post_date_helper.html %}
+{% include partials/history_helper.html %}
+{% if page.summary %}
+{% include partials/post_summary_helper.html %}
+{% endif %}
+
 {{ content }}
 
-<a href="#" class="history-back">Previous page</a>
   

@@ -25,6 +25,10 @@
   text-rendering: optimizeLegibility;
   color: darken(#DCE9EF, 65%);
   font-weight: 500;
+  b, strong {
+    font-weight: inherit;
+    color: #952E2E;
+  }
 }
 
 p {
@@ -116,7 +120,26 @@ address {
   }
 }
 .title {
-  b {
+  b,
+  strong {
     color: lighten(#8A2424, 10%);
+    font-weight: 500;
+  }
+}
+// phrase elements
+
+b,
+strong {
+  font-weight: 300;
+}
+// numerals
+
+[href^="tel"] {
+  font-family: 'freight-sans-pro', $body_font;
+  font-weight: 700;
+  font-size: 125%;
+  .site-header & {
+    font-size: 100%;
+    font-weight: 300;
   }
 }
