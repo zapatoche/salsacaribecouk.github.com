@@ -536,8 +536,8 @@ address {
 
 /* line 103, ../sass/partials/_typography.scss */
 .article-title {
-  background: url('/assets/images/rgbapng/ffffff99.png?1352898236');
-  background: rgba(255, 255, 255, 0.6);
+  background: url('/assets/images/rgbapng/ffffff66.png?1352938458');
+  background: rgba(255, 255, 255, 0.4);
   box-shadow: 0 5px 0 #fff,inset 0 5px 0 #fff;
   padding: 0 1em;
   text-align: right;
@@ -549,7 +549,7 @@ address {
   position: relative;
   top: 5px;
   display: inline-block;
-  padding: .8em  0;
+  padding: .5em  0;
   border-bottom: 5px solid #5091af;
 }
 
