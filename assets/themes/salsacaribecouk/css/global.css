@@ -679,7 +679,7 @@ section,
   border-bottom: 4px solid #dce9ef;
   width: 100%;
   background: #457b91 url('/assets/images/skin/grunge_wall_blue.png?1351265196') repeat 0 0;
-  color: #fff;
+  color: #dce9ef;
   text-align: center;
 }
 /* line 28, ../sass/partials/_site-header.scss */
@@ -694,7 +694,7 @@ section,
 }
 /* line 36, ../sass/partials/_site-header.scss */
 .site-tagline h1 b, .site-tagline .h1 b {
-  color: #c9dde6;
+  color: #cbdee7;
   display: inline;
 }
 /* line 41, ../sass/partials/_site-header.scss */
@@ -709,7 +709,7 @@ section,
   padding: .5em;
   text-decoration: none;
   letter-spacing: .05em;
-  font-size: 38px;
+  font-size: 216%;
   font-family: "BrothersRegularMedium", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1;
   text-align: center;
