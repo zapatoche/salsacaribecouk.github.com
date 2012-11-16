@@ -23,7 +23,7 @@
   border-bottom: 4px solid hsl(197,36%,90%);
   width: 100%;
   background: #457B91 image-url('skin/grunge_wall_blue.png') repeat 0 0;
-  color: #fff;
+  color: hsl(199, 37%, 90%);
   text-align: center;
   h1, .h1 {
     margin: 0;
@@ -34,7 +34,7 @@
     font-family: $brand_font;
     line-height: 1;
     b {
-      color: darken(#DAE8EE, 5%);
+      color: darken(hsl(199, 37%, 90%), 5%);
       display: inline;
     }
   }
@@ -48,7 +48,7 @@
   padding: .5em;
   text-decoration: none;
   letter-spacing: .05em;
-  font-size: 38px;
+  font-size: 216%;
   font-family: $brand_font;
   line-height: 1;
   text-align: center;
