@@ -4,7 +4,7 @@
       <ul role="navigation">
         {% for link in site.navigation %}
           {% assign current = nil %}
-          {% if page.url == link.url %}
+          {% if page.url contains link.url %}
             {% assign current = 'active' %}
           {% endif %}
           <li {% if forloop.first %}class="first"{% endif %}{% if forloop.last %}class="last"{% endif %}>
