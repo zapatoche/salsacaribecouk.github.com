@@ -1,7 +1,7 @@
 ---
 
 layout: classes
-title:  T<span>he</span> Af<span>r</span>o Cub<span>an</span> lou<span>n</span>ge
+title:  T<b>he</b> Af<b>r</b>o Cub<b>an</b> lou<b>n</b>ge
 category:
   - classes
   - monday

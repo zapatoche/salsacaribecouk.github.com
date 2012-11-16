@@ -693,8 +693,8 @@ section,
   line-height: 1;
 }
 /* line 36, ../sass/partials/_site-header.scss */
-.site-tagline h1 span, .site-tagline .h1 span {
-  color: #ebf3f6;
+.site-tagline h1 b, .site-tagline .h1 b {
+  color: #c9dde6;
   display: inline;
 }
 /* line 41, ../sass/partials/_site-header.scss */

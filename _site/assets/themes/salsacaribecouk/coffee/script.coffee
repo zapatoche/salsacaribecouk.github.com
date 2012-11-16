@@ -6,7 +6,6 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     $screenWidth = screen.width
     siteNav = $('.site-nav')
     aboveHeight = $('.site-header').outerHeight(true) - siteNav.outerHeight(true)
-    console.log aboveHeight
     menuBarheight = siteNav.outerHeight(true)
     navBar = siteNav.find('[role="navigation"]')
     links = navBar.find('a')
@@ -76,6 +75,21 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     $('noscript[data-large][data-small]').each ->
       src = if $screenWidth >= 500 then $(@).data('large') else $(@).data('small')
       $("<img src='#{src}' alt='#{$(@).data('alt')}' />").insertAfter($(@))
+
+    # wrap random .site-tagline h1 character
+    # $h1 = $('.site-tagline h1')
+    # trim = $h1.text().replace(/^\s+|\s+$/g, "")
+    # numChars = trim.length
+    # randNum = (num) ->
+    #   Math.floor(Math.random()*(num))
+    # maxSpan = randNum(numChars + 1)
+    # console.log maxSpan
+    # spanPos = (randNum(numChars + 1) for num in [1...maxSpan])
+    # console.log spanPos
+    # for span in [1..maxSpan]
+    #   console.log trim.substr(span - 1 , span)
+      # $h1.html($h1.text().substr(span, span)).wrap('<span></span>')
+    # $h1.html($h1.text().substr(0,1)).wrap('<span></span>')
 
     mobilizeNav()
     resetNav()

@@ -4,7 +4,7 @@
  <title>Salsa Caribe</title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2012-11-15T23:01:15+00:00</updated>
+ <updated>2012-11-16T00:25:07+00:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -196,7 +196,7 @@
  </entry>
  
  <entry>
-   <title>T<span>he</span> Af<span>r</span>o Cub<span>an</span> lou<span>n</span>ge</title>
+   <title>T<b>he</b> Af<b>r</b>o Cub<b>an</b> lou<b>n</b>ge</title>
    <link href="/classes/monday/the-afro-cuban-lounge"/>
    <updated>2012-10-01T00:00:00+01:00</updated>
    <id>/classes/monday/the-afro-cuban-lounge</id>
@@ -351,7 +351,6 @@
   
 &lt;/section&gt;
 
-&lt;iframe allowtransparency=&quot;true&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fzapatoche&amp;amp;size=32&amp;amp;color=orange_white&quot; style=&quot;width: 32px; height: 32px;&quot;&gt;&lt;/iframe&gt;
 </content>
  </entry>
  
@@ -550,7 +549,7 @@
           &lt;figure class=&quot;figure&quot;&gt;
             &lt;img src=&quot;http://farm7.staticflickr.com/6187/6113590927_0700f7bdcf_n.jpg&quot; alt=&quot;Salsa Caribe's 10 years anniversary party&quot; /&gt;
             &lt;figcaption class=&quot;figcaption&quot;&gt;
-            &lt;span&gt;T&lt;span&gt;he&lt;/span&gt; Af&lt;span&gt;r&lt;/span&gt;o Cub&lt;span&gt;an&lt;/span&gt; lou&lt;span&gt;n&lt;/span&gt;ge&lt;/span&gt;
+            &lt;span&gt;T&lt;b&gt;he&lt;/b&gt; Af&lt;b&gt;r&lt;/b&gt;o Cub&lt;b&gt;an&lt;/b&gt; lou&lt;b&gt;n&lt;/b&gt;ge&lt;/span&gt;
             &lt;/figcaption&gt;
           &lt;/figure&gt;
       &lt;/a&gt;
