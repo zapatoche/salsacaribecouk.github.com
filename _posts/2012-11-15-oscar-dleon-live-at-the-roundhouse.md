@@ -13,6 +13,7 @@ category:
   - news
 tags:
   - news
+  - events
 ---
 {% include JB/setup %}
 

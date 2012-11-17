@@ -1,5 +1,6 @@
 <section>
   {%  capture day %}{{ page.date |date: '%A' | downcase }}{% endcapture %}
+  {% include partials/history_helper.html %}
   <article class="article vevent">
 
     {% if page.tags %}
@@ -11,7 +12,7 @@
       </dd>
       {% endfor %}
       <dd class="pill">
-      {{ day | capitalize }}
+      {{ day | capitaddze }}
       </dd>
     </dl>
     {% endif %}

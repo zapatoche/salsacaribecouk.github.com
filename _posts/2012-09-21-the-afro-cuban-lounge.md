@@ -3,7 +3,6 @@ layout: club-nights
 title: "The Afro Cuban lounge"
 category: 
   - club-nights
-  - monday
 tags:
   - weekly
   - club-nights
@@ -14,16 +13,18 @@ published: true
 
 tagline: The longest running Cuban Salsa Club in London
 
-description: An Evening of Essential Afro-Cuban Flavas, Salsa Timba & Latin Jazz
-
-introduction: |
-  If you want to up the feelgood factor Cuban style, then this Monday night at The Buffalo Bar is for you. Doors open at 7.30pm, with classes for all levels from around 7.45pm, followed by an evening of dancing, drinking and socialising to the sounds of the very best Cuban salsa, timba &amp; son, courtesy of DJ Dr Jim.
+summary: An Evening of Essential <b>Afro-Cuban Flavas</b>, <b>Salsa Timba</b> & <b>Latin Jazz</b>
 
 image:
-  url: 'http://farm7.staticflickr.com/6182/6114145392_f3b0f12d90_z.jpg'
-  description: &alt "Salsa Caribe's 10 years anniversary party"
+  mobile: 'http://farm7.staticflickr.com/6187/6113590927_0700f7bdcf_n.jpg'
+  small: 'http://farm7.staticflickr.com/6187/6113590927_0700f7bdcf_z.jpg'
+  large: 'http://farm7.staticflickr.com/6187/6113590927_0700f7bdcf_b.jpg'
+  alt:  "Salsa Caribe's 10 years anniversary party"
 
-location:
+description: |
+  If you want to up the feelgood factor Cuban style, then this Monday night at The Buffalo Bar is for you. Doors open at 7.30pm, with classes for all levels from around 7.45pm, followed by an evening of dancing, drinking and socialising to the sounds of the very best Cuban salsa, timba &amp; son, courtesy of DJ Dr Jim.
+
+allocation:
   name: The Buffalo Bar
   url: http://www.buffalobar.co.uk
   map_url: 'http://g.co/maps/nw94u'

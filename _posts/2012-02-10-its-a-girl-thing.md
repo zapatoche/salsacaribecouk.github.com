@@ -4,7 +4,6 @@ layout: classes
 title: "It's a Girl Thing"
 category:
   - classes
-  - saturday
 tags:
   - monthly
   - workshop

@@ -1,6 +1,6 @@
 <ul>
     {% for post in site.posts reversed  %}
-      {% if post.category[0] == 'classes' %}
+      {% if post.tags contains 'classes' or post.tags contains 'workshop' %}
       {%capture freq %}{{  post.freq | date: '%m %b'  }}{% endcapture%}
       <li><a href="{{ post.url }}">{{ freq }} {{ post.date | date: '%a' }} {{ post.title }}</a></li>
       {% endif %}

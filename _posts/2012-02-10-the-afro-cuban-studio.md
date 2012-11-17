@@ -4,7 +4,6 @@ layout: classes
 title: "The Afro Cuban Studio"
 category: 
   - classes
-  - sunday
 tags:
   - weekly
   - classes

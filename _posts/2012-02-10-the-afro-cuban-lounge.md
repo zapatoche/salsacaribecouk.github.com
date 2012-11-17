@@ -4,7 +4,6 @@ layout: classes
 title:  T<b>he</b> Af<b>r</b>o Cub<b>an</b> lou<b>n</b>ge
 category:
   - classes
-  - monday
 tags:
   - weekly
   - classes

@@ -53,7 +53,7 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
       }
     };
     $(window).scroll(function() {
-      if ($(window).scrollTop() > aboveHeight) {
+      if ($(window).scrollTop() >= aboveHeight) {
         return siteNav.addClass('site-nav-advanced').css({
           'top': '0'
         }).next().css('padding-top', menuBarheight + 'px');
