@@ -26,6 +26,7 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
       var letters, rand;
       letters = $(this).children().length;
       rand = Math.floor(Math.random() * letters);
+      console.log(rand);
       return $(this).children("span:eq(" + rand + ")").addClass('faded');
     });
     $h1.fitText(1.2, {

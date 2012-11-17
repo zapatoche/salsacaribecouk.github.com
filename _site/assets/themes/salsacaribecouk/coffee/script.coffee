@@ -27,6 +27,7 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     words.each ->
       letters = $(@).children().length
       rand = Math.floor(Math.random() * letters)
+      console.log rand
       $(@).children("span:eq(#{rand})").addClass('faded')
 
     # resize main headline

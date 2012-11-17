@@ -41,7 +41,7 @@
     a.active {
       @include rgba-background(hsla(0,0,0, .4));
       border-color: hsl(197,43%,65%);
-      cursor: default;
+      // cursor: default;
     }
   }
 }
