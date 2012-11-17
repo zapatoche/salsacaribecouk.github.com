@@ -1,7 +1,7 @@
 
 if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
   $(function() {
-    var $backButton, $screenWidth, $width, $window, aboveHeight, getWindowWidth, homeLink, homeLinkText, ipadLandscape, links, menuBarheight, mobilizeNav, navBar, resetNav, reseted, showing, siteNav, switchLi, timer, triggerMenu;
+    var $backButton, $h1, $screenWidth, $width, $window, aboveHeight, getWindowWidth, homeLink, homeLinkText, ipadLandscape, links, menuBarheight, mobilizeNav, navBar, resetNav, reseted, showing, siteNav, switchLi, timer, triggerMenu, trim, words;
     $window = $(window);
     $screenWidth = screen.width;
     siteNav = $('.site-nav');
@@ -17,7 +17,18 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
     timer = null;
     reseted = false;
     $width = 0;
-    $('.site-tagline .h1').fitText(1.2, {
+    $h1 = $('.site-tagline h1');
+    trim = $h1.text().replace(/^\s+|\s+$/g, "");
+    $h1.html(trim);
+    $h1.lettering('words').children('span').lettering();
+    words = $h1.children();
+    words.each(function() {
+      var letters, rand;
+      letters = $(this).children().length;
+      rand = Math.floor(Math.random() * letters);
+      return $(this).children("span:eq(" + rand + ")").addClass('faded');
+    });
+    $h1.fitText(1.2, {
       minFontSize: '32px',
       maxFontSize: '70px'
     });

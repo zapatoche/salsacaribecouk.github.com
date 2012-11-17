@@ -18,8 +18,19 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     reseted = false
     $width = 0
 
+    # wrap random .site-tagline h1 character
+    $h1 = $('.site-tagline h1')
+    trim = $h1.text().replace(/^\s+|\s+$/g, "")
+    $h1.html(trim)
+    $h1.lettering('words').children('span').lettering();
+    words = $h1.children()
+    words.each ->
+      letters = $(@).children().length
+      rand = Math.floor(Math.random() * letters)
+      $(@).children("span:eq(#{rand})").addClass('faded')
+
     # resize main headline
-    $('.site-tagline .h1').fitText 1.2
+    $h1.fitText 1.2
       minFontSize: '32px'
       maxFontSize: '70px'
 
@@ -76,16 +87,6 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
       src = if $screenWidth >= 500 then $(@).data('large') else $(@).data('small')
       $("<img src='#{src}' alt='#{$(@).data('alt')}' />").insertAfter($(@))
 
-    # wrap random .site-tagline h1 character
-    # $h1 = $('.site-tagline h1')
-    # trim = $h1.text().replace(/^\s+|\s+$/g, "")
-    # numChars = trim.length
-    # randNum = (num) ->
-    #   Math.floor(Math.random()*(num))
-    # maxSpan = randNum(numChars + 1)
-    # console.log maxSpan
-    # spanPos = (randNum(numChars + 1) for num in [1...maxSpan])
-    # console.log spanPos
     # for span in [1..maxSpan]
     #   console.log trim.substr(span - 1 , span)
       # $h1.html($h1.text().substr(span, span)).wrap('<span></span>')

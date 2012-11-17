@@ -679,11 +679,11 @@ section,
   border-bottom: 4px solid #dce9ef;
   width: 100%;
   background: #457b91 url('/assets/images/skin/grunge_wall_blue.png?1351265196') repeat 0 0;
-  color: #dce9ef;
   text-align: center;
 }
-/* line 28, ../sass/partials/_site-header.scss */
+/* line 27, ../sass/partials/_site-header.scss */
 .site-tagline h1, .site-tagline .h1 {
+  color: #dce9ef;
   margin: 0;
   padding: .55em 0;
   letter-spacing: .03225em;
@@ -693,8 +693,8 @@ section,
   line-height: 1;
 }
 /* line 36, ../sass/partials/_site-header.scss */
-.site-tagline h1 b, .site-tagline .h1 b {
-  color: #cbdee7;
+.site-tagline h1 .faded, .site-tagline .h1 .faded {
+  color: #b9d3df;
   display: inline;
 }
 /* line 41, ../sass/partials/_site-header.scss */
@@ -713,11 +713,6 @@ section,
   font-family: "BrothersRegularMedium", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1;
   text-align: center;
-}
-
-/* line 60, ../sass/partials/_site-header.scss */
-.site-tagline .h1 {
-  color: #dce9ef !important;
 }
 
 /* line 63, ../sass/partials/_site-header.scss */

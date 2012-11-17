@@ -23,9 +23,9 @@
   border-bottom: 4px solid hsl(197,36%,90%);
   width: 100%;
   background: #457B91 image-url('skin/grunge_wall_blue.png') repeat 0 0;
-  color: hsl(199, 37%, 90%);
   text-align: center;
   h1, .h1 {
+    color: hsl(199, 37%, 90%);
     margin: 0;
     padding: .55em 0;
     letter-spacing: .03225em;
@@ -33,8 +33,8 @@
     font-size: 2rem;
     font-family: $brand_font;
     line-height: 1;
-    b {
-      color: darken(hsl(199, 37%, 90%), 5%);
+    .faded {
+      color: darken(hsl(199, 37%, 90%), 10%);
       display: inline;
     }
   }
@@ -58,7 +58,7 @@
     // -webkit-mask-image: image-url('skin/mask.png');
 }
 .site-tagline .h1 {
-  color: hsl(199, 37%, 90%) !important;
+  // color: hsl(199, 37%, 90%) !important;
 }
 .site-branding {
   text-transform: uppercase;
