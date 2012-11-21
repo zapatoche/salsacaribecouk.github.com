@@ -181,7 +181,7 @@ figure,
   display: block;
   overflow: hidden;
   margin: 0 auto;
-  padding: 1.25em;
+  padding: 2%;
   width: auto;
   background: #1D1D1D image-url('skin/grunge_wall_invert.png');
   box-shadow: 0 0 10px lighten(#8A2424, 40%);
@@ -278,3 +278,13 @@ p:first-line {
 }
 // module tooltip
 @import "modules/tooltip";
+//module responsive map
+.map-container {
+  display: none;
+  &.embed-media-block {
+    padding-bottom: 35%;
+  }
+}
+.static-map {
+  display: block;
+}

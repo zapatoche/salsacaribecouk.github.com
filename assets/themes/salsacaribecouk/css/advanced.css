@@ -195,6 +195,16 @@ strong {
   clear: both;
 }
 
+/* line 48, ../sass/advanced.scss */
+.map-container {
+  display: none;
+}
+
+/* line 51, ../sass/advanced.scss */
+.static-map {
+  display: block;
+}
+
 @media only screen and (min-width: 590px) {
   /* line 1, ../sass/partials/_site-header-advanced.scss */
   .site-logo {
@@ -334,27 +344,27 @@ strong {
     z-index: 1000;
   }
 
-  /* line 51, ../sass/advanced.scss */
+  /* line 60, ../sass/advanced.scss */
   .site-tagline {
     border: 0;
   }
 
-  /* line 55, ../sass/advanced.scss */
+  /* line 64, ../sass/advanced.scss */
   p, .p {
     padding: 0 8.542%;
   }
-  /* line 57, ../sass/advanced.scss */
+  /* line 66, ../sass/advanced.scss */
   footer p, footer .p {
     padding: 0;
     margin-top: 0;
   }
 
-  /* line 62, ../sass/advanced.scss */
+  /* line 71, ../sass/advanced.scss */
   body {
     font-size: 16px;
   }
 
-  /* line 67, ../sass/advanced.scss */
+  /* line 76, ../sass/advanced.scss */
   .js .static-map, .js
   .hero.figure {
     -webkit-border-radius: 2%;
@@ -365,9 +375,19 @@ strong {
     margin: 0;
   }
 
-  /* line 73, ../sass/advanced.scss */
+  /* line 82, ../sass/advanced.scss */
   .js .site-branding .contact {
     padding: 0;
+  }
+
+  /* line 87, ../sass/advanced.scss */
+  .map-container {
+    display: block;
+  }
+
+  /* line 90, ../sass/advanced.scss */
+  .static-map {
+    display: none;
   }
 }
 @media only screen and (min-width: 48em) {
@@ -378,76 +398,69 @@ strong {
     padding: 0 0.5494505495%;
   }
 
-  /* line 82, ../sass/advanced.scss */
+  /* line 98, ../sass/advanced.scss */
   .content-wrapper {
     padding: 0 10%;
   }
 
-  /* line 87, ../sass/advanced.scss */
+  /* line 103, ../sass/advanced.scss */
   .js .site-nav li {
     float: right;
   }
-  /* line 89, ../sass/advanced.scss */
+  /* line 105, ../sass/advanced.scss */
   .js .site-nav li.first {
     float: left;
   }
 
-  /* line 97, ../sass/advanced.scss */
+  /* line 113, ../sass/advanced.scss */
   .article-title {
     padding-left: 20.98%;
     line-height: 1.1;
     font-size: 32px;
   }
 
-  /* line 104, ../sass/advanced.scss */
-  .location .static-map {
-    display: inline;
-    float: left;
-    width: 61.6%;
-    margin-right: 2.083%;
-  }
-  /* line 108, ../sass/advanced.scss */
+  /* line 124, ../sass/advanced.scss */
   .location .static-map a {
     background-size: auto;
   }
-  /* line 112, ../sass/advanced.scss */
+  /* line 128, ../sass/advanced.scss */
   .location .vcard {
     overflow: hidden;
     width: auto;
     float: none;
   }
 
-  /* line 122, ../sass/advanced.scss */
+  /* line 138, ../sass/advanced.scss */
   .class-list .article {
     display: inline;
     float: left;
     width: 31.88%;
     margin-left: 2.083%;
   }
-  /* line 126, ../sass/advanced.scss */
+  /* line 142, ../sass/advanced.scss */
   .class-list .article:first-child {
     margin: 0;
   }
 }
 @media only screen and (min-width: 48em) and (orientation: landscape) {
-  /* line 135, ../sass/advanced.scss */
+  /* line 151, ../sass/advanced.scss */
   .content-wrapper {
     padding: 0 15%;
   }
 }
 @media only screen and (min-width: 60em) {
-  /* line 148, ../sass/advanced.scss */
+  /* line 164, ../sass/advanced.scss */
   .social {
     background: transparent;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 156, ../sass/advanced.scss */
+  /* line 172, ../sass/advanced.scss */
   html {
     background-image: url('/assets/images/skin/grunge_wall_@2x.png?1351265196');
   }
 
-  /* line 160, ../sass/advanced.scss */
+  /* line 176, ../sass/advanced.scss */
   .site-nav,
   .social-footer {
     background-image: url('/assets/images/skin/grunge_wall_red_@2x.png?1351265196');

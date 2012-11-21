@@ -1,8 +1,9 @@
 if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
   $ ->
 
-    # sticky navigation
+    # variables
     $window = $(window)
+    $sw = document.body.clientWidth
     $screenWidth = screen.width
     siteNav = $('.site-nav')
     aboveHeight = $('.site-header').outerHeight(true) - siteNav.outerHeight(true)
@@ -17,6 +18,9 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     timer = null
     reseted = false
     $width = 0
+    $map = $('.google-map')
+    staticMap = 'http://maps.google.com/maps/api/staticmap?center=51.537474,-0.112953&zoom=13&markers=51.527234,-0.129160|51.545756,-0.103161&size=640x360&sensor=true&key=AIzaSyBgvmh48DRovU0FfSThuiRVQ7WzcjhP5m8'
+    embedMap = '<iframe width="640" height="360" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msid=204512405293599754812.0004cd6e64e8e7a252869&amp;msa=0&amp;ie=UTF8&amp;t=m&amp;ll=51.537153,-0.11158&amp;spn=0.038439,0.110035&amp;z=13&amp;output=embed&key=AIzaSyBgvmh48DRovU0FfSThuiRVQ7WzcjhP5m8"></iframe>'
 
     # wrap random .site-tagline h1 character
     $h1 = $('.site-tagline h1')
@@ -27,7 +31,6 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     words.each ->
       letters = $(@).children().length
       rand = Math.floor(Math.random() * letters)
-      console.log rand
       $(@).children("span:eq(#{rand})").addClass('faded')
 
     # resize main headline
@@ -52,7 +55,7 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
         reseted = false
 
     # build mobile nav
-    $('.site-branding .call').append('<div id="menu-icon">Menu</div>')
+    $('.site-branding .contact').append('<div id="menu-icon">Menu</div>')
     $('#menu-icon').click( ->
       navBar.slideToggle()
       $(@).toggleClass('active')
@@ -88,15 +91,36 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
       src = if $screenWidth >= 500 then $(@).data('large') else $(@).data('small')
       $("<img src='#{src}' alt='#{$(@).data('alt')}' />").insertAfter($(@))
 
-    # for span in [1..maxSpan]
-    #   console.log trim.substr(span - 1 , span)
-      # $h1.html($h1.text().substr(span, span)).wrap('<span></span>')
-    # $h1.html($h1.text().substr(0,1)).wrap('<span></span>')
+    # responsive map
+    # http://codepen.io/bradfrost/pen/tLxAs
+    buildMap = ->
+      console.log 'run'
+      if $sw > triggerMenu
+        console.log 'wide'
+        buildEmbed() if $('.map-container').length < 1
+      else
+        console.log 'small'
+        buildStatic() if $('.static-map').length < 1
+
+    buildEmbed = ->
+      $('<div class="map-container embed-media-block"/>').html(embedMap).prependTo($map)
+
+    buildStatic = ->
+      mapLink = $('.map-link').attr('href')
+      $img = $('<img class="static-map"/>').attr('src', staticMap)
+      $('<a/>').attr('href', mapLink).html($img).prependTo($map)
+
+
+
 
     mobilizeNav()
     resetNav()
+    buildMap()
     # resizeFooter()
     $window.resize ->
       mobilizeNav()
       resetNav()
+      $sw = document.body.clientWidth
+      buildMap()
+      google.maps.event.trigger(map, "resize")
       # resizeFooter()

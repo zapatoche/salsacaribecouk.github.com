@@ -1079,7 +1079,7 @@ figure > img,
   display: block;
   overflow: hidden;
   margin: 0 auto;
-  padding: 1.25em;
+  padding: 2%;
   width: auto;
   background: #1d1d1d url('/assets/images/skin/grunge_wall_invert.png?1351265196');
   box-shadow: 0 0 10px #e49696;
@@ -1235,4 +1235,18 @@ a[data-tooltip]:hover:before, a[data-tooltip]:hover:after {
   visibility: visible;
   -webkit-transition: visibility 0s linear .3s;
   -moz-transition: visibility 0s linear .3s;
+}
+
+/* line 282, ../sass/global.scss */
+.map-container {
+  display: none;
+}
+/* line 284, ../sass/global.scss */
+.map-container.embed-media-block {
+  padding-bottom: 35%;
+}
+
+/* line 288, ../sass/global.scss */
+.static-map {
+  display: block;
 }

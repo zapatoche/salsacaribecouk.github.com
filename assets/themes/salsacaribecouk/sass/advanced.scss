@@ -43,6 +43,15 @@
   }
 
 }
+
+// responsive map
+.map-container {
+  display: none;
+}
+.static-map {
+  display: block;
+}
+
 // menu start stacking at 590px  => 590/16 = 36em
 @media only screen and (min-width: 590px) {
   @import "partials/site-header-advanced";
@@ -74,6 +83,13 @@
       padding:  0;
     }
   }
+  // responsive map
+  .map-container {
+    display: block;
+  }
+  .static-map {
+    display: none;
+  }
 }
 
 // @media queries and min-width: 768px
@@ -102,9 +118,9 @@
   // classes page
   .location {
     .static-map {
-      @include float(left); 
-      width: 61.6%;
-      margin-right: 2.083%;
+      // @include float(left); 
+      // width: 61.6%;
+      // margin-right: 2.083%;
       a {
         background-size: auto;
       }
