@@ -22,29 +22,35 @@
       @include transition-property(background);
       @include transition-duration(1.5s);
       &:hover,
-      &:focus,
-      &.active {
-        @include rgba-background(hsla(0,0,0,.6));
-        position: relative;
-        border-bottom: 1px solid hsl(197,43%,65%);
+      &:focus {
+        // @include rgba-background(hsla(0,0,0,.6));
+        // position: relative;
+        // border-bottom: 1px solid hsl(197,43%,60%);
       }
       &:hover {
         text-shadow: 0 0 5px hsla(0,0,100%,.7);
       }
       &:active {
-        background: #000;
       }
       .last &  {
         border: 0;
       }
     }
     a.active {
-      @include rgba-background(hsla(0,0,0, .4));
-      border-color: hsl(197,43%,65%);
+      // @include rgba-background(hsla(0,0,0, .4));
+      // border-color: hsl(197,43%,65%);
       // cursor: default;
     }
   }
 }
+
+//nav active states
+@each $page in home, news, classes, club-nights, about, contact {
+  body.#{$page} a.#{$page} {
+    @include active;
+  }
+}
+
 .js [role="navigation"] {
   display: none;
 }

@@ -35,22 +35,12 @@
       @include transition-property(background);
       @include transition-duration(1.5s);
       &:hover,
-      &:focus,
-      &.active {
-        @include rgba-background(hsla(0,0,0,.6));
-        position: relative;
-        top: 4px;
-        margin-top: -4px;
-        border-bottom: 4px solid hsl(197,36%,60%);
+      &:focus  {
+        @include hover;
       }
       &:active {
-        background: #000;
+        @include active;
       }
-    }
-    a.active {
-      @include rgba-background(hsla(0,0,0, .4));
-      border-color: hsl(197,36%,50%);
-      // cursor: default;
     }
   }
 }

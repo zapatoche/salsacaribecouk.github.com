@@ -1,15 +1,13 @@
-@import "partials/variables";
-@import "partials/mixins";
-
-@import "vendors/normalize";
-@import "vendors/gridset";
-
 @import "susy";
 @import "compass/utilities";
 @import "compass/css3";
 @import "compass/typography";
 @import "rgbapng";
 
+@import "vendors/normalize";
+
+@import "partials/variables";
+@import "partials/mixins";
 @import "partials/typography";
 
 * {

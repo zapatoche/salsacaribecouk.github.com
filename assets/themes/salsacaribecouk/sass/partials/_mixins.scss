@@ -2,3 +2,18 @@
   position: absolute;
   left: -12345em;
 }
+@mixin hover {
+  @include rgba-background(hsla(0,0,0,.6));
+  position: relative;
+  top: 4px;
+  margin-top: -4px;
+  border-bottom: 4px solid darken(hsl(197,36%,60%), 5%);
+}
+@mixin active {
+  @include rgba-background(hsla(0,0,0,.4));
+  position: relative;
+  top: 4px;
+  margin-top: -4px;
+  border-bottom: 4px solid darken(hsl(197,36%,60%), 5%);
+}
+
