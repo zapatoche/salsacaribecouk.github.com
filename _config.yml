@@ -40,7 +40,7 @@ navigation:
     url: /club-nights
   - text: About
     url: /about
-  - text: Contact us
+  - text: Contact
     url: /contact
 
 # The production_url is only used when full-domain names are needed

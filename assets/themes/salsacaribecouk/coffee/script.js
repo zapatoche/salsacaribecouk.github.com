@@ -51,7 +51,7 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
         return reseted = false;
       }
     };
-    $('.site-header .contact').append('<div id="menu-icon">Menu</div>');
+    $('.site-branding .call').append('<div id="menu-icon">Menu</div>');
     $('#menu-icon').click(function() {
       navBar.slideToggle();
       return $(this).toggleClass('active');

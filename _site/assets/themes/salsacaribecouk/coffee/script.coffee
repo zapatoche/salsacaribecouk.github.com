@@ -52,7 +52,7 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
         reseted = false
 
     # build mobile nav
-    $('.site-header .contact').append('<div id="menu-icon">Menu</div>')
+    $('.site-branding .call').append('<div id="menu-icon">Menu</div>')
     $('#menu-icon').click( ->
       navBar.slideToggle()
       $(@).toggleClass('active')

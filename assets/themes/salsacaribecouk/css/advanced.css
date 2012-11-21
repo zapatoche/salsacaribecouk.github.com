@@ -233,7 +233,7 @@ strong {
   }
 
   /* line 29, ../sass/partials/_site-header-advanced.scss */
-  .js [role="banner"] .contact {
+  .js .site-branding .contact {
     padding: 0;
   }
 
@@ -318,7 +318,7 @@ strong {
   }
 
   /* line 50, ../sass/partials/_site-nav-advanced.scss */
-  .js .contact {
+  .js .site-branding .contact {
     padding: 0;
   }
 
@@ -366,7 +366,7 @@ strong {
   }
 
   /* line 73, ../sass/advanced.scss */
-  .js [role="banner"] .contact {
+  .js .site-branding .contact {
     padding: 0;
   }
 }

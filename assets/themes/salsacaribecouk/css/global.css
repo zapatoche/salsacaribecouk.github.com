@@ -847,7 +847,7 @@ body.contact a.contact {
 }
 
 /* line 57, ../sass/partials/_site-nav.scss */
-.js [role="banner"] .contact {
+.js .site-branding .contact {
   padding: .3em 0;
 }
 
