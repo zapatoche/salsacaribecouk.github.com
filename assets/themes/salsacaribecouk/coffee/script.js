@@ -20,7 +20,7 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
     $width = 0;
     $map = $('.google-map');
     staticMap = 'http://maps.google.com/maps/api/staticmap?center=51.537474,-0.112953&zoom=13&markers=51.527234,-0.129160|51.545756,-0.103161&size=640x360&sensor=true&key=AIzaSyBgvmh48DRovU0FfSThuiRVQ7WzcjhP5m8';
-    embedMap = '<iframe width="640" height="360" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msid=204512405293599754812.0004cd6e64e8e7a252869&amp;msa=0&amp;ie=UTF8&amp;t=m&amp;ll=51.537153,-0.11158&amp;spn=0.038439,0.110035&amp;z=13&amp;output=embed&key=AIzaSyBgvmh48DRovU0FfSThuiRVQ7WzcjhP5m8"></iframe>';
+    embedMap = "<iframe width='500' height='300' frameBorder='0' src='http://a.tiles.mapbox.com/v3/bishbashbosh.map-hs0p13ed.html#14/51.537/-0.113'></iframe>";
     $h1 = $('.site-tagline h1');
     trim = $h1.text().replace(/^\s+|\s+$/g, "");
     $h1.html(trim);
