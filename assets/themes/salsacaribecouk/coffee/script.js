@@ -1,7 +1,7 @@
 
 if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
   $(function() {
-    var $backButton, $h1, $map, $screenWidth, $sw, $width, $window, aboveHeight, buildEmbed, buildMap, buildStatic, embedMap, getWindowWidth, homeLink, homeLinkText, ipadLandscape, links, menuBarheight, mobilizeNav, navBar, resetNav, reseted, showing, siteNav, staticMap, switchLi, timer, triggerMenu, trim, words;
+    var $backButton, $h1, $map, $screenWidth, $sw, $width, $window, aboveHeight, buildEmbed, buildMap, buildStatic, embedMap, getWindowWidth, homeLink, homeLinkText, ipadLandscape, links, mapLink, menuBarheight, mobilizeNav, navBar, resetNav, reseted, showing, siteNav, staticMap, switchLi, timer, triggerMenu, trim, words;
     $window = $(window);
     $sw = document.body.clientWidth;
     $screenWidth = screen.width;
@@ -19,7 +19,8 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
     reseted = false;
     $width = 0;
     $map = $('.google-map');
-    staticMap = 'http://maps.google.com/maps/api/staticmap?center=51.537474,-0.112953&zoom=13&markers=51.527234,-0.129160|51.545756,-0.103161&size=640x360&sensor=true&key=AIzaSyBgvmh48DRovU0FfSThuiRVQ7WzcjhP5m8';
+    mapLink = $('.map-link').attr('href');
+    staticMap = 'http://api.tiles.mapbox.com/v3/bishbashbosh.map-hs0p13ed/pin-m-b+f63a39(-0.128,51.527),pin-m-a+f63a39(-0.103,51.545)/-0.113,51.537,13/500x350.png';
     embedMap = "<iframe width='500' height='300' frameBorder='0' src='http://a.tiles.mapbox.com/v3/bishbashbosh.map-hs0p13ed.html#14/51.537/-0.113'></iframe>";
     $h1 = $('.site-tagline h1');
     trim = $h1.text().replace(/^\s+|\s+$/g, "");
@@ -90,18 +91,16 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
       return $("<img src='" + src + "' alt='" + ($(this).data('alt')) + "' />").insertAfter($(this));
     });
     buildMap = function() {
-      console.log('run');
       if ($sw > triggerMenu) {
-        console.log('wide');
         if ($('.map-container').length < 1) return buildEmbed();
       } else {
-        console.log('small');
         if ($('.static-map').length < 1) return buildStatic();
       }
     };
     buildEmbed = function() {
+      var map;
       $('<div id="mapbox" class="map-container embed-media-block"/>').prependTo($map);
-      return mapbox.auto('mapbox', 'bishbashbosh.map-hs0p13ed', function(map, tiledata) {
+      return map = mapbox.auto('mapbox', 'bishbashbosh.map-hs0p13ed', function(map, tiledata) {
         return tiledata.markers.factory(function(m) {
           var elem;
           elem = mapbox.markers.simplestyle_factory(m);
@@ -116,10 +115,11 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
       });
     };
     buildStatic = function() {
-      var $img, mapLink;
+      var $img, cssIMg;
       mapLink = $('.map-link').attr('href');
       $img = $('<img class="static-map"/>').attr('src', staticMap);
-      return $('<a/>').attr('href', mapLink).html($img).prependTo($map);
+      cssIMg = "url('http://api.tiles.mapbox.com/v3/bishbashbosh.map-hs0p13ed/pin-m-a+f63a39(-0.128,51.527),pin-m-b+f63a39(-0.103,51.545)/-0.113,51.535,13/640x640.png') no-repeat 50% 50%";
+      return $('<a />').attr('href', mapLink).html($img).prependTo($map).css('background-image', staticMap);
     };
     mobilizeNav();
     resetNav();

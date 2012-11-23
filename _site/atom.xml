@@ -4,7 +4,7 @@
  <title>Salsa Caribe</title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2012-11-23T14:09:05+00:00</updated>
+ <updated>2012-11-23T15:51:58+00:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -498,7 +498,7 @@
     &lt;div class=&quot;figure google-map&quot;&gt;
     &lt;!-- &lt;a href=&quot;https://maps.google.com/maps/ms?msid=204512405293599754812.0004cd6e64e8e7a252869&amp;msa=0&amp;ll=51.535018,-0.128059&amp;spn=0.062359,0.050983&quot;&gt;&lt;img src=&quot;/assets/images/map-large.jpg&quot;&gt;&lt;/a&gt; --&gt;
     &lt;div class=&quot;figcaption&quot;&gt;
-      &lt;a href=&quot;https://maps.google.com/maps/ms?msid=204512405293599754812.0004cd6e64e8e7a252869&amp;amp;msa=0&amp;amp;ll=51.535018,-0.128059&amp;amp;spn=0.062359,0.050983&quot;&gt;View our classes location on google map&lt;/a&gt;
+      &lt;a href=&quot;https://maps.google.com/maps/ms?msid=204512405293599754812.0004cd6e64e8e7a252869&amp;amp;msa=0&amp;amp;ll=51.535018,-0.128059&amp;amp;spn=0.062359,0.050983&quot; class=&quot;map-link&quot;&gt;View our classes location on google map&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
     &lt;p&gt;&lt;!-- &lt;dl class=&quot;vcard&quot;&gt; --&gt;

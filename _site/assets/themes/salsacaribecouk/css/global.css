@@ -1243,7 +1243,7 @@ a[data-tooltip]:hover:before, a[data-tooltip]:hover:after {
 }
 /* line 284, ../sass/global.scss */
 .map-container.embed-media-block {
-  padding-bottom: 35%;
+  padding-bottom: 60%;
 }
 
 /* line 288, ../sass/global.scss */

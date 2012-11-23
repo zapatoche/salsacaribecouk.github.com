@@ -19,8 +19,8 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     reseted = false
     $width = 0
     $map = $('.google-map')
-    staticMap = 'http://maps.google.com/maps/api/staticmap?center=51.537474,-0.112953&zoom=13&markers=51.527234,-0.129160|51.545756,-0.103161&size=640x360&sensor=true&key=AIzaSyBgvmh48DRovU0FfSThuiRVQ7WzcjhP5m8'
-    # embedMap = '<iframe width="640" height="360" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msid=204512405293599754812.0004cd6e64e8e7a252869&amp;msa=0&amp;ie=UTF8&amp;t=m&amp;ll=51.537153,-0.11158&amp;spn=0.038439,0.110035&amp;z=13&amp;output=embed&key=AIzaSyBgvmh49DRovU0FfSThuiRVQ7WzcjhP5m8"></iframe>'
+    mapLink = $('.map-link').attr('href')
+    staticMap = 'http://api.tiles.mapbox.com/v3/bishbashbosh.map-hs0p13ed/pin-m-b+f63a39(-0.128,51.527),pin-m-a+f63a39(-0.103,51.545)/-0.113,51.537,13/500x350.png'
     embedMap = "<iframe width='500' height='300' frameBorder='0' src='http://a.tiles.mapbox.com/v3/bishbashbosh.map-hs0p13ed.html#14/51.537/-0.113'></iframe>
 "
     # wrap random .site-tagline h1 character
@@ -95,17 +95,14 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     # responsive map
     # http://codepen.io/bradfrost/pen/tLxAs
     buildMap = ->
-      console.log 'run'
       if $sw > triggerMenu
-        console.log 'wide'
         buildEmbed() if $('.map-container').length < 1
       else
-        console.log 'small'
         buildStatic() if $('.static-map').length < 1
 
     buildEmbed = ->
       $('<div id="mapbox" class="map-container embed-media-block"/>').prependTo($map)
-      mapbox.auto('mapbox', 'bishbashbosh.map-hs0p13ed', (map, tiledata) ->
+      map = mapbox.auto('mapbox', 'bishbashbosh.map-hs0p13ed', (map, tiledata) ->
         tiledata.markers.factory (m) -> 
           elem = mapbox.markers.simplestyle_factory(m)
           MM.addEvent(elem, 'click', (e) ->
@@ -120,7 +117,8 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     buildStatic = ->
       mapLink = $('.map-link').attr('href')
       $img = $('<img class="static-map"/>').attr('src', staticMap)
-      $('<a/>').attr('href', mapLink).html($img).prependTo($map)
+      cssIMg = "url('http://api.tiles.mapbox.com/v3/bishbashbosh.map-hs0p13ed/pin-m-a+f63a39(-0.128,51.527),pin-m-b+f63a39(-0.103,51.545)/-0.113,51.535,13/640x640.png') no-repeat 50% 50%"
+      $('<a />').attr('href', mapLink).html($img).prependTo($map).css('background-image', staticMap)
 
 
 
