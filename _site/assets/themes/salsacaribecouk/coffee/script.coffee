@@ -104,7 +104,18 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
         buildStatic() if $('.static-map').length < 1
 
     buildEmbed = ->
-      $('<div class="map-container embed-media-block"/>').html(embedMap).prependTo($map)
+      $('<div id="mapbox" class="map-container embed-media-block"/>').prependTo($map)
+      mapbox.auto('mapbox', 'bishbashbosh.map-hs0p13ed', (map, tiledata) ->
+        tiledata.markers.factory (m) -> 
+          elem = mapbox.markers.simplestyle_factory(m)
+          MM.addEvent(elem, 'click', (e) ->
+            map.ease.location
+              lat: m.geometry.coordinates[1]
+              lon: m.geometry.coordinates[0]
+            .zoom(map.zoom()).optimal()
+          )
+          return elem
+      )
 
     buildStatic = ->
       mapLink = $('.map-link').attr('href')

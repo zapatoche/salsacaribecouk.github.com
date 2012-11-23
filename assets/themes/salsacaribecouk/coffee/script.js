@@ -100,7 +100,20 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
       }
     };
     buildEmbed = function() {
-      return $('<div class="map-container embed-media-block"/>').html(embedMap).prependTo($map);
+      $('<div id="mapbox" class="map-container embed-media-block"/>').prependTo($map);
+      return mapbox.auto('mapbox', 'bishbashbosh.map-hs0p13ed', function(map, tiledata) {
+        return tiledata.markers.factory(function(m) {
+          var elem;
+          elem = mapbox.markers.simplestyle_factory(m);
+          MM.addEvent(elem, 'click', function(e) {
+            return map.ease.location({
+              lat: m.geometry.coordinates[1],
+              lon: m.geometry.coordinates[0]
+            }).zoom(map.zoom()).optimal();
+          });
+          return elem;
+        });
+      });
     };
     buildStatic = function() {
       var $img, mapLink;
