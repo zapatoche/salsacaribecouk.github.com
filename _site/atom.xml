@@ -4,7 +4,7 @@
  <title>Salsa Caribe</title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2012-11-23T18:57:47+00:00</updated>
+ <updated>2012-11-23T21:36:11+00:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -496,23 +496,10 @@
 
   &lt;section class=&quot;location&quot;&gt;
     &lt;div class=&quot;figure google-map&quot;&gt;
-    &lt;!-- &lt;a href=&quot;https://maps.google.com/maps/ms?msid=204512405293599754812.0004cd6e64e8e7a252869&amp;msa=0&amp;ll=51.535018,-0.128059&amp;spn=0.062359,0.050983&quot;&gt;&lt;img src=&quot;/assets/images/map-large.jpg&quot;&gt;&lt;/a&gt; --&gt;
     &lt;div class=&quot;figcaption&quot;&gt;
       &lt;a href=&quot;https://maps.google.com/maps/ms?msid=204512405293599754812.0004cd6e64e8e7a252869&amp;amp;msa=0&amp;amp;ll=51.535018,-0.128059&amp;amp;spn=0.062359,0.050983&quot; class=&quot;map-link&quot;&gt;View our classes location on google map&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
-    &lt;p&gt;&lt;!-- &lt;dl class=&quot;vcard&quot;&gt; --&gt;
-  &lt;!--   &lt;dd class=&quot;buffalo&quot;&gt;&lt;span class=&quot;map-marker&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;fn org&quot;&gt;&lt;a href=&quot;#classes&quot;&gt;The Buffalo bar&lt;/a&gt;&lt;/span&gt;&lt;/dd&gt; --&gt;
-  &lt;!--   &lt;dt&gt; --&gt;
-  &lt;!--     &lt;span class=&quot;street-address&quot;&gt;259 Upper street&lt;/span&gt;, &lt;span class=&quot;postal-code&quot;&gt;N1 1RU&lt;/span&gt; &lt;span class=&quot;locality&quot;&gt;London&lt;/span&gt; --&gt;
-  &lt;!--   &lt;/dt&gt; --&gt;
-  &lt;!-- &lt;/dl&gt; --&gt;
-  &lt;!-- &lt;dl class=&quot;vcard last&quot;&gt; --&gt;
-  &lt;!--   &lt;dd class=&quot;place&quot;&gt;&lt;span class=&quot;map-marker&quot;&gt;B&lt;/span&gt; &lt;span class=&quot;fn org&quot;&gt;&lt;a href=&quot;#classes&quot;&gt;The Place dance studio&lt;/a&gt;&lt;/span&gt;&lt;/dd&gt; --&gt;
-  &lt;!--   &lt;dt&gt; --&gt;
-  &lt;!--     &lt;span class=&quot;street-address&quot;&gt;259 Upper street&lt;/span&gt; &lt;span class=&quot;postal-code&quot;&gt;WC1&lt;/span&gt; &lt;span class=&quot;locality&quot;&gt;London&lt;/span&gt; --&gt;
-  &lt;!--   &lt;/dt&gt; --&gt;
-  &lt;!-- &lt;/dl&gt; --&gt;&lt;/p&gt;
   &lt;/section&gt;
 
 &lt;/section&gt;

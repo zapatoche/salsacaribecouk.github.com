@@ -111,20 +111,8 @@ a {
 .visuallyhidden {
   @extend %visuallyhidden;
 }
-// map
-.static-map {
-  width: 100%;
-  img {
-    @include opacity(0);
-  }
-  a {
-    display: block;
-    background: image-url('map-large.jpg') no-repeat 50% 50%;;
-    background-size: 140%;
-  }
-}
-// module tags list
 
+// module tags list
 .pills {
   // @include inline-list;
   text-align: center;
@@ -172,7 +160,6 @@ figure,
     display: block;
   }
 }
-.static-map,
 .figure.hero {
   display: block;
   overflow: hidden;
@@ -285,7 +272,5 @@ p:first-line {
   display: block;
 }
 #mapbox {
-  // width: 100%;
-  // height: 0;
  padding-bottom: 50% !important;
 }
