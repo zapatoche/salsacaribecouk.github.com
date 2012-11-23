@@ -89,7 +89,10 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     # responsive images: noscript tag
     # http://www.monoliitti.com/images/
     $('noscript[data-large][data-small]').each ->
-      src = if $screenWidth >= 500 then $(@).data('large') else $(@).data('small')
+      src = if $screenWidth >= 500 and $(@).data('large') isnt ""
+        $(@).data('large')
+      else
+        $(@).data('small')
       $("<img src='#{src}' alt='#{$(@).data('alt')}' />").insertAfter($(@))
 
     # responsive map
@@ -103,8 +106,11 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     buildEmbed = ->
       $('<div id="mapbox" class="map-container embed-media-block"/>').prependTo($map)
       map = mapbox.auto('mapbox', 'bishbashbosh.map-hs0p13ed', (map, tiledata) ->
-        tiledata.markers.factory (m) -> 
+        tiledata.markers.factory (m) ->
           elem = mapbox.markers.simplestyle_factory(m)
+          MM.addEvent(map, 'load', (e) ->
+            map.zoom(3)
+          )
           MM.addEvent(elem, 'click', (e) ->
             map.ease.location
               lat: m.geometry.coordinates[1]
@@ -117,8 +123,7 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     buildStatic = ->
       mapLink = $('.map-link').attr('href')
       $img = $('<img class="static-map"/>').attr('src', staticMap)
-      cssIMg = "url('http://api.tiles.mapbox.com/v3/bishbashbosh.map-hs0p13ed/pin-m-a+f63a39(-0.128,51.527),pin-m-b+f63a39(-0.103,51.545)/-0.113,51.535,13/640x640.png') no-repeat 50% 50%"
-      $('<a />').attr('href', mapLink).html($img).prependTo($map).css('background-image', staticMap)
+      $('<a/>').attr('href', mapLink).html($img).prependTo($map).css('background-image', staticMap)
 
 
 

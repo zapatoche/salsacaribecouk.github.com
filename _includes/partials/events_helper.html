@@ -4,10 +4,8 @@
       <header class="header event-header">
         <a href="{{ BASE_PATH }}{{ post.url }}">
           <figure class="figure">
-            <img src="{{ post.image.mobile }}" alt="{{ post.image.alt }}" />
-            <figcaption class="figcaption">
-            <span>{{ post.title }}</span>
-            </figcaption>
+            <noscript data-large="" data-small="{{ post.image.small }}" data-alt="{{ post.image.alt }}"><img src="{{ post.image.mobile }}" alt="{{ post.image.alt }}" /></noscript>
+            <figcaption class="figcaption"><span>{{ post.title }}</span></figcaption>
           </figure>
       </a>
         <hgroup class="hgroup">

@@ -87,7 +87,7 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
     });
     $('noscript[data-large][data-small]').each(function() {
       var src;
-      src = $screenWidth >= 500 ? $(this).data('large') : $(this).data('small');
+      src = $screenWidth >= 500 && $(this).data('large') !== "" ? $(this).data('large') : $(this).data('small');
       return $("<img src='" + src + "' alt='" + ($(this).data('alt')) + "' />").insertAfter($(this));
     });
     buildMap = function() {
@@ -104,6 +104,9 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
         return tiledata.markers.factory(function(m) {
           var elem;
           elem = mapbox.markers.simplestyle_factory(m);
+          MM.addEvent(map, 'load', function(e) {
+            return map.zoom(3);
+          });
           MM.addEvent(elem, 'click', function(e) {
             return map.ease.location({
               lat: m.geometry.coordinates[1],
@@ -115,11 +118,10 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
       });
     };
     buildStatic = function() {
-      var $img, cssIMg;
+      var $img;
       mapLink = $('.map-link').attr('href');
       $img = $('<img class="static-map"/>').attr('src', staticMap);
-      cssIMg = "url('http://api.tiles.mapbox.com/v3/bishbashbosh.map-hs0p13ed/pin-m-a+f63a39(-0.128,51.527),pin-m-b+f63a39(-0.103,51.545)/-0.113,51.535,13/640x640.png') no-repeat 50% 50%";
-      return $('<a />').attr('href', mapLink).html($img).prependTo($map).css('background-image', staticMap);
+      return $('<a/>').attr('href', mapLink).html($img).prependTo($map).css('background-image', staticMap);
     };
     mobilizeNav();
     resetNav();
