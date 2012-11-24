@@ -1,1 +1,0 @@
-$(document).ready(function(){$(".site-tagline").fitText(1.2,{minFontSize:"40px",maxFontSize:"60px"})});
