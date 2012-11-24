@@ -20,7 +20,7 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
     $width = 0;
     $map = $('.google-map');
     mapLink = $('.map-link').attr('href');
-    staticMap = 'http://api.tiles.mapbox.com/v3/bishbashbosh.map-hs0p13ed/pin-m-star+f63a39(-0.128,51.527),pin-m-star+f63a39(-0.103,51.545)/-0.113,51.537,13/500x350.png';
+    staticMap = 'http://api.tiles.mapbox.com/v3/bishbashbosh.map-hs0p13ed/pin-m-star+f63a39(-0.128,51.527),pin-m-star+f63a39(-0.103,51.545)/-0.113,51.537,13/550x350.png';
     embedMap = "<iframe width='500' height='300' frameBorder='0' src='http://a.tiles.mapbox.com/v3/bishbashbosh.map-hs0p13ed.html#14/51.537/-0.113'></iframe>";
     $h1 = $('.site-tagline h1');
     trim = $h1.text().replace(/^\s+|\s+$/g, "");
@@ -87,7 +87,7 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
     });
     $('noscript[data-large][data-small]').each(function() {
       var src;
-      src = $screenWidth >= 500 && $(this).data('large') !== "" ? console.log($(this).data('large')) : $(this).data('small');
+      src = $screenWidth >= 500 && $(this).data('large') !== "" ? $(this).data('large') : $(this).data('small');
       return $("<img src='" + src + "' alt='" + ($(this).data('alt')) + "' />").insertAfter($(this));
     });
     buildMap = function() {

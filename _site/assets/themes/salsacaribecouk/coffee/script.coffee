@@ -20,7 +20,7 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     $width = 0
     $map = $('.google-map')
     mapLink = $('.map-link').attr('href')
-    staticMap = 'http://api.tiles.mapbox.com/v3/bishbashbosh.map-hs0p13ed/pin-m-star+f63a39(-0.128,51.527),pin-m-star+f63a39(-0.103,51.545)/-0.113,51.537,13/500x350.png'
+    staticMap = 'http://api.tiles.mapbox.com/v3/bishbashbosh.map-hs0p13ed/pin-m-star+f63a39(-0.128,51.527),pin-m-star+f63a39(-0.103,51.545)/-0.113,51.537,13/550x350.png'
     embedMap = "<iframe width='500' height='300' frameBorder='0' src='http://a.tiles.mapbox.com/v3/bishbashbosh.map-hs0p13ed.html#14/51.537/-0.113'></iframe>
 "
     # wrap random .site-tagline h1 character
@@ -90,7 +90,7 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     # http://www.monoliitti.com/images/
     $('noscript[data-large][data-small]').each ->
       src = if $screenWidth >= 500 and $(@).data('large') isnt ""
-        console.log $(@).data('large')
+        $(@).data('large')
       else
         $(@).data('small')
       $("<img src='#{src}' alt='#{$(@).data('alt')}' />").insertAfter($(@))

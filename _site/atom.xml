@@ -4,7 +4,7 @@
  <title>Salsa Caribe</title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2012-11-23T21:36:11+00:00</updated>
+ <updated>2012-11-24T00:15:40+00:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -482,8 +482,6 @@
    <updated>2012-09-20T00:00:00+01:00</updated>
    <id>/classes</id>
    <content type="html">
-&lt;p&gt;test &lt;/p&gt;
-
 &lt;h2&gt;Our teaching philosophy&lt;/h2&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. &lt;/p&gt;
