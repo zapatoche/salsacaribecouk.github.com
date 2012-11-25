@@ -88,7 +88,7 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
 
     # responsive images: noscript tag
     # http://www.monoliitti.com/images/
-    $('noscript[data-large][data-small]').each ->
+    $('noscript[data-large][data-medium]').each ->
       src = if $screenWidth >= 500 and $(@).data('large') isnt ""
         $(@).data('large')
       else

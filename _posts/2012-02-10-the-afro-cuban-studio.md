@@ -21,8 +21,8 @@ description: |
   Salsa Classes to suit everyone from complete beginner to advanced salsero, plus an hour devoted to diverse Cuban rhythms and movement.
 
 image:
-  mobile: 'http://farm7.staticflickr.com/6182/6114145392_f3b0f12d90_n.jpg'
-  small: 'http://farm7.staticflickr.com/6182/6114145392_f3b0f12d90_z.jpg'
+  small: 'http://farm7.staticflickr.com/6182/6114145392_f3b0f12d90_n.jpg'
+  medium: 'http://farm7.staticflickr.com/6182/6114145392_f3b0f12d90_z.jpg'
   large: 'http://farm7.staticflickr.com/6182/6114145392_f3b0f12d90_b.jpg'
   alt:  "Salsa Caribe's 10 years anniversary party"
 
