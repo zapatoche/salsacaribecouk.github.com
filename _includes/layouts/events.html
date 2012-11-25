@@ -27,10 +27,18 @@
     </div>
     {% endif%}
     {% if page.image %}
-    <figure class="figure hero">
-      <noscript data-large='{{  page.image.large }}' data-small='{{ page.image.small }}' data-alt='{{ page.image.alt }}'><img src='{{ page.image.mobile }}' alt='{{ page.image.alt }}' /></noscript>
-      <figcaption>{{ page.image.caption }}</figcaption>
-    </figure>
+    <!-- <figure class="figure hero"> -->
+    <!--   <noscript data-large='{{  page.image.large }}' data-small='{{ page.image.small }}' data-alt='{{ page.image.alt }}'><img src='{{ page.image.mobile }}' alt='{{ page.image.alt }}' /></noscript> -->
+    <!--   <figcaption>{{ page.image.caption }}</figcaption> -->
+    <!-- </figure> -->
+    <div  data-alt="{{ page.image.alt }}" class="data-picture">
+      <div data-src="{{ page.image.mobile }}"></div> 
+      <div data-src="{{ page.image.small }}" data-media="(min-width: 400px)"></div> 
+      <div data-src="{{ page.image.large }}" data-media="(min-width: 800px)"></div> 
+      <noscript>
+        <img src="{{ page.image.mobile }}" alt="{{ page.image.alt }}" />
+      </noscript>
+    </div>
     {% endif %}
 
 
