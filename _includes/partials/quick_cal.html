@@ -1,8 +1,10 @@
-<ul>
+<dl>
+
     {% for post in site.posts reversed  %}
       {% if post.tags contains 'classes' or post.tags contains 'workshop' %}
       {%capture freq %}{{  post.freq | date: '%m %b'  }}{% endcapture%}
       <li><a href="{{ post.url }}">{{ freq }} {{ post.date | date: '%a' }} {{ post.title }}</a></li>
       {% endif %}
     {% endfor %}
-</ul>
+</dl>
+

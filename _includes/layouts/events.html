@@ -8,11 +8,11 @@
       <dt class="visuallyhidden">categories</dt>
       {% for tag in page.tags %}
       <dd class="pill">
-      {{ tag }}
+      {{ tag | capitalize }}
       </dd>
       {% endfor %}
       <dd class="pill">
-      {{ day | capitaddze }}
+      {{ day | capitalize }}
       </dd>
     </dl>
     {% endif %}
