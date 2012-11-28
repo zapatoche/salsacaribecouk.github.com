@@ -66,9 +66,11 @@
   }
   .static-map,
   .hero.figure {
+    // @include float(left);
+    // width: 40%;
+    // margin: 0 2% 2% 0;
     .js & {
-      @include border-radius(2%);
-      margin: 0;
+      // margin: 0;
     }
   }
   .site-branding  .contact {
@@ -89,7 +91,7 @@
 @media only screen and (min-width: 48em) {
 @import "partials/site-footer-advanced";
 .content-wrapper {
-  padding: 0 10%;
+  // padding: 0 10%;
 }
   .site-nav {
     li {
@@ -142,7 +144,7 @@
 
 @media only screen and (min-width: 48em) and (orientation: landscape) {
   .content-wrapper {
-    padding: 0 15%;
+    // padding: 0 15%;
   }
 }
 

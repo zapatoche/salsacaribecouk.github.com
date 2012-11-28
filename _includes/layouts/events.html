@@ -1,7 +1,25 @@
 <section>
   {%  capture day %}{{ page.date |date: '%A' | downcase }}{% endcapture %}
-  {% include partials/history_helper.html %}
+  <!--{% include partials/history_helper.html %}-->
   <article class="article vevent">
+
+    {% if page.image %}
+    <figure class="hero">
+      <img src="/assets/images/buffalo-001.jpg" alt="" />
+      <!-- <div  data-alt="{{ page.image.alt }}" data-picture> -->
+      <!--   <div data-src="{{ page.image.small }}"></div>  -->
+      <!--   <div data-src="{{ page.image.medium }}" data-media="(min-width: 400px)"></div>  -->
+      <!--   <div data-src="{{ page.image.large }}" data-media="(min-width: 800px)"></div>  -->
+      <!--   <!--[if (lt IE 9) & (!IEMobile)]> -->
+      <!--   <div data-src="{{ page.image.medium }}"></div> -->
+      <!--   <![endif]-->
+      <!--   <noscript> -->
+      <!--     <img src="{{ page.image.small }}" alt="{{ page.image.alt }}" /> -->
+      <!--   </noscript> -->
+      <!-- </div> -->
+      <!-- <figcaption class="figcaption"><span>{{ page.image.alt }}</span></figcaption> -->
+    </figure>
+    {% endif %}
 
     {% if page.tags %}
     <dl class="pills">
@@ -21,28 +39,12 @@
       {% include partials/post_summary_helper.html %}
     {% endif %}
 
+
     {% if  page.description %}
     <div class="description">
       {{ page.description | markdownify }}
     </div>
     {% endif%}
-    {% if page.image %}
-    <figure class="figure hero">
-      <div  data-alt="{{ page.image.alt }}" data-picture>
-        <div data-src="{{ page.image.small }}"></div> 
-        <div data-src="{{ page.image.medium }}" data-media="(min-width: 400px)"></div> 
-        <div data-src="{{ page.image.large }}" data-media="(min-width: 800px)"></div> 
-        <!--[if (lt IE 9) & (!IEMobile)]>
-        <div data-src="{{ page.image.medium }}"></div>
-        <![endif]-->
-        <noscript>
-          <img src="{{ page.image.small }}" alt="{{ page.image.alt }}" />
-        </noscript>
-      </div>
-      <figcaption class="figcaption">{{ page.image.alt }}</figcaption>
-    </figure>
-    {% endif %}
-
 
     {{ content }}
   </article>
