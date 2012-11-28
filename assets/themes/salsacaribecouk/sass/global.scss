@@ -26,7 +26,7 @@ body {
   margin: 0;
   padding: 0;
   font: 400 100%/1.5 $body_font;
-  font-size: 14px;
+  font-size: 100%;
   display: table;
   width: 100%;
   color: darken(#DCE9EF, 60%);
@@ -63,14 +63,52 @@ section,
 }
 @import "partials/site-nav";
 
+.section-title {
+  border: 1px dashed;
+  border-width: 1px 0;
+  font-size: 110%;
+  background: #F7F7F0;
+  background: rgba(#fff,.4);
+  box-shadow: 0 -5px 5px rgba(#fff,.5), 0 5px 5px rgba(#fff,.5);
+  padding: .5em;
+  line-height: 1.25;
+  text-align: center;
+}
 .hero {
   @include border-radius(50%);
   overflow: hidden;
   margin: 0 auto;
-  max-width: 428px;
+  padding-bottom: 80%;
+  border: .625em solid #fff;
+  max-width: 430px;
   width: 80%;
-  border: 5px solid #fff;
-  box-shadow: 0 0 20px #fff;
+  height: 0;
+  box-shadow: 0 0 1.2em #fff;
+  .event-header & {
+    width: 60%;
+    padding-bottom: 60%;
+    margin-bottom: 1em;
+    border-width: .4em;
+    // border-width: .3125em;
+  }
+}
+.event-header {
+  text-align: center;
+  .hgroup {
+    text-align: left;
+  }
+  .pill {
+  }
+  .event-fn {
+    font-size: 90%;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    text-align: left;
+  }
+  .event-summary {
+  }
+
 }
 .description {
   display: block;
@@ -309,3 +347,8 @@ p:first-line {
 // @include hidpi-media-query (1.5) {
 //   width: 260px;
 // }
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 87.5%;
+  }
+}

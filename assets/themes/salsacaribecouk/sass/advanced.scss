@@ -50,19 +50,11 @@
   @import "partials/site-header-advanced";
   @import "partials/site-nav-advanced";
   // header
+  body {
+    font-size: 100%;
+  }
   .site-tagline {
     border: 0;
-  }
-  // paragraphs
-  p, .p {
-    padding: 0 8.542%;
-    footer & {
-      padding: 0;
-      margin-top: 0;
-    }
-  }
-  body {
-    font-size: 16px;
   }
   .static-map,
   .hero.figure {

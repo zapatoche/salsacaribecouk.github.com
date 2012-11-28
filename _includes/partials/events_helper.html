@@ -1,26 +1,23 @@
     {%  capture day %}{{post.date |date: '%A' | downcase }}{% endcapture %}
     <article class="article">
-      <p class="pill">{{ day }}</p>
       <header class="header event-header">
-        <a href="{{ BASE_PATH }}{{ post.url }}">
-          <img src="/assets/images/buffalo-001.jpg" alt="" />
-          <!-- <figure class="figure"> -->
-          <!--   <div  data-alt="{{ post.image.alt }}" data-picture> -->
-          <!--     <div data-src="{{ post.image.small }}"></div> -->
-          <!--     <div data-src="{{ post.image.medium }}" data-media="(min-width: 400px)"></div> -->
-          <!--     <!--[if (lt IE 9) & (!IEMobile)]> -->
-          <!--       <div data-src="{{ post.image.medium }}"></div> -->
-          <!--     <![endif]-->
-          <!--     <noscript> -->
-          <!--       <img src="{{ post.image.small }}" alt="{{ post.image.alt }}" /> -->
-          <!--     </noscript> -->
-          <!--   </div> -->
-          <!--   <figcaption class="figcaption"><span>{{ post.title }}</span></figcaption> -->
-          <!-- </figure> -->
+        <a href="{{ BASE_PATH }}{{ post.url }}"  class="">
+          <div  data-alt="{{ post.image.alt }}" data-picture class="hero">
+            <div data-src="{{ post.image.small }}"></div>
+            <div data-src="{{ post.image.medium }}" data-media="(min-width: 400px)"></div>
+            <!--[if (lt IE 9) & (!IEMobile)]>
+                <div data-src="{{ post.image.medium }}"></div>
+              <![endif]>-->
+            <noscript>
+              <img src="{{ post.image.small }}" alt="{{ post.image.alt }}" />
+            </noscript> 
+          </div>
+          <p class="pill">{{ day }}</p>
       </a>
         <hgroup class="hgroup">
           <a href="{{ BASE_PATH }}{{ post.url }}">
-            <h3 class="title">{{ post.summary }}</h3>
+            <h2 class="event-fn"><span>{{ post.title }}</span></h2>
+            <h3 class="event-summary">{{ post.summary }}</h3>
           </a>
         </hgroup>
       </header>

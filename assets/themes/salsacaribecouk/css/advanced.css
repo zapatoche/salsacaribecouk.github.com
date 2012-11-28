@@ -335,36 +335,26 @@ strong {
   }
 
   /* line 53, ../sass/advanced.scss */
+  body {
+    font-size: 100%;
+  }
+
+  /* line 56, ../sass/advanced.scss */
   .site-tagline {
     border: 0;
   }
 
-  /* line 57, ../sass/advanced.scss */
-  p, .p {
-    padding: 0 8.542%;
-  }
-  /* line 59, ../sass/advanced.scss */
-  footer p, footer .p {
-    padding: 0;
-    margin-top: 0;
-  }
-
-  /* line 64, ../sass/advanced.scss */
-  body {
-    font-size: 16px;
-  }
-
-  /* line 77, ../sass/advanced.scss */
+  /* line 69, ../sass/advanced.scss */
   .js .site-branding .contact {
     padding: 0;
   }
 
-  /* line 82, ../sass/advanced.scss */
+  /* line 74, ../sass/advanced.scss */
   .map-container {
     display: block;
   }
 
-  /* line 85, ../sass/advanced.scss */
+  /* line 77, ../sass/advanced.scss */
   .static-map {
     display: none;
   }
@@ -377,58 +367,58 @@ strong {
     padding: 0 0.5494505495%;
   }
 
-  /* line 98, ../sass/advanced.scss */
+  /* line 90, ../sass/advanced.scss */
   .js .site-nav li {
     float: right;
   }
-  /* line 100, ../sass/advanced.scss */
+  /* line 92, ../sass/advanced.scss */
   .js .site-nav li.first {
     float: left;
   }
 
-  /* line 108, ../sass/advanced.scss */
+  /* line 100, ../sass/advanced.scss */
   .article-title {
     padding-left: 20.98%;
     line-height: 1.1;
     font-size: 32px;
   }
 
-  /* line 119, ../sass/advanced.scss */
+  /* line 111, ../sass/advanced.scss */
   .location .static-map a {
     background-size: auto;
   }
-  /* line 123, ../sass/advanced.scss */
+  /* line 115, ../sass/advanced.scss */
   .location .vcard {
     overflow: hidden;
     width: auto;
     float: none;
   }
 
-  /* line 133, ../sass/advanced.scss */
+  /* line 125, ../sass/advanced.scss */
   .class-list .article {
     display: inline;
     float: left;
     width: 31.88%;
     margin-left: 2.083%;
   }
-  /* line 137, ../sass/advanced.scss */
+  /* line 129, ../sass/advanced.scss */
   .class-list .article:first-child {
     margin: 0;
   }
 }
 @media only screen and (min-width: 60em) {
-  /* line 159, ../sass/advanced.scss */
+  /* line 151, ../sass/advanced.scss */
   .social {
     background: transparent;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 167, ../sass/advanced.scss */
+  /* line 159, ../sass/advanced.scss */
   html {
     background-image: url('/assets/images/skin/grunge_wall_@2x.png?1351265196');
   }
 
-  /* line 171, ../sass/advanced.scss */
+  /* line 163, ../sass/advanced.scss */
   .site-nav,
   .social-footer {
     background-image: url('/assets/images/skin/grunge_wall_red_@2x.png?1351265196');

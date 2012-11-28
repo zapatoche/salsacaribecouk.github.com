@@ -16,9 +16,9 @@ tagline: The longest running Cuban Salsa Club in London
 summary: An Evening of Essential <b>Afro-Cuban Flavas</b>, <b>Salsa Timba</b> & <b>Latin Jazz</b>
 
 image:
-  small: 'http://farm7.staticflickr.com/6187/6113590927_0700f7bdcf_n.jpg'
-  medium: 'http://farm7.staticflickr.com/6187/6113590927_0700f7bdcf_z.jpg'
-  large: 'http://farm7.staticflickr.com/6187/6113590927_0700f7bdcf_b.jpg'
+  small: '/assets/images/buffalo-club-small.jpg'
+  medium: '/assets/images/buffalo-club.jpg'
+  large: '/assets/images/buffalo-club@2x.jpg'
   alt:  "Salsa Caribe's 10 years anniversary party"
 
 description: |

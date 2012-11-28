@@ -18,7 +18,7 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
     timer = null;
     reseted = false;
     $width = 0;
-    $map = $('.google-map');
+    $map = $('.responsive-map');
     mapLink = $('.map-link').attr('href');
     staticMap = 'http://api.tiles.mapbox.com/v3/bishbashbosh.map-hs0p13ed/pin-m-star+f63a39(-0.128,51.527),pin-m-star+f63a39(-0.103,51.545)/-0.113,51.537,13/550x350.png';
     embedMap = "<iframe width='500' height='300' frameBorder='0' src='http://a.tiles.mapbox.com/v3/bishbashbosh.map-hs0p13ed.html#14/51.537/-0.113'></iframe>";
@@ -130,8 +130,7 @@ if (typeof jQuery !== 'undefined' && parseFloat(jQuery.fn.jquery) >= 1.8) {
       mobilizeNav();
       resetNav();
       $sw = document.body.clientWidth;
-      buildMap();
-      return google.maps.event.trigger(map, "resize");
+      return buildMap();
     });
   });
 }
