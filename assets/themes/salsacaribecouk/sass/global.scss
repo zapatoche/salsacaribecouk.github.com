@@ -64,32 +64,32 @@ section,
 @import "partials/site-nav";
 
 .section-title {
+  padding: .5em;
   border: 1px dashed;
   border-width: 1px 0;
-  font-size: 110%;
   background: #F7F7F0;
   background: rgba(#fff,.4);
   box-shadow: 0 -5px 5px rgba(#fff,.5), 0 5px 5px rgba(#fff,.5);
-  padding: .5em;
-  line-height: 1.25;
   text-align: center;
+  font-size: 110%;
+  line-height: 1.25;
+  text-shadow: 0 0 5px #FFADAD;
 }
 .hero {
   @include border-radius(50%);
   overflow: hidden;
   margin: 0 auto;
-  padding-bottom: 80%;
-  border: .625em solid #fff;
   max-width: 430px;
   width: 80%;
-  height: 0;
+  border: .625em solid #fff;
   box-shadow: 0 0 1.2em #fff;
   .event-header & {
-    width: 60%;
-    padding-bottom: 60%;
     margin-bottom: 1em;
+    width: 70%;
     border-width: .4em;
-    // border-width: .3125em;
+  }
+  img {
+    display: block;
   }
 }
 .event-header {

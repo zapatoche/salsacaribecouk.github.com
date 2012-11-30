@@ -34,6 +34,9 @@ h1 b, h1 strong, h2 b, h2 strong, h3 b, h3 strong, h4 b, h4 strong, h5 b, h5 str
 
 /* line 34, ../sass/partials/_typography.scss */
 p {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
   margin: 1em 0;
 }
 
@@ -133,13 +136,13 @@ strong {
   font-weight: 300;
 }
 
-/* line 137, ../sass/partials/_typography.scss */
+/* line 138, ../sass/partials/_typography.scss */
 [href^="tel"] {
   font-family: "freight-sans-pro", "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 125%;
 }
-/* line 141, ../sass/partials/_typography.scss */
+/* line 142, ../sass/partials/_typography.scss */
 .site-header [href^="tel"] {
   font-size: 100%;
   font-weight: 300;

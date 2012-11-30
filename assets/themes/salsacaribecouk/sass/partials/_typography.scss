@@ -32,8 +32,8 @@
 }
 
 p {
-    margin: 1em 0;
-
+  @include hyphens(auto);
+  margin: 1em 0;
 }
 
 //icomoon webicons font
@@ -132,6 +132,7 @@ b,
 strong {
   font-weight: 300;
 }
+
 // numerals
 
 [href^="tel"] {

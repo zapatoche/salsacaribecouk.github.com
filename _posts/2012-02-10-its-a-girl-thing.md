@@ -21,9 +21,9 @@ description: |
   Calling all chicas who like their Cuban salsa with extra sabor: It&#8217;s a Girl Thing! this Saturday at The Place Dance Studios. Ladies, it&#8217;s time to get your whole body moving, connecting footwork to hip, torso, arm &amp; shoulder movement, so you look and feel great over the party season.
 
 image:
-  small: '/assets/images/buffalo-club-small.jpg'
-  medium: '/assets/images/buffalo-club.jpg'
-  large: '/assets/images/buffalo-club@2x.jpg'
+  small: '/assets/images/girl-thing-small.jpg'
+  medium: '/assets/images/girl-thing.jpg'
+  large: '/assets/images/girl-thing@2x.jpg'
   alt:  "Salsa Caribe's 10 years anniversary party"
 
 location:

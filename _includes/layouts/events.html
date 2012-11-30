@@ -5,19 +5,18 @@
 
     {% if page.image %}
     <figure class="hero">
-      <img src="/assets/images/buffalo-club.jpg" alt="" />
-      <!-- <div  data-alt="{{ page.image.alt }}" data-picture> -->
-      <!--   <div data-src="{{ page.image.small }}"></div>  -->
-      <!--   <div data-src="{{ page.image.medium }}" data-media="(min-width: 400px)"></div>  -->
-      <!--   <div data-src="{{ page.image.large }}" data-media="(min-width: 800px)"></div>  -->
-      <!--   <!--[if (lt IE 9) & (!IEMobile)]> -->
-      <!--   <div data-src="{{ page.image.medium }}"></div> -->
-      <!--   <![endif]-->
-      <!--   <noscript> -->
-      <!--     <img src="{{ page.image.small }}" alt="{{ page.image.alt }}" /> -->
-      <!--   </noscript> -->
-      <!-- </div> -->
-      <!-- <figcaption class="figcaption"><span>{{ page.image.alt }}</span></figcaption> -->
+      <div  data-alt="{{ page.image.alt }}" data-picture>
+        <div data-src="{{ page.image.small }}"></div> 
+        <div data-src="{{ page.image.medium }}" data-media="(min-width: 400px)"></div> 
+        <div data-src="{{ page.image.large }}" data-media="(min-width: 800px)"></div> 
+        <!--[if (lt IE 9) & (!IEMobile)]>
+        <div data-src="{{ page.image.medium }}"></div>
+        <![endif]>-->
+        <noscript>
+          <img src="{{ page.image.small }}" alt="{{ page.image.alt }}" />
+        </noscript>
+      </div>
+      <figcaption class="figcaption"><span>{{ page.image.alt }}</span></figcaption>
     </figure>
     {% endif %}
 

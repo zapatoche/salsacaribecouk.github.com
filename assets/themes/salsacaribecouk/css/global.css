@@ -425,6 +425,9 @@ h1 b, h1 strong, h2 b, h2 strong, h3 b, h3 strong, h4 b, h4 strong, h5 b, h5 str
 
 /* line 34, ../sass/partials/_typography.scss */
 p {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
   margin: 1em 0;
 }
 
@@ -524,13 +527,13 @@ strong {
   font-weight: 300;
 }
 
-/* line 137, ../sass/partials/_typography.scss */
+/* line 138, ../sass/partials/_typography.scss */
 [href^="tel"] {
   font-family: "freight-sans-pro", "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 125%;
 }
-/* line 141, ../sass/partials/_typography.scss */
+/* line 142, ../sass/partials/_typography.scss */
 .site-header [href^="tel"] {
   font-size: 100%;
   font-weight: 300;
@@ -1175,18 +1178,19 @@ body.contact a.contact {
 
 /* line 66, ../sass/global.scss */
 .section-title {
+  padding: .5em;
   border: 1px dashed;
   border-width: 1px 0;
-  font-size: 110%;
   background: #F7F7F0;
   background: rgba(255, 255, 255, 0.4);
   box-shadow: 0 -5px 5px rgba(255, 255, 255, 0.5), 0 5px 5px rgba(255, 255, 255, 0.5);
-  padding: .5em;
-  line-height: 1.25;
   text-align: center;
+  font-size: 110%;
+  line-height: 1.25;
+  text-shadow: 0 0 5px #FFADAD;
 }
 
-/* line 77, ../sass/global.scss */
+/* line 78, ../sass/global.scss */
 .hero {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1195,19 +1199,20 @@ body.contact a.contact {
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto;
-  padding-bottom: 80%;
-  border: .625em solid #fff;
   max-width: 430px;
   width: 80%;
-  height: 0;
+  border: .625em solid #fff;
   box-shadow: 0 0 1.2em #fff;
 }
-/* line 87, ../sass/global.scss */
+/* line 86, ../sass/global.scss */
 .event-header .hero {
-  width: 60%;
-  padding-bottom: 60%;
   margin-bottom: 1em;
+  width: 70%;
   border-width: .4em;
+}
+/* line 91, ../sass/global.scss */
+.hero img {
+  display: block;
 }
 
 /* line 95, ../sass/global.scss */
