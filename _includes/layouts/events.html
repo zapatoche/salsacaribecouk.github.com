@@ -2,23 +2,26 @@
   {%  capture day %}{{ page.date |date: '%A' | downcase }}{% endcapture %}
   <!--{% include partials/history_helper.html %}-->
   <article class="article vevent">
+    <header class="header">
 
-    {% if page.image %}
-    <figure class="hero">
-      <div  data-alt="{{ page.image.alt }}" data-picture>
+      {% if page.image %}
+      <div  data-alt="{{ page.image.alt }}" data-picture class="hero">
         <div data-src="{{ page.image.small }}"></div> 
         <div data-src="{{ page.image.medium }}" data-media="(min-width: 400px)"></div> 
-        <div data-src="{{ page.image.large }}" data-media="(min-width: 800px)"></div> 
+        <div data-src="{{ page.image.medium@2x }}" data-media="(min-width: 400px) and (min-device-pixel-ratio: 2.0)"></div> 
         <!--[if (lt IE 9) & (!IEMobile)]>
-        <div data-src="{{ page.image.medium }}"></div>
-        <![endif]>-->
+          <div data-src="{{ page.image.medium }}"></div>
+          <![endif]>-->
         <noscript>
-          <img src="{{ page.image.small }}" alt="{{ page.image.alt }}" />
+          <img src="{{ page.image.small }}" alt="{{ page.image.alt }}"  />
         </noscript>
       </div>
-      <figcaption class="figcaption"><span>{{ page.image.alt }}</span></figcaption>
-    </figure>
-    {% endif %}
+      {% endif %}
+  
+      {% if page.summary %}
+        {% include partials/post_summary_helper.html %}
+      {% endif %}
+    </header>
 
     {% if page.tags %}
     <dl class="pills">
@@ -33,11 +36,6 @@
       </dd>
     </dl>
     {% endif %}
-
-    {% if page.summary %}
-      {% include partials/post_summary_helper.html %}
-    {% endif %}
-
 
     {% if  page.description %}
     <div class="description">

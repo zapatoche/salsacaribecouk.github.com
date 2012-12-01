@@ -1201,7 +1201,7 @@ body.contact a.contact {
   margin: 0 auto;
   max-width: 430px;
   width: 80%;
-  border: .625em solid #fff;
+  border: .375em solid #fff;
   box-shadow: 0 0 1.2em #fff;
 }
 /* line 86, ../sass/global.scss */

@@ -23,7 +23,7 @@ description: |
 image:
   small: '/assets/images/buffalo-club-small.jpg'
   medium: '/assets/images/buffalo-club.jpg'
-  large: '/assets/images/buffalo-club@2x.jpg'
+  medium@2x: '/assets/images/buffalo-club@2x.jpg'
   alt:  "Salsa Caribe's 10 years anniversary party"
 
 location:

@@ -23,7 +23,7 @@ description: |
 image:
   small: '/assets/images/girl-thing-small.jpg'
   medium: '/assets/images/girl-thing.jpg'
-  large: '/assets/images/girl-thing@2x.jpg'
+  medium@2x: '/assets/images/girl-thing@2x.jpg'
   alt:  "Salsa Caribe's 10 years anniversary party"
 
 location:

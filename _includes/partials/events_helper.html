@@ -5,6 +5,7 @@
           <div  data-alt="{{ post.image.alt }}" data-picture class="hero">
             <div data-src="{{ post.image.small }}"></div>
             <div data-src="{{ post.image.medium }}" data-media="(min-width: 400px)"></div>
+            <div data-src="{{ post.image.medium@2x }}" data-media="(min-width: 400px) and (min-device-pixel-ratio: 2.0)"></div>
             <!--[if (lt IE 9) & (!IEMobile)]>
                 <div data-src="{{ post.image.medium }}"></div>
               <![endif]>-->
