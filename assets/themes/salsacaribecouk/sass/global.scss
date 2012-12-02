@@ -110,6 +110,9 @@ section,
   }
 
 }
+.event-details {
+  font-size: 87.5%;
+}
 .description {
   display: block;
   padding: .8em 1.5em;
@@ -344,9 +347,6 @@ p:first-line {
 #mapbox {
  padding-bottom: 50% !important;
 }
-// @include hidpi-media-query (1.5) {
-//   width: 260px;
-// }
 @media only screen and (max-width: 480px) {
   body {
     font-size: 87.5%;

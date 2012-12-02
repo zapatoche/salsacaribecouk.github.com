@@ -40,44 +40,12 @@ p {
   margin: 1em 0;
 }
 
-@font-face {
-  font-family: 'icomoon';
-  src: url('/assets/themes/salsacaribecouk/fonts/icomoon.eot');
-  src: url('/assets/themes/salsacaribecouk/fonts/icomoon.eot?#iefix') format("embedded-opentype"), url('/assets/themes/salsacaribecouk/fonts/icomoon.svg#icomoon') format("svg"), url('/assets/themes/salsacaribecouk/fonts/icomoon.woff') format("woff"), url('/assets/themes/salsacaribecouk/fonts/icomoon.ttf') format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* Use the following CSS code if you want to use data attributes for inserting your icons */
-/* line 52, ../sass/partials/_typography.scss */
-[data-icon]:before {
-  font-family: 'icomoon';
-  content: attr(data-icon);
-  speak: none;
-  font-weight: normal;
-  -webkit-font-smoothing: antialiased;
-}
-
-/* line 60, ../sass/partials/_typography.scss */
-[class^="icon-"]:before, [class*=" icon-"]:before {
-  font-weight: normal;
-  font-style: normal;
-  font-family: 'icomoon';
-  speak: none;
-  -webkit-font-smoothing: antialiased;
-}
-
-/* line 67, ../sass/partials/_typography.scss */
-.icon-mobile:before {
-  content: "\21";
-}
-
-/* line 72, ../sass/partials/_typography.scss */
+/* line 40, ../sass/partials/_typography.scss */
 address {
   font-style: normal;
 }
 
-/* line 79, ../sass/partials/_typography.scss */
+/* line 47, ../sass/partials/_typography.scss */
 .pullquote-right:before,
 .pullquote-left:before {
   /* Reset metrics. */
@@ -97,14 +65,14 @@ address {
   line-height: 30px;
 }
 
-/* line 100, ../sass/partials/_typography.scss */
+/* line 68, ../sass/partials/_typography.scss */
 .pullquote-left:before {
   float: left;
   margin: 12px 31px 24px -102px;
   width: 251px;
 }
 
-/* line 107, ../sass/partials/_typography.scss */
+/* line 75, ../sass/partials/_typography.scss */
 .article-title {
   background: url('/assets/images/rgbapng/ffffff66.png?1352938458');
   background: rgba(255, 255, 255, 0.4);
@@ -114,7 +82,7 @@ address {
   line-height: 1.2;
   margin-bottom: 2em;
 }
-/* line 114, ../sass/partials/_typography.scss */
+/* line 82, ../sass/partials/_typography.scss */
 .article-title span {
   position: relative;
   top: 5px;
@@ -123,26 +91,26 @@ address {
   border-bottom: 5px solid #5091af;
 }
 
-/* line 124, ../sass/partials/_typography.scss */
+/* line 92, ../sass/partials/_typography.scss */
 .title b,
 .title strong {
   color: #b22f2f;
   font-weight: 500;
 }
 
-/* line 132, ../sass/partials/_typography.scss */
+/* line 100, ../sass/partials/_typography.scss */
 b,
 strong {
   font-weight: 300;
 }
 
-/* line 138, ../sass/partials/_typography.scss */
+/* line 106, ../sass/partials/_typography.scss */
 [href^="tel"] {
   font-family: "freight-sans-pro", "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 125%;
 }
-/* line 142, ../sass/partials/_typography.scss */
+/* line 110, ../sass/partials/_typography.scss */
 .site-header [href^="tel"] {
   font-size: 100%;
   font-weight: 300;
@@ -253,7 +221,7 @@ strong {
   /* line 4, ../sass/partials/_site-nav-advanced.scss */
   .site-nav {
     border-bottom: 4px solid #dce9ef;
-    background: #8b2a2c url('/assets/images/skin/grunge_wall_red.png?1351265196') repeat 0 0;
+    background: #8b2a2c url('/assets/images/skin/grunge_wall_red.png?1354476158') repeat 0 0;
     text-align: center;
   }
   /* line 7, ../sass/partials/_site-nav-advanced.scss */
@@ -408,22 +376,34 @@ strong {
   .class-list .article:first-child {
     margin: 0;
   }
+
+  /* line 135, ../sass/advanced.scss */
+  .private-classes .hero {
+    display: inline;
+    float: left;
+    margin: 0 6.4% 0 4%;
+    width: 22.5%;
+  }
+  /* line 140, ../sass/advanced.scss */
+  .private-classes .col {
+    overflow: hidden;
+  }
 }
 @media only screen and (min-width: 60em) {
-  /* line 151, ../sass/advanced.scss */
+  /* line 161, ../sass/advanced.scss */
   .social {
     background: transparent;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 159, ../sass/advanced.scss */
+  /* line 169, ../sass/advanced.scss */
   html {
     background-image: url('/assets/images/skin/grunge_wall_@2x.png?1351265196');
   }
 
-  /* line 163, ../sass/advanced.scss */
+  /* line 173, ../sass/advanced.scss */
   .site-nav,
   .social-footer {
-    background-image: url('/assets/images/skin/grunge_wall_red_@2x.png?1351265196');
+    background-image: url('/assets/images/skin/grunge_wall_red_@2x.png?1354476209');
   }
 }

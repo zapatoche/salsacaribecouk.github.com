@@ -22,7 +22,7 @@
           </a>
         </hgroup>
       </header>
-      <footer class="footer">
+      <footer class="footer event-details">
         <p><span>{{ post.start_date }}</span> {% if post.end_date %}- {{ post.end_date }}{% endif %} <a href="{{ post.location.map_url }}" title="Locate {{ post.location.name}} on Google map"><b>{{post.location.name}}</b></a>, <span>{{ post.location.street_address}}</span>, <span>{{ post.location.postal_code}}</span>, <span>{{ post.location.locality }}</span>.</p>
       </footer>
     </article>

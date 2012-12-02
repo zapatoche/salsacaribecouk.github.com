@@ -131,6 +131,16 @@
       }
     }
   }
+  .private-classes {
+    .hero {
+      @include float(left);
+      margin: 0 6.4% 0 4%;
+      width: 22.5%;
+    }
+    .col {
+      overflow: hidden;
+    }
+  }
   //end classes
 }
 
