@@ -1,4 +1,42 @@
 .quick-cal {
+  @include pie-clearfix;
+  position: relative;
   text-transform: uppercase;
-  @include inline-list;
+  margin: 0 0 1% 5.375em;
+  abbr {
+    border: 0;
+  }
+  .dtstart,
+  .summary,
+  .freq {
+    @include float(left);
+    @include nowrap;
+    margin: 0;
+    padding: 0 .5em;
+    text-align: center;
+  }
+  .dtstart,
+  .freq {
+    line-height: 2.5;
+    width: 60px;
+  }
+  .dtstart {
+    clear: left;
+    width: 35px;
+    background: #4D8DA6 image-url('skin/grunge_wall_blue.png');
+  }
+  .summary {
+    font-size: 150%;
+    font-family: $brand_font;
+    line-height: 1.65;
+  }
+  .freq {
+    background: #85202E image-url('skin/grunge_wall_red.png') repeat 0 0; 
+    position: absolute;
+    right: 101%;
+  }
+  .notes {
+    color: red !important;
+  }
+
 }

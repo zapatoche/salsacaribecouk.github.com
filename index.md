@@ -9,9 +9,10 @@ title: <span>Learn to dance</span> <span>Cuban Salsa </span>
 
 <section class="section event-list">
 {% for post in site.posts reversed  %}
+{%  capture day %}{{post.date |date: '%A' | downcase }}{% endcapture %}
 {% if post.tags contains 'classes' or post.tags contains 'workshop' or post.tags contains 'club-nights' %}
 {% if post.image %}
-<a href="{{ post.url }}">
+<a href="{{ post.url }}" class="event-header">
   <div  data-alt="{{ post.image.alt }}" data-picture class="hero">
     <div data-src="{{ post.image.small }}"></div> 
     <div data-src="{{ post.image.medium }}" data-media="(min-width: 400px)"></div> 
@@ -23,6 +24,7 @@ title: <span>Learn to dance</span> <span>Cuban Salsa </span>
       <img src="{{ post.image.small }}" alt="{{ post.image.alt }}"  />
     </noscript>
   </div>
+  <p class="pill">{{ day }}</p>
 </a>
 {% endif %}
 {% endif %}
@@ -48,7 +50,7 @@ title: <span>Learn to dance</span> <span>Cuban Salsa </span>
 {% endif %}
 
 <section class="section about">
-  <h2>about Salsa Caribe</h2>
+  <h2 class="section-title">about Salsa Caribe</h2>
   {% for post in site.posts  %}
     {% if post.layout == 'about' %}
       {{ post.description | markdownify }}

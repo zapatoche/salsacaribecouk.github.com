@@ -23,16 +23,21 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  color: #284857;
   font-weight: 500;
 }
-/* line 28, ../sass/partials/_typography.scss */
+/* line 27, ../sass/partials/_typography.scss */
 h1 b, h1 strong, h2 b, h2 strong, h3 b, h3 strong, h4 b, h4 strong, h5 b, h5 strong, h6 b, h6 strong {
   font-weight: inherit;
   color: #952E2E;
 }
 
 /* line 34, ../sass/partials/_typography.scss */
+[class$="title"],
+[class$="title"] a {
+  color: #284857;
+}
+
+/* line 37, ../sass/partials/_typography.scss */
 p {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
@@ -40,12 +45,12 @@ p {
   margin: 1em 0;
 }
 
-/* line 40, ../sass/partials/_typography.scss */
+/* line 43, ../sass/partials/_typography.scss */
 address {
   font-style: normal;
 }
 
-/* line 47, ../sass/partials/_typography.scss */
+/* line 50, ../sass/partials/_typography.scss */
 .pullquote-right:before,
 .pullquote-left:before {
   /* Reset metrics. */
@@ -65,14 +70,14 @@ address {
   line-height: 30px;
 }
 
-/* line 68, ../sass/partials/_typography.scss */
+/* line 71, ../sass/partials/_typography.scss */
 .pullquote-left:before {
   float: left;
   margin: 12px 31px 24px -102px;
   width: 251px;
 }
 
-/* line 75, ../sass/partials/_typography.scss */
+/* line 78, ../sass/partials/_typography.scss */
 .article-title {
   background: url('/assets/images/rgbapng/ffffff66.png?1354546139');
   background: rgba(255, 255, 255, 0.4);
@@ -82,7 +87,7 @@ address {
   line-height: 1.2;
   margin-bottom: 2em;
 }
-/* line 82, ../sass/partials/_typography.scss */
+/* line 85, ../sass/partials/_typography.scss */
 .article-title span {
   position: relative;
   top: 5px;
@@ -91,26 +96,26 @@ address {
   border-bottom: 5px solid #5091af;
 }
 
-/* line 92, ../sass/partials/_typography.scss */
+/* line 95, ../sass/partials/_typography.scss */
 .title b,
 .title strong {
   color: #b22f2f;
   font-weight: 500;
 }
 
-/* line 100, ../sass/partials/_typography.scss */
+/* line 103, ../sass/partials/_typography.scss */
 b,
 strong {
   font-weight: 300;
 }
 
-/* line 106, ../sass/partials/_typography.scss */
+/* line 109, ../sass/partials/_typography.scss */
 [href^="tel"] {
   font-family: "freight-sans-pro", "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 125%;
 }
-/* line 110, ../sass/partials/_typography.scss */
+/* line 113, ../sass/partials/_typography.scss */
 .site-header [href^="tel"] {
   font-size: 100%;
   font-weight: 300;
