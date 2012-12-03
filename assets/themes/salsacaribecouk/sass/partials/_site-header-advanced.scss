@@ -6,7 +6,8 @@
   @include float(left);
 }
 .site-logo,
-.site-tagline .h1 {
+.site-tagline .h1,
+.notes {
     -webkit-mask-image: image-url('skin/mask.png');
 }
 .site-branding {

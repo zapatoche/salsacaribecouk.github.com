@@ -22,7 +22,7 @@ html, body, .body-inner {
   height: 100%;
 }
 body {
-  background: #D8D8A6 image-url('skin/grunge_wall_bg.png') repeat 0 0;
+  background: #F5F5EA image-url('skin/grunge_wall.png') repeat 0 0;
   margin: 0;
   padding: 0;
   font: 400 100%/1.5 $body_font;
@@ -66,13 +66,12 @@ section,
 .home {
   .event-list {
     text-align: center;
-    margin: 2em 0;
+    margin: 0 0 2em;
   }
   .event-header {
     @include inline-block;
-    @include opacity(.8);
-    margin-left: -5%;
-    width: 28%;
+    width: 100%;
+    display: none;
     .hero {
       width: auto;
     }
@@ -85,7 +84,11 @@ section,
     }
     &:first-child {
       margin: 0;
+      @include inline-block;
     }
+  }
+  .overlay {
+    display: none;
   }
 }
 
@@ -157,8 +160,12 @@ section,
     }
   }
 }
-.event-details {
+.event-details,
+[role="contentinfo"] {
   font-size: 87.5%;
+  font: {
+    family: $body_font;
+  }
 }
 .description {
   display: block;
@@ -241,7 +248,7 @@ a {
   margin:0 0 0 2px;
   padding: 0 1em;
   height: 25px;
-  
+
   @include rgba-background(hsla(0,0,0,.8));
   color: hsla(0,0,100%,.9);
   vertical-align: text-bottom;
@@ -313,7 +320,7 @@ figure,
       color: darken(#952E2E, 10%);
       b {
         color: #5293AD;
-      } 
+      }
       span {
       }
       color: #8A2424;
@@ -332,33 +339,25 @@ figure,
   }
 }
 
-.figure {
+.figure-hero {
   position: relative;
-  display: inline-block;
-  border: 1px solid #fff;
-  border-bottom-width: .3125em;
-  box-shadow: 0 0 5px hsla(0,0,0,.3);
+  padding: 1em;
+  border-bottom: .3125em solid #fff;
+  background: #fff;
+  @include rgba-background(hsla(0,0,100%, .8));
+  .summary {
+    font-size: 120%;
+  }
 }
 .figcaption {
-  @include rgba-background(hsla(0,0,0,.6));
-  position: absolute;
-  bottom: 0;
   display: block;
-  margin-bottom: 0;
+  margin-bottom: -1em;
   width: 100%;
   border-bottom: .3125em solid darken(#5293AD, 3%);
-  color: #fff;
   text-transform: uppercase;
   font-weight: 500;
   font-family: "freight-sans-pro", $body_font;
   -webkit-transition: all .3s linear;
-  &:hover {
-  }
-  span {
-    border-bottom: 4px solid #fff;
-    display: block;
-    padding: .5em 1em;
-  }
 }
 .article {
   padding: 5% 0;
@@ -368,7 +367,7 @@ figure,
 }
 .class-list {
   .article {
-    
+
   }
   .title {
     font-size: 100%;

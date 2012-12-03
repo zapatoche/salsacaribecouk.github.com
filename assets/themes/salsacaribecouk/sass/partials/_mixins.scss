@@ -27,3 +27,7 @@
     @content;
   }
 }
+
+%grunge {
+    -webkit-mask-image: image-url('skin/mask.png');
+}

@@ -56,13 +56,16 @@
   .site-tagline {
     border: 0;
   }
-  .static-map,
-  .hero.figure {
-    // @include float(left);
-    // width: 40%;
-    // margin: 0 2% 2% 0;
-    .js & {
-      // margin: 0;
+  .hero {
+    .event-header & {
+      width: 80%;
+    }
+  }
+  .home {
+    .event-header {
+      @include inline-block;
+      width: 25%;
+      margin-left: -5%;
     }
   }
   .site-branding  .contact {
@@ -98,16 +101,21 @@
 
   //headers
   .article-title {
-    padding-left: 20.98%;  
+    padding-left: 20.98%;
     line-height: 1.1;
     font-size: 32px;
   }
-  // classes page
+  .home {
+    .figure-hero {
+     .summary {
+      font: {
+        size: 140%;
+      }
+     }
+    }
+  }
   .location {
     .static-map {
-      // @include float(left); 
-      // width: 61.6%;
-      // margin-right: 2.083%;
       a {
         background-size: auto;
       }
@@ -148,18 +156,32 @@
   .content-wrapper {
     // padding: 0 15%;
   }
+  .home {
+    .figure-hero {
+     .summary {
+      font: {
+        size: 160%;
+      }
+     }
+    }
+  }
 }
 
 // @media queries and min-width: 960px
 @media only screen and (min-width: 60em) {
 
-.content-wrapper {
-  // padding: 0;
-}
+  .content-wrapper {
+    // padding: 0;
+  }
   .social-footer {
   }
   .social {
     background: transparent;
+  }
+  .home {
+    .event-list {
+      margin-top: 2em;
+    }
   }
 }
 

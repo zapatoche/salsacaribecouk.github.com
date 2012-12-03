@@ -34,6 +34,12 @@
 [class$="title"] a {
     color: darken(#DCE9EF, 65%);
 }
+
+h2 {
+  font-size: 150%;
+  line-height: 1.2; 
+}
+
 p {
   @include hyphens(auto);
   margin: 1em 0;

@@ -2,7 +2,7 @@
   @include pie-clearfix;
   position: relative;
   text-transform: uppercase;
-  margin: 0 0 1% 5.375em;
+  margin: 0 0 1% 0;
   abbr {
     border: 0;
   }
@@ -18,25 +18,38 @@
   .dtstart,
   .freq {
     line-height: 2.5;
-    width: 60px;
+    width: 3.75em;
   }
   .dtstart {
-    clear: left;
-    width: 35px;
+    width: 2.1875em;
+    margin-right: 1%;
     background: #4D8DA6 image-url('skin/grunge_wall_blue.png');
   }
   .summary {
+    clear: left;
     font-size: 150%;
     font-family: $brand_font;
     line-height: 1.65;
+    position: absolute;
+    left: 135px;
+    left: 5.625em;
   }
   .freq {
     background: #85202E image-url('skin/grunge_wall_red.png') repeat 0 0; 
-    position: absolute;
-    right: 101%;
-  }
-  .notes {
-    color: red !important;
   }
 
 }
+  .notes {
+    font: {
+      size: 200%;
+      weight: 400;
+      family: $brand_font;
+    }
+    color: hsla(0,0,100%,.9);
+    border: darken(#CCCCC8, 40%) 1px solid;
+    border-width: 1px 0;
+    margin: .7em 0;
+    text-align: center;
+    color: #CBCBC7;
+    color: hsla(0,0,100%,.75);
+  }

@@ -8,15 +8,17 @@ title: <span>Learn to dance</span> <span>Cuban Salsa </span>
 {% include JB/setup %}
 
 <section class="section event-list">
+<figure class="figure-hero">
+
 {% for post in site.posts reversed  %}
 {%  capture day %}{{post.date |date: '%A' | downcase }}{% endcapture %}
 {% if post.tags contains 'classes' or post.tags contains 'workshop' or post.tags contains 'club-nights' %}
 {% if post.image %}
 <a href="{{ post.url }}" class="event-header">
   <div  data-alt="{{ post.image.alt }}" data-picture class="hero">
-    <div data-src="{{ post.image.small }}"></div> 
-    <div data-src="{{ post.image.medium }}" data-media="(min-width: 400px)"></div> 
-    <div data-src="{{ post.image.medium@2x }}" data-media="(min-width: 400px) and (min-device-pixel-ratio: 2.0)"></div> 
+    <div data-src="{{ post.image.small }}"></div>
+    <div data-src="{{ post.image.medium }}" data-media="(min-width: 400px)"></div>
+    <div data-src="{{ post.image.medium@2x }}" data-media="(min-width: 400px) and (min-device-pixel-ratio: 2.0)"></div>
     <!--[if (lt IE 9) & (!IEMobile)]>
       <div data-src="{{ post.image.medium }}"></div>
       <![endif]>-->
@@ -24,11 +26,17 @@ title: <span>Learn to dance</span> <span>Cuban Salsa </span>
       <img src="{{ post.image.small }}" alt="{{ post.image.alt }}"  />
     </noscript>
   </div>
-  <p class="pill">{{ day }}</p>
+  <p class="overlay">{{ day }}</p>
 </a>
 {% endif %}
 {% endif %}
 {% endfor %}
+
+  <figaption class="figcaption">
+    <h2 class="summary">Explore the true essence of Cuban music and dance <span>with {{ site.vcard.name }}</span></h2>
+  </figaption>
+</figure>
+
 </section>
 
 {% assign isfeature = site.tags.feature.size  %}
