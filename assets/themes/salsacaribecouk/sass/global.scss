@@ -97,6 +97,11 @@ section,
   img {
     display: block;
   }
+  .home & {
+    @include inline-block;
+    width: 25%;
+    margin-left: -5%;
+  }
 }
 .event-header {
   position: relative;

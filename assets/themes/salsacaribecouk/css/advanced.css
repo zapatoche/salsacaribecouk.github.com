@@ -74,7 +74,7 @@ address {
 
 /* line 75, ../sass/partials/_typography.scss */
 .article-title {
-  background: url('/assets/images/rgbapng/ffffff66.png?1352938458');
+  background: url('/assets/images/rgbapng/ffffff66.png?1354546139');
   background: rgba(255, 255, 255, 0.4);
   box-shadow: 0 5px 0 #fff,inset 0 5px 0 #fff;
   padding: 0 1em;
@@ -221,7 +221,7 @@ strong {
   /* line 4, ../sass/partials/_site-nav-advanced.scss */
   .site-nav {
     border-bottom: 4px solid #dce9ef;
-    background: #8b2533 url('/assets/images/skin/grunge_wall_red.png?1354476158') repeat 0 0;
+    background: #8b2533 url('/assets/images/skin/grunge_wall_red.png?1354546139') repeat 0 0;
     text-align: center;
   }
   /* line 7, ../sass/partials/_site-nav-advanced.scss */
@@ -404,6 +404,6 @@ strong {
   /* line 173, ../sass/advanced.scss */
   .site-nav,
   .social-footer {
-    background-image: url('/assets/images/skin/grunge_wall_red_@2x.png?1354476209');
+    background-image: url('/assets/images/skin/grunge_wall_red_@2x.png?1354546139');
   }
 }

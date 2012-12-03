@@ -7,6 +7,27 @@ title: <span>Learn to dance</span> <span>Cuban Salsa </span>
 ---
 {% include JB/setup %}
 
+<section class="section event-list">
+{% for post in site.posts reversed  %}
+{% if post.tags contains 'classes' or post.tags contains 'workshop' or post.tags contains 'club-nights' %}
+{% if post.image %}
+<a href="{{ post.url }}">
+  <div  data-alt="{{ post.image.alt }}" data-picture class="hero">
+    <div data-src="{{ post.image.small }}"></div> 
+    <div data-src="{{ post.image.medium }}" data-media="(min-width: 400px)"></div> 
+    <div data-src="{{ post.image.medium@2x }}" data-media="(min-width: 400px) and (min-device-pixel-ratio: 2.0)"></div> 
+    <!--[if (lt IE 9) & (!IEMobile)]>
+      <div data-src="{{ post.image.medium }}"></div>
+      <![endif]>-->
+    <noscript>
+      <img src="{{ post.image.small }}" alt="{{ post.image.alt }}"  />
+    </noscript>
+  </div>
+</a>
+{% endif %}
+{% endif %}
+{% endfor %}
+</section>
 
 {% assign isfeature = site.tags.feature.size  %}
 {% if isfeature >= 0  %}
