@@ -1,18 +1,19 @@
     {%  capture day %}{{post.date |date: '%A' | downcase }}{% endcapture %}
     <article class="article">
       <header class="header event-header">
-        <a href="{{ BASE_PATH }}{{ post.url }}"  class="">
-          <div  data-alt="{{ post.image.alt }}" data-picture class="hero">
-            <div data-src="{{ post.image.small }}"></div>
-            <div data-src="{{ post.image.medium }}" data-media="(min-width: 400px)"></div>
-            <div data-src="{{ post.image.medium@2x }}" data-media="(min-width: 400px) and (min-device-pixel-ratio: 2.0)"></div>
-            <!--[if (lt IE 9) & (!IEMobile)]>
-                <div data-src="{{ post.image.medium }}"></div>
-              <![endif]>-->
-            <noscript>
-              <img src="{{ post.image.small }}" alt="{{ post.image.alt }}" />
-            </noscript> 
-          </div>
+        <a href="{{ BASE_PATH }}{{ post.url }}"  class="{{ post.title | escape }}">
+            <div  data-alt="{{ post.image.alt }}" data-picture class="hero">
+              <div data-src="{{ post.image.small }}"></div>
+              <div data-src="{{ post.image.medium }}" data-media="(min-width: 400px)"></div>
+              <div data-src="{{ post.image.medium@2x }}" data-media="(min-width: 400px) and (min-device-pixel-ratio: 2.0)"></div>
+              <!--[if (lt IE 9) & (!IEMobile)]>
+                  <div data-src="{{ post.image.medium }}"></div>
+                <![endif]>-->
+              <noscript>
+                <img src="{{ post.image.small }}" alt="{{ post.image.alt }}" />
+              </noscript> 
+            </div>
+              <a href="#event-map" class="map-marker" title="view the event location on our map">{{ post.location.position | capitalize }}</a>
           <p class="pill">{{ day }}</p>
       </a>
         <hgroup class="hgroup">

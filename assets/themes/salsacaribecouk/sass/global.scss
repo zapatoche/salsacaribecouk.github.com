@@ -77,12 +77,19 @@ section,
 }
 .hero {
   @include border-radius(50%);
+  @include transition-property(all);
+  @include transition-duration(.8s);
+
+  position: relative;
   overflow: hidden;
   margin: 0 auto;
   max-width: 430px;
   width: 80%;
   border: .375em solid #fff;
   box-shadow: 0 0 1.2em #fff;
+  .event-header &:hover {
+    box-shadow: 0 0 1.5em #5091AF;
+  }
   .event-header & {
     margin-bottom: 1em;
     width: 70%;
@@ -93,6 +100,7 @@ section,
   }
 }
 .event-header {
+  position: relative;
   text-align: center;
   .hgroup {
     text-align: left;
@@ -108,7 +116,18 @@ section,
   }
   .event-summary {
   }
-
+  .map-marker {
+    @include border-radius(50%);
+    position: absolute;
+    top: .5em;
+    left: .5em;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    background: #5091AF;
+    color: #fff;
+    line-height: 2em;
+  }
 }
 .event-details {
   font-size: 87.5%;
@@ -125,7 +144,7 @@ section,
   p {
     display: inline;
     padding: 0;
-    border-bottom: 1px solid #892424;
+    border-bottom: 1px solid #8B2533;
   }
 }
 

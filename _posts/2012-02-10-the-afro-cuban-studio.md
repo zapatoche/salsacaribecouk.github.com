@@ -31,6 +31,7 @@ location:
   url: http://www.theplace.org.uk/
   map_url: 'http://g.co/maps/szkqv'
   map_image: 'http://maps.googleapis.com/maps/api/staticmap?center=16,flaxman,terrace,wc1,London&amp;zoom=15&amp;size=198x198&amp;markers=color:red%7Clabel:a%7C51.527717,-0.128275&amp;sensor=false'
+  position: b
   street_address: 16 Flaxman Terrace
   postal_code: WC1
   locality: London
