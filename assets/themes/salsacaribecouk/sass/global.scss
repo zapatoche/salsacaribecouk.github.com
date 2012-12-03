@@ -80,7 +80,6 @@ section,
   @include transition-property(all);
   @include transition-duration(.8s);
 
-  position: relative;
   overflow: hidden;
   margin: 0 auto;
   max-width: 430px;
@@ -122,11 +121,14 @@ section,
     top: .5em;
     left: .5em;
     display: inline-block;
-    width: 2em;
-    height: 2em;
-    background: #5091AF;
+    width:1.8em;
+    height: 1.8em;
+    background: #5A86D2;
     color: #fff;
-    line-height: 2em;
+    line-height: 1.85em;
+    &:hover {
+      color: #fff;
+    }
   }
 }
 .event-details {
