@@ -476,7 +476,7 @@ address {
 
 /* line 84, ../sass/partials/_typography.scss */
 .article-title {
-  background: url('/assets/images/rgbapng/ffffff66.png?1354546139');
+  background: url('/assets/images/rgbapng/ffffff66.png?1354581450');
   background: rgba(255, 255, 255, 0.4);
   box-shadow: 0 5px 0 #fff,inset 0 5px 0 #fff;
   padding: 0 1em;
@@ -556,7 +556,7 @@ strong {
 .quick-cal .dtstart {
   width: 2.1875em;
   margin-right: 1%;
-  background: #4d8da6 url('/assets/images/skin/grunge_wall_blue.png?1351265196');
+  background: #4d8da6 url('/assets/images/skin/grunge_wall_blue.png?1354581451');
 }
 /* line 28, ../sass/partials/_calendar.scss */
 .quick-cal .summary {
@@ -570,7 +570,7 @@ strong {
 }
 /* line 37, ../sass/partials/_calendar.scss */
 .quick-cal .freq {
-  background: #85202e url('/assets/images/skin/grunge_wall_red.png?1354546139') repeat 0 0;
+  background: #85202e url('/assets/images/skin/grunge_wall_red.png?1354581451') repeat 0 0;
 }
 
 /* line 42, ../sass/partials/_calendar.scss */
@@ -884,7 +884,7 @@ html, body, .body-inner {
 
 /* line 24, ../sass/global.scss */
 body {
-  background: #f5f5ea url('/assets/images/skin/grunge_wall.png?1351265196') repeat 0 0;
+  background: #f5f5ea url('/assets/images/skin/grunge_wall.png?1354581451') repeat 0 0;
   margin: 0;
   padding: 0;
   font: 400 100%/1.5 "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -896,7 +896,7 @@ body {
 
 /* line 35, ../sass/global.scss */
 body > .body-inner {
-  background: #f5f5ea url('/assets/images/skin/grunge_wall.png?1351265196') repeat 0 0;
+  background: #f5f5ea url('/assets/images/skin/grunge_wall.png?1354581451') repeat 0 0;
   display: table-row;
 }
 
@@ -942,7 +942,7 @@ section,
 /* line 10, ../sass/partials/_site-header.scss */
 [role="banner"],
 .site-footer {
-  background: black url('/assets/images/skin/grunge_wall_invert.png?1351265196');
+  background: black url('/assets/images/skin/grunge_wall_invert.png?1354581451');
 }
 /* line 12, ../sass/partials/_site-header.scss */
 [role="banner"], [role="banner"] a,
@@ -964,7 +964,7 @@ section,
   display: inline-block;
   border-bottom: 4px solid #dce9ef;
   width: 100%;
-  background: #457b91 url('/assets/images/skin/grunge_wall_blue.png?1351265196') repeat 0 0;
+  background: #457b91 url('/assets/images/skin/grunge_wall_blue.png?1354581451') repeat 0 0;
   text-align: center;
 }
 /* line 27, ../sass/partials/_site-header.scss */
@@ -1019,7 +1019,7 @@ section,
 }
 /* line 74, ../sass/partials/_site-header.scss */
 .site-branding .contact {
-  background: #8b2533 url('/assets/images/skin/grunge_wall_red.png?1354546139');
+  background: #8b2533 url('/assets/images/skin/grunge_wall_red.png?1354581451');
   letter-spacing: .1em;
   font-weight: 300;
   font-size: 120%;
@@ -1070,7 +1070,7 @@ section,
 /* line 1, ../sass/partials/_site-nav.scss */
 .site-nav {
   *zoom: 1;
-  background: #8b2a2c url('/assets/images/skin/grunge_wall_blue.png?1351265196') repeat 0 0;
+  background: #8b2a2c url('/assets/images/skin/grunge_wall_blue.png?1354581451') repeat 0 0;
 }
 /* line 38, ../../../../../../../../.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .site-nav:after {
@@ -1117,7 +1117,7 @@ section,
 
 /* line 37, ../sass/partials/_site-nav.scss */
 body.home a.home {
-  background: url('/assets/images/rgbapng/00000066.png?1351265196');
+  background: url('/assets/images/rgbapng/00000066.png?1354581449');
   background: rgba(0, 0, 0, 0.4);
   position: relative;
   top: 4px;
@@ -1127,7 +1127,7 @@ body.home a.home {
 
 /* line 37, ../sass/partials/_site-nav.scss */
 body.news a.news {
-  background: url('/assets/images/rgbapng/00000066.png?1351265196');
+  background: url('/assets/images/rgbapng/00000066.png?1354581449');
   background: rgba(0, 0, 0, 0.4);
   position: relative;
   top: 4px;
@@ -1137,7 +1137,7 @@ body.news a.news {
 
 /* line 37, ../sass/partials/_site-nav.scss */
 body.classes a.classes {
-  background: url('/assets/images/rgbapng/00000066.png?1351265196');
+  background: url('/assets/images/rgbapng/00000066.png?1354581449');
   background: rgba(0, 0, 0, 0.4);
   position: relative;
   top: 4px;
@@ -1147,7 +1147,7 @@ body.classes a.classes {
 
 /* line 37, ../sass/partials/_site-nav.scss */
 body.club-nights a.club-nights {
-  background: url('/assets/images/rgbapng/00000066.png?1351265196');
+  background: url('/assets/images/rgbapng/00000066.png?1354581449');
   background: rgba(0, 0, 0, 0.4);
   position: relative;
   top: 4px;
@@ -1157,7 +1157,7 @@ body.club-nights a.club-nights {
 
 /* line 37, ../sass/partials/_site-nav.scss */
 body.about a.about {
-  background: url('/assets/images/rgbapng/00000066.png?1351265196');
+  background: url('/assets/images/rgbapng/00000066.png?1354581449');
   background: rgba(0, 0, 0, 0.4);
   position: relative;
   top: 4px;
@@ -1167,7 +1167,7 @@ body.about a.about {
 
 /* line 37, ../sass/partials/_site-nav.scss */
 body.contact a.contact {
-  background: url('/assets/images/rgbapng/00000066.png?1351265196');
+  background: url('/assets/images/rgbapng/00000066.png?1354581449');
   background: rgba(0, 0, 0, 0.4);
   position: relative;
   top: 4px;
@@ -1198,7 +1198,7 @@ body.contact a.contact {
   font-weight: 300;
   line-height: 2;
   cursor: pointer;
-  background: url('/assets/images/rgbapng/0000007f.png?1351265196');
+  background: url('/assets/images/rgbapng/0000007f.png?1354581450');
   background: rgba(0, 0, 0, 0.5);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1208,7 +1208,7 @@ body.contact a.contact {
 }
 /* line 62, ../sass/partials/_site-nav.scss */
 #menu-icon:hover, #menu-icon:focus, #menu-icon:active, #menu-icon.active {
-  background: url('/assets/images/rgbapng/000000b3.png?1351265196');
+  background: url('/assets/images/rgbapng/000000b3.png?1354581450');
   background: rgba(0, 0, 0, 0.7);
 }
 
@@ -1391,7 +1391,7 @@ body.contact a.contact {
 
 /* line 22, ../sass/partials/_site-footer.scss */
 .social-footer {
-  background: #8b2533 url('/assets/images/skin/grunge_wall_red.png?1354546139') repeat 0 0;
+  background: #8b2533 url('/assets/images/skin/grunge_wall_red.png?1354581451') repeat 0 0;
   font-size: 100%;
   text-align: center;
   height: 50px;
@@ -1507,7 +1507,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   margin: 0 0 0 2px;
   padding: 0 1em;
   height: 25px;
-  background: url('/assets/images/rgbapng/000000cc.png?1351265196');
+  background: url('/assets/images/rgbapng/000000cc.png?1354581450');
   background: rgba(0, 0, 0, 0.8);
   color: rgba(255, 255, 255, 0.9);
   vertical-align: text-bottom;
@@ -1551,7 +1551,7 @@ figure > img,
   margin: 0 auto;
   padding: .3125em;
   width: auto;
-  background: #1d1d1d url('/assets/images/skin/grunge_wall_invert.png?1351265196');
+  background: #1d1d1d url('/assets/images/skin/grunge_wall_invert.png?1354581451');
   box-shadow: 0 0 10px #e49696;
 }
 /* line 293, ../sass/global.scss */
@@ -1607,7 +1607,7 @@ figure > img,
   padding: 1em;
   border-bottom: .3125em solid #fff;
   background: #fff;
-  background: url('/assets/images/rgbapng/ffffffcc.png?1351265196');
+  background: url('/assets/images/rgbapng/ffffffcc.png?1354581450');
   background: rgba(255, 255, 255, 0.8);
 }
 /* line 348, ../sass/global.scss */
@@ -1676,7 +1676,7 @@ a[data-tooltip]:after {
   color: white;
   top: -50px;
   left: 50%;
-  background: #1d1d1d url('/assets/images/skin/grunge_wall_invert.png?1351265196');
+  background: #1d1d1d url('/assets/images/skin/grunge_wall_invert.png?1354581451');
   font-size: 11px;
   text-transform: uppercase;
   font-weight: 300;

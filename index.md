@@ -14,7 +14,7 @@ title: <span>Learn to dance</span> <span>Cuban Salsa </span>
 {%  capture day %}{{post.date |date: '%A' | downcase }}{% endcapture %}
 {% if post.tags contains 'classes' or post.tags contains 'workshop' or post.tags contains 'club-nights' %}
 {% if post.image %}
-<a href="{{ post.url }}" class="event-header">
+<div class="event-header">
   <div  data-alt="{{ post.image.alt }}" data-picture class="hero">
     <div data-src="{{ post.image.small }}"></div>
     <div data-src="{{ post.image.medium }}" data-media="(min-width: 400px)"></div>
@@ -26,8 +26,8 @@ title: <span>Learn to dance</span> <span>Cuban Salsa </span>
       <img src="{{ post.image.small }}" alt="{{ post.image.alt }}"  />
     </noscript>
   </div>
-  <p class="overlay">{{ day }}</p>
-</a>
+  <a href="{{ post.url }}"  class="overlay">{{ day }}</a>
+</div>
 {% endif %}
 {% endif %}
 {% endfor %}

@@ -111,7 +111,15 @@
       font: {
         size: 140%;
       }
+      span {
+        @include nowrap;
+      }
      }
+    }
+    .event-header {
+      .overlay {
+        display: block;
+      }
     }
   }
   .location {
