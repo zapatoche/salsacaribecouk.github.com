@@ -1230,7 +1230,7 @@ body.contact a.contact {
 }
 /* line 75, ../sass/global.scss */
 .home .event-header .hero {
-  width: auto;
+  width: 80%;
 }
 /* line 80, ../sass/global.scss */
 .home .event-header:hover, .home .event-header:active, .home .event-header:focus {
@@ -1273,10 +1273,10 @@ body.contact a.contact {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  -webkit-transition-property: all;
-  -moz-transition-property: all;
-  -o-transition-property: all;
-  transition-property: all;
+  -webkit-transition-property: box-shadow;
+  -moz-transition-property: box-shadow;
+  -o-transition-property: box-shadow;
+  transition-property: box-shadow;
   -webkit-transition-duration: 0.8s;
   -moz-transition-duration: 0.8s;
   -o-transition-duration: 0.8s;
@@ -1302,17 +1302,28 @@ body.contact a.contact {
 .hero img {
   display: block;
 }
+/* line 129, ../sass/global.scss */
+.home .hero {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 25%;
+  margin-left: -5%;
+}
 
-/* line 130, ../sass/global.scss */
+/* line 135, ../sass/global.scss */
 .event-header {
   position: relative;
   text-align: center;
 }
-/* line 133, ../sass/global.scss */
+/* line 138, ../sass/global.scss */
 .event-header .hgroup {
   text-align: left;
 }
-/* line 138, ../sass/global.scss */
+/* line 143, ../sass/global.scss */
 .event-header .event-fn {
   font-size: 90%;
   border: 0;
@@ -1320,7 +1331,7 @@ body.contact a.contact {
   box-shadow: none;
   text-align: left;
 }
-/* line 147, ../sass/global.scss */
+/* line 152, ../sass/global.scss */
 .event-header .map-marker {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1337,19 +1348,19 @@ body.contact a.contact {
   color: #fff;
   line-height: 1.85em;
 }
-/* line 158, ../sass/global.scss */
+/* line 163, ../sass/global.scss */
 .event-header .map-marker:hover {
   color: #fff;
 }
 
-/* line 164, ../sass/global.scss */
+/* line 169, ../sass/global.scss */
 .event-details,
 [role="contentinfo"] {
   font-size: 87.5%;
   font-family: "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 170, ../sass/global.scss */
+/* line 175, ../sass/global.scss */
 .description {
   display: block;
   padding: .8em 1.5em;
@@ -1358,7 +1369,7 @@ body.contact a.contact {
   background: rgba(255, 255, 255, 0.4);
   font-size: 110%;
 }
-/* line 179, ../sass/global.scss */
+/* line 184, ../sass/global.scss */
 .description p {
   display: inline;
   padding: 0;
@@ -1430,7 +1441,7 @@ body.contact a.contact {
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
 }
 
-/* line 188, ../sass/global.scss */
+/* line 193, ../sass/global.scss */
 .embed-media-block {
   position: relative;
   overflow: hidden;
@@ -1442,7 +1453,7 @@ body.contact a.contact {
   border: 1px solid #fff;
 }
 
-/* line 200, ../sass/global.scss */
+/* line 205, ../sass/global.scss */
 .embed-media-block iframe,
 .embed-media-block object,
 .embed-media-block embed {
@@ -1453,45 +1464,45 @@ body.contact a.contact {
   height: 100%;
 }
 
-/* line 210, ../sass/global.scss */
+/* line 215, ../sass/global.scss */
 a {
   color: black;
 }
 
-/* line 216, ../sass/global.scss */
+/* line 221, ../sass/global.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   text-decoration: none;
   color: #000;
   color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 222, ../sass/global.scss */
+/* line 227, ../sass/global.scss */
 [href^="tel"] {
   text-decoration: none;
 }
-/* line 224, ../sass/global.scss */
+/* line 229, ../sass/global.scss */
 [href^="tel"]:hover {
   color: #5296B1;
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
 }
 
-/* line 230, ../sass/global.scss */
+/* line 235, ../sass/global.scss */
 [aria-hidden] {
   font: 0/0 serif;
   text-shadow: none;
   color: transparent;
 }
 
-/* line 238, ../sass/global.scss */
+/* line 243, ../sass/global.scss */
 .pills {
   text-align: center;
 }
-/* line 241, ../sass/global.scss */
+/* line 246, ../sass/global.scss */
 .pills li {
   display: inline;
 }
 
-/* line 245, ../sass/global.scss */
+/* line 250, ../sass/global.scss */
 .pill {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1518,7 +1529,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   box-shadow: 0 0 5px #8A2424;
   letter-spacing: 1px;
 }
-/* line 261, ../sass/global.scss */
+/* line 266, ../sass/global.scss */
 .pill a {
   padding: 0;
   text-decoration: none;
@@ -1526,25 +1537,25 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: #fff;
 }
 
-/* line 269, ../sass/global.scss */
+/* line 274, ../sass/global.scss */
 .pill,
 .figure {
   margin-bottom: 15px;
 }
 
-/* line 275, ../sass/global.scss */
+/* line 280, ../sass/global.scss */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 281, ../sass/global.scss */
+/* line 286, ../sass/global.scss */
 figure > img,
 .figure > img {
   display: block;
 }
 
-/* line 285, ../sass/global.scss */
+/* line 290, ../sass/global.scss */
 .figure.hero {
   display: block;
   overflow: hidden;
@@ -1554,7 +1565,7 @@ figure > img,
   background: #1d1d1d url('/assets/images/skin/grunge_wall_invert.png?1354581451');
   box-shadow: 0 0 10px #e49696;
 }
-/* line 293, ../sass/global.scss */
+/* line 298, ../sass/global.scss */
 .figure.hero img {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -1562,7 +1573,7 @@ figure > img,
   -o-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 296, ../sass/global.scss */
+/* line 301, ../sass/global.scss */
 .figure.hero .figcaption {
   text-transform: uppercase;
   background: #fff;
@@ -1571,37 +1582,37 @@ figure > img,
   padding: 1em;
 }
 
-/* line 315, ../sass/global.scss */
+/* line 320, ../sass/global.scss */
 .event-header a {
   text-decoration: none;
   color: black;
   -webkit-transition: all .5s linear;
 }
-/* line 319, ../sass/global.scss */
+/* line 324, ../sass/global.scss */
 .event-header a:hover {
   color: #6e2222;
   color: #8A2424;
 }
-/* line 321, ../sass/global.scss */
+/* line 326, ../sass/global.scss */
 .event-header a:hover b {
   color: #5293AD;
 }
-/* line 327, ../sass/global.scss */
+/* line 332, ../sass/global.scss */
 .event-header a:hover h4 {
   border-color: #639eb5;
 }
-/* line 330, ../sass/global.scss */
+/* line 335, ../sass/global.scss */
 .event-header a:hover .figcaption {
   border-color: #952E2E;
 }
-/* line 335, ../sass/global.scss */
+/* line 340, ../sass/global.scss */
 .event-header h3 {
   margin-top: .2em;
   text-shadow: 0 0 5px #fff;
   line-height: 1.2;
 }
 
-/* line 342, ../sass/global.scss */
+/* line 347, ../sass/global.scss */
 .figure-hero {
   position: relative;
   padding: 1em;
@@ -1610,12 +1621,12 @@ figure > img,
   background: url('/assets/images/rgbapng/ffffffcc.png?1354581450');
   background: rgba(255, 255, 255, 0.8);
 }
-/* line 348, ../sass/global.scss */
+/* line 353, ../sass/global.scss */
 .figure-hero .summary {
   font-size: 120%;
 }
 
-/* line 352, ../sass/global.scss */
+/* line 357, ../sass/global.scss */
 .figcaption {
   display: block;
   margin-bottom: -1em;
@@ -1627,20 +1638,20 @@ figure > img,
   -webkit-transition: all .3s linear;
 }
 
-/* line 362, ../sass/global.scss */
+/* line 367, ../sass/global.scss */
 .article {
   padding: 5% 0;
 }
-/* line 364, ../sass/global.scss */
+/* line 369, ../sass/global.scss */
 .class-list .article {
   padding: 0;
 }
 
-/* line 372, ../sass/global.scss */
+/* line 377, ../sass/global.scss */
 .class-list .title {
   font-size: 100%;
 }
-/* line 375, ../sass/global.scss */
+/* line 380, ../sass/global.scss */
 .class-list .figcaption {
   font-size: 90%;
 }
@@ -1692,27 +1703,27 @@ a[data-tooltip]:hover:before, a[data-tooltip]:hover:after {
   -moz-transition: visibility 0s linear .3s;
 }
 
-/* line 384, ../sass/global.scss */
+/* line 389, ../sass/global.scss */
 .map-container {
   display: none;
 }
-/* line 386, ../sass/global.scss */
+/* line 391, ../sass/global.scss */
 .map-container.embed-media-block {
   padding-bottom: 60%;
 }
 
-/* line 390, ../sass/global.scss */
+/* line 395, ../sass/global.scss */
 .static-map {
   display: block;
 }
 
-/* line 393, ../sass/global.scss */
+/* line 398, ../sass/global.scss */
 #mapbox {
   padding-bottom: 50% !important;
 }
 
 @media only screen and (max-width: 480px) {
-  /* line 397, ../sass/global.scss */
+  /* line 402, ../sass/global.scss */
   body {
     font-size: 87.5%;
   }

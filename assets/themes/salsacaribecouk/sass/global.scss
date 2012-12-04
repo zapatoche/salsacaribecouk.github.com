@@ -73,7 +73,7 @@ section,
     width: 100%;
     display: none;
     .hero {
-      width: auto;
+      width: 80%;
     }
     &:hover,
     &:active ,
@@ -106,7 +106,7 @@ section,
 }
 .hero {
   @include border-radius(50%);
-  @include transition-property(all);
+  @include transition-property(box-shadow);
   @include transition-duration(.8s);
 
   overflow: hidden;

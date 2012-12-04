@@ -85,7 +85,7 @@ address {
 
 /* line 84, ../sass/partials/_typography.scss */
 .article-title {
-  background: url('/assets/images/rgbapng/ffffff66.png?1354546139');
+  background: url('/assets/images/rgbapng/ffffff66.png?1354581450');
   background: rgba(255, 255, 255, 0.4);
   box-shadow: 0 5px 0 #fff,inset 0 5px 0 #fff;
   padding: 0 1em;
@@ -177,7 +177,7 @@ strong {
   clear: both;
 }
 
-@media only screen and (min-width: 590px) {
+@media only screen and (min-width: 36.875em) {
   /* line 1, ../sass/partials/_site-header-advanced.scss */
   .site-logo {
     height: 60px;
@@ -192,7 +192,7 @@ strong {
   .site-logo,
   .site-tagline .h1,
   .notes {
-    -webkit-mask-image: url('/assets/images/skin/mask.png?1351265196');
+    -webkit-mask-image: url('/assets/images/skin/mask.png?1354581451');
   }
 
   /* line 15, ../sass/partials/_site-header-advanced.scss */
@@ -233,7 +233,7 @@ strong {
   /* line 4, ../sass/partials/_site-nav-advanced.scss */
   .site-nav {
     border-bottom: 4px solid #dce9ef;
-    background: #8b2533 url('/assets/images/skin/grunge_wall_red.png?1354546139') repeat 0 0;
+    background: #8b2533 url('/assets/images/skin/grunge_wall_red.png?1354581451') repeat 0 0;
     text-align: center;
   }
   /* line 7, ../sass/partials/_site-nav-advanced.scss */
@@ -278,7 +278,7 @@ strong {
   }
   /* line 38, ../sass/partials/_site-nav-advanced.scss */
   .site-nav li a:hover, .site-nav li a:focus {
-    background: url('/assets/images/rgbapng/00000099.png?1351265196');
+    background: url('/assets/images/rgbapng/00000099.png?1354581450');
     background: rgba(0, 0, 0, 0.6);
     position: relative;
     top: 4px;
@@ -287,7 +287,7 @@ strong {
   }
   /* line 41, ../sass/partials/_site-nav-advanced.scss */
   .site-nav li a:active {
-    background: url('/assets/images/rgbapng/00000066.png?1351265196');
+    background: url('/assets/images/rgbapng/00000066.png?1354581449');
     background: rgba(0, 0, 0, 0.4);
     position: relative;
     top: 4px;
@@ -328,11 +328,6 @@ strong {
   }
 
   /* line 60, ../sass/advanced.scss */
-  .event-header .hero {
-    width: 80%;
-  }
-
-  /* line 65, ../sass/advanced.scss */
   .home .event-header {
     display: -moz-inline-stack;
     display: inline-block;
@@ -340,21 +335,25 @@ strong {
     *vertical-align: auto;
     zoom: 1;
     *display: inline;
-    width: 25%;
+    width: 28%;
     margin-left: -5%;
   }
+  /* line 64, ../sass/advanced.scss */
+  .home .event-header .hero {
+    width: 100%;
+  }
 
-  /* line 72, ../sass/advanced.scss */
+  /* line 70, ../sass/advanced.scss */
   .js .site-branding .contact {
     padding: 0;
   }
 
-  /* line 77, ../sass/advanced.scss */
+  /* line 75, ../sass/advanced.scss */
   .map-container {
     display: block;
   }
 
-  /* line 80, ../sass/advanced.scss */
+  /* line 78, ../sass/advanced.scss */
   .static-map {
     display: none;
   }
@@ -367,96 +366,96 @@ strong {
     padding: 0 0.5494505495%;
   }
 
-  /* line 93, ../sass/advanced.scss */
+  /* line 91, ../sass/advanced.scss */
   .js .site-nav li {
     float: right;
   }
-  /* line 95, ../sass/advanced.scss */
+  /* line 93, ../sass/advanced.scss */
   .js .site-nav li.first {
     float: left;
   }
 
-  /* line 103, ../sass/advanced.scss */
+  /* line 101, ../sass/advanced.scss */
   .article-title {
     padding-left: 20.98%;
     line-height: 1.1;
     font-size: 32px;
   }
 
-  /* line 110, ../sass/advanced.scss */
+  /* line 108, ../sass/advanced.scss */
   .home .figure-hero .summary {
     font-size: 140%;
   }
-  /* line 114, ../sass/advanced.scss */
+  /* line 112, ../sass/advanced.scss */
   .home .figure-hero .summary span {
     white-space: nowrap;
   }
-  /* line 120, ../sass/advanced.scss */
+  /* line 118, ../sass/advanced.scss */
   .home .event-header .overlay {
     display: block;
   }
 
-  /* line 127, ../sass/advanced.scss */
+  /* line 125, ../sass/advanced.scss */
   .location .static-map a {
     background-size: auto;
   }
-  /* line 131, ../sass/advanced.scss */
+  /* line 129, ../sass/advanced.scss */
   .location .vcard {
     overflow: hidden;
     width: auto;
     float: none;
   }
 
-  /* line 141, ../sass/advanced.scss */
+  /* line 139, ../sass/advanced.scss */
   .class-list .article {
     display: inline;
     float: left;
     width: 31.88%;
     margin-left: 2.083%;
   }
-  /* line 145, ../sass/advanced.scss */
+  /* line 143, ../sass/advanced.scss */
   .class-list .article:first-child {
     margin: 0;
   }
 
-  /* line 151, ../sass/advanced.scss */
+  /* line 149, ../sass/advanced.scss */
   .private-classes .hero {
     display: inline;
     float: left;
     margin: 0 6.4% 0 4%;
     width: 22.5%;
   }
-  /* line 156, ../sass/advanced.scss */
+  /* line 154, ../sass/advanced.scss */
   .private-classes .col {
     overflow: hidden;
   }
 }
 @media only screen and (min-width: 48em) and (orientation: landscape) {
-  /* line 169, ../sass/advanced.scss */
+  /* line 167, ../sass/advanced.scss */
   .home .figure-hero .summary {
     font-size: 160%;
   }
 }
 @media only screen and (min-width: 60em) {
-  /* line 186, ../sass/advanced.scss */
+  /* line 184, ../sass/advanced.scss */
   .social {
     background: transparent;
   }
 
-  /* line 190, ../sass/advanced.scss */
+  /* line 188, ../sass/advanced.scss */
   .home .event-list {
     margin-top: 2em;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 199, ../sass/advanced.scss */
+  /* line 197, ../sass/advanced.scss */
   html {
-    background-image: url('/assets/images/skin/grunge_wall_@2x.png?1351265196');
+    background-image: url('/assets/images/skin/grunge_wall_@2x.png?1354581451');
   }
 
-  /* line 203, ../sass/advanced.scss */
+  /* line 201, ../sass/advanced.scss */
   .site-nav,
   .social-footer {
-    background-image: url('/assets/images/skin/grunge_wall_red_@2x.png?1354546139');
+    background-image: url('/assets/images/skin/grunge_wall_red_@2x.png?1354581451');
   }
 }

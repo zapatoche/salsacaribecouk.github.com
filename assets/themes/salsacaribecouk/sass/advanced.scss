@@ -46,7 +46,7 @@
 
 
 // menu start stacking at 590px  => 590/16 = 36em
-@media only screen and (min-width: 590px) {
+@media only screen and (min-width: 36.875em) {
   @import "partials/site-header-advanced";
   @import "partials/site-nav-advanced";
   // header
@@ -56,16 +56,14 @@
   .site-tagline {
     border: 0;
   }
-  .hero {
-    .event-header & {
-      width: 80%;
-    }
-  }
   .home {
     .event-header {
       @include inline-block;
-      width: 25%;
+      width: 28%;
       margin-left: -5%;
+      .hero {
+        width: 100%;
+      }
     }
   }
   .site-branding  .contact {
