@@ -6,7 +6,6 @@ title: <span>Learn to dance</span> <span>Cuban Salsa </span>
 
 ---
 {% include JB/setup %}
-
 <section class="section event-list">
 <figure class="figure-hero">
 
@@ -31,6 +30,8 @@ title: <span>Learn to dance</span> <span>Cuban Salsa </span>
 {% endif %}
 {% endif %}
 {% endfor %}
+
+test
 
   <figaption class="figcaption">
     <h2 class="summary">Explore the true essence of Cuban music and dance <span>with {{ site.vcard.name }}</span></h2>
