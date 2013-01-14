@@ -23,6 +23,7 @@ html, body, .body-inner {
 }
 body {
   background: #F5F5EA image-url('skin/grunge_wall.png') repeat 0 0;
+  background: hsl(64, 100%, 99.5%);
   margin: 0;
   padding: 0;
   font: 400 100%/1.5 $body_font;
@@ -33,7 +34,7 @@ body {
 }
 
 body > .body-inner {
-  background: #F5F5EA image-url('skin/grunge_wall.png') repeat 0 0;
+  // background: #F5F5EA image-url('skin/grunge_wall.png') repeat 0 0;
   display: table-row;
 
 }
@@ -346,17 +347,16 @@ figure,
 
 .figure-hero {
   position: relative;
-  padding: 1em;
-  border-bottom: .3125em solid #fff;
-  background: #fff;
-  @include rgba-background(hsla(0,0,100%, .8));
+  border-bottom: .3125em solid rgba(2, 214, 255, .06);
+  // background: #fff;
+  // background: rgba(2, 214, 255, .06);
   .summary {
     font-size: 120%;
   }
 }
 .figcaption {
   display: block;
-  margin-bottom: -1em;
+  // margin-bottom: -1em;
   width: 100%;
   border-bottom: .3125em solid darken(#5293AD, 3%);
   text-transform: uppercase;

@@ -6,7 +6,6 @@ title: <span>Learn to dance</span> <span>Cuban Salsa </span>
 
 ---
 {% include JB/setup %}
-
 <section class="section event-list">
 <figure class="figure-hero">
 
