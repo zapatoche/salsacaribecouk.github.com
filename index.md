@@ -31,6 +31,8 @@ title: <span>Learn to dance</span> <span>Cuban Salsa </span>
 {% endif %}
 {% endfor %}
 
+test
+
   <figaption class="figcaption">
     <h2 class="summary">Explore the true essence of Cuban music and dance <span>with {{ site.vcard.name }}</span></h2>
   </figaption>
