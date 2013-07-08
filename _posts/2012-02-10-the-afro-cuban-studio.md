@@ -41,7 +41,6 @@ start_date: 2pm
 end_date: 6:30pm
 
 ---
-{% include JB/setup %}
 
 On Sunday we've a selection of vibrant Cuban salsa, rueda & son classes at The Place Dance Studios from 2-6.30pm, so we look forward to seeing you  for a lively & sociable Sunday afternoon's dancing.
 

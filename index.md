@@ -5,7 +5,6 @@ group: site-nav
 title: <span>Learn to dance</span> <span>Cuban Salsa </span>
 
 ---
-{% include JB/setup %}
 <section class="section event-list">
 <figure class="figure-hero">
 {% for post in site.posts reversed  %}

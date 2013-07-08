@@ -7,7 +7,6 @@ category:
 tags: 
   - news
 ---
-{% include JB/setup %}
 
 test
 

@@ -41,7 +41,6 @@ start_date: 7:30pm
 end_date: 1am
 
 ---
-{% include JB/setup %}
 
 Don't forget DJ Doctor JIm new 36 track Cuban salsa/timba compilation (&#8216;Beginners Guide To Timba&#8217;), which has just been released on Nascente Records. 
 

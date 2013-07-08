@@ -22,7 +22,6 @@ tags:
 published: false
 
 ---
-{% include JB/setup %}
 
 #{{ page.title }}
 

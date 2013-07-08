@@ -15,7 +15,6 @@ tags:
   - news
   - events
 ---
-{% include JB/setup %}
 
 ![Oscar d'Leon](http://www.comono.co.uk/wp-content/uploads/old/47c4394bae9f3.jpg)
 
