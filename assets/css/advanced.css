@@ -1,11 +1,7 @@
-/*
-  Mixins are slightly modified from Benjamin Doherty's first implementations: http://gist.github.com/377912
-  rgba-background mixin can now be passed an option $dir variable
-*/
 @font-face {
   font-family: 'BrothersRegularMedium';
-  src: url('/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.eot');
-  src: url('/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.eot?#iefix') format("embedded-opentype"), url('/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.woff') format("woff");
+  src: url('/assets/fonts/brothreg-071211005EmigreWebOnly.eot');
+  src: url('/assets/fonts/brothreg-071211005EmigreWebOnly.eot?#iefix') format("embedded-opentype"), url('/assets/fonts/brothreg-071211005EmigreWebOnly.woff') format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -13,7 +9,7 @@
 @font-face {
   font-family: 'BrothersBoldAlternatesBold';
   src: font- url("brothbolalt-071211005EmigreWebOnly.eot");
-  src: url('/assets/themes/salsacaribecouk/fonts/brothbolalt-071211005EmigreWebOnly.eot?#iefix') format("embedded-opentype"), url('/assets/themes/salsacaribecouk/fonts/brothbolalt-071211005EmigreWebOnly.woff') format("woff");
+  src: url('/assets/fonts/brothbolalt-071211005EmigreWebOnly.eot?#iefix') format("embedded-opentype"), url('/assets/fonts/brothbolalt-071211005EmigreWebOnly.woff') format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -85,9 +81,9 @@ address {
 
 /* line 84, ../sass/partials/_typography.scss */
 .article-title {
-  background: url('/assets/images/rgbapng/ffffff66.png?1357476570');
+  background: url('/assets/images/rgbapng/ffffff66-5.png?1373319064');
   background: rgba(255, 255, 255, 0.4);
-  box-shadow: 0 5px 0 white, inset 0 5px 0 white;
+  box-shadow: 0 5px 0 #fff,inset 0 5px 0 #fff;
   padding: 0 1em;
   text-align: right;
   line-height: 1.2;
@@ -98,7 +94,7 @@ address {
   position: relative;
   top: 5px;
   display: inline-block;
-  padding: 0.5em 0;
+  padding: .5em  0;
   border-bottom: 5px solid #5091af;
 }
 
@@ -132,7 +128,7 @@ strong {
   *zoom: 1;
   widht: 100%;
 }
-/* line 38, ../../../../../../../../../Users/zapatoche/.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../../Users/yannick/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .location:after {
   content: "";
   display: table;
@@ -192,7 +188,7 @@ strong {
   .site-logo,
   .site-tagline .h1,
   .notes {
-    -webkit-mask-image: url('/assets/images/skin/mask.png?1357476570');
+    -webkit-mask-image: url('/assets/images/skin/mask.png?1373316486');
   }
 
   /* line 15, ../sass/partials/_site-header-advanced.scss */
@@ -233,7 +229,7 @@ strong {
   /* line 4, ../sass/partials/_site-nav-advanced.scss */
   .site-nav {
     border-bottom: 4px solid #dce9ef;
-    background: #8b2533 url('/assets/images/skin/grunge_wall_red.png?1357476570') repeat 0 0;
+    background: #8b2533 url('/assets/images/skin/grunge_wall_red.png?1373316486') repeat 0 0;
     text-align: center;
   }
   /* line 7, ../sass/partials/_site-nav-advanced.scss */
@@ -263,7 +259,7 @@ strong {
     border: 0;
     color: #fff;
     text-decoration: none;
-    text-shadow: 0 1px 1px black;
+    text-shadow: 0 1px 1px #000;
     letter-spacing: .1em;
     font-weight: 300;
     font-family: "runda", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -278,7 +274,7 @@ strong {
   }
   /* line 38, ../sass/partials/_site-nav-advanced.scss */
   .site-nav li a:hover, .site-nav li a:focus {
-    background: url('/assets/images/rgbapng/00000099.png?1357476570');
+    background: url('/assets/images/rgbapng/00000099-5.png?1373324593');
     background: rgba(0, 0, 0, 0.6);
     position: relative;
     top: 4px;
@@ -287,7 +283,7 @@ strong {
   }
   /* line 41, ../sass/partials/_site-nav-advanced.scss */
   .site-nav li a:active {
-    background: url('/assets/images/rgbapng/00000066.png?1357476570');
+    background: url('/assets/images/rgbapng/00000066-5.png?1373319064');
     background: rgba(0, 0, 0, 0.4);
     position: relative;
     top: 4px;
@@ -363,7 +359,7 @@ strong {
   .social-footer .ss-icon {
     font-size: 32px;
     line-height: 1.85;
-    padding: 0 0.54945%;
+    padding: 0 0.5494505495%;
   }
 
   /* line 90, ../sass/advanced.scss */
@@ -450,12 +446,12 @@ strong {
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   /* line 196, ../sass/advanced.scss */
   html {
-    background-image: url('/assets/images/skin/grunge_wall_@2x.png?1357476570');
+    background-image: url('/assets/images/skin/grunge_wall_@2x.png?1373316486');
   }
 
   /* line 200, ../sass/advanced.scss */
   .site-nav,
   .social-footer {
-    background-image: url('/assets/images/skin/grunge_wall_red_@2x.png?1357476570');
+    background-image: url('/assets/images/skin/grunge_wall_red_@2x.png?1373316486');
   }
 }

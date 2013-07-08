@@ -391,8 +391,8 @@ table {
 
 @font-face {
   font-family: 'BrothersRegularMedium';
-  src: url('/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.eot');
-  src: url('/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.eot?#iefix') format("embedded-opentype"), url('/assets/themes/salsacaribecouk/fonts/brothreg-071211005EmigreWebOnly.woff') format("woff");
+  src: url('/assets/fonts/brothreg-071211005EmigreWebOnly.eot');
+  src: url('/assets/fonts/brothreg-071211005EmigreWebOnly.eot?#iefix') format("embedded-opentype"), url('/assets/fonts/brothreg-071211005EmigreWebOnly.woff') format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -400,7 +400,7 @@ table {
 @font-face {
   font-family: 'BrothersBoldAlternatesBold';
   src: font- url("brothbolalt-071211005EmigreWebOnly.eot");
-  src: url('/assets/themes/salsacaribecouk/fonts/brothbolalt-071211005EmigreWebOnly.eot?#iefix') format("embedded-opentype"), url('/assets/themes/salsacaribecouk/fonts/brothbolalt-071211005EmigreWebOnly.woff') format("woff");
+  src: url('/assets/fonts/brothbolalt-071211005EmigreWebOnly.eot?#iefix') format("embedded-opentype"), url('/assets/fonts/brothbolalt-071211005EmigreWebOnly.woff') format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -521,7 +521,7 @@ strong {
   text-transform: uppercase;
   margin: 0 0 1% 0;
 }
-/* line 38, ../../../../../../../../../Users/yannick/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../../Users/yannick/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .quick-cal:after {
   content: "";
   display: table;
@@ -906,7 +906,7 @@ body > .body-inner {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 38, ../../../../../../../../../Users/yannick/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../../Users/yannick/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .content-wrapper:after {
   content: "";
   display: table;
@@ -1068,7 +1068,7 @@ section,
   *zoom: 1;
   background: #8b2a2c url('/assets/images/skin/grunge_wall_blue.png?1373316486') repeat 0 0;
 }
-/* line 38, ../../../../../../../../../Users/yannick/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../../Users/yannick/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .site-nav:after {
   content: "";
   display: table;
