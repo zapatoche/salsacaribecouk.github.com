@@ -8,7 +8,6 @@ title: <span>Learn to dance</span> <span>Cuban Salsa </span>
 {% include JB/setup %}
 <section class="section event-list">
 <figure class="figure-hero">
-
 {% for post in site.posts reversed  %}
 {%  capture day %}{{post.date |date: '%A' | downcase }}{% endcapture %}
 {% if post.tags contains 'classes' or post.tags contains 'workshop' or post.tags contains 'club-nights' %}

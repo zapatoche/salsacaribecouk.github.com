@@ -27,7 +27,7 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     $h1 = $('.site-tagline h1')
     trim = $h1.text().replace(/^\s+|\s+$/g, "")
     $h1.html(trim)
-    $h1.lettering('words').children('span').lettering();
+    $h1.lettering('words').children('span').lettering()
     words = $h1.children()
     words.each ->
       letters = $(@).children().length
@@ -43,8 +43,8 @@ if  typeof(jQuery) isnt 'undefined' and parseFloat(jQuery.fn.jquery) >= 1.8
     getWindowWidth = ->
       return $width  = $window.width()
     switchLi = ->
-        navBar.children().each (i,li) ->
-          navBar.prepend(li)
+      navBar.children().each (i,li) ->
+        navBar.prepend(li)
 
     resetNav = ->
       getWindowWidth()
